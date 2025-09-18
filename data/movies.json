@@ -1,0 +1,797 @@
+[
+  {
+    "id": "the-happening",
+    "title": "El Fin de los Tiempos",
+    "originalTitle": "The Happening",
+    "year": 2008,
+    "cover": "assets/covers/el-fin-de-los-tiempos.webp",
+    "description": "En las principales ciudades de Estados Unidos, la gente comienza a suicidarse en masa. Un profesor de ciencias y su esposa intentan huir de la ciudad y buscar refugio en el campo, pero pronto descubren que el peligro los sigue a todas partes.",
+    "director": "M. Night Shyamalan",
+    "cast": [
+      "Mark Wahlberg",
+      "Zooey Deschanel",
+      "John Leguizamo",
+      "Ashley Sanchez"
+    ],
+    "genre": ["Ciencia Ficción", "Suspenso"],
+    "language": "Inglés, Español latino",
+    "quality": "Full HD 1080p",
+    "duration": "1h 29m",
+    "ageRating": "13+",
+    "trailer": "https://youtu.be/MF6YhjbMtbM?si=YEKtE4UwmQZGUJT7",
+    "embed": "https://hqq.ac/e/cGU3LzNDS0RXcE9NWGdnbFdLK0FiQT09",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/g201I13VgboL" },
+      { "name": "Voe", "url": "url-aqui" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "url-mega" },
+      { "name": "Google Drive", "url": "url-google-drive" },
+      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:xxxxx" }
+    ]
+  },
+
+  {
+    "id": "blade-runner-2049",
+    "title": "Blade Runner 2049",
+    "originalTitle": "Blade Runner 2049",
+    "year": 2017,
+    "cover": "assets/covers/blade-runner-2049.webp",
+    "description": "Treinta años después de los eventos de la primera película, un nuevo blade runner, el oficial K de la policía de Los Ángeles, desentierra un secreto largamente enterrado que tiene el potencial de sumir lo que queda de la sociedad en el caos.",
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas",
+      "Robin Wright",
+      "Jared Leto"
+    ],
+    "genre": ["Ciencia Ficción", "Thriller", "Drama"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "2h 44m",
+    "ageRating": "15+",
+    "trailer": "https://youtu.be/gCcx85zbxz4?si=ggxbhk3jSp7u4M7g",
+    "embed": "https://waaw.ac/f/PN53J6RF2sxu",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/PN53J6RF2sxu" },
+      { "name": "Voe", "url": "https://waaw.ac/f/PN53J6RF2sxu" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "https://mega.nz/fake-mega-blade" },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/fake-drive-blade"
+      },
+      {
+        "name": "uTorrent",
+        "url": "magnet:?xt=urn:btih:fakehashfortorrent123456"
+      }
+    ]
+  },
+
+  {
+    "id": "el-muro-negro-2025",
+    "title": "El Muro Negro",
+    "originalTitle": "Brick",
+    "year": 2025,
+    "cover": "assets/covers/el-muro-negro.webp",
+    "description": "Cuando un misterioso muro de ladrillo aparece repentinamente alrededor de su edificio, Tim, Olivia y sus vecinos quedan atrapados sin salida. Lo que parece un simple encierro se convierte en una lucha psicológica por sobrevivir y entender qué hay detrás del muro.",
+    "director": "Philip Koch",
+    "cast": [
+      "Matthias Schweighöfer",
+      "Ruby O. Fee",
+      "Frederick Lau",
+      "Sira‑Anna Faal",
+      "Salber Lee Williams",
+      "Alexander Beyer",
+      "Murathan Muslu"
+    ],
+    "genre": ["Ciencia Ficción", "Thriller", "Misterio"],
+    "language": "Alemán, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "1h 39m",
+    "ageRating": "16+",
+    "trailer": "https://www.imdb.com/es/video/vi3337799705/?playlistId=tt31806049&ref_=ext_shr_lnk",
+    "embed": "https://hqq.ac/e/RkxucFUwQlJwa3ZxRk1ndTNjL0N0Zz09",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/yiGD8mOLeShE" },
+      { "name": "Voe", "url": "https://waaw.ac/f/yiGD8mOLeShE" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "https://mega.nz/fake-mega-el-muro-negro" },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/fake-drive-el-muro-negro"
+      },
+      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:faketorrentmuro987654" }
+    ]
+  },
+
+  {
+    "id": "cobra-1986",
+    "title": "Cobra, el brazo fuerte de la ley",
+    "originalTitle": "Cobra",
+    "year": 1986,
+    "cover": "assets/covers/cobra-1986.jpg",
+    "description": "Un policía usa métodos extremos para proteger a una testigo de una secta violenta conocida como \"New Order\". Él hará lo que la ley no permite para detenerlos.",
+    "director": "George P. Cosmatos",
+    "cast": [
+      "Sylvester Stallone",
+      "Brigitte Nielsen",
+      "Reni Santoni",
+      "Andrew Robinson",
+      "Brian Thompson"
+    ],
+    "genre": ["Acción", "Thriller", "Crimen"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "1h 29m",
+    "ageRating": "18+",
+    "trailer": "https://www.youtube.com/watch?v=pgqeBMNyJhQ",
+    "embed": "https://hqq.ac/e/ejemplo-embed-cobra",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/jkUAYNFB1HAV" },
+      { "name": "Voe", "url": "https://voe.sx/e/ejemplo-cobra-voe" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "https://mega.nz/fake-cobra-download" },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/fake-cobra-down"
+      },
+      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:fakehashcobra12345" }
+    ]
+  },
+
+  {
+    "id": "doble-impacto-1991",
+    "title": "Doble Impacto",
+    "originalTitle": "Double Impact",
+    "year": 1991,
+    "cover": "assets/covers/doble-impacto-1991.jpg",
+    "description": "Dos hermanos gemelos son separados al nacer tras el asesinato de sus padres. Años después, Chad vive en Los Ángeles como instructor de artes marciales mientras Alex crece en Hong Kong dedicándose al contrabando. Reunidos después de 25 años, deberán unir fuerzas para vengar la muerte de sus padres.",
+    "director": "Sheldon Lettich",
+    "cast": [
+      "Jean‑Claude Van Damme",
+      "Geoffrey Lewis",
+      "Alan Scarfe",
+      "Alonna Shaw",
+      "Bolo Yeung",
+      "Cory Everson"
+    ],
+    "genre": ["Acción", "Crimen", "Artes Marciales"],
+    "language": "Inglés, Cantonés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 50m",
+    "ageRating": "18+",
+    "trailer": "https://youtu.be/txTgynA3iFo?si=VWAPhOrh9F25sekf",
+    "embed": "https://waaw.ac/f/ejemplo-doble-impacto-netu",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/kcLroIJaDcUf" },
+      { "name": "Voe", "url": "https://voe.sx/e/ejemplo-doble-impacto-voe" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "https://mega.nz/fake-doble-impacto" },
+      {
+        "name": "Google Drive",
+        "url": "https://drive.google.com/fake-doble-impacto"
+      },
+      {
+        "name": "uTorrent",
+        "url": "magnet:?xt=urn:btih:fakehashdobleimpacto123"
+      }
+    ]
+  },
+
+  {
+    "id": "acido-aniquilacion-total-2023",
+    "title": "Ácido: Aniquilación Total",
+    "originalTitle": "Acid",
+    "year": 2023,
+    "cover": "assets/covers/acido-aniquilacion-total-2023.webp",
+    "description": "En plena ola de calor aparece una nube ominosa que desprende lluvias ácidas letales. Una familia separada debe reunirse para escapar de esta catástrofe climática y protegerse cuando el caos se desata. :contentReference[oaicite:1]{index=1}",
+    "director": "Just Philippot",
+    "cast": [
+      "Guillaume Canet",
+      "Laetitia Dosch",
+      "Patience Munchenbach",
+      "Marie Jung",
+      "Martin Verset"
+    ],
+    "genre": ["Drama", "Ciencia Ficción", "Fantástico", "Catástrofe Climática"],
+    "language": "Francés, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "1h 39m",
+    "ageRating": "13+",
+    "trailer": "https://www.youtube.com/watch?v=6iZdUNKdM-E",
+    "embed": "",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/7Lv3ekNHQYVH" },
+      { "name": "Voe", "url": "" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "" },
+      { "name": "Google Drive", "url": "" },
+      { "name": "uTorrent", "url": "" }
+    ]
+  },
+
+  {
+    "id": "invasion-del-mundo-batalla-los-angeles-2011",
+    "title": "Invasión del mundo: Batalla Los Ángeles",
+    "originalTitle": "Battle: Los Angeles",
+    "year": 2011,
+    "cover": "assets/covers/invasion-del-mundo-batalla-los-angeles-2011.jpg",
+    "description": "Cuando una invasión extraterrestre comienza frente a las costas de ciudades del mundo, un pelotón de marines liderado por el Sargento Michael Nantz debe resistir y proteger a civiles mientras Los Ángeles se convierte en campo de batalla.",
+    "director": "Jonathan Liebesman",
+    "cast": [
+      "Aaron Eckhart",
+      "Michelle Rodriguez",
+      "Ramon Rodriguez",
+      "Bridget Moynahan",
+      "Ne‑Yo",
+      "Michael Peña"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Guerra"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "1h 56m",
+    "ageRating": "16+",
+    "trailer": "https://www.youtube.com/watch?v=jr6dCLsVwkQ",
+    "embed": "",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/4bIjJxqFRFRc" },
+      { "name": "Voe", "url": "" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "" },
+      { "name": "Google Drive", "url": "" },
+      { "name": "uTorrent", "url": "" }
+    ]
+  },
+
+  {
+    "id": "megan-2.0-2025",
+    "title": "Megan 2.0",
+    "originalTitle": "M3GAN 2.0",
+    "year": 2025,
+    "cover": "assets/covers/megan-2.0-2025.webp",
+    "description": "Dos años después de los eventos de la primera película, el ejército desarrolla un androide militar llamado AMELIA basado en la tecnología original de M3GAN. Gemma y su sobrina Cady deberán activar nuevamente a M3GAN para enfrentarse a esta amenaza que busca el control total de la IA.",
+    "director": "Gerard Johnstone",
+    "cast": [
+      "Allison Williams",
+      "Violet McGraw",
+      "Ivanna Sakhno",
+      "Jemaine Clement",
+      "Amie Donald",
+      "Jenna Davis",
+      "Brian Jordan Alvarez"
+    ],
+    "genre": ["Ciencia Ficción", "Acción", "Terror / Comedia"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "duration": "2h 0m",
+    "ageRating": "16+",
+    "trailer": "https://www.youtube.com/watch?v=XXXXXX",
+    "embed": "",
+    "watchLinks": [
+      { "name": "Netu", "url": "https://waaw.ac/f/EnaMRhQ6OPIw" },
+      { "name": "Voe", "url": "" }
+    ],
+    "downloadLinks": [
+      { "name": "Mega", "url": "" },
+      { "name": "Google Drive", "url": "" },
+      { "name": "uTorrent", "url": "" }
+    ]
+  },
+
+  {
+    "id": "rapido-y-furioso-1-2001",
+    "title": "Rápido y Furioso 1",
+    "originalTitle": "The Fast and the Furious",
+    "year": 2001,
+    "cover": "assets/covers/fast&furious-1.jpg",
+    "description": "Un oficial de policía encubierto, Brian O'Conner, se infiltra en una banda de carreras callejeras liderada por Dominic Toretto para investigar una serie de asaltos a camiones, mientras su relación con la hermana de Toretto, Mia, complica las cosas. :contentReference[oaicite:1]{index=1}",
+    "director": "Rob Cohen",
+    "cast": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Michelle Rodriguez",
+      "Jordana Brewster",
+      "Rick Yune",
+      "Chad Lindberg",
+      "Johnny Strong",
+      "Ted Levine"
+    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 46m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-2-2003",
+    "title": "Rápidos y Furiosos 2",
+    "originalTitle": "2 Fast 2 Furious",
+    "year": 2003,
+    "cover": "assets/covers/fast&furious-2.jpg",
+    "description": "El ex‑oficial del LAPD Brian O'Conner se une a su amigo de la infancia Roman Pearce para trabajar encubiertos transportando un cargamento de dinero sucio para el traficante Carter Verone. Con la agente encubierta Monica Fuentes colaborando en secreto, intentan derribar la operación corrupta mientras enfrentan desafíos personales y persecuciones intensas. :contentReference[oaicite:1]{index=1}",
+    "director": "John Singleton",
+    "cast": [
+      "Paul Walker",
+      "Tyrese Gibson",
+      "Eva Mendes",
+      "Cole Hauser",
+      "Chris “Ludacris” Bridges",
+      "James Remar",
+      "Devon Aoki",
+      "Thom Barry",
+      "Amaury Nolasco"
+    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 48m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapido-y-furioso-reto-tokio-2006",
+    "title": "Rápido y Furioso: Reto Tokio",
+    "originalTitle": "The Fast and the Furious: Tokyo Drift",
+    "year": 2006,
+    "cover": "assets/covers/the-fast-and-the-furious-tokyo-drift.webp",
+    "description": "Sean Boswell, un joven entusiasta de las carreras callejeras, es enviado a vivir con su padre en Tokio para evitar prisión. En Japón descubre la cultura del drift underground, forma nuevas amistades y enfrenta desafíos en una escena completamente distinta. :contentReference[oaicite:1]{index=1}",
+    "director": "Justin Lin",
+    "cast": [
+      "Lucas Black",
+      "Bow Wow",
+      "Sung Kang",
+      "Nathalie Kelley",
+      "Brian Tee",
+      "Sonny Chiba",
+      "Jason Tobin",
+      "Zachery Ty Bryan"
+    ],
+    "genre": ["Acción", "Carreras", "Crimen"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 44m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-4-2009",
+    "title": "Rápidos y Furiosos 4",
+    "originalTitle": "Fast & Furious",
+    "year": 2009,
+    "cover": "assets/covers/fast&furious-4.jpg",
+    "description": "Dominic Toretto y Brian O'Conner se reencuentran cuando un trágico evento obliga a Dom a volver a Los Ángeles para enfrentar al narcotraficante Arturo Braga tras la sospecha sobre la muerte de Letty, y ambos deben unir fuerzas que desafían su historia compartida. :contentReference[oaicite:1]{index=1}",
+    "director": "Justin Lin",
+    "cast": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Michelle Rodriguez",
+      "Jordana Brewster",
+      "John Ortiz",
+      "Laz Alonso",
+      "Gal Gadot",
+      "Sung Kang"
+    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 47m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-5-2011",
+    "title": "Rápidos y Furiosos 5",
+    "originalTitle": "Fast Five",
+    "year": 2011,
+    "cover": "assets/covers/fast&furious-5.webp",
+    "description": "Dominic Toretto y Brian O'Conner, junto con Mia Toretto, planean un atraco para robar US$100 millones al corrupto empresario Hernán Reyes mientras les persigue el agente Hobbs del DSS. :contentReference[oaicite:1]{index=1}",
+    "director": "Justin Lin",
+    "cast": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Jordana Brewster",
+      "Tyrese Gibson",
+      "Chris “Ludacris” Bridges",
+      "Matt Schulze",
+      "Sung Kang",
+      "Gal Gadot",
+      "Dwayne Johnson",
+      "Elsa Pataky",
+      "Tego Calderón",
+      "Don Omar",
+      "Joaquim de Almeida"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 10m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "rapidos-y-furiosos-6-2013",
+    "title": "Rápidos y Furiosos 6",
+    "originalTitle": "Fast & Furious 6",
+    "year": 2013,
+    "cover": "assets/covers/rapidos-y-furiosos-6-2013.webp",
+    "description": "Dominic Toretto y su equipo deben unirse nuevamente cuando el agente DSS Luke Hobbs les ofrece perdón a cambio de capturar a Owen Shaw, un ex‑militar británico con una organización mercenaria. Mientras tanto, Letty, quien se creía muerta, aparece trabajando para Shaw. :contentReference[oaicite:1]{index=1}",
+    "director": "Justin Lin",
+    "cast": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Dwayne Johnson",
+      "Michelle Rodriguez",
+      "Jordana Brewster",
+      "Tyrese Gibson",
+      "Chris “Ludacris” Bridges",
+      "Sung Kang",
+      "Luke Evans",
+      "Gina Carano",
+      "John Ortiz"
+    ],
+    "genre": ["Acción", "Aventura", "Crimen"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 10m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "Netu", "url": "" }],
+    "downloadLinks": [
+      { "name": "", "url": "" },
+      { "name": "", "url": "" },
+      { "name": "", "url": "" }
+    ]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-7-2015",
+    "title": "Rápidos y Furiosos 7",
+    "originalTitle": "Furious 7",
+    "year": 2015,
+    "cover": "assets/covers/fast&furious-7.jpg",
+    "description": "Después de derrotar a Owen Shaw y recibir perdón, Dominic Toretto y su equipo intentan llevar una vida tranquila. Sin embargo, el hermano de Shaw, Deckard Shaw, busca venganza, lo que obliga al grupo a reunirse para detenerlo mientras enfrentan nuevas amenazas peligrosas. :contentReference[oaicite:1]{index=1}",
+    "director": "James Wan",
+    "cast": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Dwayne Johnson",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Chris “Ludacris” Bridges",
+      "Jordana Brewster",
+      "Jason Statham",
+      "Djimon Hounsou",
+      "Kurt Russell",
+      "Nathalie Emmanuel",
+      "Tony Jaa",
+      "Ronda Rousey"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 17m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "rapidos-y-furiosos-8-2017",
+    "title": "Rápidos y Furiosos 8",
+    "originalTitle": "The Fate of the Furious",
+    "year": 2017,
+    "cover": "assets/covers/fast&furious-8.webp",
+    "description": "Dominic Toretto ha logrado asentarse junto a Letty, pero una misteriosa figura llamada Cipher lo obliga a traicionar a su equipo. Ahora deben resolver la traición, reunirse y detenerla antes de que desate un caos global. :contentReference[oaicite:1]{index=1}",
+    "director": "F. Gary Gray",
+    "cast": [
+      "Vin Diesel",
+      "Dwayne Johnson",
+      "Jason Statham",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Chris “Ludacris” Bridges",
+      "Charlize Theron",
+      "Kurt Russell",
+      "Scott Eastwood",
+      "Nathalie Emmanuel",
+      "Elsa Pataky"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 16m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-9-2021",
+    "title": "Rápidos y Furiosos 9",
+    "originalTitle": "F9: The Fast Saga",
+    "year": 2021,
+    "cover": "assets/covers/fast&furious-9.webp",
+    "description": "Dominic Toretto vive una vida tranquila con Letty y su hijo, lejos de la acción. Pero cuando su hermano Jakob, experto conductor asesino, emerge con un plan peligroso que involucra un programa secreto llamado Proyecto Aries, Dom debe reunir a su equipo para enfrentarlo y proteger a su familia. :contentReference[oaicite:1]{index=1}",
+    "director": "Justin Lin",
+    "cast": [
+      "Vin Diesel",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Chris “Ludacris” Bridges",
+      "Jordana Brewster",
+      "John Cena",
+      "Nathalie Emmanuel",
+      "Sung Kang",
+      "Helen Mirren",
+      "Charlize Theron",
+      "Michael Rooker"
+    ],
+    "genre": ["Acción", "Aventura", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 23m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "rapidos-y-furiosos-10-2023",
+    "title": "Rapidoss y Furiosos 10",
+    "originalTitle": "Fast X",
+    "year": 2023,
+    "cover": "assets/covers/fast&furious-10.webp",
+    "description": "Dominic Toretto debe proteger a su familia de Dante Reyes, quien busca venganza por la muerte de su padre y la pérdida de su fortuna. :contentReference[oaicite:1]{index=1}",
+    "director": "Louis Leterrier",
+    "cast": [
+      "Vin Diesel",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Chris \"Ludacris\" Bridges",
+      "John Cena",
+      "Nathalie Emmanuel",
+      "Jordana Brewster",
+      "Sung Kang",
+      "Scott Eastwood",
+      "Daniela Melchior",
+      "Alan Ritchson",
+      "Helen Mirren",
+      "Brie Larson",
+      "Rita Moreno",
+      "Jason Statham",
+      "Jason Momoa",
+      "Charlize Theron"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 21m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "criaturas-linea-de-extincion-2024",
+    "title": "Criaturas: Línea de Extinción",
+    "originalTitle": "Elevation",
+    "year": 2024,
+    "cover": "assets/covers/criaturas-linea-de-extincion-2024.webp",
+    "description": "Un padre soltero y dos mujeres se aventuran desde la seguridad de sus hogares para enfrentarse a criaturas monstruosas y salvar la vida de un niño.",
+    "director": "George Nolfi",
+    "cast": [
+      "Anthony Mackie",
+      "Morena Baccarin",
+      "Maddie Hasson",
+      "Danny Boyd Jr.",
+      "Shauna Earp",
+      "Tyler Grey"
+    ],
+    "genre": ["Acción", "Thriller", "Monstruos", "Ciencia Ficción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 31m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-1-1984",
+    "title": "Terminator 1",
+    "originalTitle": "The Terminator",
+    "year": 1984,
+    "cover": "assets/covers/terminator-1-1984.webp",
+    "description": "Un cyborg asesino (Terminator) viaja desde el año 2029 hasta 1984 para matar a Sarah Connor, ya que su hijo por nacer liderará la resistencia humana contra Skynet, una inteligencia artificial que causará un holocausto nuclear. Kyle Reese es enviado para protegerla. :contentReference[oaicite:1]{index=1}",
+    "director": "James Cameron",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Michael Biehn",
+      "Paul Winfield"
+    ],
+    "genre": ["Ciencia Ficción", "Acción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 47m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-2-el-juicio-final-1991",
+    "title": "Terminator 2: El Juicio Final",
+    "originalTitle": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "cover": "assets/covers/terminator-2-el-juicio-final-1991.webp",
+    "description": "Un avanzado cyborg, el T‑1000, es enviado desde un futuro post‑apocalíptico para matar al joven John Connor. Para protegerlo, la resistencia reprograma al viejo T‑800, quien debe salvarlo junto con su madre, Sarah Connor, mientras intentan evitar el oscuro destino apocalíptico conocido como el Juicio Final. :contentReference[oaicite:1]{index=1}",
+    "director": "James Cameron",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong",
+      "Robert Patrick",
+      "Joe Morton",
+      "Earl Boen"
+    ],
+    "genre": ["Ciencia Ficción", "Acción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 17m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-3-2003",
+    "title": "Terminator 3: La Rebelión de las Máquinas",
+    "originalTitle": "Terminator 3: Rise of the Machines",
+    "year": 2003,
+    "cover": "assets/covers/terminator-3-2003.webp",
+    "description": "Diez años después de los eventos del Juicio Final, John Connor vive oculto y sin registrar. Skynet lanza a la T‑X, una Terminatrix avanzada, para eliminar tanto a él como a su futura esposa, Kate Brewster. Un Terminator modelo T‑101 vuelve al pasado para protegerlos, pero el Juicio Final resulta inevitable. :contentReference[oaicite:1]{index=1}",
+    "director": "Jonathan Mostow",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Nick Stahl",
+      "Claire Danes",
+      "Kristanna Loken",
+      "David Andrews",
+      "Mark Famiglietti"
+    ],
+    "genre": ["Ciencia Ficción", "Acción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 49m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-4-2009",
+    "title": "Terminator 4: La Salvación",
+    "originalTitle": "Terminator Salvation",
+    "year": 2009,
+    "cover": "assets/covers/terminator-4.webp",
+    "description": "En el año 2018, la guerra entre humanos y máquinas ha comenzado tras el Juicio Final. John Connor lidera la resistencia humana mientras descubre la existencia de Marcus Wright, un hombre con un pasado misterioso que podría alterar el curso de la batalla si resulta ser aliado o amenaza. :contentReference[oaicite:1]{index=1}",
+    "director": "McG",
+    "cast": [
+      "Christian Bale",
+      "Sam Worthington",
+      "Bryce Dallas Howard",
+      "Moon Bloodgood",
+      "Common",
+      "Anton Yelchin",
+      "Helena Bonham Carter"
+    ],
+    "genre": ["Ciencia Ficción", "Acción", "Distopía"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 55m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-5-2015",
+    "title": "Terminator 5: Génesis",
+    "originalTitle": "Terminator Genisys",
+    "year": 2015,
+    "cover": "assets/covers/terminator-5-2015.webp",
+    "description": "En 2029, John Connor lidera la resistencia contra Skynet. Envía a Kyle Reese al pasado para proteger a Sarah Connor, pero descubre que la línea temporal ha sido alterada: Sarah fue criada por un Terminator reprogramado enviado para protegerla, lo que afecta todos los eventos conocidos.",
+    "director": "Alan Taylor",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Jason Clarke",
+      "Emilia Clarke",
+      "Jai Courtney",
+      "J. K. Simmons",
+      "Lee Byung-hun",
+      "Matt Smith"
+    ],
+    "genre": ["Ciencia Ficción", "Acción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 6m",
+    "ageRating": "PG‑13",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "terminator-6-2019",
+    "title": "Terminator 6: Destino Oscuro",
+    "originalTitle": "Terminator: Dark Fate",
+    "year": 2019,
+    "cover": "assets/covers/terminator-6-2019.webp",
+    "description": "Veinticinco años después de los eventos del Juicio Final, una IA llamada Legion envía al Rev‑9 para asesinar a Dani Ramos, una joven cuyo destino está ligado al futuro de la Resistencia. Grace, una soldado aumentada, es enviada para protegerla, junto con Sarah Connor y el T‑800 Terminator. :contentReference[oaicite:1]{index=1}",
+    "director": "Tim Miller",
+    "cast": [
+      "Linda Hamilton",
+      "Arnold Schwarzenegger",
+      "Mackenzie Davis",
+      "Natalia Reyes",
+      "Gabriel Luna"
+    ],
+    "genre": ["Ciencia Ficción", "Acción"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 8m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  }
+]

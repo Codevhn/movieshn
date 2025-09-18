@@ -1,0 +1,14 @@
+{
+  "name": "movies-netu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "keywords": [],
+  "author": "Francisco Vasquez <codevhn@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs"
+}

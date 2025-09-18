@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #0b1f3a;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #102f5b;
+}
+
+h1 {
+  margin: 0;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.8rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie {
+  background-color: #1a2b48;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s ease;
+  display: block;
+}
+
+.movie:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.movie img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 800px;
+}
+
+.movie h3 {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.movie-card {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #102f5b;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* Para las peliculas que aun no esten disponibles*/
+.movie-card.unavailable {
+  filter: grayscale(100%);
+  opacity: 0.6;
+  position: relative;
+  pointer-events: none; /* evita los clics */
+}
+
+.movie-card.unavailable::after {
+  content: "Próximamente";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.movie-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.movie-cover {
+  flex: 1 1 250px;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  width: 100%;
+}
+
+.movie-meta {
+  flex: 2 1 400px;
+}
+
+.movie-meta h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.movie-meta p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+}
+
+.movie-description {
+  margin-top: 2rem;
+}
+
+.movie-description h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.movie-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.movie-player {
+  margin: 2rem 0;
+}
+
+.movie-player iframe {
+  width: 100%;
+  height: 480px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.movie-links {
+  margin-top: 2rem;
+}
+
+.movie-links h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #1a2b48;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #294063;
+}
