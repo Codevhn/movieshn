@@ -9,18 +9,135 @@
 </head>
 
 <body>
-  <header>
-    <h1>🎬 Catálogo de Películas</h1>
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">MoviesHN</a>
+    </div>
+
+    <form class="search-form" placeholder="Buscar películas..." arial-label="Buscar">
+      <input type="text" aria-label="Buscar películas..." />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <nav class="site-nav hamburger">
+      <ul>
+        <li><a href="#index.html">Inicio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section id="catalog" class="catalog"></section>
 
-    <section id="movie-list"></section>
+  <main>
+    <section id="recientes" class="movie-section">
+      <h2>Recientes</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="mas-vistas" class="movie-section">
+      <h2>Mas vistas</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="terror" class="movie-section">
+      <h2>Terror</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="suspenso" class="movie-section">
+      <h2>Suspenso</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="accion" class="movie-section">
+      <h2>Acción</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="tv-series" class="movie-section">
+      <h2>Series de TV</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de series de TV -->
+      </div>
+    </section>
+
+    <section id="comedia" class="movie-section">
+      <h2>Comedia</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas -->
+      </div>
+    </section>
+
+    <section id="fantasia" class="movie-section">
+      <h2>Fantasía</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas de fantasía -->
+      </div>
+    </section>
+
+    <section id="ciencia-ficcion" class="movie-section">
+      <h2>Ciencia Ficción</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas de ciencia ficción -->
+      </div>
+    </section>
+
+    <section id="aventura" class="movie-section">
+      <h2>Aventura</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas de aventura -->
+      </div>
+    </section>
+
+    <section id="animacion" class="movie-section">
+      <h2>Animación</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas de animación -->
+      </div>
+    </section>
+
+    <section id="musical" class="movie-section">
+      <h2>Musical</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas musicales -->
+      </div>
+    </section>
+
+    <section id="biografia" class="movie-section">
+      <h2>Biografía</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas biográficas -->
+      </div>
+    </section>
+
+    <section id="documentales" class="movie-section">
+      <h2>Documentales</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de documentales -->
+      </div>
+    </section>
+
+    <section id="+18" class="movie-section">
+      <h2>+18</h2>
+      <div class="movie-grid">
+        <!-- Cards dinámicas de películas +18 -->
+      </div>
+    </section>
 
   </main>
 
-  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 
 </html>

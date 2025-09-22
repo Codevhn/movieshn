@@ -10,5 +10,16 @@
   "keywords": [],
   "author": "Francisco Vasquez <codevhn@gmail.com>",
   "license": "MIT",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codevhn/movieshn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Codevhn/movieshn/issues"
+  },
+  "homepage": "https://github.com/Codevhn/movieshn#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }

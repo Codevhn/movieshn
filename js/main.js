@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/** document.addEventListener("DOMContentLoaded", () => {
   const catalog = document.getElementById("catalog");
 
   fetch("data/movies.json")
@@ -22,8 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log("Error cargando json", err);
     });
 });
-
-const container = document.getElementById("movie-list");
 
 movies.forEach((movie) => {
   const isAvailable = movie.embed.trim() !== "";
@@ -54,3 +52,4 @@ movies.forEach((movie) => {
   }
   container.appendChild(article);
 });
+*/

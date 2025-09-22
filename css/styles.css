@@ -1,21 +1,144 @@
-body {
+body,
+html {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background-color: #0b1f3a;
-  color: #fff;
+  color: #000; /* negro fondo */
+  background-color: #fdc61c; /* texto amarillo neón */
 }
 
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #102f5b;
+  background-color: #111; /* más oscuro, más contraste */
+  color: #fdc61c;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem 2rem;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fdc61c;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-form input {
+  padding: 0.4rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(63, 63, 63, 0.8);
+  color: #fdc61c;
+}
+
+.search-form button {
+  background-color: #111;
+  color: #fdc61c;
+  border: 1px solid #fdc61c;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #fdc61c;
+  color: #111;
+}
+
+/**NAV*/
+.site-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.site-nav a {
+  color: #fdc61c;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.site-nav a:hover {
+  color: #fdc61c;
+}
+
+/*Boton hamburger*/
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  margin: 6px 0;
+}
+
+/* SECCIONES DE PELÍCULAS */
+/*.movie-section {
+  padding: 2rem;
+  background-color: #181818;
+  color: #fff;
+}*/
+
+.movie-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #111;
+    flex-direction: column;
+    padding: 1rem;
+    width: 200px;
+  }
+
+  .site-nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
 
 h1 {
   margin: 0;
 }
 
-.catalog {
+/*.movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.8rem;
@@ -24,22 +147,24 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
 }
+  */
 
 .movie {
-  background-color: #1a2b48;
+  background-color: #000; /* negro puro */
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
   text-decoration: none;
-  color: inherit;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  box-shadow: 0 4px 10px #111; /* sombra amarilla */
   transition: transform 0.2s, box-shadow 0.2s ease;
   display: block;
+  position: relative;
 }
 
 .movie:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 16px #111;
 }
 
 .movie img {
@@ -54,37 +179,36 @@ h1 {
   font-size: 1rem;
 }
 
-.movie-card {
+/*.movie-card {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #102f5b;
+  background-color: #111;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  color: #fff;
-}
+  color: #fdc61c;
+}*/
 
 /* Para las peliculas que aun no esten disponibles*/
-.movie-card.unavailable {
+.movie.unavailable {
   filter: grayscale(100%);
-  opacity: 0.6;
-  position: relative;
-  pointer-events: none; /* evita los clics */
+  opacity: 0.7;
 }
 
-.movie-card.unavailable::after {
+.movie.unavailable::after {
   content: "Próximamente";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #fff;
+  background-color: #000;
+  color: #fdc61c; /* amarillo neón */
   font-size: 1rem;
   padding: 6px 12px;
+  border: 2px solid #fdc61c;
   border-radius: 4px;
-  pointer-events: none;
   z-index: 2;
+  pointer-events: none;
 }
 
 .movie-header {
@@ -174,4 +298,18 @@ h1 {
 
 .btn:hover {
   background-color: #294063;
+}
+
+.btn,
+.watch-btn {
+  background-color: #000;
+  color: #fdc61c;
+  border: 1px solid #fdc61c;
+}
+
+.btn:hover,
+.watch-btn:hover {
+  background-color: #fdc61c;
+  color: #000;
+  border: 1px solid #000;
 }
