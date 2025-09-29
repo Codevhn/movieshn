@@ -5,139 +5,280 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catálogo de Películas</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClipsDePeliculasHN - Ver Películas Online Gratis</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="MoviesHN - Mira películas online gratis en español latino. Catálogo actualizado con estrenos, clásicos y más." />
+  <meta name="keywords"
+    content="películas gratis, ver películas online, cine en español, estrenos, ClipsDePeliculasHN" />
+  <meta name="author" content="ClipsDePeliculasHN" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="MoviesHN - Películas en línea" />
+  <meta property="og:description"
+    content="Disfruta películas online en español latino, calidad HD y sin complicaciones." />
+  <meta property="og:image" content="https://tusitio.com/assets/preview.jpg" />
+  <meta property="og:url" content="https://tusitio.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ClipsDePeliculasHN - Películas en línea" />
+  <meta name="twitter:description" content="Mira películas gratis en español latino, estrenos y clásicos." />
+  <meta name="twitter:image" content="https://tusitio.com/assets/preview.jpg" />
+
+
 </head>
 
-<body>
-  <header class="site-header">
+<header class="site-header">
+
+  <!-- Fila superior: logo + hamburguesa -->
+  <div class="header-top">
     <div class="logo">
       <a href="index.html">MoviesHN</a>
     </div>
 
-    <form class="search-form" placeholder="Buscar películas..." arial-label="Buscar">
-      <input type="text" aria-label="Buscar películas..." />
-      <button type="submit">Buscar</button>
-    </form>
+    <!-- Botón hamburguesa (solo visible en móvil) -->
+    <button class="menu-toggle" aria-label="Abrir menú">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+  </div>
 
-    <nav class="site-nav hamburger">
-      <ul>
-        <li><a href="#index.html">Inicio</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        <li><a href="#acerca">Acerca de</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Buscador -->
+  <form class="search-form">
+    <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
+    <button type="submit">Buscar</button>
+  </form>
+  <!-- Menú principal -->
+  <nav class="site-nav">
+    <!-- Botón cerrar (solo en móvil / menú abierto) -->
+    <button class="menu-close" aria-label="Cerrar menú">✕</button>
+    <ul>
+      <li><a href="#recientes">Recientes</a></li>
+      <li><a href="#mas-vistas">Más vistas</a></li>
+      <li><a href="#accion">Acción</a></li>
+      <li><a href="#terror">Terror</a></li>
+      <li><a href="#suspenso">Suspenso</a></li>
+      <li><a href="#series">Series</a></li>
+    </ul>
+  </nav>
+</header>
 
 
-  <main>
-    <section id="recientes" class="movie-section">
-      <h2>Recientes</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
+
+
+
+<!-- Hero tipo Netflix -->
+<section class="hero">
+  <div class="hero-background">
+    <img src="https://image.tmdb.org/t/p/original/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg" alt="Peliculas destacadas" />
+  </div>
+
+  <div class="hero-content">
+    <h1 class="hero-title">Jurassic World Rebirth</h1>
+    <p>Un nuevo capítulo en la saga de Jurassic Park, donde los dinosaurios vuelven a dominar la Tierra.</p>
+
+    <div class="hero-buttons">
+      <button class="btn btn-primary">Ver ahora</button>
+      <button class="btn btn-secondary">Mi lista</button>
+    </div>
+  </div>
+</section>
+<section class="site-note">
+  <p>
+    ⚠️ <strong>Sitio en construcción:</strong> MoviesHN se encuentra en fase de mejoras continuas.
+    Estamos actualizando la plataforma y agregando más películas cada semana para ofrecerte la mejor experiencia.
+    ¡Gracias por tu paciencia!
+  </p>
+</section>
+
+
+<div class="layout">
+  <!-- Sidebar izquierdo -->
+  <aside class="sidebar-left">
+    <h3>Explorar por año</h3>
+    <div class="years-grid">
+      <span data-year="2025">2025</span>
+      <span data-year="2024">2024</span>
+      <span data-year="2023">2023</span>
+      <span data-year="2022">2022</span>
+      <span data-year="2021">2021</span>
+      <span data-year="2020">2020</span>
+      <span data-year="2019">2019</span>
+      <span data-year="2018">2018</span>
+      <span data-year="2017">2017</span>
+      <span data-year="2016">2016</span>
+      <span data-year="2015">2015</span>
+      <span data-year="2014">2014</span>
+      <span data-year="2013">2013</span>
+      <span data-year="2012">2012</span>
+      <span data-year="2011">2011</span>
+      <span data-year="2010">2010</span>
+      <span data-year="2009">2009</span>
+      <span data-year="2008">2008</span>
+      <span data-year="2007">2007</span>
+      <span data-year="2006">2006</span>
+      <span data-year="2005">2005</span>
+      <span data-year="2004">2004</span>
+      <span data-year="2003">2003</span>
+      <span data-year="2002">2002</span>
+      <span data-year="2001">2001</span>
+      <span data-year="2000">2000</span>
+      <span data-year="1999">1999</span>
+      <span data-year="1998">1998</span>
+      <span data-year="1997">1997</span>
+      <span data-year="1996">1996</span>
+      <span data-year="1995">1995</span>
+      <span data-year="1994">1994</span>
+      <span data-year="1993">1993</span>
+      <span data-year="1992">1992</span>
+      <span data-year="1991">1991</span>
+      <span data-year="1990">1990</span>
+      <span data-year="1989">1989</span>
+      <span data-year="1988">1988</span>
+      <span data-year="1987">1987</span>
+      <span data-year="1986">1986</span>
+      <span data-year="1985">1985</span>
+      <span data-year="1984">1984</span>
+      <span data-year="1983">1983</span>
+      <span data-year="1982">1982</span>
+      <span data-year="1981">1981</span>
+      <span data-year="1980">1980</span>
+      <span data-year="1979">1979</span>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="container-movies">
+      <section id="search-results" class="movie-section" style="display:none;">
+        <h2>Resultados</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+
+      <section id="recientes" class="movie-section">
+        <h2>Recientes</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="mas-vistas" class="movie-section">
+        <h2>Mas vistas</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="terror" class="movie-section">
+        <h2>Terror</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="suspenso" class="movie-section">
+        <h2>Suspenso</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="accion" class="movie-section">
+        <h2>Acción</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="tv-series" class="movie-section">
+        <h2>Series de TV</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="comedia" class="movie-section">
+        <h2>Comedia</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="fantasia" class="movie-section">
+        <h2>Fantasía</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="ciencia-ficcion" class="movie-section">
+        <h2>Ciencia Ficción</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="aventura" class="movie-section">
+        <h2>Aventura</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="animacion" class="movie-section">
+        <h2>Animación</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="musical" class="movie-section">
+        <h2>Musical</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="biografia" class="movie-section">
+        <h2>Biografía</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="drama" class="movie-section">
+        <h2>Drama</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="documentales" class="movie-section">
+        <h2>Documentales</h2>
+        <div class="movie-grid"></div>
+      </section>
+
+      <section id="+18" class="movie-section">
+        <h2>+18</h2>
+        <div class="movie-grid"></div>
+      </section>
+    </div>
+    <!-- Sidebar derecho 
+    <aside class="sidebar-right">
+      <h3>Recomendadas</h3>
+      <div class="recommended">
+        <div class="recommended-item">
+          <img src="poster1.jpg" alt="Movie 1">
+          <p>Movie 1</p>
+        </div>
+        <div class="recommended-item">
+          <img src="poster2.jpg" alt="Movie 2">
+          <p>Movie 2</p>
+        </div>
+        <div class="recommended-item">
+          <img src="poster3.jpg" alt="Movie 3">
+          <p>Movie 3</p>
+        </div>
       </div>
-    </section>
+    </aside>
+    -->
 
-    <section id="mas-vistas" class="movie-section">
-      <h2>Mas vistas</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
-      </div>
-    </section>
 
-    <section id="terror" class="movie-section">
-      <h2>Terror</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
-      </div>
-    </section>
 
-    <section id="suspenso" class="movie-section">
-      <h2>Suspenso</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
-      </div>
-    </section>
-
-    <section id="accion" class="movie-section">
-      <h2>Acción</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
-      </div>
-    </section>
-
-    <section id="tv-series" class="movie-section">
-      <h2>Series de TV</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de series de TV -->
-      </div>
-    </section>
-
-    <section id="comedia" class="movie-section">
-      <h2>Comedia</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas -->
-      </div>
-    </section>
-
-    <section id="fantasia" class="movie-section">
-      <h2>Fantasía</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas de fantasía -->
-      </div>
-    </section>
-
-    <section id="ciencia-ficcion" class="movie-section">
-      <h2>Ciencia Ficción</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas de ciencia ficción -->
-      </div>
-    </section>
-
-    <section id="aventura" class="movie-section">
-      <h2>Aventura</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas de aventura -->
-      </div>
-    </section>
-
-    <section id="animacion" class="movie-section">
-      <h2>Animación</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas de animación -->
-      </div>
-    </section>
-
-    <section id="musical" class="movie-section">
-      <h2>Musical</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas musicales -->
-      </div>
-    </section>
-
-    <section id="biografia" class="movie-section">
-      <h2>Biografía</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas biográficas -->
-      </div>
-    </section>
-
-    <section id="documentales" class="movie-section">
-      <h2>Documentales</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de documentales -->
-      </div>
-    </section>
-
-    <section id="+18" class="movie-section">
-      <h2>+18</h2>
-      <div class="movie-grid">
-        <!-- Cards dinámicas de películas +18 -->
-      </div>
-    </section>
 
   </main>
+</div>
 
-  <script src="js/menu.js"></script>
+
+<footer>
+  <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
+</footer>
+<script src="./js/index.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 
 </html>

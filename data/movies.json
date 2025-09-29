@@ -5,29 +5,24 @@
     "originalTitle": "The Happening",
     "year": 2008,
     "cover": "assets/covers/el-fin-de-los-tiempos.webp",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fxK8UPrkEYBLETymFzQqDG1hMpS.jpg",
     "description": "En las principales ciudades de Estados Unidos, la gente comienza a suicidarse en masa. Un profesor de ciencias y su esposa intentan huir de la ciudad y buscar refugio en el campo, pero pronto descubren que el peligro los sigue a todas partes.",
     "director": "M. Night Shyamalan",
     "cast": [
-      "Mark Wahlberg",
-      "Zooey Deschanel",
-      "John Leguizamo",
-      "Ashley Sanchez"
-    ],
-    "genre": ["Ciencia Ficción", "Suspenso"],
-    "language": "Inglés, Español latino",
-    "quality": "Full HD 1080p",
-    "duration": "1h 29m",
-    "ageRating": "13+",
-    "trailer": "https://youtu.be/MF6YhjbMtbM?si=YEKtE4UwmQZGUJT7",
-    "embed": "https://hqq.ac/e/cGU3LzNDS0RXcE9NWGdnbFdLK0FiQT09",
-    "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/g201I13VgboL" },
-      { "name": "Voe", "url": "url-aqui" }
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/qguOapFV7b5O"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "url-mega" },
-      { "name": "Google Drive", "url": "url-google-drive" },
-      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:xxxxx" }
+      {
+        "name": "",
+        "url": ""
+      }
     ]
   },
 
@@ -95,8 +90,8 @@
     "trailer": "https://www.imdb.com/es/video/vi3337799705/?playlistId=tt31806049&ref_=ext_shr_lnk",
     "embed": "https://hqq.ac/e/RkxucFUwQlJwa3ZxRk1ndTNjL0N0Zz09",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/yiGD8mOLeShE" },
-      { "name": "Voe", "url": "https://waaw.ac/f/yiGD8mOLeShE" }
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/yiGD8mOLeShE" },
+      { "name": "Opcion 2", "url": "https://waaw.ac/f/yiGD8mOLeShE" }
     ],
     "downloadLinks": [
       { "name": "Mega", "url": "https://mega.nz/fake-mega-el-muro-negro" },
@@ -291,7 +286,7 @@
     "title": "Rápido y Furioso 1",
     "originalTitle": "The Fast and the Furious",
     "year": 2001,
-    "cover": "assets/covers/fast&furious-1.jpg",
+    "cover": "assets/covers/fast&furious-1.webp",
     "description": "Un oficial de policía encubierto, Brian O'Conner, se infiltra en una banda de carreras callejeras liderada por Dominic Toretto para investigar una serie de asaltos a camiones, mientras su relación con la hermana de Toretto, Mia, complica las cosas.",
     "director": "Rob Cohen",
     "cast": [
@@ -320,7 +315,7 @@
     "title": "Rápidos y Furiosos 2",
     "originalTitle": "2 Fast 2 Furious",
     "year": 2003,
-    "cover": "assets/covers/fast&furious-2.jpg",
+    "cover": "assets/covers/fast&furious-2.webp",
     "description": "El ex‑oficial del LAPD Brian O'Conner se une a su amigo de la infancia Roman Pearce para trabajar encubiertos transportando un cargamento de dinero sucio para el traficante Carter Verone. Con la agente encubierta Monica Fuentes colaborando en secreto, intentan derribar la operación corrupta mientras enfrentan desafíos personales y persecuciones intensas.",
     "director": "John Singleton",
     "cast": [
@@ -379,7 +374,7 @@
     "title": "Rápidos y Furiosos 4",
     "originalTitle": "Fast & Furious",
     "year": 2009,
-    "cover": "assets/covers/fast&furious-4.jpg",
+    "cover": "assets/covers/fast&furious-4.webp",
     "description": "Dominic Toretto y Brian O'Conner se reencuentran cuando un trágico evento obliga a Dom a volver a Los Ángeles para enfrentar al narcotraficante Arturo Braga tras la sospecha sobre la muerte de Letty, y ambos deben unir fuerzas que desafían su historia compartida.",
     "director": "Justin Lin",
     "cast": [
@@ -477,7 +472,7 @@
     "title": "Rápidos y Furiosos 7",
     "originalTitle": "Furious 7",
     "year": 2015,
-    "cover": "assets/covers/fast&furious-7.jpg",
+    "cover": "assets/covers/fast&furious-7.webp",
     "description": "Después de derrotar a Owen Shaw y recibir perdón, Dominic Toretto y su equipo intentan llevar una vida tranquila. Sin embargo, el hermano de Shaw, Deckard Shaw, busca venganza, lo que obliga al grupo a reunirse para detenerlo mientras enfrentan nuevas amenazas peligrosas.",
     "director": "James Wan",
     "cast": [
@@ -510,7 +505,7 @@
     "title": "Rápidos y Furiosos 8",
     "originalTitle": "The Fate of the Furious",
     "year": 2017,
-    "cover": "assets/covers/fast&furious-8.webp",
+    "cover": "assets/covers/fast&furious-8.jpg",
     "description": "Dominic Toretto ha logrado asentarse junto a Letty, pero una misteriosa figura llamada Cipher lo obliga a traicionar a su equipo. Ahora deben resolver la traición, reunirse y detenerla antes de que desate un caos global.",
     "director": "F. Gary Gray",
     "cast": [
@@ -532,17 +527,53 @@
     "duration": "2h 16m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/354sBlHqyM1g",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/354sBlHqyM1g" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
-
+  {
+    "id": "fast-and-furious-presents-hobbs-and-shaw-2019",
+    "title": "Rápidos y Furiosos 8.5 Hobbs & Shaw",
+    "originalTitle": "Fast & Furious Presents: Hobbs & Shaw",
+    "year": 2019,
+    "cover": "assets/covers/fast-and-furious-presents-hobbs-and-shaw-2019.webp",
+    "description": "El agente Luke Hobbs y el forajido Deckard Shaw se ven obligados a formar una alianza incómoda cuando un terrorista cibernéticamente mejorado amenaza con desatar un virus mortal que podría acabar con millones de personas.",
+    "director": "David Leitch",
+    "cast": [
+      "Dwayne Johnson",
+      "Jason Statham",
+      "Idris Elba",
+      "Vanessa Kirby",
+      "Eiza González",
+      "Helen Mirren"
+    ],
+    "genre": ["Acción", "Aventura", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 17m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/QCekBewwPXIL",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/QCekBewwPXIL"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
   {
     "id": "rapidos-y-furiosos-9-2021",
     "title": "Rápidos y Furiosos 9",
     "originalTitle": "F9: The Fast Saga",
     "year": 2021,
-    "cover": "assets/covers/fast&furious-9.webp",
+    "cover": "assets/covers/fast&furious-9.jpg",
     "description": "Dominic Toretto vive una vida tranquila con Letty y su hijo, lejos de la acción. Pero cuando su hermano Jakob, experto conductor asesino, emerge con un plan peligroso que involucra un programa secreto llamado Proyecto Aries, Dom debe reunir a su equipo para enfrentarlo y proteger a su familia.",
     "director": "Justin Lin",
     "cast": [
@@ -574,7 +605,7 @@
     "title": "Rapidoss y Furiosos 10",
     "originalTitle": "Fast X",
     "year": 2023,
-    "cover": "assets/covers/fast&furious-10.webp",
+    "cover": "assets/covers/fast&furious-10.jpg",
     "description": "Dominic Toretto debe proteger a su familia de Dante Reyes, quien busca venganza por la muerte de su padre y la pérdida de su fortuna.",
     "director": "Louis Leterrier",
     "cast": [
@@ -629,8 +660,10 @@
     "duration": "1h 31m",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/nPMNBdszSwvc",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/nPMNBdszSwvc" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -800,7 +833,7 @@
     "originalTitle": "I Am Legend",
     "year": 2007,
     "cover": "assets/covers/soy-leyenda-2007.png",
-    "description": "Robert Neville, el último sobreviviente humano en Nueva York tras una epidemia mundial, intenta encontrar una cura para el virus mientras se enfrenta a criaturas mutantes que habitan la ciudad. Aislado durante años, mantiene la esperanza de revertir el destino de la humanidad. :contentReference[oaicite:1]{index=1}",
+    "description": "Robert Neville, el último sobreviviente humano en Nueva York tras una epidemia mundial, intenta encontrar una cura para el virus mientras se enfrenta a criaturas mutantes que habitan la ciudad. Aislado durante años, mantiene la esperanza de revertir el destino de la humanidad. ",
     "director": "Francis Lawrence",
     "cast": [
       "Will Smith",
@@ -817,7 +850,12 @@
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/PMIR76fzvwG5",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/PMIR76fzvwG5" }],
+    "watchLinks": [
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/PMIR76fzvwG5"
+      }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -862,6 +900,7 @@
     "originalTitle": "The Map That Leads to You",
     "year": 2025,
     "cover": "assets/covers/el-mapa-que-me-lleva-a-ti-2025.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5QKddKk1qEe8CwWYpklmKq68uyo.jpg",
     "description": "Heather Mulgrew, recién graduada, viaja por Europa con sus amigas antes de iniciar una vida planeada en Nueva York. En un tren hacia Barcelona conoce a Jack, un joven neozelandés que sigue el diario de su bisabuelo tras la Segunda Guerra Mundial. Lo que comienza como un fugaz encuentro se convierte en un viaje emocional que pondrá a prueba sus planes, sus secretos y sus visiones del futuro.",
     "director": "Lasse Hallström",
     "cast": [
@@ -1015,7 +1054,13 @@
     "ageRating": "R",
     "trailer": "",
     "embed": "https://waaw.ac/f/qNnlg6AaVo2x",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/qNnlg6AaVo2x" }],
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino (CAM)",
+        "url": "https://waaw.ac/f/qNnlg6AaVo2x"
+      },
+      { "name": "Opción 2 Inglés", "url": "https://waaw.ac/f/r8ne4OzMIr5R" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -1342,6 +1387,1298 @@
     "trailer": "https://youtu.be/tR1g1g3cGpc",
     "embed": "https://waaw.ac/f/vM5ES7tZt2fx",
     "watchLinks": [{ "name": "Net", "url": "https://waaw.ac/f/vM5ES7tZt2fx" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "the-dirt-2019",
+    "title": "The Dirt",
+    "originalTitle": "The Dirt",
+    "year": 2019,
+    "cover": "assets/covers/the-dirt-2019.webp",
+    "description": "La increíble y escandalosa historia de Mötley Crüe, una de las bandas más salvajes del rock. Basada en su autobiografía, la película muestra los excesos, las caídas y el ascenso de Nikki Sixx, Tommy Lee, Vince Neil y Mick Mars en el mundo del rock and roll.",
+    "director": "Jeff Tremaine",
+    "cast": [
+      "Douglas Booth",
+      "Colson Baker (Machine Gun Kelly)",
+      "Daniel Webber",
+      "Iwan Rheon",
+      "Pete Davidson",
+      "Leven Rambin",
+      "Kathryn Morris",
+      "David Costabile"
+    ],
+    "genre": ["Drama", "Musical", "Biografia"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "1h 47m",
+    "ageRating": "18+",
+    "trailer": "https://www.youtube.com/watch?v=-NOp5ROn1HE",
+    "embed": "",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "" },
+      { "name": "Opcion 2", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "the-punisher-2004",
+    "title": "The Punisher",
+    "originalTitle": "The Punisher",
+    "year": 2004,
+    "cover": "assets/covers/the-punisher-2004.webp",
+    "description": "Tras el asesinato de su familia, el agente del FBI Frank Castle adopta la identidad del Castigador y se propone erradicar el crimen por su propia cuenta, sin importar el precio que deba pagar.",
+    "director": "Jonathan Hensleigh",
+    "cast": [
+      "Thomas Jane",
+      "John Travolta",
+      "Will Patton",
+      "Roy Scheider",
+      "Laura Harring",
+      "Ben Foster",
+      "Rebecca Romijn"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Inglés",
+    "quality": "",
+    "duration": "2h 3m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [{ "name": "", "url": "" }],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "bed-rest-2022",
+    "title": "Bed Rest",
+    "originalTitle": "Bed Rest",
+    "year": 2022,
+    "cover": "assets/covers/bed-rest-2022.webp",
+    "description": "Tras años de intentar formar una familia, Julie Rivers queda embarazada y se muda con su esposo a una nueva casa. Obligada a guardar reposo absoluto durante el embarazo, comienza a experimentar sucesos paranormales que la hacen dudar de su cordura y la obligan a enfrentar oscuros secretos del pasado.",
+    "director": "Lori Evans Taylor",
+    "cast": [
+      "Melissa Barrera",
+      "Guy Burnet",
+      "Kristen Harris",
+      "Edie Inksetter",
+      "Paul Essiembre"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/XaR7gb3RlogS",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/XaR7gb3RlogS"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "bumblebee-2018",
+    "title": "Bumblebee",
+    "originalTitle": "Bumblebee",
+    "year": 2018,
+    "cover": "assets/covers/bumblebee-2018.webp",
+    "description": "En 1987, Bumblebee encuentra refugio en un depósito de chatarra de una pequeña ciudad costera en California. Charlie, a punto de cumplir 18 años, descubre al Autobot maltrecho y en mal estado, iniciando una amistad que cambiará sus vidas.",
+    "director": "Travis Knight",
+    "cast": [
+      "Hailee Steinfeld",
+      "Jorge Lendeborg Jr.",
+      "John Cena",
+      "Jason Drucker",
+      "Pamela Adlon"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 54m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/3IiuBXYt8MUY",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/3IiuBXYt8MUY"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-1-2007",
+    "title": "Transformers",
+    "originalTitle": "Transformers",
+    "year": 2007,
+    "cover": "assets/covers/transformers-1-2007.webp",
+    "description": "Un adolescente se ve involucrado en una guerra ancestral entre Autobots y Decepticons, donde el futuro de la humanidad está en juego.",
+    "director": "Michael Bay",
+    "cast": [
+      "Shia LaBeouf",
+      "Megan Fox",
+      "Josh Duhamel",
+      "Tyrese Gibson",
+      "John Turturro"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 23m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/0eMnoyCY9r2M",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/0eMnoyCY9r2M"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-2-la-venganza-de-los-caidos-2009",
+    "title": "Transformers 2: La Venganza de los Caídos",
+    "originalTitle": "Transformers: Revenge of the Fallen",
+    "year": 2009,
+    "cover": "assets/covers/Transformers-2-la-venganza-de-los-caidos-2009.webp",
+    "description": "Sam Witwicky se une nuevamente a los Autobots cuando los Decepticons regresan para vengarse y liberar a su líder, The Fallen.",
+    "director": "Michael Bay",
+    "cast": [
+      "Shia LaBeouf",
+      "Megan Fox",
+      "Josh Duhamel",
+      "Tyrese Gibson",
+      "John Turturro"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 30m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/orMF8ESlsncm",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/orMF8ESlsncm"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-3-el-lado-oscuro-de-la-luna-2011",
+    "title": "Transformers 3: El Lado Oscuro de la Luna",
+    "originalTitle": "Transformers: Dark of the Moon",
+    "year": 2011,
+    "cover": "assets/covers/transformers-3-el-lado-oscuro-de-la-luna-2011.webp",
+    "description": "Los Autobots descubren una nave cibertroniana oculta en la Luna y deben luchar contra los Decepticons para controlar su tecnología.",
+    "director": "Michael Bay",
+    "cast": [
+      "Shia LaBeouf",
+      "Rosie Huntington-Whiteley",
+      "Josh Duhamel",
+      "Tyrese Gibson",
+      "John Turturro"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 34m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/z20YmMRL8yU8",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/z20YmMRL8yU8"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-4-la-era-de-la-extincion-2014",
+    "title": "Transformers 4: La Era de la Extinción",
+    "originalTitle": "Transformers: Age of Extinction",
+    "year": 2014,
+    "cover": "assets/covers/transformers-4-la-era-de-la-extincion-2014.webp",
+    "description": "Un inventor descubre a Optimus Prime y desata un nuevo conflicto cuando los Autobots se enfrentan a un cazador de recompensas intergaláctico.",
+    "director": "Michael Bay",
+    "cast": [
+      "Mark Wahlberg",
+      "Stanley Tucci",
+      "Kelsey Grammer",
+      "Nicola Peltz",
+      "Jack Reynor"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 45m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/f6ZkQoiKQWXg",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/f6ZkQoiKQWXg"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-5-el-ultimo-caballero-2017",
+    "title": "Transformers 5: El Último Caballero",
+    "originalTitle": "Transformers: The Last Knight",
+    "year": 2017,
+    "cover": "assets/covers/transformers-5-el-ultimo-caballero-2017.webp",
+    "description": "Optimus Prime desaparece mientras la humanidad lucha por sobrevivir. La clave para salvar el futuro está en los secretos del pasado de los Transformers en la Tierra.",
+    "director": "Michael Bay",
+    "cast": [
+      "Mark Wahlberg",
+      "Anthony Hopkins",
+      "Laura Haddock",
+      "Isabela Moner",
+      "Josh Duhamel"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 34m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/K3Ro9jqjr44L",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/K3Ro9jqjr44L"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-6-el-despertar-de-las-bestias-2023",
+    "title": "Transformers 6: El Despertar de las Bestias",
+    "originalTitle": "Transformers: Rise of the Beasts",
+    "year": 2023,
+    "cover": "assets/covers/transformers-6-el-despertar-de-las-bestias-2023.webp",
+    "description": "Los Autobots se alían con los Maximals para enfrentarse a una nueva amenaza que pondrá en peligro a toda la Tierra.",
+    "director": "Steven Caple Jr.",
+    "cast": [
+      "Anthony Ramos",
+      "Dominique Fishback",
+      "Luna Lauren Vélez",
+      "Peter Cullen",
+      "Ron Perlman"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 02m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/IllYj4QYtb9I",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/IllYj4QYtb9I"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "transformers-uno-2024",
+    "title": "Transformers: Uno",
+    "originalTitle": "Transformers One",
+    "year": 2024,
+    "cover": "assets/covers/transformers-uno-2024.webp",
+    "description": "Una historia animada que explora los orígenes de Optimus Prime y Megatron en Cybertron antes de convertirse en enemigos mortales.",
+    "director": "Josh Cooley",
+    "cast": [
+      "Chris Hemsworth",
+      "Brian Tyree Henry",
+      "Scarlett Johansson",
+      "Keegan-Michael Key",
+      "Jon Hamm",
+      "Laurence Fishburne"
+    ],
+    "genre": ["Animación", "Ciencia Ficción", "Acción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 47m",
+    "ageRating": "PG",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/KmLftjB48JQZ",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/KmLftjB48JQZ"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-2003",
+    "title": "Camino hacia el terror 1",
+    "originalTitle": "Wrong Turn",
+    "year": 2003,
+    "cover": "assets/covers/camino-hacia-el-terror-2003.webp",
+    "description": "Un grupo de jóvenes queda atrapado en los bosques de Virginia Occidental y se enfrenta a una familia de caníbales deformes que los cazan sin piedad.",
+    "director": "Rob Schmidt",
+    "cast": [
+      "Eliza Dushku",
+      "Desmond Harrington",
+      "Emmanuelle Chriqui",
+      "Jeremy Sisto",
+      "Kevin Zegers"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 24m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/e2GYFJKemXDj",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/e2GYFJKemXDj"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-2-2007",
+    "title": "Camino hacia el terror 2",
+    "originalTitle": "Wrong Turn 2: Dead End",
+    "year": 2007,
+    "cover": "assets/covers/camino-hacia-el-terror-2-2007.webp",
+    "description": "Un reality show en un bosque aislado se convierte en una pesadilla cuando los concursantes son perseguidos por una familia de mutantes caníbales.",
+    "director": "Joe Lynch",
+    "cast": [
+      "Erica Leerhsen",
+      "Henry Rollins",
+      "Aleksa Palladino",
+      "Texas Battle",
+      "Daniella Alonso"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 36m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/yvkZH16popI6",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/yvkZH16popI6"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-3-2009",
+    "title": "Camino hacia el terror 3",
+    "originalTitle": "Wrong Turn 3: Left for Dead",
+    "year": 2009,
+    "cover": "assets/covers/camino-hacia-el-terror-3-2009.webp",
+    "description": "Un grupo de prisioneros escoltados en un autobús logra escapar tras un accidente, pero pronto descubren que están siendo cazados por los caníbales del bosque.",
+    "director": "Declan O'Brien",
+    "cast": [
+      "Tom Frederic",
+      "Janet Montgomery",
+      "Gil Kolirin",
+      "Christian Contreras",
+      "Louise Cliffe"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 32m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/EOwi0Fz0hAc1",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/EOwi0Fz0hAc1"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-4-2011",
+    "title": "Camino hacia el terror 4: Comienzos sangrientos",
+    "originalTitle": "Wrong Turn 4: Bloody Beginnings",
+    "year": 2011,
+    "cover": "assets/covers/camino-hacia-el-terror-4-2011.webp",
+    "description": "Un grupo de estudiantes universitarios se refugia en un hospital psiquiátrico abandonado durante una tormenta de nieve, sin saber que allí habitan los caníbales mutantes.",
+    "director": "Declan O'Brien",
+    "cast": [
+      "Terra Vnesa",
+      "Dean Armstrong",
+      "Kaitlyn Leeb",
+      "Jennifer Pudavick",
+      "Dan Skene"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 33m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/aGr5AXfBUtHQ",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/aGr5AXfBUtHQ"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-5-2012",
+    "title": "Camino hacia el terror 5: Líneas de sangre",
+    "originalTitle": "Wrong Turn 5: Bloodlines",
+    "year": 2012,
+    "cover": "assets/covers/camino-hacia-el-terror-5-2012.webp",
+    "description": "Durante el festival de Halloween en un pequeño pueblo, los mutantes caníbales atacan a los visitantes, sembrando el caos y la muerte.",
+    "director": "Declan O'Brien",
+    "cast": [
+      "Doug Bradley",
+      "Camilla Arfwedson",
+      "Simon Ginty",
+      "Roxanne McKee",
+      "Oliver Hoare"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 31m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/d3wrSdjzA870",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/d3wrSdjzA870"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-6-2014",
+    "title": "Camino hacia el terror 6: Resort sangriento",
+    "originalTitle": "Wrong Turn 6: Last Resort",
+    "year": 2014,
+    "cover": "assets/covers/camino-hacia-el-terror-6-2014.webp",
+    "description": "Un joven hereda un complejo turístico abandonado, pero al llegar descubre que su familia guarda un oscuro secreto ligado a los caníbales mutantes.",
+    "director": "Valeri Milev",
+    "cast": [
+      "Anthony Ilott",
+      "Chris Jarvis",
+      "Aqueela Zoll",
+      "Sadie Katz",
+      "Luke Cousins"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 31m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/qguOapFV7b5O",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/qguOapFV7b5O"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "camino-hacia-el-terror-2021",
+    "title": "Camino hacia el terror 7",
+    "originalTitle": "Wrong Turn",
+    "year": 2021,
+    "cover": "assets/covers/camino-hacia-el-terror-7-2021.webp",
+    "description": "Un grupo de excursionistas se adentra en los Montes Apalaches y se encuentra con una comunidad aislada que protege su territorio a toda costa.",
+    "director": "Mike P. Nelson",
+    "cast": [
+      "Charlotte Vega",
+      "Adain Bradley",
+      "Bill Sage",
+      "Emma Dumont",
+      "Dylan McTee"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 49m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  [
+    {
+      "id": "destino-final-2000",
+      "title": "Destino Final",
+      "originalTitle": "Final Destination",
+      "year": 2000,
+      "cover": "assets/covers/destino-final-2000.webp",
+      "description": "Después de tener una premonición de un accidente aéreo mortal, Alex Browning evita abordar el vuelo junto con varios compañeros. Sin embargo, pronto descubren que no pueden escapar de la muerte, que comienza a perseguirlos uno por uno.",
+      "director": "James Wong",
+      "cast": [
+        "Devon Sawa",
+        "Ali Larter",
+        "Kerr Smith",
+        "Kristen Cloke",
+        "Seann William Scott",
+        "Tony Todd"
+      ],
+      "genre": ["Terror", "Suspenso"],
+      "language": "Español Latino, Inglés",
+      "quality": "Full HD 1080p",
+      "duration": "1h 38m",
+      "ageRating": "R",
+      "trailer": "",
+      "embed": "https://waaw.ac/f/destino-final-2000",
+      "watchLinks": [
+        {
+          "name": "Opción 1 Español Latino",
+          "url": "https://waaw.ac/f/destino-final-2000"
+        },
+        {
+          "name": "Opción 2 Inglés",
+          "url": "https://waaw.ac/f/destino-final-2000-en"
+        }
+      ],
+      "downloadLinks": [{ "name": "", "url": "" }]
+    },
+    {
+      "id": "destino-final-2-2003",
+      "title": "Destino Final 2",
+      "originalTitle": "Final Destination 2",
+      "year": 2003,
+      "cover": "assets/covers/destino-final-2-2003.webp",
+      "description": "Kimberly tiene una visión de un accidente masivo en carretera y logra salvar a varias personas. Sin embargo, pronto entienden que la muerte volverá por ellos en el orden que deberían haber muerto.",
+      "director": "David R. Ellis",
+      "cast": [
+        "A.J. Cook",
+        "Ali Larter",
+        "Michael Landes",
+        "David Paetkau",
+        "Tony Todd"
+      ],
+      "genre": ["Terror", "Suspenso"],
+      "language": "Español Latino, Inglés",
+      "quality": "Full HD 1080p",
+      "duration": "1h 30m",
+      "ageRating": "R",
+      "trailer": "",
+      "embed": "https://waaw.ac/f/destino-final-2-2003",
+      "watchLinks": [
+        {
+          "name": "Opción 1 Español Latino",
+          "url": "https://waaw.ac/f/destino-final-2-2003"
+        },
+        {
+          "name": "Opción 2 Inglés",
+          "url": "https://waaw.ac/f/destino-final-2-2003-en"
+        }
+      ],
+      "downloadLinks": [{ "name": "", "url": "" }]
+    },
+    {
+      "id": "destino-final-3-2006",
+      "title": "Destino Final 3",
+      "originalTitle": "Final Destination 3",
+      "year": 2006,
+      "cover": "assets/covers/destino-final-3-2006.webp",
+      "description": "Una premonición de Wendy en una montaña rusa salva a varios pasajeros de un terrible accidente. Sin embargo, ella y sus amigos descubren que la muerte sigue un plan que es imposible evitar.",
+      "director": "James Wong",
+      "cast": [
+        "Mary Elizabeth Winstead",
+        "Ryan Merriman",
+        "Kris Lemche",
+        "Alexz Johnson",
+        "Tony Todd (voz)"
+      ],
+      "genre": ["Terror", "Suspenso"],
+      "language": "Español Latino, Inglés",
+      "quality": "Full HD 1080p",
+      "duration": "1h 33m",
+      "ageRating": "R",
+      "trailer": "",
+      "embed": "https://waaw.ac/f/destino-final-3-2006",
+      "watchLinks": [
+        {
+          "name": "Opción 1 Español Latino",
+          "url": "https://waaw.ac/f/destino-final-3-2006"
+        },
+        {
+          "name": "Opción 2 Inglés",
+          "url": "https://waaw.ac/f/destino-final-3-2006-en"
+        }
+      ],
+      "downloadLinks": [{ "name": "", "url": "" }]
+    },
+    {
+      "id": "destino-final-4-2009",
+      "title": "Destino Final 4",
+      "originalTitle": "The Final Destination",
+      "year": 2009,
+      "cover": "assets/covers/destino-final-4-2009.webp",
+      "description": "Tras una visión de un accidente en una pista de carreras, Nick salva a sus amigos y a varios espectadores. Pronto descubren que la muerte vuelve para reclamar a cada uno en el orden previsto.",
+      "director": "David R. Ellis",
+      "cast": [
+        "Bobby Campo",
+        "Shantel VanSanten",
+        "Nick Zano",
+        "Haley Webb",
+        "Mykelti Williamson"
+      ],
+      "genre": ["Terror", "Suspenso"],
+      "language": "Español Latino, Inglés",
+      "quality": "Full HD 1080p",
+      "duration": "1h 22m",
+      "ageRating": "R",
+      "trailer": "",
+      "embed": "https://waaw.ac/f/destino-final-4-2009",
+      "watchLinks": [
+        {
+          "name": "Opción 1 Español Latino",
+          "url": "https://waaw.ac/f/destino-final-4-2009"
+        },
+        {
+          "name": "Opción 2 Inglés",
+          "url": "https://waaw.ac/f/destino-final-4-2009-en"
+        }
+      ],
+      "downloadLinks": [{ "name": "", "url": "" }]
+    },
+    {
+      "id": "destino-final-5-2011",
+      "title": "Destino Final 5",
+      "originalTitle": "Final Destination 5",
+      "year": 2011,
+      "cover": "assets/covers/destino-final-5-2011.webp",
+      "description": "Sam tiene una visión de un puente colapsando y logra salvar a varios compañeros. Sin embargo, la muerte no se detiene y los sobrevivientes deben encontrar la forma de engañarla antes de que sea demasiado tarde.",
+      "director": "Steven Quale",
+      "cast": [
+        "Nicholas D'Agosto",
+        "Emma Bell",
+        "Miles Fisher",
+        "Ellen Wroe",
+        "Tony Todd"
+      ],
+      "genre": ["Terror", "Suspenso"],
+      "language": "Español Latino, Inglés",
+      "quality": "Full HD 1080p",
+      "duration": "1h 32m",
+      "ageRating": "R",
+      "trailer": "",
+      "embed": "https://waaw.ac/f/destino-final-5-2011",
+      "watchLinks": [
+        {
+          "name": "Opción 1 Español Latino",
+          "url": "https://waaw.ac/f/destino-final-5-2011"
+        },
+        {
+          "name": "Opción 2 Inglés",
+          "url": "https://waaw.ac/f/destino-final-5-2011-en"
+        }
+      ],
+      "downloadLinks": [{ "name": "", "url": "" }]
+    }
+  ],
+  {
+    "id": "destino-final-6-2025",
+    "title": "Destino Final: Lazos de Sangre",
+    "originalTitle": "Final Destination: Bloodlines",
+    "year": 2025,
+    "cover": "assets/covers/destino-final-6-2025.jpg",
+    "description": "Stefani, una estudiante universitaria, hereda visiones mortales de su abuela moribunda sobre un colapso de torre en 1968 y descubre que la Muerte está tras su familia. Debe impedir que el destino reclame sus vidas. (Capítulo 6 de la saga)  :contentReference[oaicite:0]{index=0}",
+    "director": "Zach Lipovsky, Adam Stein",
+    "cast": [
+      "Kaitlyn Santa Juana",
+      "Teo Briones",
+      "Richard Harmon",
+      "Owen Patrick Joyner",
+      "Anna Lore",
+      "Brec Bassinger",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Sobrenatural"],
+    "language": "Inglés, Español (doblaje probable)",
+    "quality": "Full HD 1080p",
+    "duration": "1h 50m (110 min)  ",
+    "ageRating": "R",
+    "trailer": "https://www.youtube.com/watch?v=KOvaugY7jT8",
+    "embed": "https://waaw.ac/f/destino-final-6-2025",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/destino-final-6-2025"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": "https://waaw.ac/f/destino-final-6-2025-en"
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "insidious-2011",
+    "title": "La Noche del Demonio",
+    "originalTitle": "Insidious",
+    "year": 2011,
+    "cover": "assets/covers/insidious-2011.webp",
+    "description": "Una familia descubre que espíritus oscuros han invadido su hogar y que el alma de su hijo está atrapada en un mundo misterioso llamado 'El Más Allá'.",
+    "director": "James Wan",
+    "cast": [
+      "Patrick Wilson",
+      "Rose Byrne",
+      "Lin Shaye",
+      "Leigh Whannell",
+      "Ty Simpkins"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 42m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/OVYiHJ7emvo2",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/OVYiHJ7emvo2"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "insidious-chapter-2-2013",
+    "title": "La Noche del Demonio: Capítulo 2",
+    "originalTitle": "Insidious: Chapter 2",
+    "year": 2013,
+    "cover": "assets/covers/insidious-chapter-2-2013.webp",
+    "description": "La familia Lambert trata de desentrañar el misterioso secreto que los ha conectado con el mundo espiritual, mientras luchan por protegerse de fuerzas malignas.",
+    "director": "James Wan",
+    "cast": [
+      "Patrick Wilson",
+      "Rose Byrne",
+      "Lin Shaye",
+      "Ty Simpkins",
+      "Barbara Hershey"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 46m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/1kqCV6JcDpd7",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/1kqCV6JcDpd7"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "insidious-chapter-3-2015",
+    "title": "La Noche del Demonio: Capítulo 3",
+    "originalTitle": "Insidious: Chapter 3",
+    "year": 2015,
+    "cover": "assets/covers/insidious-chapter-3-2015.webp",
+    "description": "Una joven busca la ayuda de una médium para contactar con su madre fallecida, pero sin querer abre la puerta a entidades malignas que amenazan su vida.",
+    "director": "Leigh Whannell",
+    "cast": [
+      "Stefanie Scott",
+      "Dermot Mulroney",
+      "Lin Shaye",
+      "Leigh Whannell",
+      "Angus Sampson"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 37m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/LWP7wcAwEXav",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/LWP7wcAwEXav"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "insidious-the-last-key-2018",
+    "title": "La Noche del Demonio 4: La Última Llave",
+    "originalTitle": "Insidious 4: The Last Key",
+    "year": 2018,
+    "cover": "assets/covers/insidious-the-last-key-2018.webp",
+    "description": "La parapsicóloga Elise Rainier enfrenta su caso más aterrador en su propia casa de la infancia, donde se desatarán los secretos más oscuros.",
+    "director": "Adam Robitel",
+    "cast": [
+      "Lin Shaye",
+      "Leigh Whannell",
+      "Angus Sampson",
+      "Caitlin Gerard",
+      "Bruce Davison"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 43m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/TWCtzLd4Mclh",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/TWCtzLd4Mclh"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "insidious-the-red-door-2023",
+    "title": "La Noche del Demonio 5: La Puerta Roja",
+    "originalTitle": "Insidious: The Red Door",
+    "year": 2023,
+    "cover": "assets/covers/insidious-the-red-door-2023.webp",
+    "description": "Josh y Dalton Lambert deben enfrentarse nuevamente a los horrores del Más Allá, desenterrando recuerdos reprimidos y enfrentando sus peores miedos para cerrar definitivamente la puerta roja.",
+    "director": "Patrick Wilson",
+    "cast": [
+      "Ty Simpkins",
+      "Patrick Wilson",
+      "Rose Byrne",
+      "Lin Shaye",
+      "Hiam Abbass"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 47m",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/8x1S4SdkCgwk",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/8x1S4SdkCgwk"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-2004",
+    "title": "Saw 1",
+    "originalTitle": "Saw",
+    "year": 2004,
+    "cover": "assets/covers/saw-2004.webp",
+    "description": "Dos hombres despiertan encadenados en un baño y pronto descubren que forman parte de un macabro juego mortal ideado por el asesino conocido como Jigsaw.",
+    "director": "James Wan",
+    "cast": [
+      "Leigh Whannell",
+      "Cary Elwes",
+      "Danny Glover",
+      "Ken Leung",
+      "Monica Potter"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 43m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/CVcAVdvoHcud",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/CVcAVdvoHcud"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-2-2005",
+    "title": "Saw 2",
+    "originalTitle": "Saw II",
+    "year": 2005,
+    "cover": "assets/covers/saw-2-2005.webp",
+    "description": "Un grupo de personas despierta atrapado en una casa llena de trampas mortales. Afuera, la policía intenta dar con el paradero de Jigsaw.",
+    "director": "Darren Lynn Bousman",
+    "cast": [
+      "Tobin Bell",
+      "Shawnee Smith",
+      "Donnie Wahlberg",
+      "Erik Knudsen",
+      "Franky G"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 33m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/kO6yIRgMJmDi",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/kO6yIRgMJmDi"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-3-2006",
+    "title": "Saw 3",
+    "originalTitle": "Saw III",
+    "year": 2006,
+    "cover": "assets/covers/saw-3-2006.webp",
+    "description": "Mientras Jigsaw agoniza por su enfermedad, prepara junto a su aprendiz Amanda un último y sangriento juego para poner a prueba la voluntad de sus víctimas.",
+    "director": "Darren Lynn Bousman",
+    "cast": [
+      "Tobin Bell",
+      "Shawnee Smith",
+      "Angus Macfadyen",
+      "Bahar Soomekh",
+      "Costas Mandylor"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 48m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/PWpiqFlUqp8e",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/PWpiqFlUqp8e"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-4-2007",
+    "title": "Saw 4",
+    "originalTitle": "Saw IV",
+    "year": 2007,
+    "cover": "assets/covers/saw-4-2007.webp",
+    "description": "Tras la muerte de Jigsaw, la policía descubre nuevas grabaciones y trampas, lo que revela que el juego aún no ha terminado.",
+    "director": "Darren Lynn Bousman",
+    "cast": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Scott Patterson",
+      "Betsy Russell",
+      "Lyriq Bent"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 36m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/cxVAipVO8Kqc",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/cxVAipVO8Kqc"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-5-2008",
+    "title": "Saw 5",
+    "originalTitle": "Saw V",
+    "year": 2008,
+    "cover": "assets/covers/saw-5-2008.webp",
+    "description": "El detective Hoffman asume el legado de Jigsaw, mientras un grupo de cinco personas se enfrenta a pruebas letales con un macabro giro final.",
+    "director": "David Hackl",
+    "cast": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Scott Patterson",
+      "Betsy Russell",
+      "Julie Benz"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 32m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/yncmZPieUFHU",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/yncmZPieUFHU"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-6-2009",
+    "title": "Saw 6",
+    "originalTitle": "Saw VI",
+    "year": 2009,
+    "cover": "assets/covers/saw-6-2009.webp",
+    "description": "El juego continúa cuando un ejecutivo de seguros debe enfrentarse a las consecuencias de sus decisiones en una serie de trampas mortales.",
+    "director": "Kevin Greutert",
+    "cast": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Mark Rolston",
+      "Betsy Russell",
+      "Peter Outerbridge"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/70q8Mt1u2UPN",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/70q8Mt1u2UPN"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-7-2010",
+    "title": "Saw 7",
+    "originalTitle": "Saw 3D: The Final Chapter",
+    "year": 2010,
+    "cover": "assets/covers/saw-7-2010.webp",
+    "description": "Supuestamente la última entrega: los sobrevivientes de Jigsaw buscan justicia mientras nuevas trampas mortales revelan el desenlace de la saga.",
+    "director": "Kevin Greutert",
+    "cast": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Cary Elwes",
+      "Betsy Russell",
+      "Chad Donella"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/PiLQdtQYIxfC",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/PiLQdtQYIxfC"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "jigsaw-2017",
+    "title": "Jigsaw (Saw 8): El Juego Continúa",
+    "originalTitle": "Jigsaw",
+    "year": 2017,
+    "cover": "assets/covers/jigsaw-8-2017.jpg",
+    "description": "Una década después de la muerte de Jigsaw, la ciudad enfrenta una nueva ola de asesinatos que siguen el mismo patrón de los juegos mortales.",
+    "director": "Michael Spierig, Peter Spierig",
+    "cast": [
+      "Matt Passmore",
+      "Callum Keith Rennie",
+      "Clé Bennett",
+      "Hannah Emily Anderson",
+      "Tobin Bell"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 32m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/bFho0gocJxEp",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/bFho0gocJxEp"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "spiral-2021",
+    "title": "Spiral: El Juego del Miedo Continúa",
+    "originalTitle": "Spiral (Saw 9): From the Book of Saw",
+    "year": 2021,
+    "cover": "assets/covers/spiral-2021.webp",
+    "description": "Un detective y su compañero investigan una serie de asesinatos macabros que recuerdan el estilo de Jigsaw, iniciando un nuevo capítulo del juego.",
+    "director": "Darren Lynn Bousman",
+    "cast": [
+      "Chris Rock",
+      "Samuel L. Jackson",
+      "Max Minghella",
+      "Marisol Nichols",
+      "Zoie Palmer"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 33m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": ""
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "saw-x-2023",
+    "title": "Saw 10",
+    "originalTitle": "Saw X",
+    "year": 2023,
+    "cover": "assets/covers/saw-x-2023.jpg",
+    "description": "Ambientada entre Saw I y II, John Kramer viaja a México buscando una cura milagrosa para su cáncer, pero descubre un fraude. En venganza, organiza uno de sus juegos más crueles.",
+    "director": "Kevin Greutert",
+    "cast": [
+      "Tobin Bell",
+      "Shawnee Smith",
+      "Synnøve Macody Lund",
+      "Steven Brand",
+      "Michael Beach"
+    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 58m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/zMbL9Uc2WxfZ",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/zMbL9Uc2WxfZ"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   }
 ]

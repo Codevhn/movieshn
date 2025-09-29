@@ -1,23 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Detail</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Detalles de película</title>
+  <link rel="stylesheet" href="./css/styles.css">
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Conjuro: Últimos Ritos (2025) - Ver Online en MoviesHN</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="El Conjuro: Últimos Ritos (2025) - Disfruta esta película completa en español latino. Calidad HD disponible en ClipsDePeliculasHN." />
+  <meta name="keywords"
+    content="El Conjuro, Últimos Ritos, películas gratis, ver películas online, cine en español, ClipsDePeliculasHN" />
+  <meta name="author" content="MoviesHN" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="El Conjuro: Últimos Ritos (2025)" />
+  <meta property="og:description"
+    content="Mira online El Conjuro: Últimos Ritos (2025) en español latino, calidad HD y sin complicaciones." />
+  <meta property="og:image" content="https://tusitio.com/assets/movies/el-conjuro-ultimos-ritos.jpg" />
+  <meta property="og:url" content="https://tusitio.com/movie.html?id=el-conjuro-ultimos-ritos" />
+  <meta property="og:type" content="video.movie" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="El Conjuro: Últimos Ritos (2025)" />
+  <meta name="twitter:description" content="Disfruta esta película completa en español latino en ClipsDePeliculasHN." />
+  <meta name="twitter:image" content="https://tusitio.com/assets/movies/el-conjuro-ultimos-ritos.jpg" />
+
+
 </head>
 
 <body>
-  <header>
-    <h1>🎬 Detalles de la Película</h1>
-  </header>
 
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html">MoviesHN</a>
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+    </div>
+
+    <form class="search-form">
+      <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <nav class="site-nav">
+      <button class="menu-close" aria-label="Cerrar menú">✕</button>
+      <ul>
+        <li><a href="index.html#recientes">Recientes</a></li>
+        <li><a href="index.html#mas-vistas">Más vistas</a></li>
+        <li><a href="index.html#accion">Acción</a></li>
+        <li><a href="index.html#terror">Terror</a></li>
+        <li><a href="index.html#suspenso">Suspenso</a></li>
+        <li><a href="index.html#series">Series</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="site-note">
+    <p>
+      ⚠️ <strong>Sitio en construcción:</strong> MoviesHN se encuentra en fase de mejoras continuas.
+      Estamos actualizando la plataforma y agregando más películas cada semana para ofrecerte la mejor experiencia.
+      ¡Gracias por tu paciencia!
+    </p>
+  </section>
+
+  <!-- MAIN -->
   <main>
-    <section id="movie-details" class="movie-details"></section>
+    <div id="movie-details"></div>
   </main>
 
-  <script src="js/movie.js"></script>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 MoviesHN</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="./js/movie.js"></script>
+  <script src="./js/menu.js""></script>
 </body>
 
 </html>
