@@ -305,8 +305,10 @@
     "duration": "1h 46m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "Netu", "url": "" }],
+    "embed": "https://waaw.ac/f/iK1q8GArBAIa",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/iK1q8GArBAIa" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -335,14 +337,16 @@
     "duration": "1h 48m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/WTACAysXZzhP",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/WTACAysXZzhP" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
   {
     "id": "rapido-y-furioso-reto-tokio-2006",
-    "title": "Rápido y Furioso: Reto Tokio",
+    "title": "Rápido y Furioso 3: Reto Tokio",
     "originalTitle": "The Fast and the Furious: Tokyo Drift",
     "year": 2006,
     "cover": "assets/covers/the-fast-and-the-furious-tokyo-drift.webp",
@@ -364,8 +368,10 @@
     "duration": "1h 44m",
     "ageRating": "PG‑13",
     "trailer": "https://youtu.be/K6RWbKMSDcg",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/JGMWWcPtR59r",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/JGMWWcPtR59r" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -458,8 +464,10 @@
     "duration": "2h 10m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "Netu", "url": "" }],
+    "embed": "https://waaw.ac/f/QCqXyMe83dVg",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/QCqXyMe83dVg" }
+    ],
     "downloadLinks": [
       { "name": "", "url": "" },
       { "name": "", "url": "" },
@@ -535,7 +543,7 @@
   },
   {
     "id": "fast-and-furious-presents-hobbs-and-shaw-2019",
-    "title": "Rápidos y Furiosos 8.5 Hobbs & Shaw",
+    "title": "Rápidos y Furiosos Hobbs & Shaw",
     "originalTitle": "Fast & Furious Presents: Hobbs & Shaw",
     "year": 2019,
     "cover": "assets/covers/fast-and-furious-presents-hobbs-and-shaw-2019.webp",
@@ -595,8 +603,10 @@
     "duration": "2h 23m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/3vEXQt9AxXix",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/3vEXQt9AxXix" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -605,7 +615,7 @@
     "title": "Rapidoss y Furiosos 10",
     "originalTitle": "Fast X",
     "year": 2023,
-    "cover": "assets/covers/fast&furious-10.jpg",
+    "cover": "assets/covers/fast&furious-10.webp",
     "description": "Dominic Toretto debe proteger a su familia de Dante Reyes, quien busca venganza por la muerte de su padre y la pérdida de su fortuna.",
     "director": "Louis Leterrier",
     "cast": [
@@ -634,7 +644,9 @@
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/7NlhtHJGEKOO",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/7NlhtHJGEKOO" }],
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/7NlhtHJGEKOO" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -682,13 +694,15 @@
       "Paul Winfield"
     ],
     "genre": ["Ciencia Ficción", "Acción"],
-    "language": "Inglés",
+    "language": "Inglés, Español latino",
     "quality": "",
     "duration": "1h 47m",
     "ageRating": "R",
     "trailer": "https://youtu.be/nGrW-OR2uDk",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/UdU3t6VmhNEk",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/UdU3t6VmhNEk" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -715,7 +729,9 @@
     "ageRating": "R",
     "trailer": "https://youtu.be/DX1Y8e7i6cw",
     "embed": "https://waaw.ac/f/i81wouuGuIWY",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/i81wouuGuIWY" }],
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/i81wouuGuIWY" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -769,8 +785,10 @@
     "duration": "1h 55m",
     "ageRating": "PG‑13",
     "trailer": "",
-    "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
+    "embed": "https://waaw.ac/f/74VH4xf1gnCv",
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/74VH4xf1gnCv" }
+    ],
     "downloadLinks": [{ "name": "", "url": "" }]
   },
 
@@ -832,7 +850,7 @@
     "title": "Soy Leyenda",
     "originalTitle": "I Am Legend",
     "year": 2007,
-    "cover": "assets/covers/soy-leyenda-2007.png",
+    "cover": "assets/covers/soy-leyenda-2007.webp",
     "description": "Robert Neville, el último sobreviviente humano en Nueva York tras una epidemia mundial, intenta encontrar una cura para el virus mientras se enfrenta a criaturas mutantes que habitan la ciudad. Aislado durante años, mantiene la esperanza de revertir el destino de la humanidad. ",
     "director": "Francis Lawrence",
     "cast": [
@@ -1517,7 +1535,7 @@
   },
   {
     "id": "transformers-1-2007",
-    "title": "Transformers",
+    "title": "Transformers 1",
     "originalTitle": "Transformers",
     "year": 2007,
     "cover": "assets/covers/transformers-1-2007.webp",
@@ -1554,7 +1572,7 @@
     "title": "Transformers 2: La Venganza de los Caídos",
     "originalTitle": "Transformers: Revenge of the Fallen",
     "year": 2009,
-    "cover": "assets/covers/Transformers-2-la-venganza-de-los-caidos-2009.webp",
+    "cover": "assets/covers/transformers-2-la-venganza-de-los-caidos-2009.webp",
     "description": "Sam Witwicky se une nuevamente a los Autobots cuando los Decepticons regresan para vengarse y liberar a su líder, The Fallen.",
     "director": "Michael Bay",
     "cast": [
@@ -1987,7 +2005,7 @@
       },
       {
         "name": "Opción 2 Inglés",
-        "url": ""
+        "url": "h"
       }
     ],
     "downloadLinks": [{ "name": "", "url": "" }]
@@ -2640,11 +2658,11 @@
     "duration": "1h 33m",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
+    "embed": "https://waaw.ac/f/rU12KNFhLXR4",
     "watchLinks": [
       {
         "name": "Opción 1 Español Latino",
-        "url": ""
+        "url": "https://waaw.ac/f/rU12KNFhLXR4"
       },
       { "name": "Opción 2 Inglés", "url": "" }
     ],
@@ -2678,6 +2696,271 @@
         "url": "https://waaw.ac/f/zMbL9Uc2WxfZ"
       },
       { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "infectados-2009",
+    "title": "Infectados",
+    "originalTitle": "Carriers",
+    "year": 2009,
+    "cover": "assets/covers/infectados-2009.webp",
+    "description": "Cuatro jóvenes intentan sobrevivir a una pandemia mortal que ha diezmado a la población mundial. Mientras viajan por carreteras desoladas en busca de un refugio seguro, pronto descubren que la mayor amenaza no es el virus, sino ellos mismos.",
+    "director": "Àlex Pastor, David Pastor",
+    "cast": [
+      "Chris Pine",
+      "Piper Perabo",
+      "Emily VanCamp",
+      "Lou Taylor Pucci",
+      "Christopher Meloni",
+      "Kiernan Shipka"
+    ],
+    "genre": ["Terror", "Ciencia Ficción", "Drama"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 24m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/70KjKfcY2H3w",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/70KjKfcY2H3w"
+      },
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+
+  {
+    "id": "destino-final-2000",
+    "title": "Destino Final",
+    "originalTitle": "Final Destination",
+    "year": 2000,
+    "cover": "assets/covers/destino-final-2000.webp",
+    "description": "Después de tener una premonición de un accidente aéreo, Alex salva a varios compañeros de clase de la muerte. Sin embargo, pronto descubren que la Muerte tiene un plan y que nadie puede escapar de su destino.",
+    "director": "James Wong",
+    "cast": [
+      "Devon Sawa",
+      "Ali Larter",
+      "Kerr Smith",
+      "Kristen Cloke",
+      "Seann William Scott",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 38m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/ao1zJq5fyVCi",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/ao1zJq5fyVCi"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "destino-final-2-2003",
+    "title": "Destino Final 2",
+    "originalTitle": "Final Destination 2",
+    "year": 2003,
+    "cover": "assets/covers/destino-final-2-2003.webp",
+    "description": "Kimberly tiene una visión de un enorme accidente en la autopista y evita que varias personas mueran. Ahora, todos los sobrevivientes se convierten en objetivos de la Muerte.",
+    "director": "David R. Ellis",
+    "cast": [
+      "A.J. Cook",
+      "Ali Larter",
+      "Michael Landes",
+      "Terrence 'T.C.' Carson",
+      "Jonathan Cherry",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/8PVM4EcBj8Uk",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/8PVM4EcBj8Uk"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "destino-final-3-2006",
+    "title": "Destino Final 3",
+    "originalTitle": "Final Destination 3",
+    "year": 2006,
+    "cover": "assets/covers/destino-final-3-2006.webp",
+    "description": "Tras tener una visión de un accidente mortal en una montaña rusa, Wendy y un grupo de estudiantes logran sobrevivir. Pero la Muerte comienza a cazarlos uno por uno.",
+    "director": "James Wong",
+    "cast": [
+      "Mary Elizabeth Winstead",
+      "Ryan Merriman",
+      "Kris Lemche",
+      "Alexz Johnson",
+      "Sam Easton",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 33m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/gr0cGCTr8XeF",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/gr0cGCTr8XeF"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "destino-final-4-2009",
+    "title": "Destino Final 4",
+    "originalTitle": "The Final Destination",
+    "year": 2009,
+    "cover": "assets/covers/destino-final-4-2009.webp",
+    "description": "Nick tiene una visión de un accidente en un circuito de carreras y logra salvar a varios espectadores. Pronto descubren que no pueden engañar a la Muerte por mucho tiempo.",
+    "director": "David R. Ellis",
+    "cast": [
+      "Bobby Campo",
+      "Shantel VanSanten",
+      "Nick Zano",
+      "Haley Webb",
+      "Mykelti Williamson",
+      "Krista Allen"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 22m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/EG6DFcgW0Xla",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/EG6DFcgW0Xla"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "destino-final-5-2011",
+    "title": "Destino Final 5",
+    "originalTitle": "Final Destination 5",
+    "year": 2011,
+    "cover": "assets/covers/destino-final-5-2011.webp",
+    "description": "Sam tiene una visión en la que un puente colapsa matando a todos sus compañeros de trabajo. Tras salvarlos, descubre que la Muerte siempre encuentra la forma de completar su plan.",
+    "director": "Steven Quale",
+    "cast": [
+      "Nicholas D'Agosto",
+      "Emma Bell",
+      "Miles Fisher",
+      "Ellen Wroe",
+      "Jacqueline MacInnes Wood",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 32m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/WU7SBY3D5i8T",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/WU7SBY3D5i8T"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "destino-final-6-2025",
+    "title": "Destino Final: Lazos de Sangre",
+    "originalTitle": "Final Destination: Bloodlines",
+    "year": 2025,
+    "cover": "assets/covers/destino-final-6-2025.jpg",
+    "description": "Stefani, una estudiante universitaria, hereda visiones mortales de su abuela moribunda sobre un colapso de torre en 1968 y descubre que la Muerte está tras su familia. Debe impedir que el destino reclame sus vidas. (Capítulo 6 de la saga)",
+    "director": "Zach Lipovsky, Adam Stein",
+    "cast": [
+      "Kaitlyn Santa Juana",
+      "Teo Briones",
+      "Richard Harmon",
+      "Owen Patrick Joyner",
+      "Anna Lore",
+      "Brec Bassinger",
+      "Tony Todd"
+    ],
+    "genre": ["Terror", "Sobrenatural"],
+    "language": "Inglés, Español (doblaje probable)",
+    "quality": "Full HD 1080p",
+    "duration": "1h 50m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/jzxK1ippUcGX",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/jzxK1ippUcGX"
+      },
+      { "name": "Opción 2 Inglés", "url": "" }
+    ],
+    "downloadLinks": [{ "name": "", "url": "" }]
+  },
+  {
+    "id": "who-am-i-2014",
+    "title": "Who Am I: Ningún Sistema es Seguro",
+    "originalTitle": "Who Am I: Kein System ist sicher",
+    "year": 2014,
+    "cover": "assets/covers/hackers-ningun-sistema-es-seguro-2014.webp",
+    "description": "Benjamin, un joven experto en informática, se une a un grupo de hackers idealistas llamado CLAY. Lo que comienza como un juego de fama pronto se convierte en un peligroso enfrentamiento con la policía y un cibercriminal implacable.",
+    "director": "Baran bo Odar",
+    "cast": [
+      "Tom Schilling",
+      "Elyas M'Barek",
+      "Wotan Wilke Möhring",
+      "Antoine Monot Jr.",
+      "Hannah Herzsprung",
+      "Trine Dyrholm"
+    ],
+    "genre": ["Thriller", "Crimen", "Drama", "Hackers y Ciberseguridad"],
+    "language": "Español Latino, Alemán, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 45m",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 Español Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 Versión Original",
+        "url": ""
+      }
     ],
     "downloadLinks": [{ "name": "", "url": "" }]
   }

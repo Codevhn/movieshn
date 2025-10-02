@@ -21,5 +21,8 @@
   "homepage": "https://github.com/Codevhn/movieshn#readme",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "copilot": "^0.0.2"
   }
 }
