@@ -4,6 +4,8 @@
 
 let allMovies = [];
 let allSeries = []; // New array for series
+let heroMovies = []; // Array para las películas del Hero dinámico
+let currentHeroMovieIndex = 0;
 
 // Helpers
 const $ = (sel) => document.querySelector(sel);
@@ -38,8 +40,8 @@ const createCard = (item, type = 'movie') => {
           <p>${item.year}</p>
         </div>      
       </a>
-      <button class="add-to-list" data-id="${item.id}" data-type="${type}">
-        ${alreadyInList ? "✅ En mi lista" : "+ Mi lista"}
+      <button class="add-to-list ${alreadyInList ? 'added-to-list' : ''}" data-id="${item.id}" data-type="${type}">
+        ${alreadyInList ? "En mi lista" : "Mi lista"}
       </button>
   `;
   return card;
@@ -49,28 +51,74 @@ const createCard = (item, type = 'movie') => {
 // RENDER HERO
 // ========================
 function renderHero(movie) {
+    const heroSection = document.querySelector(".hero");
     const heroBg = document.querySelector('.hero-background img');
     const heroTitle = document.querySelector('.hero-title');
-    const heroDescription = document.querySelector('.hero-description');
+    const heroDescription = document.querySelector('.hero-content p');
     const watchNowBtn = document.getElementById('hero-watch-now');
 
-    if (!heroBg || !heroTitle || !heroDescription || !watchNowBtn) {
+    if (!heroBg || !heroTitle || !heroDescription || !watchNowBtn || !heroSection) {
         console.error('Hero elements not found!');
         return;
     }
 
-    heroBg.src = movie.backdrop || movie.cover;
-    heroTitle.textContent = movie.title;
-    heroDescription.textContent = movie.description.substring(0, 120) + '...';
+    // Aplicar una clase para la transición de opacidad
+    heroSection.classList.add("fade-out");
 
-    if (movie.embed && movie.embed.trim() !== '') {
-        watchNowBtn.href = `movie.html?id=${movie.id}`;
-    } else {
-        watchNowBtn.classList.add('disabled');
-        watchNowBtn.href = '#';
-    }
+    setTimeout(() => {
+        heroBg.src = movie.backdrop || movie.cover;
+        heroTitle.textContent = movie.title;
+        heroDescription.textContent = movie.description.substring(0, 120) + '...';
+
+        // Modificado para apuntar a movie.html
+        if (movie.id) { // Asegurarse de que la película tenga un ID
+            watchNowBtn.href = `movie.html?id=${movie.id}`;
+            watchNowBtn.target = "_self"; // Mantener en la misma pestaña
+            watchNowBtn.style.display = "inline-block"; // Mostrar el botón
+        } else {
+            watchNowBtn.href = "#";
+            watchNowBtn.target = "_self";
+            watchNowBtn.style.display = "none"; // Ocultar si no hay ID
+        }
+
+        heroSection.classList.remove("fade-out");
+        heroSection.classList.add("fade-in");
+        setTimeout(() => {
+            heroSection.classList.remove("fade-in");
+        }, 500); // Duración de la transición
+    }, 500); // Esperar a que termine el fade-out
 }
 
+// ========================
+// START DYNAMIC HERO CYCLE
+// ========================
+function startDynamicHeroCycle() {
+    const availableMovies = allMovies.filter(m => m.backdrop && m.backdrop.trim() !== '');
+    if (availableMovies.length === 0) {
+        console.warn("No movies with backdrops found for dynamic hero.");
+        return;
+    }
+
+    heroMovies = availableMovies.sort(() => Math.random() - 0.5); // Mezclar películas
+
+    renderHero(heroMovies[currentHeroMovieIndex]);
+
+    setInterval(() => {
+        currentHeroMovieIndex = (currentHeroMovieIndex + 1) % heroMovies.length;
+        renderHero(heroMovies[currentHeroMovieIndex]);
+    }, 8000); // Cambiar cada 8 segundos
+}
+
+// ========================
+// ADJUST HERO POSITION (for fixed header)
+// ========================
+function adjustHeroPosition() {
+    const siteHeader = document.querySelector('.site-header');
+    if (siteHeader) {
+        const headerHeight = siteHeader.offsetHeight;
+        document.body.style.paddingTop = `${headerHeight + 40}px`; // Añadir 40px extra para bajar el Hero
+    }
+}
 
 // ========================
 // RENDER MOVIES
@@ -188,20 +236,92 @@ function renderTvSeriesCategory(seriesList) {
   });
 }
 
+// ===============================
+// RENDER SIDEBAR CONTENT (SERIES)
+// ===============================
+function renderSidebarSeries(seriesList) {
+  // 1. Render "Últimas Series Agregadas"
+  const latestSeriesContainer = document.getElementById('latest-series-sidebar');
+  if (latestSeriesContainer) {
+    latestSeriesContainer.innerHTML = ''; // Limpiar
+    const latestSeries = seriesList.slice(-3).reverse(); // Tomar las últimas 3
+
+    latestSeries.forEach(series => {
+      const item = document.createElement('div');
+      item.className = 'featured-item';
+      item.innerHTML = `
+        <img src="${series.cover}" alt="${series.title}">
+        <p>${series.title}</p>
+      `;
+      item.addEventListener('click', () => {
+        window.location.href = `series.html?id=${series.id}`;
+      });
+      latestSeriesContainer.appendChild(item);
+    });
+  }
+
+  // 2. Render "Serie del Día"
+  const recommendedContainer = document.getElementById('recommended-series-container');
+  if (recommendedContainer && seriesList.length > 0) {
+    recommendedContainer.innerHTML = ''; // Limpiar
+    const randomSeries = seriesList[Math.floor(Math.random() * seriesList.length)];
+
+    const item = document.createElement('div');
+    item.className = 'featured-item';
+    item.innerHTML = `
+        <img src="${randomSeries.cover}" alt="${randomSeries.title}">
+        <p>${randomSeries.title}</p>
+    `;
+    item.addEventListener('click', () => {
+        window.location.href = `series.html?id=${randomSeries.id}`;
+    });
+    recommendedContainer.appendChild(item);
+  }
+}
+
 // ========================
-// Update counts for Mi Lista and Favoritos
+// RENDER CONTINUE WATCHING SECTION
+// ========================
+function renderContinueWatching() {
+  const continueWatchingSection = document.getElementById('continue-watching-section');
+  const continueWatchingGrid = document.getElementById('continue-watching-grid');
+  if (!continueWatchingSection || !continueWatchingGrid) return;
+
+  const recentlyWatched = JSON.parse(localStorage.getItem('recentlyWatched')) || [];
+
+  if (recentlyWatched.length > 0) {
+    continueWatchingSection.style.display = 'block';
+    continueWatchingGrid.innerHTML = '';
+
+    recentlyWatched.forEach(item => {
+      // Find the full movie object from allMovies to get all its properties
+      const fullMovieInfo = allMovies.find(m => m.id === item.id);
+      if (fullMovieInfo) {
+        const card = createCard(fullMovieInfo, 'movie');
+        continueWatchingGrid.appendChild(card);
+      }
+    });
+
+    // Hide the section if no valid movies were found and added
+    if (continueWatchingGrid.children.length === 0) {
+        continueWatchingSection.style.display = 'none';
+    }
+
+  } else {
+    continueWatchingSection.style.display = 'none';
+  }
+}
+
+// ========================
+// Update counts for Mi Lista
 // ========================
 function updateCounts() {
   const myListCountSpan = document.getElementById('mylist-count');
-  const favoritesCountSpan = document.getElementById('favorites-count');
   const stored = JSON.parse(localStorage.getItem('myList')) || [];
   const count = stored.length;
 
   if (myListCountSpan) {
     myListCountSpan.textContent = `(${count})`;
-  }
-  if (favoritesCountSpan) {
-    favoritesCountSpan.textContent = `(${count})`; // For now, favorites mirrors mylist
   }
 }
 
@@ -214,7 +334,7 @@ function smoothScrollTo(targetId) {
 
   const headerOffset = document.querySelector('.site-header').offsetHeight;
   const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-  const offsetPosition = elementPosition - headerOffset - 20; // 20px extra padding
+  const offsetPosition = elementPosition - headerOffset - 20; // Restar el alto del header y un poco más para padding
 
   window.scrollTo({
     top: offsetPosition,
@@ -233,22 +353,78 @@ Promise.all([
     allMovies = movies || [];
     allSeries = series || [];
 
-    const availableMovies = allMovies.filter(m => m.embed && m.embed.trim() !== '');
-    if (availableMovies.length > 0) {
-        const randomMovie = availableMovies[Math.floor(Math.random() * availableMovies.length)];
-        renderHero(randomMovie);
-    }
+    startDynamicHeroCycle(); // Iniciar el ciclo del Hero dinámico
 
     renderMovies(allMovies);
     renderLatestSeries(allSeries); // Render latest series
     renderTvSeriesCategory(allSeries); // Render all TV series
+    renderSidebarSeries(allSeries); // Render sidebar series
     initYearFilter();
     initMenu();
     initMyList();
-    initAccordion(); // Call the new accordion function
     updateCounts(); // Call updateCounts on initial load
+    renderCarousel(allMovies, allSeries); // Render the new carousel
+    renderContinueWatching(); // Render continue watching section
+
+    adjustHeroPosition(); // Ajustar la posición del Hero al cargar
   })
   .catch((err) => console.error("Error cargando JSON de datos:", err));
+
+// Event listeners para ajustar la posición del Hero en resize
+window.addEventListener('resize', adjustHeroPosition);
+
+// ========================
+// RENDER CAROUSEL
+// ========================
+function renderCarousel(movies, series) {
+    const carouselTrack = document.querySelector('.carousel-track');
+    if (!carouselTrack) return;
+
+    const combinedItems = [];
+    // Tomar una selección de las últimas películas y series
+    const latestMovies = movies.slice(0, 10); // Últimas 10 películas
+    const latestSeries = series.slice(0, 10); // Últimas 10 series
+
+    // Combinar y mezclar ligeramente para variedad
+    latestMovies.forEach(m => combinedItems.push({ ...m, type: 'movie' }));
+    latestSeries.forEach(s => combinedItems.push({ ...s, type: 'series' }));
+    combinedItems.sort(() => 0.5 - Math.random()); // Mezcla simple
+
+    // Duplicar el contenido para un loop continuo
+    const itemsToRender = [...combinedItems, ...combinedItems];
+
+    carouselTrack.innerHTML = ''; // Limpiar para evitar duplicados en recargas
+
+    itemsToRender.forEach(item => {
+        const carouselItem = document.createElement('div');
+        carouselItem.className = 'carousel-item';
+
+        const link = document.createElement('a');
+        link.className = 'carousel-link';
+        link.href = item.type === 'series' ? `series.html?id=${item.id}` : `movie.html?id=${item.id}`;
+        link.setAttribute('aria-label', item.title);
+
+        const image = document.createElement('img');
+        image.src = item.cover;
+        image.alt = item.title;
+        image.loading = 'lazy';
+
+        const badge = document.createElement('span');
+        badge.className = 'carousel-badge';
+        badge.textContent = item.type === 'series' ? 'Serie' : 'Película';
+
+        link.appendChild(image);
+        link.appendChild(badge);
+        carouselItem.appendChild(link);
+        carouselTrack.appendChild(carouselItem);
+    });
+
+    if (itemsToRender.length) {
+        const baseSpeed = 22;
+        const duration = Math.max(baseSpeed, combinedItems.length * 3);
+        carouselTrack.style.animationDuration = `${duration}s`;
+    }
+}
 
 // ========================
 // Filtro por AÑO (aside)
@@ -338,39 +514,15 @@ function initMyList() {
       //QUitar item
       const newList = stored.filter((id) => id !== itemId);
       localStorage.setItem("myList", JSON.stringify(newList));
-      btn.textContent = "➕ Mi lista";
+      btn.textContent = "Mi lista";
+      btn.classList.remove('added-to-list');
     } else {
       //Agregar item
       stored.push(itemId);
       localStorage.setItem("myList", JSON.stringify(stored));
-      btn.textContent = "✅ En mi lista";
+      btn.textContent = "En mi lista";
+      btn.classList.add('added-to-list');
     }
     updateCounts(); // Call updateCounts after modifying myList
-  });
-}
-
-// ========================
-// Accordion for sidebar-left
-// ========================
-function initAccordion() {
-  document.querySelectorAll('.sidebar-category').forEach(category => {
-    const toggle = category.querySelector('.category-toggle');
-    const content = toggle.nextElementSibling; // Select the element immediately following the toggle
-
-    if (toggle && content) {
-      content.classList.add('category-content'); // Ensure content has the class for CSS transitions
-
-      // Initially collapse all content
-      content.classList.remove('expanded');
-      toggle.classList.remove('expanded');
-
-      toggle.addEventListener('click', () => {
-        console.log('Accordion toggle clicked!', content.classList.contains('expanded') ? 'Collapsing' : 'Expanding');
-        // Toggle the expanded class on the content
-        content.classList.toggle('expanded');
-        // Toggle the expanded class on the toggle itself for arrow rotation
-        toggle.classList.toggle('expanded');
-      });
-    }
   });
 }

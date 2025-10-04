@@ -40,62 +40,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <canvas id="background-canvas"></canvas>
 
-<nav id="main-fixed-sidebar">
-  <ul>
-    <li>
-      <a href="series.html">
-        <div class="sidebar-icon">📺</div>
-        <span>Series</span>
-      </a>
-    </li>
-    <li>
-      <a href="#tv-series-category">
-        <div class="sidebar-icon">📺</div>
-        <span>Todas las Series</span>
-      </a>
-    </li>
-    <li>
-      <a href="#peliculas">
-        <div class="sidebar-icon">🎬</div>
-        <span>Películas</span>
-      </a>
-    </li>
-    <li>
-      <a href="#actores">
-        <div class="sidebar-icon">👤</div>
-        <span>Actores</span>
-      </a>
-    </li>
-    <li>
-      <a href="#sagas">
-        <div class="sidebar-icon">📚</div>
-        <span>Sagas</span>
-      </a>
-    </li>
-    <li>
-      <a href="#proximamente">
-        <div class="sidebar-icon">🔜</div>
-        <span>Próximamente</span>
-      </a>
-    </li>
-    <li>
-      <a href="#estrenos">
-        <div class="sidebar-icon">✨</div>
-        <span>Estrenos</span>
-      </a>
-    </li>
-    <li>
-      <a href="#colecciones">
-        <div class="sidebar-icon">📦</div>
-        <span>Colecciones</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+
 
 <header class="site-header">
 
@@ -123,13 +73,13 @@
     <!-- Botón cerrar (solo en móvil / menú abierto) -->
     <button class="menu-close" aria-label="Cerrar menú">✕</button>
     <ul>
-      <li><a href="#recientes">Recientes</a></li>
-      <li><a href="#mas-vistas">Más vistas</a></li>
-      <li><a href="#accion">Acción</a></li>
-      <li><a href="#terror">Terror</a></li>
-      <li><a href="#suspenso">Suspenso</a></li>
-      <li><a href="series.html">Series</a></li>
-      <li><a href="#tv-series-category">Todas las Series</a></li>
+      <li><a href="#recientes"><i class="fas fa-fire"></i> Recientes</a></li>
+      <li><a href="#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
+      <li><a href="#accion"><i class="fas fa-fist-raised"></i> Acción</a></li>
+      <li><a href="#terror"><i class="fas fa-ghost"></i> Terror</a></li>
+      <li><a href="#suspenso"><i class="fas fa-user-secret"></i> Suspenso</a></li>
+      <li><a href="series.html"><i class="fas fa-tv"></i> Series</a></li>
+      <li><a href="#tv-series-category"><i class="fas fa-list-alt"></i> Todas las Series</a></li>
     </ul>
   </nav>
 </header>
@@ -162,12 +112,34 @@
   </p>
 </section>
 
+    
+
+
+
+<section class="latest-carousel-section">
+  <h2>Últimos Agregados</h2>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <!-- Carousel items will be injected here by JS -->
+    </div>
+  </div>
+</section>
+
 
 <div class="layout">
   <!-- Sidebar izquierdo -->
   <aside class="sidebar-left">
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="genre-list">Explorar por Género</h3>
+      <h3 class="category-toggle" data-target="my-list-section"><i class="fas fa-bookmark"></i> Mi Lista <span class="item-count" id="mylist-count">(0)</span></h3>
+      <ul class="my-list-section category-content">
+        <li><a href="mylist.html">Ver mi lista</a></li>
+      </ul>
+    </div>
+
+    
+
+    <div class="sidebar-category">
+      <h3 class="category-toggle" data-target="genre-list"><i class="fas fa-tags"></i> Explorar por Género</h3>
       <ul class="genre-list category-content">
         <li><a href="#accion">Acción</a></li>
         <li><a href="#terror">Terror</a></li>
@@ -183,7 +155,7 @@
     </div>
 
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="years-grid">Explorar por año</h3>
+      <h3 class="category-toggle" data-target="years-grid"><i class="fas fa-calendar-alt"></i> Explorar por año</h3>
       <div class="years-grid category-content">
         <span data-year="2025">2025</span>
         <span data-year="2024">2024</span>
@@ -236,7 +208,7 @@
     </div>
 
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="platform-list">Explorar por Plataformas</h3>
+      <h3 class="category-toggle" data-target="platform-list"><i class="fas fa-desktop"></i> Explorar por Plataformas</h3>
       <ul class="platform-list category-content">
         <li><a href="#">Netflix</a></li>
         <li><a href="#">Amazon Prime Video</a></li>
@@ -247,7 +219,7 @@
     </div>
 
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="saga-list">Sagas</h3>
+      <h3 class="category-toggle" data-target="saga-list"><i class="fas fa-book-open"></i> Sagas</h3>
       <ul class="saga-list category-content">
         <li><a href="#">Star Wars</a></li>
         <li><a href="#">Marvel Cinematic Universe</a></li>
@@ -258,7 +230,7 @@
     </div>
 
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="actor-list">Actores</h3>
+      <h3 class="category-toggle" data-target="actor-list"><i class="fas fa-users"></i> Actores</h3>
       <ul class="actor-list category-content">
         <li><a href="#">Tom Hanks</a></li>
         <li><a href="#">Meryl Streep</a></li>
@@ -269,7 +241,7 @@
     </div>
 
     <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="country-list">Explorar por País</h3>
+      <h3 class="category-toggle" data-target="country-list"><i class="fas fa-globe"></i> Explorar por País</h3>
       <ul class="country-list category-content">
         <li><a href="#">Estados Unidos</a></li>
         <li><a href="#">España</a></li>
@@ -280,23 +252,22 @@
       </ul>
     </div>
 
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="my-list-section">Mi Lista <span class="item-count" id="mylist-count">(0)</span></h3>
-      <ul class="my-list-section category-content">
-        <li><a href="mylist.html">Ver mi lista</a></li>
-      </ul>
-    </div>
+    
 
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="favorites-section">Favoritos <span class="item-count" id="favorites-count">(0)</span></h3>
-      <ul class="favorites-section category-content">
-        <li><a href="#">Mis películas favoritas</a></li>
-      </ul>
-    </div>
+    
   </aside>
 
   <main class="main-content">
     <div class="container-movies">
+      
+
+      <section id="continue-watching-section" class="movie-section" style="display:none;">
+        <h2>Continuar Viendo</h2>
+        <div id="continue-watching-grid" class="movie-grid">
+          <!-- Las películas para continuar viendo se renderizarán aquí -->
+        </div>
+      </section>
+
       <section id="search-results" class="movie-section" style="display:none;">
         <h2>Resultados</h2>
         <div class="movie-grid"></div>
@@ -403,8 +374,17 @@
   <!-- Sidebar derecho -->
   <aside class="sidebar-right">
     
-    
-    <h3>Películas Destacadas</h3>
+    <h3><i class="fas fa-plus-square"></i> Últimas Series Agregadas</h3>
+    <div id="latest-series-sidebar" class="featured-series">
+      <!-- Contenido generado por JS -->
+    </div>
+
+    <h3 id="recommended-series-title"><i class="fas fa-award"></i> Serie del Día</h3>
+    <div id="recommended-series-container" class="featured-series">
+        <!-- Contenido generado por JS -->
+    </div>
+
+    <h3><i class="fas fa-film"></i> Películas Destacadas</h3>
     <div class="featured-movies">
       <div class="featured-item">
         <img src="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" alt="The Matrix">
@@ -420,7 +400,7 @@
       </div>
     </div>
 
-    <h3>Próximos Estrenos</h3>
+    <h3><i class="fas fa-calendar-alt"></i> Próximos Estrenos</h3>
     <div class="featured-movies">
       <div class="featured-item">
         <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000000.jpg" alt="Próximo Estreno 1">
@@ -436,23 +416,12 @@
       </div>
     </div>
 
-    <h3>Serie del Día</h3>
-    <div class="featured-series">
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000003.jpg" alt="Serie del Día">
-        <p>Nombre de la Serie</p>
-      </div>
-    </div>
-
-    <h3>Película del Día</h3>
+    <h3><i class="fas fa-award"></i> Película del Día</h3>
     <div class="featured-movies">
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000004.jpg" alt="Película del Día">
-        <p>Nombre de la Película</p>
-      </div>
+      <!-- Contenido generado por JS -->
     </div>
 
-    <h3>Noticias</h3>
+    <h3><i class="fas fa-newspaper"></i> Noticias</h3>
     <div class="news-list">
       <div class="featured-item">
         <p>Noticia 1: Lorem ipsum dolor sit amet.</p>
@@ -474,6 +443,7 @@
 </footer>
 <script src="./js/index.js"></script>
 <script src="./js/menu.js"></script>
+
 
 </body>
 

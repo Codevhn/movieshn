@@ -1,0 +1,921 @@
+[
+  {
+    "id": "the-mandalorian",
+    "title": "The Mandalorian",
+    "originalTitle": "The Mandalorian",
+    "year": "2019 - Presente",
+    "cover": "assets/covers/the-mandalorian.webp",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bL0S7bC92P1M8yQ1t0d0g0g0g0g.jpg",
+    "description": "Después de las historias de Jango y Boba Fett, otro guerrero emerge en el universo de Star Wars. The Mandalorian se desarrolla después de la caída del Imperio y antes de la aparición de la Primera Orden. Seguimos los pasos de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.",
+    "director": "Jon Favreau (Showrunner)",
+    "cast": [
+      "Pedro Pascal",
+      "Gina Carano",
+      "Carl Weathers",
+      "Giancarlo Esposito"
+    ],
+    "genre": ["Ciencia Ficción", "Aventura", "Western Espacial"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "ageRating": "13+",
+    "trailer": "https://www.youtube.com/watch?v=aOC8E8z_ifw",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "title": "The Mandalorian: Temporada 1",
+        "cover": "assets/covers/the-mandalorian-s1.webp",
+        "description": "La primera temporada sigue al Mandaloriano, un cazarrecompensas solitario, mientras se embarca en una misión para entregar un misterioso activo, lo que lo lleva a proteger a un niño sensible a la Fuerza.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Capítulo 1: El Mandaloriano",
+            "description": "Un cazarrecompensas solitario acepta un encargo misterioso en los confines de la galaxia.",
+            "duration": "39m",
+            "embed": "https://waaw.ac/f/ejemplo-mandalorian-s1e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mandalorian-s1e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Capítulo 2: El Niño",
+            "description": "El Mandaloriano debe proteger a su valiosa carga de peligros inesperados.",
+            "duration": "32m",
+            "embed": "https://waaw.ac/f/ejemplo-mandalorian-s1e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mandalorian-s1e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "title": "The Mandalorian: Temporada 2",
+        "cover": "assets/covers/the-mandalorian-s2.webp",
+        "description": "El Mandaloriano continúa su viaje para reunir a El Niño con los de su especie, encontrando aliados y enemigos en el camino.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Capítulo 9: El Mariscal",
+            "description": "El Mandaloriano busca a otros de su especie en un planeta desértico.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-mandalorian-s2e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mandalorian-s2e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "SERIE": "Mr Robot todas las temporadas",
+    "id": "mr-robot",
+    "title": "Mr. Robot",
+    "originalTitle": "Mr. Robot",
+    "year": "2015 - 2019",
+    "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4ceSkV7cmCon4exXaZwuhW1VdE0.jpg",
+    "description": "Elliot, un joven programador que trabaja como ingeniero de ciberseguridad de día y hacker justiciero de noche, es reclutado por un misterioso anarquista conocido como Mr. Robot para unirse a fsociety, un grupo que busca derribar a las corporaciones que controlan el mundo.",
+    "director": "Sam Esmail (Showrunner)",
+    "cast": [
+      "Rami Malek",
+      "Christian Slater",
+      "Carly Chaikin",
+      "Portia Doubleday",
+      "Martin Wallström"
+    ],
+    "genre": ["Drama", "Thriller", "Tecnología"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "ageRating": "16+",
+    "trailer": "https://www.youtube.com/watch?v=N6HGuJC--rk",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "title": "Mr. Robot: Temporada 1",
+        "cover": "https://artworks.thetvdb.com/banners/episodes/289590/5077068.jpg",
+        "description": "Elliot, un hacker brillante con problemas de ansiedad social, se une a fsociety bajo la guía de Mr. Robot, en un plan para destruir a E Corp, la corporación más poderosa del mundo.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "eps1.0_hellofriend",
+            "description": "Elliot, ingeniero de ciberseguridad y hacker justiciero, es reclutado por Mr. Robot para una misión que podría cambiar el mundo.",
+            "duration": "64m",
+            "embed": "https://waaw.ac/f/TRtAg8oTnIYx",
+            "watchLinks": [
+              {
+                "name": "Opcion 1 Espanol latino",
+                "url": "https://waaw.ac/f/TRtAg8oTnIYx"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "eps1.1_ones-and-zer0es.mpeg",
+            "description": "Elliot debe decidir si unirse o no a la misión de Mr. Robot y fsociety.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/TRtAg8oTnIYx",
+            "watchLinks": [
+              {
+                "name": "",
+                "url": "https://waaw.ac/f/TRtAg8oTnIYx"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "eps1.2_d3bug.mkv",
+            "description": "Elliot lucha con sus emociones mientras fsociety avanza con su plan.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e3",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "eps1.3_da3m0ns.mp4",
+            "description": "Elliot enfrenta un reto psicológico que lo lleva a cuestionar su propia realidad.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e4",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "eps1.4_3xpl0its.wmv",
+            "description": "fsociety ejecuta un plan arriesgado contra Steel Mountain, la instalación de datos de E Corp.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e5",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e5-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "eps1.5_br4ve-trave1er.asf",
+            "description": "Elliot se ve obligado a realizar un hackeo crítico para salvar a alguien cercano.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e6",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e6-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "eps1.6_v1ew-s0urce.flv",
+            "description": "Elliot comienza a descubrir secretos inquietantes sobre Mr. Robot y fsociety.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e7",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e7-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "eps1.7_wh1ter0se.m4v",
+            "description": "Elliot se enfrenta a Whiterose, líder de un misterioso grupo de hackers.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e8",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e8-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "eps1.8_m1rr0r1ng.qt",
+            "description": "Elliot enfrenta revelaciones impactantes que cambian su visión de la realidad.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e9",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e9-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "eps1.9_zer0-day.avi",
+            "description": "El plan de fsociety llega a su punto culminante, y el mundo nunca será igual.",
+            "duration": "65m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s1e10",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s1e10-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "title": "Mr. Robot: Temporada 2",
+        "cover": "assets/covers/mr-robot-s2.webp",
+        "description": "Después del hackeo de fsociety a E Corp, el mundo entra en caos. Elliot lucha con su doble vida, mientras Mr. Robot ejerce más control sobre él. La temporada profundiza en las consecuencias del ataque y en los secretos detrás de la organización oscura Dark Army.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "eps2.0_unm4sk-pt1.tc",
+            "description": "Elliot intenta vivir una vida tranquila, pero la presencia de Mr. Robot lo atormenta.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "eps2.0_unm4sk-pt2.tc",
+            "description": "Elliot sigue enfrentándose a Mr. Robot mientras fsociety maneja las consecuencias del hackeo.",
+            "duration": "45m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "eps2.1_k3rnel-pan1c.ksd",
+            "description": "Elliot busca liberarse del control de Mr. Robot a través de métodos extremos.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e3",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "eps2.2_init1.asec",
+            "description": "Angela comienza a involucrarse más en E Corp mientras fsociety continúa sus planes.",
+            "duration": "54m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e4",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "eps2.3_logic-b0mb.hc",
+            "description": "Elliot busca ayuda externa mientras Darlene toma decisiones difíciles en fsociety.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e5",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e5-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "eps2.4_m4ster-s1ave.aes",
+            "description": "Elliot se enfrenta directamente a la influencia de Mr. Robot en su vida.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e6",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e6-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "eps2.5_h4ndshake.sme",
+            "description": "Se revelan detalles claves de la verdadera relación entre Elliot y Mr. Robot.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e7",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e7-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "eps2.6_succ3ss0r.p12",
+            "description": "Darlene lidera fsociety mientras Elliot continúa en su lucha interna.",
+            "duration": "57m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e8",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e8-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "eps2.7_init_5.fve",
+            "description": "Elliot se enfrenta a nuevas revelaciones mientras el Dark Army intensifica su papel.",
+            "duration": "56m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e9",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e9-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "eps2.8_h1dden-pr0cess.axx",
+            "description": "Angela toma decisiones que cambian su camino dentro de E Corp.",
+            "duration": "53m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e10",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e10-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "eps2.9_pyth0n-pt1.p7z",
+            "description": "Las piezas empiezan a encajar mientras Elliot se prepara para el siguiente movimiento.",
+            "duration": "61m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e11",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e11-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "eps2.9_pyth0n-pt2.p7z",
+            "description": "La temporada culmina con impactantes revelaciones que redefinen todo lo que Elliot creía.",
+            "duration": "64m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s2e12",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s2e12-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+
+      {
+        "seasonNumber": 3,
+        "title": "Mr. Robot: Temporada 3",
+        "cover": "assets/covers/mr-robot-s3.webp",
+        "description": "Tras los eventos de la segunda temporada, Elliot intenta detener el plan de la Fase 2 mientras enfrenta a Mr. Robot y la creciente influencia del Dark Army.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "eps3.0_power-saver-mode.h",
+            "description": "Elliot intenta revertir el plan de la Fase 2 mientras enfrenta las consecuencias de sus acciones.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "eps3.1_undo.gz",
+            "description": "Elliot busca trabajo en E Corp para intentar desmantelar el ataque desde dentro.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "eps3.2_legacy.so",
+            "description": "Se revela cómo Tyrell estuvo involucrado en los planes durante la ausencia de Elliot.",
+            "duration": "49m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e3",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "eps3.3_metadata.par2",
+            "description": "Elliot intenta mantener el control mientras el Dark Army mueve sus fichas.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e4",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "eps3.4_runtime-error.r00",
+            "description": "Elliot enfrenta un ataque en tiempo real en E Corp. (Episodio filmado en plano secuencia).",
+            "duration": "44m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e5",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e5-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "eps3.5_kill-process.inc",
+            "description": "Elliot enfrenta la difícil decisión de detener la Fase 2 o salvar vidas inocentes.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e6",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e6-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "eps3.6_fredrick+tanya.chk",
+            "description": "Darlene y Angela enfrentan las consecuencias del ataque del Dark Army.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e7",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e7-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "eps3.7_dont-delete-me.ko",
+            "description": "Elliot reflexiona sobre su vida y el impacto de sus acciones.",
+            "duration": "57m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e8",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e8-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "eps3.8_stage3.torrent",
+            "description": "Elliot y Darlene intentan contraatacar al Dark Army.",
+            "duration": "54m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e9",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e9-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "shutdown -r",
+            "description": "El enfrentamiento final redefine la lucha entre Elliot, Mr. Robot y el Dark Army.",
+            "duration": "65m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s3e10",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s3e10-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+
+      {
+        "seasonNumber": 4,
+        "title": "Mr. Robot: Temporada 4",
+        "cover": "assets/covers/mr-robot-s4.webp",
+        "description": "La temporada final revela la verdad detrás de la lucha de Elliot contra el Dark Army y su enfrentamiento definitivo con Whiterose. Secretos de su pasado salen a la luz y lo cambian todo.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "401 Unauthorized",
+            "description": "Elliot y Mr. Robot se unen de nuevo para enfrentarse a Whiterose.",
+            "duration": "56m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "402 Payment Required",
+            "description": "Elliot y Darlene trazan un nuevo plan para detener a Whiterose.",
+            "duration": "54m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "403 Forbidden",
+            "description": "Elliot se enfrenta a nuevas complicaciones mientras su plan avanza.",
+            "duration": "53m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e3",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "404 Not Found",
+            "description": "Elliot atraviesa una crisis personal durante la Nochebuena.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e4",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "405 Method Not Allowed",
+            "description": "Un episodio sin diálogos muestra un arriesgado hackeo a E Corp.",
+            "duration": "44m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e5",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e5-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "406 Not Acceptable",
+            "description": "Darlene y Dom enfrentan consecuencias de sus alianzas.",
+            "duration": "50m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e6",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e6-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "407 Proxy Authentication Required",
+            "description": "Elliot enfrenta a su terapeuta y revela traumas ocultos de su infancia.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e7",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e7-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "408 Request Timeout",
+            "description": "Elliot y Darlene preparan el golpe final contra el Dark Army.",
+            "duration": "54m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e8",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e8-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "409 Conflict",
+            "description": "El plan se complica y Elliot descubre un giro inesperado en los aliados.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e9",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e9-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "410 Gone",
+            "description": "El destino de fsociety se decide mientras Elliot continúa con el plan.",
+            "duration": "57m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e10",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e10-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "411 eXit",
+            "description": "Elliot enfrenta la verdad sobre sí mismo y la naturaleza del mundo en el que vive.",
+            "duration": "61m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e11",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e11-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "412 whoami",
+            "description": "La verdadera identidad de Elliot se revela, cambiando todo lo que creía saber.",
+            "duration": "50m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e12",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e12-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "413 Hello, Elliot",
+            "description": "El final de la serie revela la verdad definitiva sobre Elliot y su viaje.",
+            "duration": "57m",
+            "embed": "https://waaw.ac/f/ejemplo-mrrobot-s4e13",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-mrrobot-s4e13-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "SERIE": "Stranger Things todas las temporadas",
+    "id": "stranger-things",
+    "title": "Stranger Things",
+    "originalTitle": "Stranger Things",
+    "year": "2016 - Presente",
+    "cover": "assets/covers/stranger-things.webp",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "description": "En un pequeño pueblo de Indiana en los años 80, un niño desaparece misteriosamente. Sus amigos, su madre y el jefe de policía emprenden la búsqueda, descubriendo una serie de secretos sobrenaturales, experimentos gubernamentales y una niña con habilidades telequinéticas.",
+    "director": "Hermanos Duffer (Showrunners)",
+    "cast": [
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Winona Ryder",
+      "David Harbour",
+      "Gaten Matarazzo",
+      "Caleb McLaughlin",
+      "Natalia Dyer"
+    ],
+    "genre": ["Ciencia Ficción", "Terror", "Drama"],
+    "language": "Inglés, Español Latino",
+    "quality": "Full HD 1080p",
+    "ageRating": "16+",
+    "trailer": "https://www.youtube.com/watch?v=b9EkMc79ZSU",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "title": "Stranger Things: Temporada 1",
+        "cover": "assets/covers/stranger-things-s1.webp",
+        "description": "Cuando un niño desaparece, el pueblo de Hawkins revela una serie de misterios sobrenaturales relacionados con experimentos secretos y una niña con poderes especiales.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Capítulo Uno: La desaparición de Will Byers",
+            "description": "Cuando un niño desaparece, su madre y amigos enfrentan fuerzas sobrenaturales y secretos oscuros del gobierno.",
+            "duration": "47m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e1",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Capítulo Dos: La chica rara en la calle Maple",
+            "description": "Los amigos de Will encuentran a una misteriosa niña y deciden esconderla.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "Capítulo Tres: Luces de Navidad",
+            "description": "Joyce usa luces navideñas para intentar comunicarse con su hijo desaparecido.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e3",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "Capítulo Cuatro: El cuerpo",
+            "description": "La policía encuentra un cuerpo, pero la madre de Will se niega a creer que sea él.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e4",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "Capítulo Cinco: La pulga y el acróbata",
+            "description": "El grupo descubre más sobre el 'Mundo del Revés' y cómo Will podría estar atrapado allí.",
+            "duration": "53m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e5",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e5-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "Capítulo Seis: El monstruo",
+            "description": "Nancy y Jonathan unen fuerzas para enfrentar al monstruo del otro mundo.",
+            "duration": "46m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e6",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e6-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "Capítulo Siete: La bañera",
+            "description": "Los amigos de Eleven intentan crear un tanque sensorial para ayudarla a buscar a Will.",
+            "duration": "42m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e7",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e7-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "Capítulo Ocho: El otro lado",
+            "description": "Se enfrentan al Demogorgon en una batalla final que decidirá el destino de Hawkins.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e8",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e8-netu"
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      }
+    ]
+  }
+]

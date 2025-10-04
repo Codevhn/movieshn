@@ -5,7 +5,7 @@
     "originalTitle": "The Happening",
     "year": 2008,
     "cover": "assets/covers/el-fin-de-los-tiempos.webp",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/fxK8UPrkEYBLETymFzQqDG1hMpS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tX7SZs3VhzrWK2oN3dwBiJZTCLp.jpg",
     "description": "En las principales ciudades de Estados Unidos, la gente comienza a suicidarse en masa. Un profesor de ciencias y su esposa intentan huir de la ciudad y buscar refugio en el campo, pero pronto descubren que el peligro los sigue a todas partes.",
     "director": "M. Night Shyamalan",
     "cast": [
@@ -32,6 +32,7 @@
     "originalTitle": "Blade Runner 2049",
     "year": 2017,
     "cover": "assets/covers/blade-runner-2049.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/mVr0UiqyltcfqxbAUcLl9zWL8ah.jpg",
     "description": "Treinta años después de los eventos de la primera película, un nuevo blade runner, el oficial K de la policía de Los Ángeles, desentierra un secreto largamente enterrado que tiene el potencial de sumir lo que queda de la sociedad en el caos.",
     "director": "Denis Villeneuve",
     "cast": [
@@ -71,6 +72,7 @@
     "originalTitle": "Brick",
     "year": 2025,
     "cover": "assets/covers/el-muro-negro.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/rz2vIz9HbtaEp4YLs98FYjrhd7e.jpg",
     "description": "Cuando un misterioso muro de ladrillo aparece repentinamente alrededor de su edificio, Tim, Olivia y sus vecinos quedan atrapados sin salida. Lo que parece un simple encierro se convierte en una lucha psicológica por sobrevivir y entender qué hay detrás del muro.",
     "director": "Philip Koch",
     "cast": [
@@ -109,6 +111,7 @@
     "originalTitle": "Cobra",
     "year": 1986,
     "cover": "assets/covers/cobra-1986.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zPDpHMdbbE4O0TxVkMcgD6j2ImR.jpg",
     "description": "Un policía usa métodos extremos para proteger a una testigo de una secta violenta conocida como \"New Order\". Él hará lo que la ley no permite para detenerlos.",
     "director": "George P. Cosmatos",
     "cast": [
@@ -145,6 +148,7 @@
     "originalTitle": "Double Impact",
     "year": 1991,
     "cover": "assets/covers/doble-impacto-1991.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/iI0n28l5vn3K1GdXHVoA54kRemv.jpg",
     "description": "Dos hermanos gemelos son separados al nacer tras el asesinato de sus padres. Años después, Chad vive en Los Ángeles como instructor de artes marciales mientras Alex crece en Hong Kong dedicándose al contrabando. Reunidos después de 25 años, deberán unir fuerzas para vengar la muerte de sus padres.",
     "director": "Sheldon Lettich",
     "cast": [
@@ -185,6 +189,7 @@
     "originalTitle": "Acid",
     "year": 2023,
     "cover": "assets/covers/acido-aniquilacion-total-2023.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/rzz7TBviOvDgIeujt2h9GwxV0AJ.jpg",
     "description": "En plena ola de calor aparece una nube ominosa que desprende lluvias ácidas letales. Una familia separada debe reunirse para escapar de esta catástrofe climática y protegerse cuando el caos se desata. :contentReference[oaicite:1]{index=1}",
     "director": "Just Philippot",
     "cast": [
@@ -218,6 +223,7 @@
     "originalTitle": "Battle: Los Angeles",
     "year": 2011,
     "cover": "assets/covers/invasion-del-mundo-batalla-los-angeles-2011.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/buspsNeIGOAznaYQsnGDmQLZakW.jpg",
     "description": "Cuando una invasión extraterrestre comienza frente a las costas de ciudades del mundo, un pelotón de marines liderado por el Sargento Michael Nantz debe resistir y proteger a civiles mientras Los Ángeles se convierte en campo de batalla.",
     "director": "Jonathan Liebesman",
     "cast": [
@@ -233,16 +239,16 @@
     "quality": "Full HD 1080p",
     "duration": "1h 56m",
     "ageRating": "16+",
-    "trailer": "https://www.youtube.com/watch?v=jr6dCLsVwkQ",
-    "embed": "https://waaw.ac/f/4bIjJxqFRFRc",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/dg6gplyvJooO",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/4bIjJxqFRFRc" },
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/dg6gplyvJooO" },
       { "name": "Voe", "url": "" }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "" },
-      { "name": "Google Drive", "url": "" },
-      { "name": "uTorrent", "url": "" }
+      { "name": "Mega", "url": "https://waaw.ac/f/dg6gplyvJooO" },
+      { "name": "Google Drive", "url": "https://waaw.ac/f/dg6gplyvJooO" },
+      { "name": "uTorrent", "url": "https://waaw.ac/f/dg6gplyvJooO" }
     ]
   },
 
@@ -318,6 +324,7 @@
     "originalTitle": "2 Fast 2 Furious",
     "year": 2003,
     "cover": "assets/covers/fast&furious-2.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/m5yty5iXdSab42AwgL6bvFbc0IV.jpg",
     "description": "El ex‑oficial del LAPD Brian O'Conner se une a su amigo de la infancia Roman Pearce para trabajar encubiertos transportando un cargamento de dinero sucio para el traficante Carter Verone. Con la agente encubierta Monica Fuentes colaborando en secreto, intentan derribar la operación corrupta mientras enfrentan desafíos personales y persecuciones intensas.",
     "director": "John Singleton",
     "cast": [
@@ -547,6 +554,7 @@
     "originalTitle": "Fast & Furious Presents: Hobbs & Shaw",
     "year": 2019,
     "cover": "assets/covers/fast-and-furious-presents-hobbs-and-shaw-2019.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
     "description": "El agente Luke Hobbs y el forajido Deckard Shaw se ven obligados a formar una alianza incómoda cuando un terrorista cibernéticamente mejorado amenaza con desatar un virus mortal que podría acabar con millones de personas.",
     "director": "David Leitch",
     "cast": [
@@ -582,6 +590,7 @@
     "originalTitle": "F9: The Fast Saga",
     "year": 2021,
     "cover": "assets/covers/fast&furious-9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gGTCDNEvwG848u34Op1nZNALLUr.jpg",
     "description": "Dominic Toretto vive una vida tranquila con Letty y su hijo, lejos de la acción. Pero cuando su hermano Jakob, experto conductor asesino, emerge con un plan peligroso que involucra un programa secreto llamado Proyecto Aries, Dom debe reunir a su equipo para enfrentarlo y proteger a su familia.",
     "director": "Justin Lin",
     "cast": [
@@ -612,10 +621,11 @@
 
   {
     "id": "rapidos-y-furiosos-10-2023",
-    "title": "Rapidoss y Furiosos 10",
+    "title": "Rapidos y Furiosos 10",
     "originalTitle": "Fast X",
     "year": 2023,
     "cover": "assets/covers/fast&furious-10.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/k8lWXLyC3r0Vd9wKNzlWvtJmogV.jpg",
     "description": "Dominic Toretto debe proteger a su familia de Dante Reyes, quien busca venganza por la muerte de su padre y la pérdida de su fortuna.",
     "director": "Louis Leterrier",
     "cast": [
@@ -656,6 +666,7 @@
     "originalTitle": "Elevation",
     "year": 2024,
     "cover": "assets/covers/criaturas-linea-de-extincion-2024.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/au3o84ub27qTZiMiEc9UYzN74V3.jpg",
     "description": "Un padre soltero y dos mujeres se aventuran desde la seguridad de sus hogares para enfrentarse a criaturas monstruosas y salvar la vida de un niño.",
     "director": "George Nolfi",
     "cast": [
@@ -685,6 +696,7 @@
     "originalTitle": "The Terminator",
     "year": 1984,
     "cover": "assets/covers/terminator-1-1984.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg",
     "description": "Un cyborg asesino (Terminator) viaja desde el año 2029 hasta 1984 para matar a Sarah Connor, ya que su hijo por nacer liderará la resistencia humana contra Skynet, una inteligencia artificial que causará un holocausto nuclear. Kyle Reese es enviado para protegerla.",
     "director": "James Cameron",
     "cast": [
@@ -1033,6 +1045,7 @@
     "originalTitle": "Il signor Diavolo",
     "year": 2019,
     "cover": "assets/covers/senor-diablo-2019.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/9CBrr4YHHMW4JnIOFTiZCnSx7Hy.jpg",
     "description": "En 1952, en Italia, el joven agente Furio Momenté es enviado a la región del Véneto para investigar el misterioso caso de un adolescente de catorce años que mató a un niño, afirmando haber matado al diablo.",
     "director": "Pupi Avati",
     "cast": ["Massimo Bonetti", "Lino Capolicchio", "Chiara Caselli"],
@@ -1053,6 +1066,7 @@
     "originalTitle": "The Conjuring: Last Rites",
     "year": 2025,
     "cover": "assets/covers/el-conjuro-4-2025.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/tcBX2dtkNozZ0uDLVaxXrE6rqyN.jpg",
     "description": "Ed y Lorraine Warren regresan para investigar el caso Smurl, una familia en Pensilvania que afirma estar siendo atacada por un demonio a través de un espejo maldito. Conforme los Warren intentan ayudar, los fenómenos sobrenaturales aumentan y la confrontación final con lo maligno se vuelve inevitable.",
     "director": "Michael Chaves",
     "cast": [
@@ -1088,6 +1102,7 @@
     "originalTitle": "The Void",
     "year": 2016,
     "cover": "assets/covers/conjuros-del-mas-alla-2016.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/oZwwwezJFlHmQGBRJDLmENXwOIt.jpg",
     "description": "Un oficial de policía lleva a un hombre herido a un hospital casi abandonado, solo para descubrir que pacientes y miembros del personal están atrapados por una congregación de cultistas encapuchados, y que dentro del hospital surgen criaturas grotescas y sobrenaturales.",
     "director": "Steven Kostanski, Jeremy Gillespie",
     "cast": [
@@ -1252,6 +1267,7 @@
     "originalTitle": "Brightburn",
     "year": 2019,
     "cover": "assets/covers/hijo-de-la-oscuridad-2019.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/uHEI6v8ApQusjbaRZ8o7WcLYeWb.jpg",
     "description": "Brandon Breyer es un niño adoptado que descubre que tiene poderes extraordinarios. A medida que crece, empieza a cuestionar su identidad y lentamente su lado oscuro se manifiesta, convirtiéndolo en una amenaza para quienes lo aman.",
     "director": "David Yarovesky",
     "cast": [
@@ -1297,6 +1313,7 @@
     "originalTitle": "Adrenaline",
     "year": 2022,
     "cover": "assets/covers/adrenaline-2022.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/lo8uabGaT4WnWNcXrYXl5bAoOcG.jpg",
     "description": "Una agente del FBI, de vacaciones con su familia en Europa del Este, ve su vida dar un giro cuando su hija es secuestrada. Para rescatarla antes de que se agote el tiempo, debe aliarse con un criminal fugitivo.",
     "director": "Massimiliano Cerchi",
     "cast": [
@@ -1359,6 +1376,7 @@
     "originalTitle": "Know Fear",
     "year": 2022,
     "cover": "assets/covers/el-libro-del-demonio-2022.webp",
+    "backdrop": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qA56VS1DqtLfcudMrtjpHc7rvR5.jpg",
     "description": "Cuando una familia descubre un antiguo libro en su nueva casa, accidentalmente desatan a un demonio ancestral. La única forma de defenderse es realizando rituales que exigen enfrentarse a sus miedos más profundos, mientras el mal toma control uno por uno.",
     "director": "Jamison M. LoCascio",
     "cast": [
@@ -1385,6 +1403,7 @@
     "originalTitle": "Crater",
     "year": 2023,
     "cover": "assets/covers/crater-2023.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/wUMDnvi1xa8iMEpRDVAXrcAtqus.jpg",
     "description": "Después de la muerte de su padre, Caleb Channing, criado en una colonia minera lunar, está a punto de trasladarse permanentemente a otro planeta. Antes de partir, él y sus tres mejores amigos junto con Addison, una recién llegada de la Tierra, se embarcan en una aventura en rover para explorar un cráter misterioso en la Luna, enfrentando peligros, revelaciones personales y la urgencia del adiós.",
     "director": "Kyle Patrick Alvarez",
     "cast": [
@@ -1404,8 +1423,15 @@
     "ageRating": "PG",
     "trailer": "https://youtu.be/tR1g1g3cGpc",
     "embed": "https://waaw.ac/f/vM5ES7tZt2fx",
-    "watchLinks": [{ "name": "Net", "url": "https://waaw.ac/f/vM5ES7tZt2fx" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/vM5ES7tZt2fx" }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent ",
+        "url": "magnet:?xt=urn:btih:c87b803974651c334323d4a4e3ada6d4b9dacf4f&dn=Crater.2023.1080P-Dual-Lat&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cypherpunks.ru%3A6969%2Fannounce&tr=http%3A%2F%2Fretracker.mgts.by%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.justseed.it%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.electro-torrent.pl%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.telecom.by%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.vanitycore.co%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.xxx-tracker.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fthetracker.org%3A80%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%2F%3A80announce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fshare.camoe.cn%3A8080%2Fannounce&tr=wss%3A%2F%2Fwstracker.online&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      }
+    ]
   },
   {
     "id": "the-dirt-2019",
@@ -1436,7 +1462,12 @@
       { "name": "Opcion 1", "url": "" },
       { "name": "Opcion 2", "url": "" }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "Descargar pelicula ",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "the-punisher-2004",
@@ -1812,6 +1843,7 @@
     "originalTitle": "Wrong Turn 2: Dead End",
     "year": 2007,
     "cover": "assets/covers/camino-hacia-el-terror-2-2007.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/j30ViTi6ysemCVRNJRQ9e5VrORC.jpg",
     "description": "Un reality show en un bosque aislado se convierte en una pesadilla cuando los concursantes son perseguidos por una familia de mutantes caníbales.",
     "director": "Joe Lynch",
     "cast": [
@@ -1846,6 +1878,7 @@
     "originalTitle": "Wrong Turn 3: Left for Dead",
     "year": 2009,
     "cover": "assets/covers/camino-hacia-el-terror-3-2009.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/8TmYM9SiknZMEsldrE5o1Uu3bTZ.jpg",
     "description": "Un grupo de prisioneros escoltados en un autobús logra escapar tras un accidente, pero pronto descubren que están siendo cazados por los caníbales del bosque.",
     "director": "Declan O'Brien",
     "cast": [
@@ -1880,6 +1913,7 @@
     "originalTitle": "Wrong Turn 4: Bloody Beginnings",
     "year": 2011,
     "cover": "assets/covers/camino-hacia-el-terror-4-2011.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/ygiBBeSzqvIwcd1JWsFrY65P2Hs.jpg",
     "description": "Un grupo de estudiantes universitarios se refugia en un hospital psiquiátrico abandonado durante una tormenta de nieve, sin saber que allí habitan los caníbales mutantes.",
     "director": "Declan O'Brien",
     "cast": [
@@ -2189,6 +2223,7 @@
     "originalTitle": "Final Destination: Bloodlines",
     "year": 2025,
     "cover": "assets/covers/destino-final-6-2025.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
     "description": "Stefani, una estudiante universitaria, hereda visiones mortales de su abuela moribunda sobre un colapso de torre en 1968 y descubre que la Muerte está tras su familia. Debe impedir que el destino reclame sus vidas. (Capítulo 6 de la saga)  :contentReference[oaicite:0]{index=0}",
     "director": "Zach Lipovsky, Adam Stein",
     "cast": [
@@ -2225,6 +2260,7 @@
     "originalTitle": "Insidious",
     "year": 2011,
     "cover": "assets/covers/insidious-2011.webp",
+    "backdrop": "",
     "description": "Una familia descubre que espíritus oscuros han invadido su hogar y que el alma de su hijo está atrapada en un mundo misterioso llamado 'El Más Allá'.",
     "director": "James Wan",
     "cast": [
@@ -2293,6 +2329,7 @@
     "originalTitle": "Insidious: Chapter 3",
     "year": 2015,
     "cover": "assets/covers/insidious-chapter-3-2015.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/r5cMwEIkkGs0jeNDAZCu9kClxMq.jpg",
     "description": "Una joven busca la ayuda de una médium para contactar con su madre fallecida, pero sin querer abre la puerta a entidades malignas que amenazan su vida.",
     "director": "Leigh Whannell",
     "cast": [
@@ -2426,6 +2463,7 @@
     "originalTitle": "Saw II",
     "year": 2005,
     "cover": "assets/covers/saw-2-2005.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/el6KuGEa3z4JwnsmLSlD0BCCedH.jpg",
     "description": "Un grupo de personas despierta atrapado en una casa llena de trampas mortales. Afuera, la policía intenta dar con el paradero de Jigsaw.",
     "director": "Darren Lynn Bousman",
     "cast": [

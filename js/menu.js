@@ -16,10 +16,31 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.remove("active");
   });
 
-  // cerrar menú al hacer clic en un link
+  // cerrar menú al hacer clic en un link y desplazamiento suave
   document.querySelectorAll(".site-nav a").forEach((link) => {
-    link.addEventListener("click", () => {
-      nav.classList.remove("active");
+    link.addEventListener("click", (e) => {
+      const href = link.getAttribute("href");
+
+      // Solo aplicar desplazamiento suave si es un enlace de anclaje en la misma página
+      if (href && href.startsWith("#")) {
+        e.preventDefault(); // Prevenir el comportamiento de salto predeterminado
+
+        const targetId = href.substring(1); // Obtener el ID sin el '#'
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          const headerOffset = document.querySelector(".site-header").offsetHeight;
+          const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition - headerOffset - 20; // Restar el alto del header y un poco más para padding
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+        }
+      }
+
+      nav.classList.remove("active"); // Cerrar el menú después del clic
     });
   });
 });

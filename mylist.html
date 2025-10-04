@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Lista - MoviesHN</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <canvas id="background-canvas"></canvas>
+
+  
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html">MoviesHN</a>
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+    </div>
+
+    <form class="search-form">
+      <input type="text" placeholder="Buscar en mi lista..." aria-label="Buscar en mi lista" />
+      <button type="submit">Buscar</button>
+    </form>
+
+    <nav class="site-nav">
+      <button class="menu-close" aria-label="Cerrar menú">✕</button>
+      <ul>
+        <li><a href="index.html#recientes"><i class="fas fa-fire"></i> Recientes</a></li>
+        <li><a href="index.html#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
+        <li><a href="mylist.html"><i class="fas fa-bookmark"></i> Mi Lista</a></li>
+        <li><a href="index.html#series"><i class="fas fa-tv"></i> Series</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-content" id="mylist-main">
+    <section id="my-list-section" class="movie-section">
+      <h2>Mi Lista de Películas</h2>
+      <div id="my-list-grid" class="movie-grid">
+        <!-- Las películas guardadas se renderizarán aquí -->
+      </div>
+    </section>
+
+    <div id="empty-list-message" class="empty-list-container" style="display:none;">
+      <p class="empty-list-text">Aún no has añadido ninguna película a tu lista.</p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="./js/mylist.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/background.js"></script>
+</body>
+
+</html>
