@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (movie.language) {
         detailRows.push(
-          `<div class=\"meta-row\"><span class=\"meta-label\"><i class=\"fas fa-language\"></i> Idioma</span><span>${movie.language}</span></div>`
+          `<div class=\"meta-row\"><span class=\"meta-label\"><i class=\"fas fa-language\"></i> Idiomas</span><span>${movie.language}</span></div>`
         );
       }
       if (movie.duration) {
@@ -179,13 +179,23 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       const detailRowsMarkup = detailRows.length ? `<div class=\"movie-meta\">${detailRows.join("")}</div>` : "";
 
-      const factItems = [];
-      if (movie.year) factItems.push(`<li><span>Año</span><strong>${movie.year}</strong></li>`);
-      if (movie.country) factItems.push(`<li><span>País</span><strong>${movie.country}</strong></li>`);
-      if (movie.studio) factItems.push(`<li><span>Estudio</span><strong>${movie.studio}</strong></li>`);
-      if (movie.rating) factItems.push(`<li><span>Puntuación</span><strong>${movie.rating}</strong></li>`);
-      if (movie.budget) factItems.push(`<li><span>Presupuesto</span><strong>${movie.budget}</strong></li>`);
-      const factListMarkup = factItems.length ? factItems.join("") : "<li><span>Información</span><strong>N/D</strong></li>";
+      const factEntries = [];
+      if (movie.year) factEntries.push({ label: 'Año', value: movie.year });
+      if (movie.country) factEntries.push({ label: 'País', value: movie.country });
+      if (movie.studio) factEntries.push({ label: 'Estudio', value: movie.studio });
+      if (movie.rating) factEntries.push({ label: 'Puntuación', value: movie.rating });
+      if (movie.budget) factEntries.push({ label: 'Presupuesto', value: movie.budget });
+
+      const factListMarkup = factEntries.length
+        ? factEntries
+            .map((entry) => `
+              <li>
+                <span class="fact-label">${entry.label}</span>
+                <span class="fact-value">${entry.value}</span>
+              </li>
+            `)
+            .join("")
+        : "<li class=\"fact-card--empty\"><span class=\"fact-label\">Información</span><span class=\"fact-value\">N/D</span></li>";
 
       container.innerHTML = `
         <div class="movie-page">
@@ -205,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <p class="hero-summary">${shortSynopsis}</p>
                   <div class="hero-tags">${heroTags}</div>
                   <div class="hero-actions">
-                    <a href="#dynamic-player" class="btn btn-primary"><i class="fas fa-play"></i> Reproducir</a>
+                    <a href="#player-zone" class="btn btn-primary" data-scroll-to-player><i class="fas fa-play"></i> Reproducir</a>
                     ${
                       movie.trailer
                         ? `<button class="btn btn-secondary trailer-btn" data-url="${escapeAttr(movie.trailer)}"><i class="fas fa-video"></i> Ver trailer</button>`
@@ -218,36 +228,40 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </section>
 
+          <section id="player-zone" class="movie-player-zone section-shell">
+            <div class="player-zone animate-on-load" data-animation="fade-in-up">
+              <div class="player-zone__header">
+                <h2><i class="fas fa-play-circle"></i> Sala de proyección</h2>
+                <span class="panel-subtitle">Elige el servidor que prefieras</span>
+              </div>
+              <div class="player-zone__servers">
+                <div class="server-tabs">
+                  ${watchLinks.length
+                    ? watchLinks
+                        .map(
+                          (link, index) => `
+                            <button class="server-tab ${index === 0 ? "active" : ""}" data-url="${escapeAttr(link.url)}">
+                              <i class="fas fa-server"></i><span>${link.name || `Servidor ${index + 1}`}</span>
+                            </button>
+                          `
+                        )
+                        .join("")
+                    : '<p class="empty-note">No hay servidores disponibles por el momento.</p>'}
+                </div>
+                <div id="dynamic-player" class="movie-player">
+                  <div class="player-placeholder">
+                    <i class="fas fa-film"></i>
+                    <p>${watchLinks.length ? "Selecciona un servidor para comenzar" : "Añadiremos la reproducción pronto."}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section class="movie-experience section-shell">
             <div class="experience-grid">
               <div class="experience-main">
-                <article class="experience-card animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.05s;">
-                  <header>
-                    <h2><i class="fas fa-play-circle"></i> Sala de proyección</h2>
-                    <span class="panel-subtitle">Elige el servidor que prefieras</span>
-                  </header>
-                  <div class="server-tabs">
-                    ${watchLinks.length
-                      ? watchLinks
-                          .map(
-                            (link, index) => `
-                              <button class="server-tab ${index === 0 ? "active" : ""}" data-url="${escapeAttr(link.url)}">
-                                <i class="fas fa-server"></i><span>${link.name || `Servidor ${index + 1}`}</span>
-                              </button>
-                            `
-                          )
-                          .join("")
-                      : '<p class="empty-note">No hay servidores disponibles por el momento.</p>'}
-                  </div>
-                  <div id="dynamic-player" class="movie-player">
-                    <div class="player-placeholder">
-                      <i class="fas fa-film"></i>
-                      <p>${watchLinks.length ? "Selecciona un servidor para comenzar" : "Añadiremos la reproducción pronto."}</p>
-                    </div>
-                  </div>
-                </article>
-
-                <article class="experience-card animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.12s;">
+                <article class="experience-card experience-card--downloads animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.12s;">
                   <header>
                     <h2><i class="fas fa-download"></i> Centro de descargas</h2>
                     <span class="panel-subtitle">A tu ritmo o sin publicidad</span>
@@ -279,21 +293,21 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
 
               <aside class="experience-aside">
-                <article class="experience-card animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.16s;">
+                <article class="experience-card experience-card--synopsis animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.16s;">
                   <header>
                     <h2><i class="fas fa-align-left"></i> Sinopsis</h2>
                   </header>
                   <p class="movie-storyline">${synopsis}</p>
                 </article>
 
-                <article class="experience-card animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.2s;">
+                <article class="experience-card experience-card--cast animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.2s;">
                   <header>
                     <h2><i class="fas fa-users"></i> Reparto</h2>
                   </header>
                   <ul class="cast-list">${castMarkup}</ul>
                 </article>
 
-                <article class="experience-card animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.24s;">
+                <article class="experience-card experience-card--facts animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.24s;">
                   <header>
                     <h2><i class="fas fa-info-circle"></i> Ficha técnica</h2>
                   </header>
@@ -358,6 +372,24 @@ document.addEventListener("DOMContentLoaded", () => {
       if (serverTabs.length > 0) {
         serverTabs[0].click();
       }
+
+      const playerZone = document.getElementById("player-zone");
+      const playerScrollTriggers = document.querySelectorAll('[data-scroll-to-player]');
+      const siteHeader = document.querySelector('.site-header');
+
+      const smoothScrollToPlayer = () => {
+        if (!playerZone) return;
+        const headerOffset = siteHeader ? siteHeader.offsetHeight + 16 : 0;
+        const targetTop = playerZone.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+        window.scrollTo({ top: targetTop, behavior: 'smooth' });
+      };
+
+      playerScrollTriggers.forEach((trigger) => {
+        trigger.addEventListener('click', (event) => {
+          event.preventDefault();
+          smoothScrollToPlayer();
+        });
+      });
 
       const modal = document.getElementById("trailer-modal");
       const modalClose = document.querySelector(".modal-close");

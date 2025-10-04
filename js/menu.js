@@ -3,17 +3,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
   const menuClose = document.querySelector(".menu-close");
   const nav = document.querySelector(".site-nav");
+  const body = document.body;
 
   if (!menuToggle || !menuClose || !nav) return;
 
   // abrir menú
   menuToggle.addEventListener("click", () => {
     nav.classList.add("active");
+    body.classList.add("nav-open");
   });
 
   // cerrar menú con botón X
   menuClose.addEventListener("click", () => {
     nav.classList.remove("active");
+    body.classList.remove("nav-open");
   });
 
   // cerrar menú al hacer clic en un link y desplazamiento suave
@@ -41,6 +44,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       nav.classList.remove("active"); // Cerrar el menú después del clic
+      body.classList.remove("nav-open");
     });
+  });
+
+  // cerrar con Escape
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && nav.classList.contains("active")) {
+      nav.classList.remove("active");
+      body.classList.remove("nav-open");
+    }
   });
 });
