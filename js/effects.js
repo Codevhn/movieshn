@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.movie-card, .movie-section h2, .hero-content > *');
+    const animatedElements = document.querySelectorAll(
+        '.movie-card, .series-card, .spotlight-card, .movie-section h2, .series-catalog__header, .series-showcase__content > *, .hero-content > *'
+    );
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
