@@ -91,9 +91,11 @@ function renderRelatedSeries(currentSeries, allSeries) {
 function renderSeriesDetails(series) {
     document.title = `${series.title} - Ver Online en MoviesHN`;
 
+    const genres = Array.isArray(series.genre) ? series.genre : [];
+
     // Actualizar meta tags para SEO
     document.querySelector('meta[name="description"]').content = `${series.title} - Disfruta esta serie completa en español latino. Calidad HD disponible en MoviesHN.`;
-    document.querySelector('meta[name="keywords"]').content = `${series.title}, series gratis, ver series online, cine en español, MoviesHN, ${series.genre.join(', ')}`;
+    document.querySelector('meta[name="keywords"]').content = `${series.title}, series gratis, ver series online, cine en español, MoviesHN, ${genres.join(', ')}`;
     document.querySelector('meta[property="og:title"]').content = series.title;
     document.querySelector('meta[property="og:description"]').content = `Mira online ${series.title} en español latino, calidad HD y sin complicaciones.`;
     document.querySelector('meta[property="og:image"]').content = series.cover; // Usar la portada de la serie
@@ -105,44 +107,83 @@ function renderSeriesDetails(series) {
     const heroContainer = document.querySelector('.series-hero-container');
     const hero = heroContainer.querySelector('.series-hero');
 
-    // Establecer el backdrop como fondo del heroContainer
-    if (series.backdrop) {
-        heroContainer.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${series.backdrop})`;
-        heroContainer.style.backgroundSize = 'cover';
-        heroContainer.style.backgroundPosition = 'center';
-    }
+    const transparentPixel = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+    const resolveAssetPath = (value, fallback = transparentPixel) => {
+        if (!value || !String(value).trim()) return fallback;
+        const trimmed = String(value).trim();
+        if (/^https?:\/\//i.test(trimmed) || trimmed.startsWith('data:')) {
+            return trimmed;
+        }
+        return trimmed.startsWith('./') ? trimmed : `./${trimmed}`;
+    };
+
+    const coverSrc = resolveAssetPath(series.cover);
+    const backdropSrc = resolveAssetPath(series.backdrop, coverSrc);
+
+    heroContainer.style.backgroundImage = `linear-gradient(rgba(10, 10, 10, 0.82), rgba(12, 12, 12, 0.82)), url("${backdropSrc}")`;
+    heroContainer.style.backgroundSize = 'cover';
+    heroContainer.style.backgroundPosition = 'center';
+
+    const seasonsCount = Array.isArray(series.seasons) ? series.seasons.length : 0;
+    const infoPill = (icon, text) => (text ? `<span class="info-pill"><i class="${icon}"></i>${text}</span>` : "");
+    const infoPills = [
+        infoPill('fas fa-calendar-alt', series.year),
+        infoPill('fas fa-layer-group', seasonsCount ? `${seasonsCount} ${seasonsCount === 1 ? 'temporada' : 'temporadas'}` : ''),
+        infoPill('fas fa-language', series.language),
+        infoPill('fas fa-user-shield', series.ageRating),
+    ].filter(Boolean).join('');
+
+    const synopsis = series.description || 'Sinopsis no disponible por el momento.';
+    const shortSynopsis = synopsis.length > 320 ? `${synopsis.slice(0, 317)}…` : synopsis;
+
+    const heroTags = genres.filter(Boolean);
+    const tagsMarkup = heroTags.length
+        ? heroTags.map((tag) => `<span class="hero-tag">${tag}</span>`).join('')
+        : '<span class="hero-tag hero-tag--muted">Sin categoría</span>';
 
     hero.innerHTML = `
-        <div class="poster-container">
-            <img src="${series.cover}" alt="${series.title}" class="poster-img">
-        </div>
-        <div class="hero-info">
-            <h1 class="hero-title">${series.title}</h1>
-            <div class="hero-meta">
-                <span>${series.year}</span>
-                <span>${series.genre.join(', ')}</span>
-                <span>${series.quality || 'HD'}</span>
-                <span>${series.ageRating || 'N/A'}</span>
+        <div class="hero-card">
+            <div class="hero-card__poster">
+                <img src="${coverSrc}" alt="${series.title}" loading="lazy">
+                ${series.quality ? `<span class="quality-chip">${series.quality}</span>` : ''}
             </div>
-            <div class="hero-synopsis">
-                <h3>Sinopsis</h3>
-                <p>${series.description}</p>
-            </div>
-            <div class="hero-actions">
-                ${series.trailer ? `<a href="${series.trailer}" target="_blank" class="btn btn-primary">Ver Tráiler</a>` : ''}
-                <button class="btn btn-secondary add-to-mylist-btn" data-series-id="${series.id}">Añadir a Mi Lista</button>
+            <div class="hero-card__info">
+                ${series.originalTitle ? `<span class="hero-subtitle"><i class="fas fa-film"></i> ${series.originalTitle}</span>` : ''}
+                <h1 class="hero-title">${series.title}</h1>
+                ${infoPills ? `<div class="hero-pills">${infoPills}</div>` : ''}
+                <p class="hero-summary">${shortSynopsis}</p>
+                <div class="hero-tags">${tagsMarkup}</div>
+                <div class="hero-actions">
+                    <a href="#episode-player-section" class="btn btn-primary" data-scroll-to-player><i class="fas fa-play"></i> Ver episodios</a>
+                    ${series.trailer ? `<a href="${series.trailer}" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fas fa-video"></i> Ver tráiler</a>` : ''}
+                    <button class="btn btn-secondary add-to-mylist-btn" data-series-id="${series.id}"><i class="fas fa-bookmark"></i> Añadir a Mi Lista</button>
+                </div>
             </div>
         </div>
     `;
 
-    // Event listener para el botón de "Añadir a Mi Lista"
     const addToListBtn = hero.querySelector('.add-to-mylist-btn');
     if (addToListBtn) {
         addToListBtn.addEventListener('click', () => {
             alert(`Funcionalidad "Añadir a Mi Lista" para ${series.title} aún no implementada.`);
-            // Aquí iría la lógica para añadir a la lista del usuario
         });
     }
+
+    const playerScrollTriggers = hero.querySelectorAll('[data-scroll-to-player]');
+    const playerSection = document.getElementById('episode-player-section');
+    const siteHeader = document.querySelector('.site-header');
+
+    const smoothScrollToPlayer = (event) => {
+        if (!playerSection) return;
+        event.preventDefault();
+        const headerOffset = siteHeader ? siteHeader.offsetHeight + 16 : 0;
+        const targetTop = playerSection.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+        window.scrollTo({ top: targetTop, behavior: 'smooth' });
+    };
+
+    playerScrollTriggers.forEach((trigger) => {
+        trigger.addEventListener('click', smoothScrollToPlayer);
+    });
 }
 
 function renderSeasonTabs(series) {

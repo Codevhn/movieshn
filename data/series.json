@@ -87,8 +87,8 @@
     "title": "Mr. Robot",
     "originalTitle": "Mr. Robot",
     "year": "2015 - 2019",
-    "cover": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/4ceSkV7cmCon4exXaZwuhW1VdE0.jpg",
+    "cover": "assets/covers/mr-robot.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/uJUe985oIuRiD3hmHQYskIMc2WU.jpg",
     "description": "Elliot, un joven programador que trabaja como ingeniero de ciberseguridad de día y hacker justiciero de noche, es reclutado por un misterioso anarquista conocido como Mr. Robot para unirse a fsociety, un grupo que busca derribar a las corporaciones que controlan el mundo.",
     "director": "Sam Esmail (Showrunner)",
     "cast": [
@@ -778,7 +778,7 @@
     "originalTitle": "Stranger Things",
     "year": "2016 - Presente",
     "cover": "assets/covers/stranger-things.webp",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
     "description": "En un pequeño pueblo de Indiana en los años 80, un niño desaparece misteriosamente. Sus amigos, su madre y el jefe de policía emprenden la búsqueda, descubriendo una serie de secretos sobrenaturales, experimentos gubernamentales y una niña con habilidades telequinéticas.",
     "director": "Hermanos Duffer (Showrunners)",
     "cast": [

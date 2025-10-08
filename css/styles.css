@@ -449,30 +449,24 @@ body.nav-open {
 /* --- SECCIÓN DE DETALLES DE SERIE --- */
 .series-hero-container {
   position: relative;
-  height: 70vh; /* Más alto para series */
+  min-height: clamp(420px, 72vh, 760px);
   display: flex;
-  align-items: flex-end;
-  padding: 2rem;
-  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(2.4rem, 6vw, 4.6rem);
+  border-radius: 36px;
   overflow: hidden;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
   background-size: cover;
   background-position: center;
-  /* El linear-gradient se añade en JS para el backdrop */
+  box-shadow: 0 32px 60px rgba(0, 0, 0, 0.5);
 }
 
 .series-hero-container::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to top,
-    rgba(18, 18, 18, 1) 10%,
-    rgba(18, 18, 18, 0) 60%
-  );
+  inset: 0;
+  background: linear-gradient(120deg, rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.55) 55%, rgba(8, 8, 8, 0.95));
   z-index: 1;
 }
 
@@ -480,122 +474,34 @@ body.nav-open {
   position: relative;
   z-index: 2;
   display: flex;
-  align-items: flex-end; /* Alinea el contenido al final */
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center;
   width: 100%;
+  pointer-events: none;
 }
 
-.series-hero .poster-container {
-  flex-shrink: 0;
-  width: 250px; /* Ancho fijo para el póster */
-  height: 375px; /* Proporción 2:3 */
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px var(--shadow-color);
+.series-hero .hero-card {
+  pointer-events: auto;
+  backdrop-filter: blur(16px);
+  background: rgba(18, 18, 18, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 34px 60px rgba(0, 0, 0, 0.5);
 }
 
-.series-hero .poster-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.series-hero .hero-info {
-  flex-grow: 1;
-  color: var(--text-color);
+.series-hero .hero-card__info {
+  gap: 1.25rem;
 }
 
 .series-hero .hero-title {
-  font-family: "Poppins", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra más definida y oscura */
-  line-height: 1.1;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  margin-bottom: 0.2rem;
 }
 
-.original-title {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--subtle-text-color);
-  margin-bottom: 1.5rem;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+.series-hero .hero-subtitle {
+  color: rgba(255, 255, 255, 0.72);
 }
 
-.original-title .fas {
-  color: var(--primary-accent-color);
-  font-size: 1.2rem;
-}
-
-.info-group {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.info-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  align-items: center;
-  margin-bottom: 0.5rem;
-}
-
-.info-row:last-child {
-  margin-bottom: 0;
-}
-
-.info-row span {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px; /* Más redondeado */
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.9rem;
-  color: var(--subtle-text-color);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: all 0.3s ease;
-}
-
-.info-row span:hover {
-  background-color: var(--primary-accent-color);
-  color: var(--background-color);
-  border-color: var(--primary-accent-color);
-  transform: translateY(-2px);
-  box-shadow: 0 0 10px var(--hover-shadow-color);
-}
-
-.info-row span .fas {
-  color: var(--primary-accent-color);
-  transition: color 0.3s ease;
-}
-
-.info-row span:hover .fas {
-  color: var(--background-color);
-}
-
-.info-row strong {
-  color: var(--primary-accent-color);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  margin-right: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.info-row strong .fas {
-  color: var(--primary-accent-color);
+.series-hero .hero-summary {
+  max-width: 660px;
 }
 
 .movie-hero .hero-meta {
@@ -1582,9 +1488,9 @@ body.nav-open {
   flex-direction: column;
   gap: 0.8rem;
   z-index: 1;
-  background: linear-gradient(160deg, rgba(12, 12, 12, 0.85), rgba(18, 18, 18, 0.68));
+  background: linear-gradient(160deg, rgba(12, 12, 12, 0.72), rgba(18, 18, 18, 0.46));
   border-radius: 18px 18px 0 0;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.45);
 }
@@ -1811,7 +1717,7 @@ body.nav-open {
   letter-spacing: 0.1em;
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(15, 15, 15, 0.55);
+  background: rgba(15, 15, 15, 0.4);
   color: var(--text-color);
   transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   backdrop-filter: blur(4px);
@@ -1877,6 +1783,16 @@ body.nav-open {
     border-radius: 0;
     min-height: clamp(360px, 60vh, 520px);
     padding: clamp(3rem, 10vw, 4rem) clamp(1.2rem, 6vw, 2.5rem);
+  }
+
+  .series-hero-container {
+    border-radius: 24px;
+    padding: clamp(2rem, 9vw, 3rem);
+    margin-bottom: 2.5rem;
+  }
+
+  .series-hero .hero-card {
+    grid-template-columns: 1fr;
   }
 
   .series-directory {
