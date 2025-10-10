@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "live-server"
+    "dev": "live-server",
+    "optimize:images": "node js/optimize-images"
   },
   "keywords": [],
   "author": "Francisco Vasquez <codevhn@gmail.com>",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Codevhn/movieshn.git"
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/Codevhn/movieshn#readme",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "sharp": "^0.34.4"
   },
   "dependencies": {
     "copilot": "^0.0.2"
