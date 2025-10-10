@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoviesHN | Ver película</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
-    <header class="site-header">
 
-  <!-- Fila superior: logo + hamburguesa -->
-  <div class="header-top">
-    <div class="logo">
-      <a href="index.html">MoviesHN</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoviesHN | Ver película</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+
+    <!-- Fila superior: logo + hamburguesa -->
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html">MoviesHN</a>
+      </div>
+
+      <!-- Botón hamburguesa (solo visible en móvil) -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
     </div>
 
-    <!-- Botón hamburguesa (solo visible en móvil) -->
-    <button class="menu-toggle" aria-label="Abrir menú">
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-    </button>
-  </div>
+    <!-- Buscador -->
+    <form class="search-form">
+      <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
+      <button type="submit">Buscar</button>
+    </form>
+    <!-- Menú principal -->
+    <nav class="site-nav">
+      <!-- Botón cerrar (solo en móvil / menú abierto) -->
+      <button class="menu-close" aria-label="Cerrar menú">✕</button>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="series.html"><i class="fas fa-tv"></i> Series</a></li>
+        <li><a href="movie.html"><i class="fas fa-film"></i> Películas</a></li>
+        <li><a href="mylist.html"><i class="fas fa-bookmark"></i> Mi Lista</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Buscador -->
-  <form class="search-form">
-    <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
-    <button type="submit">Buscar</button>
-  </form>
-  <!-- Menú principal -->
-  <nav class="site-nav">
-    <!-- Botón cerrar (solo en móvil / menú abierto) -->
-    <button class="menu-close" aria-label="Cerrar menú">✕</button>
-    <ul>
-      <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
-      <li><a href="series.html"><i class="fas fa-tv"></i> Series</a></li>
-      <li><a href="movie.html"><i class="fas fa-film"></i> Películas</a></li>
-      <li><a href="mylist.html"><i class="fas fa-bookmark"></i> Mi Lista</a></li>
-    </ul>
-  </nav>
-</header>
+  <main class="movie-main">
+    <section id="movie-details" class="movie-details">
+      <!-- El contenido se generará dinámicamente con JS -->
+    </section>
+  </main>
 
-    <main class="movie-main">
-        <section id="movie-details" class="movie-details">
-            <!-- El contenido se generará dinámicamente con JS -->
-        </section>
-    </main>
+  <footer class="footer">
+    <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
+  </footer>
 
-    <footer class="footer">
-        <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
-    </footer>
-
-    <script src="/js/menu.js"></script>
-    <script src="/js/movie.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/movie.js"></script>
 </body>
+
 </html>

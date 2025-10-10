@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     let seriesData = [];
     try {
-        const response = await fetch('/data/series.json');
+        const response = await fetch('./data/series.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
