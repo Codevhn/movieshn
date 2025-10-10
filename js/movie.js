@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", () => {
           tab.classList.add("active");
           const url = tab.dataset.url;
           if (playerContainer && url) {
-            playerContainer.innerHTML = `<iframe src="${url}" frameborder="0" allowfullscreen loading="lazy"></iframe>`;
+            playerContainer.innerHTML = `<iframe src="${url}" frameborder="0" allowfullscreen loading="lazy" scrolling="no" allow="encrypted-media; fullscreen; autoplay"></iframe>`;
           }
         });
       });

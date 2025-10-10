@@ -293,7 +293,7 @@
     "title": "Rápido y Furioso 1",
     "originalTitle": "The Fast and the Furious",
     "year": 2001,
-    "cover": "assets/covers/fast&furious-1.webp",
+    "cover": "assets/covers/fast-and-furious-1.webp",
     "description": "Un oficial de policía encubierto, Brian O'Conner, se infiltra en una banda de carreras callejeras liderada por Dominic Toretto para investigar una serie de asaltos a camiones, mientras su relación con la hermana de Toretto, Mia, complica las cosas.",
     "director": "Rob Cohen",
     "cast": [
@@ -324,7 +324,7 @@
     "title": "Rápidos y Furiosos 2",
     "originalTitle": "2 Fast 2 Furious",
     "year": 2003,
-    "cover": "assets/covers/fast&furious-2.webp",
+    "cover": "assets/covers/fast-and-furious-2.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/m5yty5iXdSab42AwgL6bvFbc0IV.jpg",
     "description": "El ex‑oficial del LAPD Brian O'Conner se une a su amigo de la infancia Roman Pearce para trabajar encubiertos transportando un cargamento de dinero sucio para el traficante Carter Verone. Con la agente encubierta Monica Fuentes colaborando en secreto, intentan derribar la operación corrupta mientras enfrentan desafíos personales y persecuciones intensas.",
     "director": "John Singleton",
@@ -388,7 +388,7 @@
     "title": "Rápidos y Furiosos 4",
     "originalTitle": "Fast & Furious",
     "year": 2009,
-    "cover": "assets/covers/fast&furious-4.webp",
+    "cover": "assets/covers/fast-and-furious-4.webp",
     "description": "Dominic Toretto y Brian O'Conner se reencuentran cuando un trágico evento obliga a Dom a volver a Los Ángeles para enfrentar al narcotraficante Arturo Braga tras la sospecha sobre la muerte de Letty, y ambos deben unir fuerzas que desafían su historia compartida.",
     "director": "Justin Lin",
     "cast": [
@@ -417,7 +417,7 @@
     "title": "Rápidos y Furiosos 5",
     "originalTitle": "Fast Five",
     "year": 2011,
-    "cover": "assets/covers/fast&furious-5.webp",
+    "cover": "assets/covers/fast-and-furious-5.webp",
     "description": "Dominic Toretto y Brian O'Conner, junto con Mia Toretto, planean un atraco para robar US$100 millones al corrupto empresario Hernán Reyes mientras les persigue el agente Hobbs del DSS. ",
     "director": "Justin Lin",
     "cast": [
@@ -488,7 +488,7 @@
     "title": "Rápidos y Furiosos 7",
     "originalTitle": "Furious 7",
     "year": 2015,
-    "cover": "assets/covers/fast&furious-7.webp",
+    "cover": "assets/covers/fast-and-furious-7.webp",
     "description": "Después de derrotar a Owen Shaw y recibir perdón, Dominic Toretto y su equipo intentan llevar una vida tranquila. Sin embargo, el hermano de Shaw, Deckard Shaw, busca venganza, lo que obliga al grupo a reunirse para detenerlo mientras enfrentan nuevas amenazas peligrosas.",
     "director": "James Wan",
     "cast": [
@@ -521,7 +521,7 @@
     "title": "Rápidos y Furiosos 8",
     "originalTitle": "The Fate of the Furious",
     "year": 2017,
-    "cover": "assets/covers/fast&furious-8.jpg",
+    "cover": "assets/covers/fast-and-furious-8.jpg",
     "description": "Dominic Toretto ha logrado asentarse junto a Letty, pero una misteriosa figura llamada Cipher lo obliga a traicionar a su equipo. Ahora deben resolver la traición, reunirse y detenerla antes de que desate un caos global.",
     "director": "F. Gary Gray",
     "cast": [
@@ -590,7 +590,7 @@
     "title": "Rápidos y Furiosos 9",
     "originalTitle": "F9: The Fast Saga",
     "year": 2021,
-    "cover": "assets/covers/fast&furious-9.jpg",
+    "cover": "assets/covers/fast-and-furious-9.jpg",
     "backdrop": "https://image.tmdb.org/t/p/original/gGTCDNEvwG848u34Op1nZNALLUr.jpg",
     "description": "Dominic Toretto vive una vida tranquila con Letty y su hijo, lejos de la acción. Pero cuando su hermano Jakob, experto conductor asesino, emerge con un plan peligroso que involucra un programa secreto llamado Proyecto Aries, Dom debe reunir a su equipo para enfrentarlo y proteger a su familia.",
     "director": "Justin Lin",
@@ -625,7 +625,7 @@
     "title": "Rapidos y Furiosos 10",
     "originalTitle": "Fast X",
     "year": 2023,
-    "cover": "assets/covers/fast&furious-10.webp",
+    "cover": "assets/covers/fast-and-furious-10.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/k8lWXLyC3r0Vd9wKNzlWvtJmogV.jpg",
     "description": "Dominic Toretto debe proteger a su familia de Dante Reyes, quien busca venganza por la muerte de su padre y la pérdida de su fortuna.",
     "director": "Louis Leterrier",
@@ -2242,15 +2242,15 @@
     "duration": "1h 50m (110 min)  ",
     "ageRating": "R",
     "trailer": "https://www.youtube.com/watch?v=KOvaugY7jT8",
-    "embed": "https://waaw.ac/f/destino-final-6-2025",
+    "embed": "https://waaw.ac/f/jzxK1ippUcGX",
     "watchLinks": [
       {
         "name": "Opción 1 Español Latino",
-        "url": "https://waaw.ac/f/destino-final-6-2025"
+        "url": "https://waaw.ac/f/jzxK1ippUcGX"
       },
       {
         "name": "Opción 2 Inglés",
-        "url": "https://waaw.ac/f/destino-final-6-2025-en"
+        "url": ""
       }
     ],
     "downloadLinks": [{ "name": "", "url": "" }]
