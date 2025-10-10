@@ -921,8 +921,17 @@
     "ageRating": "",
     "trailer": "",
     "embed": "https://waaw.ac/f/eCrQvLA8XIdT",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/eCrQvLA8XIdT" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/eCrQvLA8XIdT" }
+    ],
+    "downloadLinks": [
+      { "name": "Megaup", "url": "https://tpi.li/GAaoXRJ" },
+      { "name": "Mega", "url": "https://tpi.li/4B2HIYd9" },
+      { "name": "Mediafire password (cc)", "url": "https://tpi.li/p6fGpQ" },
+      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/2SmVJJqJ" },
+      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/vlS92agOTwM" },
+      { "name": "Torrent 720p (ingles)", "url": "https://tpi.li/pkId2z" }
+    ]
   },
 
   {
