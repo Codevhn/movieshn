@@ -716,7 +716,14 @@
     "watchLinks": [
       { "name": "Opcion 1", "url": "https://waaw.ac/f/UdU3t6VmhNEk" }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      { "name": "Torrent 1080p", "url": "https://tpi.li/Mq8wZ" },
+      { "name": "Megaup", "url": "https://tpi.li/1Lrs4Je" },
+      { "name": "Mega", "url": "https://tpi.li/SIB9" },
+      { "name": "Mediafire password (cc)", "url": "https://tpi.li/lfxJu0zp0" },
+      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/z7IvZEL1Xts" },
+      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/TXFoEcIfW" }
+    ]
   },
 
   {
@@ -746,7 +753,16 @@
     "watchLinks": [
       { "name": "Opcion 1", "url": "https://waaw.ac/f/i81wouuGuIWY" }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      { "name": "Megaup", "url": "https://tpi.li/rVjrog10" },
+      { "name": "Mega", "url": "https://tpi.li/8c7jQkF" },
+      { "name": "Mediafire password (cc)", "url": "https://tpi.li/nNZiG" },
+      { "name": "Torrent 1080p", "url": "https://tpi.li/ZJbGqU34xW" },
+      {
+        "name": "Torrent 4K (20 GB latino)",
+        "url": "https://tpi.li/NOOVe9qYeY1"
+      }
+    ]
   },
 
   {
@@ -773,8 +789,16 @@
     "ageRating": "R",
     "trailer": "https://youtu.be/ysQizA7Una8",
     "embed": "https://waaw.ac/f/xHKxlZ11Ix7O",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/xHKxlZ11Ix7O" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/xHKxlZ11Ix7O" }
+    ],
+    "downloadLinks": [
+      { "name": "Torrent 1080p", "url": "https://tpi.li/xS14FpBRcNa" },
+      { "name": "Torrent 1080p opc. 2", "url": "https://tpi.li/pC9QTQNDi" },
+      { "name": "Torrent 720p", "url": "https://tpi.li/8WEJ5" },
+      { "name": "Mediafire password (cc)", "url": "https://tpi.li/VdlNdtaU3" },
+      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/4dmssZlvcVI" }
+    ]
   },
 
   {
@@ -804,7 +828,16 @@
     "watchLinks": [
       { "name": "Opcion 1", "url": "https://waaw.ac/f/74VH4xf1gnCv" }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      { "name": "Torrent", "url": "https://tpi.li/TOQOYHmB" },
+      { "name": "Megaup", "url": "https://tpi.li/NR42Qt35E" },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/bP6mNErKARQ"
+      },
+      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/1SLdkg2" },
+      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/00995fCvGa" }
+    ]
   },
 
   {
@@ -826,14 +859,24 @@
       "Matt Smith"
     ],
     "genre": ["Ciencia Ficción", "Acción"],
-    "language": "Inglés",
-    "quality": "",
+    "language": "Español Latino, Inglés",
+    "quality": "3D, 4K UHD, Full HD 1080p",
     "duration": "2h 6m",
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/morSeCorKXMv",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/morSeCorKXMv" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/morSeCorKXMv" }
+    ],
+    "downloadLinks": [
+      { "name": "Torrent 4K (47GB latino)", "url": "https://tpi.li/TUtlZ4ha" },
+      { "name": "Torrent 1080p", "url": "https://tpi.li/a9XAwha" },
+      { "name": "Megaup", "url": "https://tpi.li/YeOu" },
+      { "name": "Mediafire password (cc)", "url": "https://tpi.li/Td7yuU" },
+      { "name": "Torrent 4K (6 GB ingles)", "url": "https://tpi.li/dRZYAU5c" },
+      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/Ui5lYR5ZnD" },
+      { "name": "Torrent 3D (ingles)", "url": "https://tpi.li/upqnYF2k8" }
+    ]
   },
 
   {
@@ -853,14 +896,27 @@
       "Gabriel Luna"
     ],
     "genre": ["Ciencia Ficción", "Acción"],
-    "language": "Inglés",
-    "quality": "",
+    "language": "Español Latino, Inglés",
+    "quality": " 4K UHD, Full HD 1080p, BluRay 1080p",
     "duration": "2h 8m",
     "ageRating": "R",
     "trailer": "",
     "embed": "https://waaw.ac/f/UN1eKvSjhIgB",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/UN1eKvSjhIgB" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      { "name": "Opcion 1", "url": "https://waaw.ac/f/UN1eKvSjhIgB" }
+    ],
+    "downloadLinks": [
+      { "name": "Torrent 1080p", "url": "https://tpi.li/zHa1vP" },
+      { "name": "Torrent 720p", "url": "https://tpi.li/0QTdGqcg" },
+      {
+        "name": "Torrent 4K (4GB  ingles )",
+        "url": "https://tpi.li/ehS7iT6ink"
+      },
+      {
+        "name": "Torrent  BluRay 1080p (ingles)",
+        "url": "https://tpi.li/6HS5VRE"
+      }
+    ]
   },
   {
     "id": "soy-leyenda-2007",
