@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const escapeAttr = (value = "") => String(value).replace(/"/g, "&quot;");
 
-  fetch("./data/movies.json")
+  fetch("data/movies.json")
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);

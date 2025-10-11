@@ -346,8 +346,8 @@ function smoothScrollTo(targetId) {
 // Fetch + Init
 // ========================
 Promise.all([
-  fetch("./data/movies.json").then((r) => r.json()),
-  fetch("./data/series.json").then((r) => r.json())
+  fetch("data/movies.json").then((r) => r.json()),
+  fetch("data/series.json").then((r) => r.json())
 ])
   .then(([movies, series]) => {
     allMovies = movies || [];
