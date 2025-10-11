@@ -37,413 +37,422 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
 </head>
 
-<canvas id="background-canvas"></canvas>
+<body class="page-index">
+
+  <canvas id="background-canvas"></canvas>
 
 
 
-<header class="site-header">
+  <header class="site-header">
 
-  <!-- Fila superior: logo + hamburguesa -->
-  <div class="header-top">
-    <div class="logo">
-      <a href="index.html">MoviesHN</a>
+    <!-- Fila superior: logo + hamburguesa -->
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html">MoviesHN</a>
+      </div>
+
+      <!-- Botón hamburguesa (solo visible en móvil) -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
     </div>
 
-    <!-- Botón hamburguesa (solo visible en móvil) -->
-    <button class="menu-toggle" aria-label="Abrir menú">
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-      <span class="hamburger"></span>
-    </button>
-  </div>
-
-  <!-- Buscador -->
-  <form class="search-form">
-    <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
-    <button type="submit">Buscar</button>
-  </form>
-  <!-- Menú principal -->
-  <nav class="site-nav">
-    <!-- Botón cerrar (solo en móvil / menú abierto) -->
-    <button class="menu-close" aria-label="Cerrar menú">✕</button>
-    <ul>
-      <li><a href="#recientes"><i class="fas fa-fire"></i> Recientes</a></li>
-      <li><a href="#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
-      <li><a href="#accion"><i class="fas fa-fist-raised"></i> Acción</a></li>
-      <li><a href="#terror"><i class="fas fa-ghost"></i> Terror</a></li>
-      <li><a href="#suspenso"><i class="fas fa-user-secret"></i> Suspenso</a></li>
-      <li><a href="all-series.html"><i class="fas fa-tv"></i> Series</a></li>
-      <li><a href="#tv-series-category"><i class="fas fa-list-alt"></i> Todas las Series</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-
-
-
-<!-- Hero tipo Netflix -->
-<section class="hero">
-  <div class="hero-background">
-    <img src="https://image.tmdb.org/t/p/original/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg" alt="Peliculas destacadas" />
-  </div>
-
-  <div class="hero-content">
-    <h1 class="hero-title">Jurassic World Rebirth</h1>
-    <p>Un nuevo capítulo en la saga de Jurassic Park, donde los dinosaurios vuelven a dominar la Tierra.</p>
-
-    <div class="hero-buttons">
-      <a href="#" class="btn btn-primary" id="hero-watch-now">Ver ahora</a>
-      <a href="mylist.html" class="btn btn-secondary">Mi lista</a>
-    </div>
-  </div>
-</section>
-<section class="site-note">
-  <p>
-    ⚠️ <strong>Sitio en construcción:</strong> MoviesHN se encuentra en fase de mejoras continuas.
-    Estamos actualizando la plataforma y agregando más películas cada semana para ofrecerte la mejor experiencia.
-    ¡Gracias por tu paciencia!
-  </p>
-</section>
-
-
-
-
-
-<section class="latest-carousel-section">
-  <h2>Últimos Agregados</h2>
-  <div class="carousel-container">
-    <div class="carousel-track">
-      <!-- Carousel items will be injected here by JS -->
-    </div>
-  </div>
-</section>
-
-
-<div class="layout">
-  <!-- Sidebar izquierdo -->
-  <aside class="sidebar-left">
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="my-list-section"><i class="fas fa-bookmark"></i> Mi Lista <span
-          class="item-count" id="mylist-count">(0)</span></h3>
-      <ul class="my-list-section category-content">
-        <li><a href="mylist.html">Ver mi lista</a></li>
+    <!-- Buscador -->
+    <form class="search-form">
+      <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
+      <button type="submit">Buscar</button>
+    </form>
+    <!-- Menú principal -->
+    <nav class="site-nav">
+      <!-- Botón cerrar (solo en móvil / menú abierto) -->
+      <button class="menu-close" aria-label="Cerrar menú">✕</button>
+      <ul>
+        <li><a href="#recientes"><i class="fas fa-fire"></i> Recientes</a></li>
+        <li><a href="#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
+        <li><a href="#accion"><i class="fas fa-fist-raised"></i> Acción</a></li>
+        <li><a href="#terror"><i class="fas fa-ghost"></i> Terror</a></li>
+        <li><a href="#suspenso"><i class="fas fa-user-secret"></i> Suspenso</a></li>
+        <li><a href="all-series.html"><i class="fas fa-tv"></i> Series</a></li>
+        <li><a href="#tv-series-category"><i class="fas fa-list-alt"></i> Todas las Series</a></li>
       </ul>
+    </nav>
+  </header>
+
+
+
+
+
+  <!-- Hero tipo Netflix -->
+  <section class="hero">
+    <div class="hero-background">
+      <img src="https://image.tmdb.org/t/p/original/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg" alt="Peliculas destacadas" />
     </div>
 
+    <div class="hero-content">
+      <h1 class="hero-title">Jurassic World Rebirth</h1>
+      <p>Un nuevo capítulo en la saga de Jurassic Park, donde los dinosaurios vuelven a dominar la Tierra.</p>
 
-
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="genre-list"><i class="fas fa-tags"></i> Explorar por Género</h3>
-      <ul class="genre-list category-content">
-        <li><a href="#accion">Acción</a></li>
-        <li><a href="#terror">Terror</a></li>
-        <li><a href="#suspenso">Suspenso</a></li>
-        <li><a href="#comedia">Comedia</a></li>
-        <li><a href="#fantasia">Fantasía</a></li>
-        <li><a href="#ciencia-ficcion">Ciencia Ficción</a></li>
-        <li><a href="#aventura">Aventura</a></li>
-        <li><a href="#animacion">Animación</a></li>
-        <li><a href="#drama">Drama</a></li>
-        <li><a href="#documentales">Documentales</a></li>
-      </ul>
-    </div>
-
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="years-grid"><i class="fas fa-calendar-alt"></i> Explorar por año</h3>
-      <div class="years-grid category-content">
-        <span data-year="2025">2025</span>
-        <span data-year="2024">2024</span>
-        <span data-year="2023">2023</span>
-        <span data-year="2022">2022</span>
-        <span data-year="2021">2021</span>
-        <span data-year="2020">2020</span>
-        <span data-year="2019">2019</span>
-        <span data-year="2018">2018</span>
-        <span data-year="2017">2017</span>
-        <span data-year="2016">2016</span>
-        <span data-year="2015">2015</span>
-        <span data-year="2014">2014</span>
-        <span data-year="2013">2013</span>
-        <span data-year="2012">2012</span>
-        <span data-year="2011">2011</span>
-        <span data-year="2010">2010</span>
-        <span data-year="2009">2009</span>
-        <span data-year="2008">2008</span>
-        <span data-year="2007">2007</span>
-        <span data-year="2006">2006</span>
-        <span data-year="2005">2005</span>
-        <span data-year="2004">2004</span>
-        <span data-year="2003">2003</span>
-        <span data-year="2002">2002</span>
-        <span data-year="2001">2001</span>
-        <span data-year="2000">2000</span>
-        <span data-year="1999">1999</span>
-        <span data-year="1998">1998</span>
-        <span data-year="1997">1997</span>
-        <span data-year="1996">1996</span>
-        <span data-year="1995">1995</span>
-        <span data-year="1994">1994</span>
-        <span data-year="1993">1993</span>
-        <span data-year="1992">1992</span>
-        <span data-year="1991">1991</span>
-        <span data-year="1990">1990</span>
-        <span data-year="1989">1989</span>
-        <span data-year="1988">1988</span>
-        <span data-year="1987">1987</span>
-        <span data-year="1986">1986</span>
-        <span data-year="1985">1985</span>
-        <span data-year="1984">1984</span>
-        <span data-year="1983">1983</span>
-        <span data-year="1982">1982</span>
-        <span data-year="1981">1981</span>
-        <span data-year="1980">1980</span>
-        <span data-year="1979">1979</span>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary" id="hero-watch-now">Ver ahora</a>
+        <a href="mylist.html" class="btn btn-secondary">Mi lista</a>
       </div>
     </div>
+  </section>
+  <section class="site-note">
+    <p>
+      ⚠️ <strong><i class="fas fa-tools"></i> Sitio en construcción:</strong> MoviesHN se encuentra en fase de mejoras
+      continuas.
+      Estamos actualizando la plataforma y agregando más películas cada semana para ofrecerte la mejor experiencia.
+      ¡Gracias por tu paciencia!
+    </p>
+  </section>
 
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="platform-list"><i class="fas fa-desktop"></i> Explorar por Plataformas
-      </h3>
-      <ul class="platform-list category-content">
-        <li><a href="#">Netflix</a></li>
-        <li><a href="#">Amazon Prime Video</a></li>
-        <li><a href="#">Disney+</a></li>
-        <li><a href="#">HBO Max</a></li>
-        <li><a href="#">Apple TV+</a></li>
-      </ul>
+
+
+
+
+  <section class="latest-carousel-section">
+    <h2>Últimos Agregados</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <!-- Carousel items will be injected here by JS -->
+      </div>
     </div>
+  </section>
 
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="saga-list"><i class="fas fa-book-open"></i> Sagas</h3>
-      <ul class="saga-list category-content">
-        <li><a href="#">Star Wars</a></li>
-        <li><a href="#">Marvel Cinematic Universe</a></li>
-        <li><a href="#">Harry Potter</a></li>
-        <li><a href="#">James Bond</a></li>
-        <li><a href="#">Rápidos y Furiosos</a></li>
-      </ul>
-    </div>
 
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="actor-list"><i class="fas fa-users"></i> Actores</h3>
-      <ul class="actor-list category-content">
-        <li><a href="#">Tom Hanks</a></li>
-        <li><a href="#">Meryl Streep</a></li>
-        <li><a href="#">Leonardo DiCaprio</a></li>
-        <li><a href="#">Scarlett Johansson</a></li>
-        <li><a href="#">Denzel Washington</a></li>
-      </ul>
-    </div>
-
-    <div class="sidebar-category">
-      <h3 class="category-toggle" data-target="country-list"><i class="fas fa-globe"></i> Explorar por País</h3>
-      <ul class="country-list category-content">
-        <li><a href="#">Estados Unidos</a></li>
-        <li><a href="#">España</a></li>
-        <li><a href="#">México</a></li>
-        <li><a href="#">Francia</a></li>
-        <li><a href="#">Reino Unido</a></li>
-        <li><a href="#">Japón</a></li>
-      </ul>
-    </div>
+  <div class="layout">
+    <!-- Sidebar izquierdo -->
+    <aside class="sidebar-left">
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="my-list-section"><i class="fas fa-bookmark"></i> Mi Lista <span
+            class="item-count" id="mylist-count">(0)</span></h3>
+        <ul class="my-list-section category-content">
+          <li><a href="mylist.html">Ver mi lista</a></li>
+        </ul>
+      </div>
 
 
 
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="genre-list"><i class="fas fa-tags"></i> Explorar por Género</h3>
+        <ul class="genre-list category-content">
+          <li><a href="#accion">Acción</a></li>
+          <li><a href="#terror">Terror</a></li>
+          <li><a href="#suspenso">Suspenso</a></li>
+          <li><a href="#comedia">Comedia</a></li>
+          <li><a href="#fantasia">Fantasía</a></li>
+          <li><a href="#ciencia-ficcion">Ciencia Ficción</a></li>
+          <li><a href="#aventura">Aventura</a></li>
+          <li><a href="#animacion">Animación</a></li>
+          <li><a href="#drama">Drama</a></li>
+          <li><a href="#documentales">Documentales</a></li>
+        </ul>
+      </div>
 
-  </aside>
-
-  <main class="main-content">
-    <div class="container-movies">
-
-
-      <section id="continue-watching-section" class="movie-section" style="display:none;">
-        <h2>Continuar Viendo</h2>
-        <div id="continue-watching-grid" class="movie-grid">
-          <!-- Las películas para continuar viendo se renderizarán aquí -->
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="years-grid"><i class="fas fa-calendar-alt"></i> Explorar por año</h3>
+        <div class="years-grid category-content">
+          <span data-year="2025">2025</span>
+          <span data-year="2024">2024</span>
+          <span data-year="2023">2023</span>
+          <span data-year="2022">2022</span>
+          <span data-year="2021">2021</span>
+          <span data-year="2020">2020</span>
+          <span data-year="2019">2019</span>
+          <span data-year="2018">2018</span>
+          <span data-year="2017">2017</span>
+          <span data-year="2016">2016</span>
+          <span data-year="2015">2015</span>
+          <span data-year="2014">2014</span>
+          <span data-year="2013">2013</span>
+          <span data-year="2012">2012</span>
+          <span data-year="2011">2011</span>
+          <span data-year="2010">2010</span>
+          <span data-year="2009">2009</span>
+          <span data-year="2008">2008</span>
+          <span data-year="2007">2007</span>
+          <span data-year="2006">2006</span>
+          <span data-year="2005">2005</span>
+          <span data-year="2004">2004</span>
+          <span data-year="2003">2003</span>
+          <span data-year="2002">2002</span>
+          <span data-year="2001">2001</span>
+          <span data-year="2000">2000</span>
+          <span data-year="1999">1999</span>
+          <span data-year="1998">1998</span>
+          <span data-year="1997">1997</span>
+          <span data-year="1996">1996</span>
+          <span data-year="1995">1995</span>
+          <span data-year="1994">1994</span>
+          <span data-year="1993">1993</span>
+          <span data-year="1992">1992</span>
+          <span data-year="1991">1991</span>
+          <span data-year="1990">1990</span>
+          <span data-year="1989">1989</span>
+          <span data-year="1988">1988</span>
+          <span data-year="1987">1987</span>
+          <span data-year="1986">1986</span>
+          <span data-year="1985">1985</span>
+          <span data-year="1984">1984</span>
+          <span data-year="1983">1983</span>
+          <span data-year="1982">1982</span>
+          <span data-year="1981">1981</span>
+          <span data-year="1980">1980</span>
+          <span data-year="1979">1979</span>
         </div>
-      </section>
-
-      <section id="search-results" class="movie-section" style="display:none;">
-        <h2>Resultados</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-
-      <section id="recientes" class="movie-section">
-        <h2>Recientes</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="latest-series-section" class="movie-section">
-        <h2>Últimas Series</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="tv-series-category" class="movie-section">
-        <h2>Todas las Series de TV</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="mas-vistas" class="movie-section">
-        <h2>Mas vistas</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="terror" class="movie-section">
-        <h2>Terror</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="suspenso" class="movie-section">
-        <h2>Suspenso</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="accion" class="movie-section">
-        <h2>Acción</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="tv-series" class="movie-section">
-        <h2>Series de TV</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="comedia" class="movie-section">
-        <h2>Comedia</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="fantasia" class="movie-section">
-        <h2>Fantasía</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="ciencia-ficcion" class="movie-section">
-        <h2>Ciencia Ficción</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="aventura" class="movie-section">
-        <h2>Aventura</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="animacion" class="movie-section">
-        <h2>Animación</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="musical" class="movie-section">
-        <h2>Musical</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="biografia" class="movie-section">
-        <h2>Biografía</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="drama" class="movie-section">
-        <h2>Drama</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="documentales" class="movie-section">
-        <h2>Documentales</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="+18" class="movie-section">
-        <h2>+18</h2>
-        <div class="movie-grid"></div>
-      </section>
-
-      <section id="hackers-y-ciberseguridad" class="movie-section">
-        <h2>Hackers y Ciberseguridad</h2>
-        <div class="movie-grid"></div>
-      </section>
-    </div>
-  </main>
-
-  <!-- Sidebar derecho -->
-  <aside class="sidebar-right">
-
-    <h3><i class="fas fa-plus-square"></i> Últimas Series Agregadas</h3>
-    <div id="latest-series-sidebar" class="featured-series">
-      <!-- Contenido generado por JS -->
-    </div>
-
-    <h3 id="recommended-series-title"><i class="fas fa-award"></i> Serie del Día</h3>
-    <div id="recommended-series-container" class="featured-series">
-      <!-- Contenido generado por JS -->
-    </div>
-
-    <h3><i class="fas fa-film"></i> Películas Destacadas</h3>
-    <div class="featured-movies">
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" alt="The Matrix">
-        <p>The Matrix</p>
       </div>
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="The Godfather">
-        <p>The Godfather</p>
-      </div>
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="The Lord of the Rings">
-        <p>The Lord of the Rings</p>
-      </div>
-    </div>
 
-    <h3><i class="fas fa-calendar-alt"></i> Próximos Estrenos</h3>
-    <div class="featured-movies">
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000000.jpg" alt="Próximo Estreno 1">
-        <p>Próximo Estreno 1</p>
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="platform-list"><i class="fas fa-desktop"></i> Explorar por Plataformas
+        </h3>
+        <ul class="platform-list category-content">
+          <li><a href="#">Netflix</a></li>
+          <li><a href="#">Amazon Prime Video</a></li>
+          <li><a href="#">Disney+</a></li>
+          <li><a href="#">HBO Max</a></li>
+          <li><a href="#">Apple TV+</a></li>
+        </ul>
       </div>
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000001.jpg" alt="Próximo Estreno 2">
-        <p>Próximo Estreno 2</p>
-      </div>
-      <div class="featured-item">
-        <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000002.jpg" alt="Próximo Estreno 3">
-        <p>Próximo Estreno 3</p>
-      </div>
-    </div>
 
-    <h3><i class="fas fa-award"></i> Película del Día</h3>
-    <div class="featured-movies">
-      <!-- Contenido generado por JS -->
-    </div>
-
-    <h3><i class="fas fa-newspaper"></i> Noticias</h3>
-    <div class="news-list">
-      <div class="featured-item">
-        <p>Noticia 1: Lorem ipsum dolor sit amet.</p>
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="saga-list"><i class="fas fa-book-open"></i> Sagas</h3>
+        <ul class="saga-list category-content">
+          <li><a href="#">Star Wars</a></li>
+          <li><a href="#">Marvel Cinematic Universe</a></li>
+          <li><a href="#">Harry Potter</a></li>
+          <li><a href="#">James Bond</a></li>
+          <li><a href="#">Rápidos y Furiosos</a></li>
+        </ul>
       </div>
-      <div class="featured-item">
-        <p>Noticia 2: Consectetur adipiscing elit.</p>
+
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="actor-list"><i class="fas fa-users"></i> Actores</h3>
+        <ul class="actor-list category-content">
+          <li><a href="#">Tom Hanks</a></li>
+          <li><a href="#">Meryl Streep</a></li>
+          <li><a href="#">Leonardo DiCaprio</a></li>
+          <li><a href="#">Scarlett Johansson</a></li>
+          <li><a href="#">Denzel Washington</a></li>
+        </ul>
       </div>
-      <div class="featured-item">
-        <p>Noticia 3: Sed do eiusmod tempor incididunt.</p>
+
+      <div class="sidebar-category">
+        <h3 class="category-toggle" data-target="country-list"><i class="fas fa-globe"></i> Explorar por País</h3>
+        <ul class="country-list category-content">
+          <li><a href="#">Estados Unidos</a></li>
+          <li><a href="#">España</a></li>
+          <li><a href="#">México</a></li>
+          <li><a href="#">Francia</a></li>
+          <li><a href="#">Reino Unido</a></li>
+          <li><a href="#">Japón</a></li>
+        </ul>
       </div>
-    </div>
-  </aside>
-
-</div>
-
-
-<footer>
-  <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
-</footer>
-<script src="./js/index.js"></script>
-<script src="./js/menu.js"></script>
 
 
+
+
+    </aside>
+
+    <main class="main-content">
+      <div class="container-movies">
+
+
+        <section id="continue-watching-section" class="movie-section" style="display:none;">
+          <h2>Continuar Viendo</h2>
+          <div id="continue-watching-grid" class="movie-grid">
+            <!-- Las películas para continuar viendo se renderizarán aquí -->
+          </div>
+        </section>
+
+        <section id="search-results" class="movie-section" style="display:none;">
+          <h2>Resultados</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+
+        <section id="recientes" class="movie-section">
+          <h2>Recientes</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="latest-series-section" class="movie-section">
+          <h2>Últimas Series</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="tv-series-category" class="movie-section">
+          <h2>Todas las Series de TV</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="mas-vistas" class="movie-section">
+          <h2>Mas vistas</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="terror" class="movie-section">
+          <h2>Terror</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="suspenso" class="movie-section">
+          <h2>Suspenso</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="accion" class="movie-section">
+          <h2>Acción</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="tv-series" class="movie-section">
+          <h2>Series de TV</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="comedia" class="movie-section">
+          <h2>Comedia</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="fantasia" class="movie-section">
+          <h2>Fantasía</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="ciencia-ficcion" class="movie-section">
+          <h2>Ciencia Ficción</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="aventura" class="movie-section">
+          <h2>Aventura</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="animacion" class="movie-section">
+          <h2>Animación</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="musical" class="movie-section">
+          <h2>Musical</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="biografia" class="movie-section">
+          <h2>Biografía</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="drama" class="movie-section">
+          <h2>Drama</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="documentales" class="movie-section">
+          <h2>Documentales</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="+18" class="movie-section">
+          <h2>+18</h2>
+          <div class="movie-grid"></div>
+        </section>
+
+        <section id="hackers-y-ciberseguridad" class="movie-section">
+          <h2>Hackers y Ciberseguridad</h2>
+          <div class="movie-grid"></div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Sidebar derecho -->
+    <aside class="sidebar-right">
+
+      <h3><i class="fas fa-plus-square"></i> Últimas Series Agregadas</h3>
+      <div id="latest-series-sidebar" class="featured-series">
+        <!-- Contenido generado por JS -->
+      </div>
+
+      <h3 id="recommended-series-title"><i class="fas fa-award"></i> Serie del Día</h3>
+      <div id="recommended-series-container" class="featured-series">
+        <!-- Contenido generado por JS -->
+      </div>
+
+      <h3><i class="fas fa-film"></i> Películas Destacadas</h3>
+      <div class="featured-movies">
+        <div class="featured-item">
+          <img src="https://image.tmdb.org/t/p/original/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg" alt="guerra de los mundos">
+          <p>The Matrix</p>
+        </div>
+        <div class="featured-item">
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg"
+            alt="The Godfather">
+          <p>The Godfather</p>
+        </div>
+        <div class="featured-item">
+          <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z632eZtXaw76ZE5mMMGOBXCpm1T.jpg"
+            alt="The Lord of the Rings">
+          <p>The Lord of the Rings</p>
+        </div>
+      </div>
+
+      <h3><i class="fas fa-calendar-alt"></i> Próximos Estrenos</h3>
+      <div class="featured-movies">
+        <div class="featured-item">
+          <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000000.jpg" alt="Próximo Estreno 1">
+          <p>Próximo Estreno 1</p>
+        </div>
+        <div class="featured-item">
+          <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000001.jpg" alt="Próximo Estreno 2">
+          <p>Próximo Estreno 2</p>
+        </div>
+        <div class="featured-item">
+          <img src="https://image.tmdb.org/t/p/w500/qNBAE0JbQ2Gj50J000000000002.jpg" alt="Próximo Estreno 3">
+          <p>Próximo Estreno 3</p>
+        </div>
+      </div>
+
+      <h3><i class="fas fa-award"></i> Película del Día</h3>
+      <div class="featured-movies">
+        <!-- Contenido generado por JS -->
+      </div>
+
+      <h3><i class="fas fa-newspaper"></i> Noticias</h3>
+      <div class="news-list">
+        <div class="featured-item">
+          <p>Noticia 1: Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="featured-item">
+          <p>Noticia 2: Consectetur adipiscing elit.</p>
+        </div>
+        <div class="featured-item">
+          <p>Noticia 3: Sed do eiusmod tempor incididunt.</p>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+
+  <div id="contact-banner-placeholder"></div>
+
+  <footer>
+    <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./js/index.js"></script>
+  <script src="./js/menu.js"></script>
+
+
+  <script src="./js/components.js"></script>
 </body>
 
 </html>

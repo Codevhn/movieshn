@@ -403,7 +403,8 @@ body.nav-open {
 }
 
 .hero-buttons .btn,
-.series-showcase__actions .btn {
+.series-showcase__actions .btn,
+.contact-banner-actions .btn {
   padding: 0.8rem 2rem;
   border-radius: 50px;
   font-weight: bold;
@@ -689,7 +690,7 @@ body.nav-open {
 }
 
 .download-btn::after {
-  content: "\\f061";
+  content: "\f061";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   font-size: 0.85rem;
@@ -1039,8 +1040,8 @@ body.nav-open {
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(200px, 1fr)
-  ); /* Tarjetas más compactas */
+    minmax(200px, 1fr) /* Tarjetas más compactas */
+  );
   gap: 1rem;
 }
 
@@ -1890,10 +1891,15 @@ body.nav-open {
   background-color: var(--card-color);
   border: 1px solid var(--primary-accent-color);
   color: var(--subtle-text-color);
-  padding: 1rem;
+  padding: 1rem 1.5rem; /* Adjusted padding */
   border-radius: 8px;
   margin-bottom: 1.5rem;
   text-align: center;
+  animation: pulse-glow 3s infinite ease-in-out; /* New animation */
+  display: flex; /* For icon alignment */
+  justify-content: center; /* For icon alignment */
+  align-items: center; /* For icon alignment */
+  gap: 0.75rem; /* Space between icon and text */
 }
 
 .page-all-series .site-note {
@@ -2533,10 +2539,6 @@ body.nav-open {
   background: rgba(255, 255, 255, 0.14);
 }
 
-.download-tier__badge .fas {
-  color: var(--primary-accent-color);
-}
-
 .download-tier--vip .download-tier__badge span {
   background: var(--primary-accent-color);
   color: #201500;
@@ -2832,7 +2834,7 @@ body.nav-open {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.experience-card--facts .movie-meta .meta-row span:last-child {
+.experience-card--facts .meta-row span:last-child {
   font-weight: 500;
 }
 
@@ -3797,5 +3799,69 @@ footer {
 
   .download-btn {
     flex: 1 1 280px;
+  }
+}
+
+/* --- Banner de Contacto --- */
+.contact-banner {
+  padding: 2.5rem 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.05), rgba(255, 255, 255, 0.01));
+  border-top: 1px solid rgba(255, 193, 7, 0.2);
+  border-bottom: 1px solid rgba(255, 193, 7, 0.2);
+  margin-top: 3rem;
+}
+
+.contact-banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-banner-text h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: var(--primary-accent-color);
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px var(--hover-shadow-color);
+}
+
+.contact-banner-text p {
+  color: var(--subtle-text-color);
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.contact-banner-actions {
+  display: flex;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-banner-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+}
+
+/* --- Fix para la nota de sitio en construcción en Index --- */
+.page-index .site-note {
+  display: block;
+  max-width: 720px;
+  margin: 2rem auto;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    border-color: var(--primary-accent-color);
+    box-shadow: 0 0 8px var(--hover-shadow-color);
+  }
+  50% {
+    border-color: #ffd54f; /* A lighter yellow */
+    box-shadow: 0 0 16px var(--hover-shadow-color), 0 0 20px rgba(255, 193, 7, 0.5);
   }
 }
