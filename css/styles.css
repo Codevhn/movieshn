@@ -1351,6 +1351,13 @@ body.nav-open {
   gap: 1.4rem;
   position: relative;
   z-index: 1;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .series-showcase__content {
+    text-align: center;
+  }
 }
 
 .series-showcase__eyebrow {
