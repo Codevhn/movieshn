@@ -265,18 +265,17 @@ function makeHeadingsClickable() {
     const heading = section.querySelector('h2');
 
     if (heading) {
-      // Make heading clickable
-      if (!heading.classList.contains('clickable')) {
-        heading.classList.add('clickable');
-        
-        // Add click handler for category page navigation
-        heading.onclick = () => {
-          navigateToCategoryPage(categoryId);
-        };
-        
-        // Add cursor pointer for better UX
-        heading.style.cursor = 'pointer';
-      }
+      // Add click handler for category page navigation
+      heading.onclick = () => {
+        navigateToCategoryPage(categoryId);
+      };
+      
+      // Add cursor pointer for better UX
+      heading.style.cursor = 'pointer';
+      
+      // Add visual indicator for clickable state
+      heading.style.borderLeft = '4px solid var(--primary-accent-color)';
+      heading.style.transition = 'border-left-color 0.2s ease';
     }
   });
 }
@@ -301,7 +300,7 @@ function navigateToCategoryPage(categoryId) {
     'musical': 'musical.html',
     'biografia': 'biografia.html',
     'hackers-y-ciberseguridad': 'hackers-y-ciberseguridad.html',
-    'tv-series': 'tv-series.html',
+    'tv-series': 'all-series.html',
     'mas-vistas': 'mas-vistas.html'
   };
   

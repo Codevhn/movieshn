@@ -80,67 +80,200 @@
         </p>
     </section>
 
-    <main class="series-directory main-content">
-
-        <section class="series-toolbox" aria-labelledby="series-toolbox-title">
-            <div class="series-toolbox__header">
-                <h2 id="series-toolbox-title">Refina tu búsqueda</h2>
-                <p>Combina filtros en tiempo real para descubrir exactamente lo que quieres ver.</p>
-            </div>
-            <div class="series-toolbox__grid">
-                <label class="toolbox-field" for="series-search">
-                    <span>Buscar</span>
-                    <div class="field-with-icon">
-                        <i class="fas fa-search"></i>
-                        <input id="series-search" type="search" placeholder="Título, reparto o palabra clave" autocomplete="off">
+    <main class="main-content">
+        
+        <!-- Control Panel Moderno -->
+        <section class="control-panel">
+            <div class="container">
+                <div class="control-panel__grid">
+                    <!-- Búsqueda Inteligente -->
+                    <div class="search-module">
+                        <div class="search-module__header">
+                            <i class="fas fa-search-plus"></i>
+                            <h3>Búsqueda Inteligente</h3>
+                        </div>
+                        <div class="search-input-wrapper">
+                            <input type="search" id="series-search" placeholder="Busca por título, actor, director..." class="search-input">
+                            <button type="button" class="search-clear" hidden><i class="fas fa-times"></i></button>
+                        </div>
                     </div>
-                </label>
-                <label class="toolbox-field" for="series-sort">
-                    <span>Ordenar por</span>
-                    <select id="series-sort">
-                        <option value="featured">Destacadas por MoviesHN</option>
-                        <option value="az">Título (A-Z)</option>
-                        <option value="recent">Más recientes</option>
-                        <option value="oldest">Más antiguas</option>
-                    </select>
-                </label>
-                <div class="toolbox-field toolbox-field--chips">
-                    <span>Formato</span>
-                    <div class="toggle-group" role="group" aria-label="Selector de visualización">
-                        <button class="toggle-button is-active" type="button" data-view="grid" aria-pressed="true">Tarjetas</button>
-                        <button class="toggle-button" type="button" data-view="list" aria-pressed="false">Listado</button>
+
+                    <!-- Filtros Avanzados -->
+                    <div class="filter-module">
+                        <div class="filter-module__header">
+                            <i class="fas fa-sliders-h"></i>
+                            <h3>Filtros</h3>
+                        </div>
+                        <div class="filter-grid">
+                            <select id="genre-filter" class="filter-select">
+                                <option value="">Todos los géneros</option>
+                                <option value="drama">Drama</option>
+                                <option value="comedia">Comedia</option>
+                                <option value="accion">Acción</option>
+                                <option value="suspenso">Suspenso</option>
+                                <option value="ciencia-ficcion">Ciencia Ficción</option>
+                                <option value="fantasia">Fantasía</option>
+                                <option value="documental">Documental</option>
+                            </select>
+                            <select id="year-filter" class="filter-select">
+                                <option value="">Todos los años</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="older">Anteriores</option>
+                            </select>
+                            <select id="status-filter" class="filter-select">
+                                <option value="">Todos los estados</option>
+                                <option value="ongoing">En emisión</option>
+                                <option value="completed">Completadas</option>
+                                <option value="cancelled">Canceladas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Ordenamiento y Vista -->
+                    <div class="view-module">
+                        <div class="view-module__header">
+                            <i class="fas fa-sort-amount-down"></i>
+                            <h3>Visualización</h3>
+                        </div>
+                        <div class="view-controls">
+                            <select id="sort-filter" class="filter-select">
+                                <option value="featured">Destacadas</option>
+                                <option value="newest">Más nuevas</option>
+                                <option value="oldest">Más antiguas</option>
+                                <option value="az">A-Z</option>
+                                <option value="za">Z-A</option>
+                                <option value="rating">Mejor valoradas</option>
+                            </select>
+                            <div class="view-toggle">
+                                <button type="button" class="view-btn active" data-view="grid">
+                                    <i class="fas fa-th"></i>
+                                </button>
+                                <button type="button" class="view-btn" data-view="list">
+                                    <i class="fas fa-list"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Etiquetas de Filtros Activos -->
+                <div class="active-filters" id="active-filters" hidden>
+                    <div class="active-filters__header">
+                        <span>Filtros activos:</span>
+                        <button type="button" class="clear-all-filters">Limpiar todo</button>
+                    </div>
+                    <div class="active-filters__tags" id="filter-tags"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultados y Catálogo -->
+        <section class="series-catalog" id="series-catalog">
+            <div class="container">
+                <!-- Encabezado de Resultados -->
+                <div class="catalog-header">
+                    <div class="catalog-stats">
+                        <h2 class="catalog-title">Catálogo de Series</h2>
+                        <span class="results-count" id="results-count">Cargando series...</span>
+                    </div>
+                    <div class="catalog-actions">
+                        <button type="button" class="btn-outline" id="shuffle-btn">
+                            <i class="fas fa-random"></i>
+                            Sorprender
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Grid de Series -->
+                <div class="series-grid-container">
+                    <div id="series-grid" class="series-grid" role="list">
+                        <!-- Las series se cargarán aquí mediante JavaScript -->
+                    </div>
+                    
+                    <!-- Estado Vacío -->
+                    <div id="empty-state" class="empty-state" hidden>
+                        <div class="empty-state__icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>No encontramos resultados</h3>
+                        <p>Intenta con otros filtros o términos de búsqueda diferentes</p>
+                        <button type="button" class="btn-primary" onclick="clearAllFilters()">
+                            Limpiar filtros
+                        </button>
+                    </div>
+                    
+                    <!-- Indicador de Carga -->
+                    <div id="loading-state" class="loading-state">
+                        <div class="loading-spinner"></div>
+                        <p>Cargando series increíbles...</p>
+                    </div>
+                </div>
+
+                <!-- Paginación -->
+                <div class="pagination-container" id="pagination-container" hidden>
+                    <div class="pagination">
+                        <button type="button" class="pagination-btn" id="prev-page" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                            Anterior
+                        </button>
+                        <div class="pagination-info">
+                            <span id="current-page">1</span> de <span id="total-pages">1</span>
+                        </div>
+                        <button type="button" class="pagination-btn" id="next-page">
+                            Siguiente
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="series-genres" aria-labelledby="genres-title">
-            <div class="series-genres__header">
-                <h2 id="genres-title">Explora por género</h2>
-                <button id="clear-genre-filter" type="button" class="link-button" hidden>Limpiar filtros</button>
+        <!-- Sección de Recomendaciones -->
+        <section class="recommendations-section">
+            <div class="container">
+                <div class="recommendations-header">
+                    <h2>
+                        <i class="fas fa-star"></i>
+                        Recomendaciones Especiales
+                    </h2>
+                    <p>Series seleccionadas por nuestro equipo</p>
+                </div>
+                
+                <div class="recommendations-grid">
+                    <div class="recommendation-card featured">
+                        <div class="recommendation-badge">Destacada</div>
+                        <div class="recommendation-content">
+                            <h3>Serie de la Semana</h3>
+                            <p>Descubre nuestra recomendación principal para esta semana</p>
+                            <button type="button" class="btn-accent">Ver serie</button>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card trending">
+                        <div class="recommendation-badge">Tendencia</div>
+                        <div class="recommendation-content">
+                            <h3>Más Populares</h3>
+                            <p>Lo que está viendo toda la comunidad</p>
+                            <button type="button" class="btn-accent">Explorar</button>
+                        </div>
+                    </div>
+                    
+                    <div class="recommendation-card hidden-gems">
+                        <div class="recommendation-badge">Joyas Ocultas</div>
+                        <div class="recommendation-content">
+                            <h3>Descubrimientos</h3>
+                            <p>Series increíbles que quizás no conocías</p>
+                            <button type="button" class="btn-accent">Descubrir</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="genre-chips" class="genre-chip-list" role="list"></div>
-        </section>
-
-        <section class="series-spotlight" aria-labelledby="spotlight-title">
-            <div class="series-spotlight__header">
-                <h2 id="spotlight-title">Selección semanal</h2>
-                <p>Historias destacadas listas para empezar tu próximo maratón.</p>
-            </div>
-            <div id="spotlight-track" class="spotlight-track" role="list"></div>
-        </section>
-
-        <section id="series-catalog" class="series-catalog" aria-labelledby="catalog-title">
-            <div class="series-catalog__header">
-                <h2 id="catalog-title">Catálogo completo</h2>
-                <span id="results-count" class="results-count">0 resultados</span>
-            </div>
-            <div id="series-grid" class="series-grid" role="list">
-                <!-- Las series se cargarán aquí mediante JavaScript -->
-            </div>
-            <p id="empty-state" class="series-empty" hidden>
-                No encontramos resultados con los filtros actuales. Intenta con otro género o limpia la búsqueda.
-            </p>
         </section>
     </main>
 
