@@ -247,7 +247,7 @@
           return genres.includes("Terror");
         });
         
-        filteredMovies = [...terrorMovies];
+        filteredMovies = [...terrorMovies].reverse();
         
         // Update stats
         document.getElementById('movies-count').textContent = terrorMovies.length;
@@ -307,7 +307,7 @@
           renderMovies();
         } else {
           // Reset to all terror movies
-          filteredMovies = [...terrorMovies];
+          filteredMovies = [...terrorMovies].reverse();
           renderMovies();
         }
       });
@@ -323,14 +323,19 @@
           );
           renderMovies();
         } else if (searchTerm.length === 0) {
-          filteredMovies = [...terrorMovies];
+          filteredMovies = [...terrorMovies].reverse();
           renderMovies();
         }
       });
     }
 
     // Initialize My List functionality
+    // Variable para evitar múltiples inicializaciones
+    let myListInitialized = false;
+
     function initMyList() {
+      if (myListInitialized) return;
+      myListInitialized = true;
       document.addEventListener('click', (e) => {
         if (e.target.classList.contains('add-to-list')) {
           const movieId = e.target.getAttribute('data-id');
@@ -344,7 +349,7 @@
             e.target.classList.remove('added-to-list');
           } else {
             // Add to list
-            stored.push(movieId);
+            stored.unshift(movieId);
             e.target.textContent = 'En mi lista';
             e.target.classList.add('added-to-list');
           }
@@ -453,7 +458,7 @@
       const yearFilter = document.getElementById('year-filter').value;
       const sortFilter = document.getElementById('sort-filter').value;
 
-      filteredMovies = [...terrorMovies];
+      filteredMovies = [...terrorMovies].reverse();
 
       // Apply year filter
       if (yearFilter) {
@@ -484,7 +489,7 @@
     function clearFilters() {
       document.getElementById('year-filter').value = '';
       document.getElementById('sort-filter').value = 'title';
-      filteredMovies = [...terrorMovies];
+      filteredMovies = [...terrorMovies].reverse();
       renderMovies();
     }
 

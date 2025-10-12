@@ -45,7 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const myListMovies = allMovies.filter(movie => storedIds.includes(movie.id));
+        // Mantener el orden de storedIds (más recientes primero)
+        const myListMovies = storedIds
+            .map(id => allMovies.find(movie => movie.id === id))
+            .filter(movie => movie !== undefined);
 
         if (myListMovies.length === 0) {
             showEmptyMessage(); // No movies found from stored IDs
@@ -61,7 +64,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Lógica para manejar los clics en "Mi lista" en esta página
+    let myListButtonsInitialized = false;
     const initMyListButtons = () => {
+        if (myListButtonsInitialized) {
+            console.log('initMyListButtons ya inicializado, saltando...');
+            return;
+        }
+        myListButtonsInitialized = true;
+        
         document.addEventListener('click', (e) => {
             if (!e.target.matches('.add-to-list')) return;
 
@@ -77,8 +87,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Opcional: quitar la tarjeta de la vista inmediatamente
                 btn.closest('.movie-card').remove();
             } else {
-                // Esto no debería pasar en esta página, pero por si acaso
-                stored.push(movieId);
+                // Agregar al principio de la lista
+                stored.unshift(movieId);
             }
             localStorage.setItem('myList', JSON.stringify(stored));
             

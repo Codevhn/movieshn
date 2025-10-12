@@ -226,8 +226,10 @@ function renderMovies(movies, filtered = false) {
     const container = document.querySelector(`#${categoryId} .movie-grid`);
     
     if (container && categoryMovies.length > 0) {
+      // Reverse array to show most recent movies first (last in JSON = first in display)
+      const reversedMovies = [...categoryMovies].reverse();
       // Limit to 10 items max (2 rows of 5)
-      const limitedMovies = categoryMovies.slice(0, 10);
+      const limitedMovies = reversedMovies.slice(0, 10);
       
       limitedMovies.forEach(movie => {
         const card = createCard(movie);
@@ -518,8 +520,8 @@ Promise.all([
     startDynamicHeroCycle(); // Iniciar el ciclo del Hero dinámico
 
     renderMovies(allMovies);
-    renderLatestSeries(allSeries); // Render latest series
-    renderTvSeriesCategory(allSeries); // Render all TV series
+    // renderLatestSeries(allSeries); // Render latest series - FUNCIÓN NO DEFINIDA
+    // renderTvSeriesCategory(allSeries); // Render all TV series - FUNCIÓN NO DEFINIDA
     renderSidebarSeries(allSeries); // Render sidebar series
     initYearFilter();
     initMenu();
@@ -658,7 +660,18 @@ function initMenu() {
  *
  */
 
+// Variable para asegurarnos de que solo se inicialice una vez
+let myListInitialized = false;
+
 function initMyList() {
+  if (myListInitialized) {
+    console.log("🟢 initMyList() ya fue inicializada, saltando...");
+    return;
+  }
+  
+  console.log("🟢 initMyList() inicializada");
+  myListInitialized = true;
+  
   document.addEventListener("click", (e) => {
     if (!e.target.matches(".add-to-list")) return;
 
@@ -667,23 +680,33 @@ function initMyList() {
     const btn = e.target;
     const itemId = btn.dataset.id;
     const itemType = btn.dataset.type; // 'movie' or 'series'
-    if (!itemId) return;
+    
+    console.log("📋 Item ID:", itemId, "Tipo:", itemType);
+    
+    if (!itemId) {
+      console.error("❌ No se encontró ID del item");
+      return;
+    }
 
     const stored = JSON.parse(localStorage.getItem("myList")) || [];
     const alreadyInList = stored.includes(itemId);
 
+    console.log("📦 Lista actual:", stored, "Ya en lista:", alreadyInList);
+
     if (alreadyInList) {
-      //QUitar item
+      //Quitar item
       const newList = stored.filter((id) => id !== itemId);
       localStorage.setItem("myList", JSON.stringify(newList));
       btn.textContent = "Mi lista";
       btn.classList.remove('added-to-list');
+      console.log("➖ Item removido de la lista");
     } else {
-      //Agregar item
-      stored.push(itemId);
+      //Agregar item al principio de la lista
+      stored.unshift(itemId);
       localStorage.setItem("myList", JSON.stringify(stored));
       btn.textContent = "En mi lista";
       btn.classList.add('added-to-list');
+      console.log("➕ Item agregado al principio de la lista");
     }
     updateCounts(); // Call updateCounts after modifying myList
   });
