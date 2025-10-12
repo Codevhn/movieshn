@@ -277,48 +277,60 @@
 
 
         <section id="recientes" class="movie-section">
-          <h2>Recientes</h2>
-          <div class="movie-grid"></div>
-        </section>
-
-        <section id="latest-series-section" class="movie-section">
-          <h2>Últimas Series</h2>
-          <div class="movie-grid"></div>
-        </section>
-
-        <section id="tv-series-category" class="movie-section">
-          <h2>Todas las Series de TV</h2>
+          <h2><i class="fas fa-plus-circle section-icon"></i>Películas Recientes</h2>
           <div class="movie-grid"></div>
         </section>
 
         <section id="mas-vistas" class="movie-section">
-          <h2>Mas vistas</h2>
+          <h2><i class="fas fa-fire section-icon"></i>Películas Más Vistas</h2>
           <div class="movie-grid"></div>
         </section>
 
         <section id="terror" class="movie-section">
-          <h2>Terror</h2>
-          <div class="movie-grid"></div>
-        </section>
-
-        <section id="suspenso" class="movie-section">
-          <h2>Suspenso</h2>
+          <h2 class="clickable" onclick="window.location.href='terror.html'">
+            <i class="fas fa-skull section-icon"></i>Terror
+            <span class="see-more">Ver más</span>
+          </h2>
           <div class="movie-grid"></div>
         </section>
 
         <section id="accion" class="movie-section">
-          <h2>Acción</h2>
+          <h2 class="clickable" onclick="window.location.href='accion.html'">
+            <i class="fas fa-fist-raised section-icon"></i>Acción
+            <span class="see-more">Ver más</span>
+          </h2>
           <div class="movie-grid"></div>
         </section>
 
-        <section id="tv-series" class="movie-section">
-          <h2>Series de TV</h2>
+        <section id="suspenso" class="movie-section">
+          <h2 class="clickable" onclick="window.location.href='suspenso.html'">
+            <i class="fas fa-eye section-icon"></i>Suspenso
+            <span class="see-more">Ver más</span>
+          </h2>
           <div class="movie-grid"></div>
         </section>
 
         <section id="comedia" class="movie-section">
-          <h2>Comedia</h2>
+          <h2 class="clickable" onclick="window.location.href='comedia.html'">
+            <i class="fas fa-laugh section-icon"></i>Comedia
+            <span class="see-more">Ver más</span>
+          </h2>
           <div class="movie-grid"></div>
+        </section>
+
+        <!-- Enlace a Series -->
+        <section class="movie-section series-redirect">
+          <h2 class="clickable" onclick="window.location.href='series.html'">
+            <i class="fas fa-tv section-icon"></i>Explorar Series de TV
+            <span class="see-more">Ver todas</span>
+          </h2>
+          <div class="series-preview">
+            <p>Descubre nuestra increíble colección de series. Desde dramas épicos hasta comedias, tenemos algo para todos los gustos.</p>
+            <a href="series.html" class="btn btn-primary">
+              <i class="fas fa-tv"></i>
+              Ver Series
+            </a>
+          </div>
         </section>
 
         <section id="fantasia" class="movie-section">
@@ -450,6 +462,7 @@
 
   <script src="./js/index.js"></script>
   <script src="./js/menu.js"></script>
+  <script src="./js/section-icons.js"></script>
 
 
   <script src="./js/components.js"></script>

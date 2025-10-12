@@ -25,7 +25,6 @@
       }
     ]
   },
-
   {
     "id": "blade-runner-2049",
     "title": "Blade Runner 2049",
@@ -42,7 +41,11 @@
       "Robin Wright",
       "Jared Leto"
     ],
-    "genre": ["Ciencia Ficción", "Thriller", "Drama"],
+    "genre": [
+      "Ciencia Ficción",
+      "Thriller",
+      "Drama"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "2h 44m",
@@ -50,11 +53,20 @@
     "trailer": "https://youtu.be/gCcx85zbxz4?si=ggxbhk3jSp7u4M7g",
     "embed": "https://waaw.ac/f/PN53J6RF2sxu",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/PN53J6RF2sxu" },
-      { "name": "Voe", "url": "https://waaw.ac/f/PN53J6RF2sxu" }
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/PN53J6RF2sxu"
+      },
+      {
+        "name": "Voe",
+        "url": "https://waaw.ac/f/PN53J6RF2sxu"
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "https://mega.nz/fake-mega-blade" },
+      {
+        "name": "Mega",
+        "url": "https://mega.nz/fake-mega-blade"
+      },
       {
         "name": "Google Drive",
         "url": "https://drive.google.com/fake-drive-blade"
@@ -65,7 +77,6 @@
       }
     ]
   },
-
   {
     "id": "el-muro-negro-2025",
     "title": "El Muro Negro",
@@ -84,7 +95,11 @@
       "Alexander Beyer",
       "Murathan Muslu"
     ],
-    "genre": ["Ciencia Ficción", "Thriller", "Misterio"],
+    "genre": [
+      "Ciencia Ficción",
+      "Thriller",
+      "Misterio"
+    ],
     "language": "Alemán, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 39m",
@@ -92,25 +107,36 @@
     "trailer": "https://www.imdb.com/es/video/vi3337799705/?playlistId=tt31806049&ref_=ext_shr_lnk",
     "embed": "https://hqq.ac/e/RkxucFUwQlJwa3ZxRk1ndTNjL0N0Zz09",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/yiGD8mOLeShE" },
-      { "name": "Opcion 2", "url": "https://waaw.ac/f/yiGD8mOLeShE" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/yiGD8mOLeShE"
+      },
+      {
+        "name": "Opcion 2",
+        "url": "https://waaw.ac/f/yiGD8mOLeShE"
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "https://mega.nz/fake-mega-el-muro-negro" },
+      {
+        "name": "Mega",
+        "url": "https://mega.nz/fake-mega-el-muro-negro"
+      },
       {
         "name": "Google Drive",
         "url": "https://drive.google.com/fake-drive-el-muro-negro"
       },
-      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:faketorrentmuro987654" }
+      {
+        "name": "uTorrent",
+        "url": "magnet:?xt=urn:btih:faketorrentmuro987654"
+      }
     ]
   },
-
   {
     "id": "cobra-1986",
     "title": "Cobra, el brazo fuerte de la ley",
     "originalTitle": "Cobra",
     "year": 1986,
-    "cover": "assets/covers/cobra-1986.jpg",
+    "cover": "assets/covers/cobra-1986.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/zPDpHMdbbE4O0TxVkMcgD6j2ImR.jpg",
     "description": "Un policía usa métodos extremos para proteger a una testigo de una secta violenta conocida como \"New Order\". Él hará lo que la ley no permite para detenerlos.",
     "director": "George P. Cosmatos",
@@ -121,7 +147,11 @@
       "Andrew Robinson",
       "Brian Thompson"
     ],
-    "genre": ["Acción", "Thriller", "Crimen"],
+    "genre": [
+      "Acción",
+      "Thriller",
+      "Crimen"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 29m",
@@ -129,25 +159,36 @@
     "trailer": "https://www.youtube.com/watch?v=pgqeBMNyJhQ",
     "embed": "https://hqq.ac/e/ejemplo-embed-cobra",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/jkUAYNFB1HAV" },
-      { "name": "Voe", "url": "https://voe.sx/e/ejemplo-cobra-voe" }
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/jkUAYNFB1HAV"
+      },
+      {
+        "name": "Voe",
+        "url": "https://voe.sx/e/ejemplo-cobra-voe"
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "https://mega.nz/fake-cobra-download" },
+      {
+        "name": "Mega",
+        "url": "https://mega.nz/fake-cobra-download"
+      },
       {
         "name": "Google Drive",
         "url": "https://drive.google.com/fake-cobra-down"
       },
-      { "name": "uTorrent", "url": "magnet:?xt=urn:btih:fakehashcobra12345" }
+      {
+        "name": "uTorrent",
+        "url": "magnet:?xt=urn:btih:fakehashcobra12345"
+      }
     ]
   },
-
   {
     "id": "doble-impacto-1991",
     "title": "Doble Impacto",
     "originalTitle": "Double Impact",
     "year": 1991,
-    "cover": "assets/covers/doble-impacto-1991.jpg",
+    "cover": "assets/covers/doble-impacto-1991.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/iI0n28l5vn3K1GdXHVoA54kRemv.jpg",
     "description": "Dos hermanos gemelos son separados al nacer tras el asesinato de sus padres. Años después, Chad vive en Los Ángeles como instructor de artes marciales mientras Alex crece en Hong Kong dedicándose al contrabando. Reunidos después de 25 años, deberán unir fuerzas para vengar la muerte de sus padres.",
     "director": "Sheldon Lettich",
@@ -159,7 +200,11 @@
       "Bolo Yeung",
       "Cory Everson"
     ],
-    "genre": ["Acción", "Crimen", "Artes Marciales"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Artes Marciales"
+    ],
     "language": "Inglés, Cantonés",
     "quality": "Full HD 1080p",
     "duration": "1h 50m",
@@ -167,11 +212,20 @@
     "trailer": "https://youtu.be/txTgynA3iFo?si=VWAPhOrh9F25sekf",
     "embed": "https://waaw.ac/f/ejemplo-doble-impacto-netu",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/kcLroIJaDcUf" },
-      { "name": "Voe", "url": "https://voe.sx/e/ejemplo-doble-impacto-voe" }
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/kcLroIJaDcUf"
+      },
+      {
+        "name": "Voe",
+        "url": "https://voe.sx/e/ejemplo-doble-impacto-voe"
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "https://mega.nz/fake-doble-impacto" },
+      {
+        "name": "Mega",
+        "url": "https://mega.nz/fake-doble-impacto"
+      },
       {
         "name": "Google Drive",
         "url": "https://drive.google.com/fake-doble-impacto"
@@ -182,7 +236,6 @@
       }
     ]
   },
-
   {
     "id": "acido-aniquilacion-total-2023",
     "title": "Ácido: Aniquilación Total",
@@ -199,7 +252,12 @@
       "Marie Jung",
       "Martin Verset"
     ],
-    "genre": ["Drama", "Ciencia Ficción", "Fantástico", "Catástrofe Climática"],
+    "genre": [
+      "Drama",
+      "Ciencia Ficción",
+      "Fantástico",
+      "Catástrofe Climática"
+    ],
     "language": "Francés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 39m",
@@ -207,22 +265,36 @@
     "trailer": "https://www.youtube.com/watch?v=6iZdUNKdM-E",
     "embed": "https://waaw.ac/f/7Lv3ekNHQYVH",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/7Lv3ekNHQYVH" },
-      { "name": "Voe", "url": "" }
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/7Lv3ekNHQYVH"
+      },
+      {
+        "name": "Voe",
+        "url": ""
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "" },
-      { "name": "Google Drive", "url": "" },
-      { "name": "uTorrent", "url": "" }
+      {
+        "name": "Mega",
+        "url": ""
+      },
+      {
+        "name": "Google Drive",
+        "url": ""
+      },
+      {
+        "name": "uTorrent",
+        "url": ""
+      }
     ]
   },
-
   {
     "id": "invasion-del-mundo-batalla-los-angeles-2011",
     "title": "Invasión del mundo: Batalla Los Ángeles",
     "originalTitle": "Battle: Los Angeles",
     "year": 2011,
-    "cover": "assets/covers/invasion-del-mundo-batalla-los-angeles-2011.jpg",
+    "cover": "assets/covers/invasion-del-mundo-batalla-los-angeles-2011.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/buspsNeIGOAznaYQsnGDmQLZakW.jpg",
     "description": "Cuando una invasión extraterrestre comienza frente a las costas de ciudades del mundo, un pelotón de marines liderado por el Sargento Michael Nantz debe resistir y proteger a civiles mientras Los Ángeles se convierte en campo de batalla.",
     "director": "Jonathan Liebesman",
@@ -234,7 +306,11 @@
       "Ne‑Yo",
       "Michael Peña"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Guerra"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Guerra"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 56m",
@@ -242,16 +318,30 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/dg6gplyvJooO",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/dg6gplyvJooO" },
-      { "name": "Voe", "url": "" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/dg6gplyvJooO"
+      },
+      {
+        "name": "Voe",
+        "url": ""
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "https://waaw.ac/f/dg6gplyvJooO" },
-      { "name": "Google Drive", "url": "https://waaw.ac/f/dg6gplyvJooO" },
-      { "name": "uTorrent", "url": "https://waaw.ac/f/dg6gplyvJooO" }
+      {
+        "name": "Mega",
+        "url": "https://waaw.ac/f/dg6gplyvJooO"
+      },
+      {
+        "name": "Google Drive",
+        "url": "https://waaw.ac/f/dg6gplyvJooO"
+      },
+      {
+        "name": "uTorrent",
+        "url": "https://waaw.ac/f/dg6gplyvJooO"
+      }
     ]
   },
-
   {
     "id": "megan-2.0-2025",
     "title": "Megan 2.0",
@@ -270,7 +360,11 @@
       "Jenna Davis",
       "Brian Jordan Alvarez"
     ],
-    "genre": ["Ciencia Ficción", "Acción", "Terror / Comedia"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción",
+      "Terror / Comedia"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "2h 0m",
@@ -278,16 +372,30 @@
     "trailer": "https://www.youtube.com/watch?v=XXXXXX",
     "embed": "https://waaw.ac/f/EnaMRhQ6OPIw",
     "watchLinks": [
-      { "name": "Netu", "url": "https://waaw.ac/f/EnaMRhQ6OPIw" },
-      { "name": "Voe", "url": "" }
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/EnaMRhQ6OPIw"
+      },
+      {
+        "name": "Voe",
+        "url": ""
+      }
     ],
     "downloadLinks": [
-      { "name": "Mega", "url": "" },
-      { "name": "Google Drive", "url": "" },
-      { "name": "uTorrent", "url": "" }
+      {
+        "name": "Mega",
+        "url": ""
+      },
+      {
+        "name": "Google Drive",
+        "url": ""
+      },
+      {
+        "name": "uTorrent",
+        "url": ""
+      }
     ]
   },
-
   {
     "id": "rapido-y-furioso-1-2001",
     "title": "Rápido y Furioso 1",
@@ -306,7 +414,11 @@
       "Johnny Strong",
       "Ted Levine"
     ],
-    "genre": ["Acción", "Crimen", "Carreras"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Carreras"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 46m",
@@ -314,11 +426,18 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/iK1q8GArBAIa",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/iK1q8GArBAIa" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/iK1q8GArBAIa"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "rapidos-y-furiosos-2-2003",
     "title": "Rápidos y Furiosos 2",
@@ -339,7 +458,11 @@
       "Thom Barry",
       "Amaury Nolasco"
     ],
-    "genre": ["Acción", "Crimen", "Carreras"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Carreras"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 48m",
@@ -347,11 +470,18 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/WTACAysXZzhP",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/WTACAysXZzhP" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/WTACAysXZzhP"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "rapido-y-furioso-reto-tokio-2006",
     "title": "Rápido y Furioso 3: Reto Tokio",
@@ -370,7 +500,11 @@
       "Jason Tobin",
       "Zachery Ty Bryan"
     ],
-    "genre": ["Acción", "Carreras", "Crimen"],
+    "genre": [
+      "Acción",
+      "Carreras",
+      "Crimen"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 44m",
@@ -378,11 +512,18 @@
     "trailer": "https://youtu.be/K6RWbKMSDcg",
     "embed": "https://waaw.ac/f/JGMWWcPtR59r",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/JGMWWcPtR59r" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/JGMWWcPtR59r"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "rapidos-y-furiosos-4-2009",
     "title": "Rápidos y Furiosos 4",
@@ -401,17 +542,30 @@
       "Gal Gadot",
       "Sung Kang"
     ],
-    "genre": ["Acción", "Crimen", "Carreras"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Carreras"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 47m",
     "ageRating": "PG‑13",
     "trailer": "https://youtu.be/ne5E7hOQqn0",
     "embed": "https://waaw.ac/f/YKsYQaFX2SBO",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/YKsYQaFX2SBO" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/YKsYQaFX2SBO"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "rapidos-y-furiosos-5-2011",
     "title": "Rápidos y Furiosos 5",
@@ -435,15 +589,29 @@
       "Don Omar",
       "Joaquim de Almeida"
     ],
-    "genre": ["Acción", "Crimen", "Thriller"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 10m",
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/Z6VLGnG01L1H",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/Z6VLGnG01L1H" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/Z6VLGnG01L1H"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "rapidos-y-furiosos-6-2013",
@@ -466,7 +634,11 @@
       "Gina Carano",
       "John Ortiz"
     ],
-    "genre": ["Acción", "Aventura", "Crimen"],
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Crimen"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 10m",
@@ -474,15 +646,26 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/QCqXyMe83dVg",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/QCqXyMe83dVg" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/QCqXyMe83dVg"
+      }
     ],
     "downloadLinks": [
-      { "name": "", "url": "" },
-      { "name": "", "url": "" },
-      { "name": "", "url": "" }
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
     ]
   },
-
   {
     "id": "rapidos-y-furiosos-7-2015",
     "title": "Rápidos y Furiosos 7",
@@ -506,22 +689,36 @@
       "Tony Jaa",
       "Ronda Rousey"
     ],
-    "genre": ["Acción", "Crimen", "Thriller"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 17m",
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/GQiKgRWCeyAc",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/GQiKgRWCeyAc" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/GQiKgRWCeyAc"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "rapidos-y-furiosos-8-2017",
     "title": "Rápidos y Furiosos 8",
     "originalTitle": "The Fate of the Furious",
     "year": 2017,
-    "cover": "assets/covers/fast-and-furious-8.jpg",
+    "cover": "assets/covers/fast-and-furious-8.webp",
     "description": "Dominic Toretto ha logrado asentarse junto a Letty, pero una misteriosa figura llamada Cipher lo obliga a traicionar a su equipo. Ahora deben resolver la traición, reunirse y detenerla antes de que desate un caos global.",
     "director": "F. Gary Gray",
     "cast": [
@@ -537,7 +734,11 @@
       "Nathalie Emmanuel",
       "Elsa Pataky"
     ],
-    "genre": ["Acción", "Crimen", "Thriller"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 16m",
@@ -545,9 +746,17 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/354sBlHqyM1g",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/354sBlHqyM1g" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/354sBlHqyM1g"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "fast-and-furious-presents-hobbs-and-shaw-2019",
@@ -566,7 +775,11 @@
       "Eiza González",
       "Helen Mirren"
     ],
-    "genre": ["Acción", "Aventura", "Crimen"],
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Crimen"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 17m",
@@ -583,14 +796,19 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "rapidos-y-furiosos-9-2021",
     "title": "Rápidos y Furiosos 9",
     "originalTitle": "F9: The Fast Saga",
     "year": 2021,
-    "cover": "assets/covers/fast-and-furious-9.jpg",
+    "cover": "assets/covers/fast-and-furious-9.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/gGTCDNEvwG848u34Op1nZNALLUr.jpg",
     "description": "Dominic Toretto vive una vida tranquila con Letty y su hijo, lejos de la acción. Pero cuando su hermano Jakob, experto conductor asesino, emerge con un plan peligroso que involucra un programa secreto llamado Proyecto Aries, Dom debe reunir a su equipo para enfrentarlo y proteger a su familia.",
     "director": "Justin Lin",
@@ -607,7 +825,11 @@
       "Charlize Theron",
       "Michael Rooker"
     ],
-    "genre": ["Acción", "Aventura", "Thriller"],
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 23m",
@@ -615,11 +837,18 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/3vEXQt9AxXix",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/3vEXQt9AxXix" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/3vEXQt9AxXix"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "rapidos-y-furiosos-10-2023",
     "title": "Rapidos y Furiosos 10",
@@ -648,7 +877,11 @@
       "Jason Momoa",
       "Charlize Theron"
     ],
-    "genre": ["Acción", "Crimen", "Thriller"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 21m",
@@ -656,11 +889,18 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/7NlhtHJGEKOO",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/7NlhtHJGEKOO" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/7NlhtHJGEKOO"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "criaturas-linea-de-extincion-2024",
     "title": "Criaturas: Línea de Extinción",
@@ -678,7 +918,12 @@
       "Shauna Earp",
       "Tyler Grey"
     ],
-    "genre": ["Acción", "Thriller", "Monstruos", "Ciencia Ficción"],
+    "genre": [
+      "Acción",
+      "Thriller",
+      "Monstruos",
+      "Ciencia Ficción"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 31m",
@@ -686,11 +931,18 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/nPMNBdszSwvc",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/nPMNBdszSwvc" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/nPMNBdszSwvc"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "terminator-1-1984",
     "title": "Terminator 1",
@@ -706,7 +958,10 @@
       "Michael Biehn",
       "Paul Winfield"
     ],
-    "genre": ["Ciencia Ficción", "Acción"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Inglés, Español latino",
     "quality": "",
     "duration": "1h 47m",
@@ -714,18 +969,38 @@
     "trailer": "https://youtu.be/nGrW-OR2uDk",
     "embed": "https://waaw.ac/f/UdU3t6VmhNEk",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/UdU3t6VmhNEk" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/UdU3t6VmhNEk"
+      }
     ],
     "downloadLinks": [
-      { "name": "Torrent 1080p", "url": "https://tpi.li/Mq8wZ" },
-      { "name": "Megaup", "url": "https://tpi.li/1Lrs4Je" },
-      { "name": "Mega", "url": "https://tpi.li/SIB9" },
-      { "name": "Mediafire password (cc)", "url": "https://tpi.li/lfxJu0zp0" },
-      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/z7IvZEL1Xts" },
-      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/TXFoEcIfW" }
+      {
+        "name": "Torrent 1080p",
+        "url": "https://tpi.li/Mq8wZ"
+      },
+      {
+        "name": "Megaup",
+        "url": "https://tpi.li/1Lrs4Je"
+      },
+      {
+        "name": "Mega",
+        "url": "https://tpi.li/SIB9"
+      },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/lfxJu0zp0"
+      },
+      {
+        "name": "Torrent 4K (ingles)",
+        "url": "https://tpi.li/z7IvZEL1Xts"
+      },
+      {
+        "name": "Torrent 1080p (ingles)",
+        "url": "https://tpi.li/TXFoEcIfW"
+      }
     ]
   },
-
   {
     "id": "terminator-2-el-juicio-final-1991",
     "title": "Terminator 2: El Juicio Final",
@@ -743,7 +1018,10 @@
       "Joe Morton",
       "Earl Boen"
     ],
-    "genre": ["Ciencia Ficción", "Acción"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 17m",
@@ -751,20 +1029,34 @@
     "trailer": "https://youtu.be/DX1Y8e7i6cw",
     "embed": "https://waaw.ac/f/i81wouuGuIWY",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/i81wouuGuIWY" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/i81wouuGuIWY"
+      }
     ],
     "downloadLinks": [
-      { "name": "Megaup", "url": "https://tpi.li/rVjrog10" },
-      { "name": "Mega", "url": "https://tpi.li/8c7jQkF" },
-      { "name": "Mediafire password (cc)", "url": "https://tpi.li/nNZiG" },
-      { "name": "Torrent 1080p", "url": "https://tpi.li/ZJbGqU34xW" },
+      {
+        "name": "Megaup",
+        "url": "https://tpi.li/rVjrog10"
+      },
+      {
+        "name": "Mega",
+        "url": "https://tpi.li/8c7jQkF"
+      },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/nNZiG"
+      },
+      {
+        "name": "Torrent 1080p",
+        "url": "https://tpi.li/ZJbGqU34xW"
+      },
       {
         "name": "Torrent 4K (20 GB latino)",
         "url": "https://tpi.li/NOOVe9qYeY1"
       }
     ]
   },
-
   {
     "id": "terminator-3-2003",
     "title": "Terminator 3: La Rebelión de las Máquinas",
@@ -782,7 +1074,10 @@
       "David Andrews",
       "Mark Famiglietti"
     ],
-    "genre": ["Ciencia Ficción", "Acción"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 49m",
@@ -790,17 +1085,34 @@
     "trailer": "https://youtu.be/ysQizA7Una8",
     "embed": "https://waaw.ac/f/xHKxlZ11Ix7O",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/xHKxlZ11Ix7O" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/xHKxlZ11Ix7O"
+      }
     ],
     "downloadLinks": [
-      { "name": "Torrent 1080p", "url": "https://tpi.li/xS14FpBRcNa" },
-      { "name": "Torrent 1080p opc. 2", "url": "https://tpi.li/pC9QTQNDi" },
-      { "name": "Torrent 720p", "url": "https://tpi.li/8WEJ5" },
-      { "name": "Mediafire password (cc)", "url": "https://tpi.li/VdlNdtaU3" },
-      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/4dmssZlvcVI" }
+      {
+        "name": "Torrent 1080p",
+        "url": "https://tpi.li/xS14FpBRcNa"
+      },
+      {
+        "name": "Torrent 1080p opc. 2",
+        "url": "https://tpi.li/pC9QTQNDi"
+      },
+      {
+        "name": "Torrent 720p",
+        "url": "https://tpi.li/8WEJ5"
+      },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/VdlNdtaU3"
+      },
+      {
+        "name": "Torrent 1080p (ingles)",
+        "url": "https://tpi.li/4dmssZlvcVI"
+      }
     ]
   },
-
   {
     "id": "terminator-4-2009",
     "title": "Terminator 4: La Salvación",
@@ -818,7 +1130,11 @@
       "Anton Yelchin",
       "Helena Bonham Carter"
     ],
-    "genre": ["Ciencia Ficción", "Acción", "Distopía"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción",
+      "Distopía"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 55m",
@@ -826,20 +1142,34 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/74VH4xf1gnCv",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/74VH4xf1gnCv" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/74VH4xf1gnCv"
+      }
     ],
     "downloadLinks": [
-      { "name": "Torrent", "url": "https://tpi.li/TOQOYHmB" },
-      { "name": "Megaup", "url": "https://tpi.li/NR42Qt35E" },
+      {
+        "name": "Torrent",
+        "url": "https://tpi.li/TOQOYHmB"
+      },
+      {
+        "name": "Megaup",
+        "url": "https://tpi.li/NR42Qt35E"
+      },
       {
         "name": "Mediafire password (cc)",
         "url": "https://tpi.li/bP6mNErKARQ"
       },
-      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/1SLdkg2" },
-      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/00995fCvGa" }
+      {
+        "name": "Torrent 4K (ingles)",
+        "url": "https://tpi.li/1SLdkg2"
+      },
+      {
+        "name": "Torrent 1080p (ingles)",
+        "url": "https://tpi.li/00995fCvGa"
+      }
     ]
   },
-
   {
     "id": "terminator-5-2015",
     "title": "Terminator 5: Génesis",
@@ -858,7 +1188,10 @@
       "Lee Byung-hun",
       "Matt Smith"
     ],
-    "genre": ["Ciencia Ficción", "Acción"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "3D, 4K UHD, Full HD 1080p",
     "duration": "2h 6m",
@@ -866,19 +1199,42 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/morSeCorKXMv",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/morSeCorKXMv" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/morSeCorKXMv"
+      }
     ],
     "downloadLinks": [
-      { "name": "Torrent 4K (47GB latino)", "url": "https://tpi.li/TUtlZ4ha" },
-      { "name": "Torrent 1080p", "url": "https://tpi.li/a9XAwha" },
-      { "name": "Megaup", "url": "https://tpi.li/YeOu" },
-      { "name": "Mediafire password (cc)", "url": "https://tpi.li/Td7yuU" },
-      { "name": "Torrent 4K (6 GB ingles)", "url": "https://tpi.li/dRZYAU5c" },
-      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/Ui5lYR5ZnD" },
-      { "name": "Torrent 3D (ingles)", "url": "https://tpi.li/upqnYF2k8" }
+      {
+        "name": "Torrent 4K (47GB latino)",
+        "url": "https://tpi.li/TUtlZ4ha"
+      },
+      {
+        "name": "Torrent 1080p",
+        "url": "https://tpi.li/a9XAwha"
+      },
+      {
+        "name": "Megaup",
+        "url": "https://tpi.li/YeOu"
+      },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/Td7yuU"
+      },
+      {
+        "name": "Torrent 4K (6 GB ingles)",
+        "url": "https://tpi.li/dRZYAU5c"
+      },
+      {
+        "name": "Torrent 1080p (ingles)",
+        "url": "https://tpi.li/Ui5lYR5ZnD"
+      },
+      {
+        "name": "Torrent 3D (ingles)",
+        "url": "https://tpi.li/upqnYF2k8"
+      }
     ]
   },
-
   {
     "id": "terminator-6-2019",
     "title": "Terminator 6: Destino Oscuro",
@@ -895,7 +1251,10 @@
       "Natalia Reyes",
       "Gabriel Luna"
     ],
-    "genre": ["Ciencia Ficción", "Acción"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Español Latino, Inglés",
     "quality": " 4K UHD, Full HD 1080p, BluRay 1080p",
     "duration": "2h 8m",
@@ -903,11 +1262,20 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/UN1eKvSjhIgB",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/UN1eKvSjhIgB" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/UN1eKvSjhIgB"
+      }
     ],
     "downloadLinks": [
-      { "name": "Torrent 1080p", "url": "https://tpi.li/zHa1vP" },
-      { "name": "Torrent 720p", "url": "https://tpi.li/0QTdGqcg" },
+      {
+        "name": "Torrent 1080p",
+        "url": "https://tpi.li/zHa1vP"
+      },
+      {
+        "name": "Torrent 720p",
+        "url": "https://tpi.li/0QTdGqcg"
+      },
       {
         "name": "Torrent 4K (4GB  ingles )",
         "url": "https://tpi.li/ehS7iT6ink"
@@ -934,7 +1302,11 @@
       "Salli Richardson",
       "Willow Smith"
     ],
-    "genre": ["Ciencia Ficción", "Drama", "Terror"],
+    "genre": [
+      "Ciencia Ficción",
+      "Drama",
+      "Terror"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 41m",
@@ -947,9 +1319,13 @@
         "url": "https://waaw.ac/f/PMIR76fzvwG5"
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "jurassic-world-dominion-2022",
     "title": "Jurassic World: Dominion",
@@ -974,7 +1350,11 @@
       "Dichen Lachman",
       "Isabella Sermon"
     ],
-    "genre": ["Ciencia Ficción", "Acción", "Aventura"],
+    "genre": [
+      "Ciencia Ficción",
+      "Acción",
+      "Aventura"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 26m",
@@ -982,24 +1362,44 @@
     "trailer": "",
     "embed": "https://waaw.ac/f/eCrQvLA8XIdT",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/eCrQvLA8XIdT" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/eCrQvLA8XIdT"
+      }
     ],
     "downloadLinks": [
-      { "name": "Megaup", "url": "https://tpi.li/GAaoXRJ" },
-      { "name": "Mega", "url": "https://tpi.li/4B2HIYd9" },
-      { "name": "Mediafire password (cc)", "url": "https://tpi.li/p6fGpQ" },
-      { "name": "Torrent 4K (ingles)", "url": "https://tpi.li/2SmVJJqJ" },
-      { "name": "Torrent 1080p (ingles)", "url": "https://tpi.li/vlS92agOTwM" },
-      { "name": "Torrent 720p (ingles)", "url": "https://tpi.li/pkId2z" }
+      {
+        "name": "Megaup",
+        "url": "https://tpi.li/GAaoXRJ"
+      },
+      {
+        "name": "Mega",
+        "url": "https://tpi.li/4B2HIYd9"
+      },
+      {
+        "name": "Mediafire password (cc)",
+        "url": "https://tpi.li/p6fGpQ"
+      },
+      {
+        "name": "Torrent 4K (ingles)",
+        "url": "https://tpi.li/2SmVJJqJ"
+      },
+      {
+        "name": "Torrent 1080p (ingles)",
+        "url": "https://tpi.li/vlS92agOTwM"
+      },
+      {
+        "name": "Torrent 720p (ingles)",
+        "url": "https://tpi.li/pkId2z"
+      }
     ]
   },
-
   {
     "id": "el-mapa-que-me-lleva-a-ti-2025",
     "title": "El mapa que me lleva a ti",
     "originalTitle": "The Map That Leads to You",
     "year": 2025,
-    "cover": "assets/covers/el-mapa-que-me-lleva-a-ti-2025.jpg",
+    "cover": "assets/covers/el-mapa-que-me-lleva-a-ti-2025.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/5QKddKk1qEe8CwWYpklmKq68uyo.jpg",
     "description": "Heather Mulgrew, recién graduada, viaja por Europa con sus amigas antes de iniciar una vida planeada en Nueva York. En un tren hacia Barcelona conoce a Jack, un joven neozelandés que sigue el diario de su bisabuelo tras la Segunda Guerra Mundial. Lo que comienza como un fugaz encuentro se convierte en un viaje emocional que pondrá a prueba sus planes, sus secretos y sus visiones del futuro.",
     "director": "Lasse Hallström",
@@ -1011,23 +1411,36 @@
       "Orlando Norman",
       "Josh Lucas"
     ],
-    "genre": ["Romance", "Drama", "Aventura"],
+    "genre": [
+      "Romance",
+      "Drama",
+      "Aventura"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 36m",
     "ageRating": "PG‑13",
     "trailer": "",
     "embed": "https://waaw.ac/f/SuCvATmx9wv3",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/SuCvATmx9wv3" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/SuCvATmx9wv3"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "fenomeno-1996",
     "title": "Fenómeno",
     "originalTitle": "Phenomenon",
     "year": 1996,
-    "cover": "assets/covers/fenomeno-1996.jpg",
+    "cover": "assets/covers/fenomeno-1996.webp",
     "description": "George Malley, un mecánico de un pequeño pueblo, experimenta un cambio radical en su vida cuando, tras presenciar luces extrañas en el cielo durante su cumpleaños, desarrolla una inteligencia extraordinaria, poderes telequinéticos y una capacidad sorprendente para aprender al instante. A pesar de sus nuevas habilidades, enfrenta el miedo y la incomprensión de quienes lo rodean mientras busca usar sus dones para el bien.",
     "director": "Jon Turteltaub",
     "cast": [
@@ -1037,17 +1450,30 @@
       "Robert Duvall",
       "Jeffrey DeMunn"
     ],
-    "genre": ["Drama", "Romance", "Fantasía"],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Fantasía"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
     "ageRating": "PG",
     "trailer": "",
     "embed": "https://waaw.ac/f/pPx6LpucZW7z",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/pPx6LpucZW7z" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/pPx6LpucZW7z"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "how-to-be-single-2016",
     "title": "Cómo Ser Soltera",
@@ -1067,17 +1493,28 @@
       "Jake Lacy",
       "Jason Mantzoukas"
     ],
-    "genre": ["Comedia Romántica"],
+    "genre": [
+      "Comedia Romántica"
+    ],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 50m",
     "ageRating": "R",
     "trailer": "",
     "embed": "https://waaw.ac/f/VZxRd1ZD6EaC",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/VZxRd1ZD6EaC" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/VZxRd1ZD6EaC"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "cuestion-de-tiempo-2013",
     "title": "Cuestión de Tiempo",
@@ -1098,17 +1535,31 @@
       "Margot Robbie",
       "Vanessa Kirby"
     ],
-    "genre": ["Romance", "Comedia", "Ciencia Ficción", "Drama"],
+    "genre": [
+      "Romance",
+      "Comedia",
+      "Ciencia Ficción",
+      "Drama"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
     "ageRating": "R",
     "trailer": "",
     "embed": "https://waaw.ac/f/5RhZgqsIS42i",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/5RhZgqsIS42i" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/5RhZgqsIS42i"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "senor-diablo-2019",
     "title": "Señor Diablo",
@@ -1118,18 +1569,34 @@
     "backdrop": "https://image.tmdb.org/t/p/original/9CBrr4YHHMW4JnIOFTiZCnSx7Hy.jpg",
     "description": "En 1952, en Italia, el joven agente Furio Momenté es enviado a la región del Véneto para investigar el misterioso caso de un adolescente de catorce años que mató a un niño, afirmando haber matado al diablo.",
     "director": "Pupi Avati",
-    "cast": ["Massimo Bonetti", "Lino Capolicchio", "Chiara Caselli"],
-    "genre": ["Terror", "Suspense"],
+    "cast": [
+      "Massimo Bonetti",
+      "Lino Capolicchio",
+      "Chiara Caselli"
+    ],
+    "genre": [
+      "Terror",
+      "Suspense"
+    ],
     "language": "Italiano",
     "quality": "Full HD 1080p",
     "duration": "1h 26m",
     "ageRating": "16+",
     "trailer": "",
     "embed": "https://waaw.ac/f/uboykSa3QAm4",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/uboykSa3QAm4" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/uboykSa3QAm4"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "el-conjuro-4-2025",
     "title": "El Conjuro 4: Últimos Ritos",
@@ -1149,7 +1616,10 @@
       "Elliot Cowan",
       "Kíla Lord Cassidy"
     ],
-    "genre": ["Terror", "Sobrenatural"],
+    "genre": [
+      "Terror",
+      "Sobrenatural"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 15m",
@@ -1161,11 +1631,18 @@
         "name": "Opción 1 Español Latino (CAM)",
         "url": "https://waaw.ac/f/qNnlg6AaVo2x"
       },
-      { "name": "Opción 2 Inglés", "url": "https://waaw.ac/f/r8ne4OzMIr5R" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": "https://waaw.ac/f/r8ne4OzMIr5R"
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "conjuros-del-mas-alla-2016",
     "title": "Conjuros del más allá",
@@ -1182,17 +1659,31 @@
       "Daniel Fathers",
       "Ellen Wong"
     ],
-    "genre": ["Terror", "Misterio", "Ciencia Ficción", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Misterio",
+      "Ciencia Ficción",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
     "ageRating": "",
     "trailer": "",
     "embed": "https://waaw.ac/f/XvTHsaiWrCs5",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/XvTHsaiWrCs5" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/XvTHsaiWrCs5"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "snatch-cerdos-y-diamantes-2000",
     "title": "Snatch: Cerdos y Diamantes",
@@ -1211,17 +1702,30 @@
       "Rade Šerbedžija",
       "Stephen Graham"
     ],
-    "genre": ["Crimen", "Comedia", "Thriller"],
+    "genre": [
+      "Crimen",
+      "Comedia",
+      "Thriller"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 42m",
     "ageRating": "16+",
     "trailer": "",
     "embed": "https://waaw.ac/f/JOm3OWCG3YnU",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/JOm3OWCG3YnU" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/JOm3OWCG3YnU"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "golpe-bajo-el-juego-final-2005",
     "title": "Golpe Bajo: El Juego Final",
@@ -1239,17 +1743,29 @@
       "William Fichtner",
       "Michael Irvin"
     ],
-    "genre": ["Comedia", "Deporte"],
+    "genre": [
+      "Comedia",
+      "Deporte"
+    ],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 53m",
     "ageRating": "PG‑13",
     "trailer": "https://youtu.be/HBz1rR7TK6I",
     "embed": "https://waaw.ac/f/h3snq4IvJDya",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/h3snq4IvJDya" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/h3snq4IvJDya"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "regreso-al-futuro-1985",
     "title": "Regreso al futuro",
@@ -1266,17 +1782,30 @@
       "Claudia Wells",
       "Thomas F. Wilson"
     ],
-    "genre": ["Ciencia Ficción", "Comedia", "Aventura"],
+    "genre": [
+      "Ciencia Ficción",
+      "Comedia",
+      "Aventura"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 56m",
     "ageRating": "PG",
     "trailer": "",
     "embed": "https://waaw.ac/f/V6WHZALkrg5e",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/V6WHZALkrg5e" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/V6WHZALkrg5e"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "regreso-al-futuro-2-1989",
     "title": "Regreso al Futuro II",
@@ -1293,17 +1822,30 @@
       "Elisabeth Shue",
       "Jeffrey Weissman"
     ],
-    "genre": ["Ciencia Ficción", "Comedia", "Aventura"],
+    "genre": [
+      "Ciencia Ficción",
+      "Comedia",
+      "Aventura"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 48m",
     "ageRating": "PG",
     "trailer": "",
     "embed": "https://waaw.ac/f/4GoeLlwrER0v",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/4GoeLlwrER0v" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/4GoeLlwrER0v"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "regreso-al-futuro-3-1990",
     "title": "Regreso al Futuro III",
@@ -1320,17 +1862,31 @@
       "Lea Thompson",
       "Elisabeth Shue"
     ],
-    "genre": ["Ciencia Ficción", "Comedia", "Aventura", "Western"],
+    "genre": [
+      "Ciencia Ficción",
+      "Comedia",
+      "Aventura",
+      "Western"
+    ],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 58m",
     "ageRating": "PG",
     "trailer": "",
     "embed": "https://waaw.ac/f/4GoeLlwrER0v",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/4GoeLlwrER0v" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/4GoeLlwrER0v"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "brightburn-hijo-de-la-oscuridad-2019",
     "title": "Brightburn: Hijo de la oscuridad",
@@ -1347,17 +1903,30 @@
       "Meredith Hagner",
       "Matt L. Jones"
     ],
-    "genre": ["Terror", "Superhéroes", "Ciencia Ficción"],
+    "genre": [
+      "Terror",
+      "Superhéroes",
+      "Ciencia Ficción"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 30m",
     "ageRating": "R",
     "trailer": "",
     "embed": "https://waaw.ac/f/OTbOjRJhfsOY",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/OTbOjRJhfsOY" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/OTbOjRJhfsOY"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "avalancha-desastre-en-la-montana-2019",
     "title": "Avalancha: Desastre en la montaña",
@@ -1366,16 +1935,35 @@
     "cover": "assets/covers/avalancha-desastre-en-la-montana-2019.webp",
     "description": "Un trío de montañistas chinos se convierte en los primeros escaladores en alcanzar la cima del Monte Everest sin oxígeno suplementario. Pero tras salvaguardar la vida de uno de ellos en una avalancha, su logro no es reconocido. China entonces reúne a más de 400 expertos para hacer otro intento por la ruta norte, la más peligrosa, enfrentándose a condiciones extremas y decisiones de vida o muerte.",
     "director": "Daniel Lee",
-    "cast": ["Jing Wu", "Ziyi Zhang", "Yi Zhang", "Boran Jing"],
-    "genre": ["Acción", "Aventura", "Drama"],
+    "cast": [
+      "Jing Wu",
+      "Ziyi Zhang",
+      "Yi Zhang",
+      "Boran Jing"
+    ],
+    "genre": [
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
     "language": "Chino, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 55m",
     "ageRating": "13+",
     "trailer": "",
     "embed": "https://waaw.ac/f/nqWOWBt6pIN6",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/nqWOWBt6pIN6" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/nqWOWBt6pIN6"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "adrenaline-2022",
@@ -1401,17 +1989,30 @@
       "Silviu Geamănu",
       "Rosmary Yaneva"
     ],
-    "genre": ["Acción", "Suspenso", "Thriller"],
+    "genre": [
+      "Acción",
+      "Suspenso",
+      "Thriller"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 15m",
     "ageRating": "",
     "trailer": "",
     "embed": "https://waaw.ac/f/Bm3C5lB1xo4p",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/Bm3C5lB1xo4p" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/Bm3C5lB1xo4p"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "fresh-2022",
     "title": "Fresh",
@@ -1429,17 +2030,30 @@
       "Dayo Okeniyi",
       "Brett Dier"
     ],
-    "genre": ["Horror", "Suspenso", "Thriller"],
+    "genre": [
+      "Horror",
+      "Suspenso",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 54m",
     "ageRating": "R",
     "trailer": "https://youtu.be/wKk5VAK1GZQ",
     "embed": "https://waaw.ac/f/nJjICWNYssWI",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/nJjICWNYssWI" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/nJjICWNYssWI"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "el-libro-del-demonio-2022",
     "title": "El libro del demonio",
@@ -1456,17 +2070,30 @@
       "Meeya Davis",
       "Jack DiFalco"
     ],
-    "genre": ["Terror", "Sobrenatural", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Sobrenatural",
+      "Suspenso"
+    ],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 17m",
     "ageRating": "16+",
     "trailer": "https://youtu.be/xZa7ZsDG-Zs",
     "embed": "https://waaw.ac/f/DgcPoWt5MQwV",
-    "watchLinks": [{ "name": "Netu", "url": "https://waaw.ac/f/DgcPoWt5MQwV" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "Netu",
+        "url": "https://waaw.ac/f/DgcPoWt5MQwV"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "crater-2023",
     "title": "Crater",
@@ -1486,7 +2113,11 @@
       "Selenis Leyva",
       "Carson Minnear"
     ],
-    "genre": ["Ciencia Ficción", "Aventura", "Drama"],
+    "genre": [
+      "Ciencia Ficción",
+      "Aventura",
+      "Drama"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 45m",
@@ -1494,7 +2125,10 @@
     "trailer": "https://youtu.be/tR1g1g3cGpc",
     "embed": "https://waaw.ac/f/vM5ES7tZt2fx",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "https://waaw.ac/f/vM5ES7tZt2fx" }
+      {
+        "name": "Opcion 1",
+        "url": "https://waaw.ac/f/vM5ES7tZt2fx"
+      }
     ],
     "downloadLinks": [
       {
@@ -1521,7 +2155,11 @@
       "Kathryn Morris",
       "David Costabile"
     ],
-    "genre": ["Drama", "Musical", "Biografia"],
+    "genre": [
+      "Drama",
+      "Musical",
+      "Biografia"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 47m",
@@ -1529,8 +2167,14 @@
     "trailer": "https://www.youtube.com/watch?v=-NOp5ROn1HE",
     "embed": "",
     "watchLinks": [
-      { "name": "Opcion 1", "url": "" },
-      { "name": "Opcion 2", "url": "" }
+      {
+        "name": "Opcion 1",
+        "url": ""
+      },
+      {
+        "name": "Opcion 2",
+        "url": ""
+      }
     ],
     "downloadLinks": [
       {
@@ -1556,15 +2200,29 @@
       "Ben Foster",
       "Rebecca Romijn"
     ],
-    "genre": ["Acción", "Crimen", "Thriller"],
+    "genre": [
+      "Acción",
+      "Crimen",
+      "Thriller"
+    ],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
     "ageRating": "R",
     "trailer": "",
     "embed": "",
-    "watchLinks": [{ "name": "", "url": "" }],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "watchLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "bed-rest-2022",
@@ -1581,7 +2239,10 @@
       "Edie Inksetter",
       "Paul Essiembre"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -1598,7 +2259,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "bumblebee-2018",
@@ -1615,7 +2281,11 @@
       "Jason Drucker",
       "Pamela Adlon"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 54m",
@@ -1632,7 +2302,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-1-2007",
@@ -1649,7 +2324,11 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 23m",
@@ -1666,7 +2345,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-2-la-venganza-de-los-caidos-2009",
@@ -1683,7 +2367,11 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 30m",
@@ -1700,7 +2388,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-3-el-lado-oscuro-de-la-luna-2011",
@@ -1717,7 +2410,11 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 34m",
@@ -1734,7 +2431,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-4-la-era-de-la-extincion-2014",
@@ -1751,7 +2453,11 @@
       "Nicola Peltz",
       "Jack Reynor"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 45m",
@@ -1768,7 +2474,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-5-el-ultimo-caballero-2017",
@@ -1785,7 +2496,11 @@
       "Isabela Moner",
       "Josh Duhamel"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 34m",
@@ -1802,7 +2517,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-6-el-despertar-de-las-bestias-2023",
@@ -1819,7 +2539,11 @@
       "Peter Cullen",
       "Ron Perlman"
     ],
-    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "genre": [
+      "Acción",
+      "Ciencia Ficción",
+      "Aventura"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 02m",
@@ -1836,7 +2560,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "transformers-uno-2024",
@@ -1854,7 +2583,11 @@
       "Jon Hamm",
       "Laurence Fishburne"
     ],
-    "genre": ["Animación", "Ciencia Ficción", "Acción"],
+    "genre": [
+      "Animación",
+      "Ciencia Ficción",
+      "Acción"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 47m",
@@ -1871,7 +2604,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-2003",
@@ -1888,7 +2626,11 @@
       "Jeremy Sisto",
       "Kevin Zegers"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
@@ -1905,7 +2647,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-2-2007",
@@ -1923,7 +2670,11 @@
       "Texas Battle",
       "Daniella Alonso"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 36m",
@@ -1940,7 +2691,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-3-2009",
@@ -1958,7 +2714,11 @@
       "Christian Contreras",
       "Louise Cliffe"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -1975,7 +2735,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-4-2011",
@@ -1993,7 +2758,11 @@
       "Jennifer Pudavick",
       "Dan Skene"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -2010,7 +2779,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-5-2012",
@@ -2027,7 +2801,11 @@
       "Roxanne McKee",
       "Oliver Hoare"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 31m",
@@ -2044,7 +2822,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-6-2014",
@@ -2061,7 +2844,11 @@
       "Sadie Katz",
       "Luke Cousins"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 31m",
@@ -2078,7 +2865,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "camino-hacia-el-terror-2021",
@@ -2095,7 +2887,10 @@
       "Emma Dumont",
       "Dylan McTee"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 49m",
@@ -2112,7 +2907,12 @@
         "url": "h"
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   [
     {
@@ -2131,7 +2931,10 @@
         "Seann William Scott",
         "Tony Todd"
       ],
-      "genre": ["Terror", "Suspenso"],
+      "genre": [
+        "Terror",
+        "Suspenso"
+      ],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 38m",
@@ -2148,7 +2951,12 @@
           "url": "https://waaw.ac/f/destino-final-2000-en"
         }
       ],
-      "downloadLinks": [{ "name": "", "url": "" }]
+      "downloadLinks": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": "destino-final-2-2003",
@@ -2165,7 +2973,10 @@
         "David Paetkau",
         "Tony Todd"
       ],
-      "genre": ["Terror", "Suspenso"],
+      "genre": [
+        "Terror",
+        "Suspenso"
+      ],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 30m",
@@ -2182,7 +2993,12 @@
           "url": "https://waaw.ac/f/destino-final-2-2003-en"
         }
       ],
-      "downloadLinks": [{ "name": "", "url": "" }]
+      "downloadLinks": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": "destino-final-3-2006",
@@ -2199,7 +3015,10 @@
         "Alexz Johnson",
         "Tony Todd (voz)"
       ],
-      "genre": ["Terror", "Suspenso"],
+      "genre": [
+        "Terror",
+        "Suspenso"
+      ],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 33m",
@@ -2216,7 +3035,12 @@
           "url": "https://waaw.ac/f/destino-final-3-2006-en"
         }
       ],
-      "downloadLinks": [{ "name": "", "url": "" }]
+      "downloadLinks": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": "destino-final-4-2009",
@@ -2233,7 +3057,10 @@
         "Haley Webb",
         "Mykelti Williamson"
       ],
-      "genre": ["Terror", "Suspenso"],
+      "genre": [
+        "Terror",
+        "Suspenso"
+      ],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 22m",
@@ -2250,7 +3077,12 @@
           "url": "https://waaw.ac/f/destino-final-4-2009-en"
         }
       ],
-      "downloadLinks": [{ "name": "", "url": "" }]
+      "downloadLinks": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": "destino-final-5-2011",
@@ -2267,7 +3099,10 @@
         "Ellen Wroe",
         "Tony Todd"
       ],
-      "genre": ["Terror", "Suspenso"],
+      "genre": [
+        "Terror",
+        "Suspenso"
+      ],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 32m",
@@ -2284,7 +3119,12 @@
           "url": "https://waaw.ac/f/destino-final-5-2011-en"
         }
       ],
-      "downloadLinks": [{ "name": "", "url": "" }]
+      "downloadLinks": [
+        {
+          "name": "",
+          "url": ""
+        }
+      ]
     }
   ],
   {
@@ -2292,7 +3132,7 @@
     "title": "Destino Final: Lazos de Sangre",
     "originalTitle": "Final Destination: Bloodlines",
     "year": 2025,
-    "cover": "assets/covers/destino-final-6-2025.jpg",
+    "cover": "assets/covers/destino-final-6-2025.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/uIpJPDNFoeX0TVml9smPrs9KUVx.jpg",
     "description": "Stefani, una estudiante universitaria, hereda visiones mortales de su abuela moribunda sobre un colapso de torre en 1968 y descubre que la Muerte está tras su familia. Debe impedir que el destino reclame sus vidas. (Capítulo 6 de la saga)  :contentReference[oaicite:0]{index=0}",
     "director": "Zach Lipovsky, Adam Stein",
@@ -2305,7 +3145,10 @@
       "Brec Bassinger",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Sobrenatural"],
+    "genre": [
+      "Terror",
+      "Sobrenatural"
+    ],
     "language": "Inglés, Español (doblaje probable)",
     "quality": "Full HD 1080p",
     "duration": "1h 50m (110 min)  ",
@@ -2322,7 +3165,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "insidious-2011",
@@ -2340,7 +3188,10 @@
       "Leigh Whannell",
       "Ty Simpkins"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 42m",
@@ -2357,7 +3208,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "insidious-chapter-2-2013",
@@ -2374,7 +3230,10 @@
       "Ty Simpkins",
       "Barbara Hershey"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 46m",
@@ -2391,7 +3250,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "insidious-chapter-3-2015",
@@ -2409,7 +3273,10 @@
       "Leigh Whannell",
       "Angus Sampson"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 37m",
@@ -2426,7 +3293,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "insidious-the-last-key-2018",
@@ -2443,7 +3315,10 @@
       "Caitlin Gerard",
       "Bruce Davison"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 43m",
@@ -2460,7 +3335,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "insidious-the-red-door-2023",
@@ -2477,7 +3357,10 @@
       "Lin Shaye",
       "Hiam Abbass"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 47m",
@@ -2494,7 +3377,12 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-2004",
@@ -2511,7 +3399,11 @@
       "Ken Leung",
       "Monica Potter"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 43m",
@@ -2523,9 +3415,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/CVcAVdvoHcud"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-2-2005",
@@ -2543,7 +3443,11 @@
       "Erik Knudsen",
       "Franky G"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -2555,9 +3459,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/kO6yIRgMJmDi"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-3-2006",
@@ -2574,7 +3486,11 @@
       "Bahar Soomekh",
       "Costas Mandylor"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 48m",
@@ -2586,9 +3502,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/PWpiqFlUqp8e"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-4-2007",
@@ -2605,7 +3529,11 @@
       "Betsy Russell",
       "Lyriq Bent"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 36m",
@@ -2617,9 +3545,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/cxVAipVO8Kqc"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-5-2008",
@@ -2636,7 +3572,11 @@
       "Betsy Russell",
       "Julie Benz"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -2648,9 +3588,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/yncmZPieUFHU"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-6-2009",
@@ -2667,7 +3615,11 @@
       "Betsy Russell",
       "Peter Outerbridge"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -2679,9 +3631,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/70q8Mt1u2UPN"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-7-2010",
@@ -2698,7 +3658,11 @@
       "Betsy Russell",
       "Chad Donella"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -2710,16 +3674,24 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/PiLQdtQYIxfC"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "jigsaw-2017",
     "title": "Jigsaw (Saw 8): El Juego Continúa",
     "originalTitle": "Jigsaw",
     "year": 2017,
-    "cover": "assets/covers/jigsaw-8-2017.jpg",
+    "cover": "assets/covers/jigsaw-8-2017.webp",
     "description": "Una década después de la muerte de Jigsaw, la ciudad enfrenta una nueva ola de asesinatos que siguen el mismo patrón de los juegos mortales.",
     "director": "Michael Spierig, Peter Spierig",
     "cast": [
@@ -2729,7 +3701,11 @@
       "Hannah Emily Anderson",
       "Tobin Bell"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -2741,9 +3717,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/bFho0gocJxEp"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "spiral-2021",
@@ -2760,7 +3744,11 @@
       "Marisol Nichols",
       "Zoie Palmer"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -2772,16 +3760,24 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/rU12KNFhLXR4"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "saw-x-2023",
     "title": "Saw 10",
     "originalTitle": "Saw X",
     "year": 2023,
-    "cover": "assets/covers/saw-x-2023.jpg",
+    "cover": "assets/covers/saw-x-2023.webp",
     "description": "Ambientada entre Saw I y II, John Kramer viaja a México buscando una cura milagrosa para su cáncer, pero descubre un fraude. En venganza, organiza uno de sus juegos más crueles.",
     "director": "Kevin Greutert",
     "cast": [
@@ -2791,7 +3787,11 @@
       "Steven Brand",
       "Michael Beach"
     ],
-    "genre": ["Terror", "Suspenso", "Gore"],
+    "genre": [
+      "Terror",
+      "Suspenso",
+      "Gore"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 58m",
@@ -2803,11 +3803,18 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/zMbL9Uc2WxfZ"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "infectados-2009",
     "title": "Infectados",
@@ -2824,7 +3831,11 @@
       "Christopher Meloni",
       "Kiernan Shipka"
     ],
-    "genre": ["Terror", "Ciencia Ficción", "Drama"],
+    "genre": [
+      "Terror",
+      "Ciencia Ficción",
+      "Drama"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
@@ -2841,9 +3852,13 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
-
   {
     "id": "destino-final-2000",
     "title": "Destino Final",
@@ -2860,7 +3875,10 @@
       "Seann William Scott",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 38m",
@@ -2872,9 +3890,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/ao1zJq5fyVCi"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "destino-final-2-2003",
@@ -2892,7 +3918,10 @@
       "Jonathan Cherry",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -2904,9 +3933,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/8PVM4EcBj8Uk"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "destino-final-3-2006",
@@ -2924,7 +3961,10 @@
       "Sam Easton",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -2936,9 +3976,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/gr0cGCTr8XeF"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "destino-final-4-2009",
@@ -2956,7 +4004,10 @@
       "Mykelti Williamson",
       "Krista Allen"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 22m",
@@ -2968,9 +4019,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/EG6DFcgW0Xla"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "destino-final-5-2011",
@@ -2988,7 +4047,10 @@
       "Jacqueline MacInnes Wood",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Suspenso"],
+    "genre": [
+      "Terror",
+      "Suspenso"
+    ],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -3000,16 +4062,24 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/WU7SBY3D5i8T"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "destino-final-6-2025",
     "title": "Destino Final: Lazos de Sangre",
     "originalTitle": "Final Destination: Bloodlines",
     "year": 2025,
-    "cover": "assets/covers/destino-final-6-2025.jpg",
+    "cover": "assets/covers/destino-final-6-2025.webp",
     "description": "Stefani, una estudiante universitaria, hereda visiones mortales de su abuela moribunda sobre un colapso de torre en 1968 y descubre que la Muerte está tras su familia. Debe impedir que el destino reclame sus vidas. (Capítulo 6 de la saga)",
     "director": "Zach Lipovsky, Adam Stein",
     "cast": [
@@ -3021,7 +4091,10 @@
       "Brec Bassinger",
       "Tony Todd"
     ],
-    "genre": ["Terror", "Sobrenatural"],
+    "genre": [
+      "Terror",
+      "Sobrenatural"
+    ],
     "language": "Inglés, Español (doblaje probable)",
     "quality": "Full HD 1080p",
     "duration": "1h 50m",
@@ -3033,9 +4106,17 @@
         "name": "Opción 1 Español Latino",
         "url": "https://waaw.ac/f/jzxK1ippUcGX"
       },
-      { "name": "Opción 2 Inglés", "url": "" }
+      {
+        "name": "Opción 2 Inglés",
+        "url": ""
+      }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   },
   {
     "id": "who-am-i-2014",
@@ -3053,7 +4134,12 @@
       "Hannah Herzsprung",
       "Trine Dyrholm"
     ],
-    "genre": ["Thriller", "Crimen", "Drama", "Hackers y Ciberseguridad"],
+    "genre": [
+      "Thriller",
+      "Crimen",
+      "Drama",
+      "Hackers y Ciberseguridad"
+    ],
     "language": "Español Latino, Alemán, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 45m",
@@ -3070,6 +4156,11 @@
         "url": ""
       }
     ],
-    "downloadLinks": [{ "name": "", "url": "" }]
+    "downloadLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
   }
 ]

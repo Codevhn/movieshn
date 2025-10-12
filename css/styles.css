@@ -312,16 +312,47 @@ body.nav-open {
 
 .featured-item {
   margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add shine effect to featured items in sidebars */
+.featured-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+  transition: left 0.5s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.featured-item:hover::before {
+  left: 100%;
+}
+
+.featured-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .featured-item img {
   border-radius: 4px;
   margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .featured-item p {
   font-size: 0.9rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 /* --- CUSTOM SCROLLBAR (WebKit) --- */
@@ -343,15 +374,18 @@ body.nav-open {
 }
 
 /* --- SECCIÓN HERO --- */
+/* --- HERO SECTION - ESPECTACULAR --- */
 .hero {
   position: relative;
-  height: 60vh;
+  height: 70vh; /* Increased height for more impact */
+  min-height: 500px; /* Minimum height for smaller screens */
   display: flex;
-  align-items: flex-end;
-  padding: 2rem;
-  border-radius: 8px;
+  align-items: center; /* Center content vertically */
+  padding: 0; /* Remove padding, let content handle it */
+  border-radius: 0; /* Remove border radius for full-width impact */
   overflow: hidden;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #121212 0%, #1a1a1a 100%); /* Fallback gradient */
 }
 
 .hero-background {
@@ -363,58 +397,109 @@ body.nav-open {
   z-index: 1;
 }
 
+.hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4) saturate(1.2); /* Darker and more saturated */
+  transition: all 0.5s ease;
+}
+
+.hero:hover .hero-background img {
+  filter: brightness(0.5) saturate(1.3);
+  transform: scale(1.02); /* Subtle zoom on hover */
+}
+
 .hero-background::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to top,
-    rgba(18, 18, 18, 1) 10%,
-    rgba(18, 18, 18, 0) 60%
+    135deg,
+    rgba(18, 18, 18, 0.8) 0%,
+    rgba(18, 18, 18, 0.4) 40%,
+    rgba(255, 193, 7, 0.1) 70%,
+    rgba(255, 193, 7, 0.05) 100%
   );
-}
-
-.hero-background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  z-index: 2;
 }
 
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   max-width: 600px;
+  padding: 3rem;
+  color: white;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 .hero-title {
   font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 0 0 10px rgba(255, 193, 7, 0.6), 0 0 15px rgba(255, 193, 7, 0.4); /* Sombra más sutil */
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #ffffff 0%, var(--primary-accent-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white; /* Fallback */
+  line-height: 1.1;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-.hero-content p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+.hero p {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .hero-buttons .btn,
 .series-showcase__actions .btn,
 .contact-banner-actions .btn {
-  padding: 0.8rem 2rem;
-  border-radius: 50px;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  margin-right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-right: 0;
   cursor: pointer;
+}
+
+.hero-buttons .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.hero-buttons .btn:hover::before {
+  left: 100%;
 }
 
 .hero-buttons .btn:last-child,
@@ -423,28 +508,85 @@ body.nav-open {
 }
 
 .btn.btn-primary {
-  background: linear-gradient(90deg, var(--primary-accent-color), #ffa000);
-  color: #000;
-  box-shadow: 0 4px 15px var(--hover-shadow-color);
+  background: linear-gradient(135deg, var(--primary-accent-color) 0%, #ffa000 100%);
+  color: #121212;
+  font-weight: 700;
+  box-shadow: 0 8px 25px rgba(255, 193, 7, 0.4);
 }
 
 .btn.btn-primary:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px var(--hover-shadow-color);
-  color: #000;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(255, 193, 7, 0.6);
+  background: linear-gradient(135deg, #ffa000 0%, var(--primary-accent-color) 100%);
+  color: #121212;
 }
 
 .btn.btn-secondary {
-  background-color: rgba(40, 40, 40, 0.7);
-  color: var(--text-color);
-  border-color: var(--subtle-text-color);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 .btn.btn-secondary:hover {
-  background-color: var(--text-color);
-  color: var(--background-color);
-  border-color: var(--text-color);
-  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Hero decorative elements */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 193, 7, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 2;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-20px, -30px) scale(1.1);
+  }
+}
+
+/* Series redirect section styling */
+.series-redirect {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.1) 0%, rgba(255, 160, 0, 0.05) 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.series-preview {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.series-preview p {
+  font-size: 1.1rem;
+  color: var(--subtle-text-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.series-preview .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
 }
 
 /* --- SECCIÓN DE DETALLES DE SERIE --- */
@@ -3139,27 +3281,71 @@ body.nav-open {
 .latest-carousel-section h2,
 .movie-section h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem; /* Slightly larger font */
-  margin: 1.5rem auto; /* Centered block with margin */
-  padding: 0.8rem 1.5rem; /* Symmetrical padding */
-  width: fit-content; /* Make it fit content width initially */
-  max-width: 80%; /* Limit width to prevent it from being too wide */
-  display: block; /* Block level element */
-  text-align: center; /* Center the text */
+  font-size: clamp(1.2rem, 3vw, 1.6rem); /* Reduced from 1.4rem, 4vw, 2.2rem */
+  font-weight: 700; /* Bold weight */
+  margin: clamp(1rem, 2vw, 1.5rem) 0; /* Reduced margins */
+  padding: clamp(0.8rem, 2vw, 1.2rem) clamp(1.2rem, 2.5vw, 1.6rem); /* Reduced padding */
+  width: 100%; /* Full width */
+  max-width: none; /* Remove width restrictions */
+  display: flex; /* Flex for icon alignment */
+  align-items: center; /* Center align content vertically */
+  justify-content: flex-start; /* Left align content */
+  gap: clamp(0.6rem, 1.5vw, 1rem); /* Reduced gap for icon */
+  text-align: left; /* Left align text */
 
-  border-radius: 8px; /* Apply border-radius to the h2 itself */
+  border-radius: 0; /* Remove border radius for more modern look */
+  border-left: clamp(3px, 0.8vw, 5px) solid transparent; /* Reduced border thickness */
+  border-image: linear-gradient(135deg, var(--primary-accent-color), #ffa000, #ff6f00) 1; /* Gradient border */
   z-index: 1;
   position: relative;
   overflow: hidden;
 
-  background: linear-gradient(90deg, var(--primary-accent-color), #ffa000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent; /* Fallback */
+  background: linear-gradient(135deg, 
+    rgba(255, 193, 7, 0.15) 0%,
+    rgba(255, 160, 0, 0.1) 50%, 
+    rgba(255, 111, 0, 0.05) 100%
+  ); /* Subtle background gradient */
+  
+  color: var(--text-color); /* Solid color instead of gradient text */
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+  
+  transition: none; /* Remove all transitions to avoid clickable feel */
+  cursor: default; /* Default cursor, not pointer */
+  
+  /* Add a subtle inner glow effect */
+  box-shadow: 
+    inset 0 1px 0 rgba(255, 193, 7, 0.2),
+    0 2px 12px rgba(0, 0, 0, 0.1);
+}
 
-  text-shadow: none; /* Remove old text-shadow, as gradient text handles highlight */
-  transition: all 0.3s ease; /* Smooth transitions for any future changes */
-  cursor: pointer; /* Indicate interactivity */
+/* Section heading icons - Spectacular left-aligned design */
+.latest-carousel-section h2 .section-icon,
+.movie-section h2 .section-icon {
+  font-size: clamp(1.4rem, 3vw, 2.2rem); /* Reduced from larger sizes */
+  color: var(--primary-accent-color);
+  filter: drop-shadow(0 0 12px rgba(255, 193, 7, 0.6)) 
+          drop-shadow(0 0 24px rgba(255, 193, 7, 0.3));
+  flex-shrink: 0; /* Prevent icon from shrinking */
+  
+  /* Create a circular background for the icon */
+  width: clamp(2.4rem, 4.5vw, 3.2rem); /* Reduced from larger sizes */
+  height: clamp(2.4rem, 4.5vw, 3.2rem);
+  border-radius: 50%;
+  background: linear-gradient(135deg, 
+    rgba(255, 193, 7, 0.2) 0%,
+    rgba(255, 160, 0, 0.15) 50%,
+    rgba(255, 111, 0, 0.1) 100%
+  );
+  border: 2px solid rgba(255, 193, 7, 0.3);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Subtle inner shadow for depth */
+  box-shadow: 
+    inset 0 2px 4px rgba(255, 193, 7, 0.1),
+    0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .latest-carousel-section h2::before,
@@ -3167,43 +3353,104 @@ body.nav-open {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0; /* Start from left */
-  transform: none; /* Remove transformX */
-  width: 100%; /* Always full width */
-  height: 4px;
-  background: linear-gradient(90deg, var(--primary-accent-color), #ffa000);
-  border-radius: 2px;
-  transition: box-shadow 0.3s ease; /* Only transition shadow */
-  box-shadow: 0 0 10px var(--hover-shadow-color);
-  z-index: 2; /* Above the background */
+  left: 0;
+  width: 100%;
+  height: clamp(2px, 0.5vw, 3px); /* Thinner underline */
+  background: linear-gradient(90deg, 
+    var(--primary-accent-color) 0%,
+    #ffa000 50%, 
+    transparent 100%
+  ); /* Fade out gradient */
+  z-index: 2;
 }
 
+/* Add a subtle side accent */
 .latest-carousel-section h2::after,
 .movie-section h2::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: clamp(3px, 0.8vw, 4px);
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 193, 7, 0.2),
-    rgba(255, 193, 7, 0.05)
-  ); /* Subtle yellow gradient */
-  animation: h2-background-pulse 10s infinite alternate ease-in-out; /* Subtle animation */
-  z-index: -1; /* Behind the text and border */
-  border-radius: 0; /* Remove border-radius from background if h2 is full width */
+  background: linear-gradient(180deg, 
+    var(--primary-accent-color) 0%,
+    #ffa000 50%,
+    #ff6f00 100%
+  );
+  z-index: 2;
 }
 
-@keyframes h2-background-pulse {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+/* Remove the old background animation and hover effects */
+.latest-carousel-section h2::after,
+.movie-section h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: clamp(3px, 0.8vw, 4px);
+  height: 100%;
+  background: linear-gradient(180deg, 
+    var(--primary-accent-color) 0%,
+    #ffa000 50%,
+    #ff6f00 100%
+  );
+  z-index: 2;
 }
+
+/* Clickable category headings - Modern streaming style */
+.latest-carousel-section h2.clickable,
+.movie-section h2.clickable {
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.latest-carousel-section h2.clickable:hover,
+.movie-section h2.clickable:hover {
+  transform: translateX(8px);
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(255, 193, 7, 0.5);
+}
+
+.latest-carousel-section h2.clickable:hover .section-icon,
+.movie-section h2.clickable:hover .section-icon {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 16px rgba(255, 193, 7, 0.8)) 
+          drop-shadow(0 0 32px rgba(255, 193, 7, 0.4));
+}
+
+.latest-carousel-section h2.clickable:hover::after,
+.movie-section h2.clickable:hover::after {
+  width: 6px;
+  background: linear-gradient(180deg, 
+    #fff 0%,
+    var(--primary-accent-color) 30%,
+    #ffa000 70%,
+    #ff6f00 100%
+  );
+}
+
+/* "Ver más" indicator for clickable headings */
+.latest-carousel-section h2.clickable::before,
+.movie-section h2.clickable::before {
+  content: "Ver más →";
+  position: absolute;
+  right: 1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  font-weight: 400;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--primary-accent-color);
+}
+
+.latest-carousel-section h2.clickable:hover::before,
+.movie-section h2.clickable:hover::before {
+  opacity: 1;
+  transform: translateX(-5px);
+}
+
+
 
 @keyframes carousel-scroll {
   0% {
@@ -3282,28 +3529,330 @@ body.nav-open {
   }
 }
 
-.latest-carousel-section h2:hover::before,
-.movie-section h2:hover::before {
-  width: 100%; /* No change in width on hover */
-  box-shadow: 0 0 20px var(--hover-shadow-color);
+/* Mobile optimizations for new design */
+@media (max-width: 768px) {
+  .latest-carousel-section h2,
+  .movie-section h2 {
+    margin: 1rem 0;
+    padding: 0.8rem 1.2rem; /* Reduced padding */
+    font-size: 1.4rem; /* Reduced from 1.6rem */
+    gap: 0.8rem; /* Reduced gap */
+  }
+  
+  .latest-carousel-section h2 .section-icon,
+  .movie-section h2 .section-icon {
+    font-size: 1.6rem; /* Reduced from 2rem */
+    width: 2.8rem; /* Reduced from 3.5rem */
+    height: 2.8rem;
+  }
+  
+  .latest-carousel-section h2::before,
+  .movie-section h2::before {
+    height: 2px;
+  }
+  
+  .latest-carousel-section h2::after,
+  .movie-section h2::after {
+    width: 3px;
+  }
+  
+  .movie-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted for mobile */
+    gap: 0.6rem; /* Further reduced */
+  }
+  
+  .movie-card img {
+    height: 280px; /* Slightly reduced for tablet */
+  }
+  
+  .movie-info {
+    padding: 1rem; /* Reduced padding for tablet */
+  }
 }
 
-.latest-carousel-section h2:hover,
-.movie-section h2:hover {
-  transform: scale(1.01); /* Slight scale, no translateX */
-  text-shadow: 0 0 15px var(--hover-shadow-color);
+@media (max-width: 480px) {
+  .latest-carousel-section h2,
+  .movie-section h2 {
+    margin: 0.8rem 0;
+    padding: 0.6rem 1rem; /* Reduced padding */
+    font-size: 1.2rem; /* Reduced from 1.4rem */
+    gap: 0.6rem; /* Reduced gap */
+  }
+  
+  .latest-carousel-section h2 .section-icon,
+  .movie-section h2 .section-icon {
+    font-size: 1.3rem; /* Reduced from 1.6rem */
+    width: 2.4rem; /* Reduced from 3rem */
+    height: 2.4rem;
+  }
+  
+  .latest-carousel-section h2::before,
+  .movie-section h2::before {
+    height: 2px;
+  }
+  
+  .latest-carousel-section h2::after,
+  .movie-section h2::after {
+    width: 2px;
+  }
+  
+  .movie-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjusted for small mobile */
+    gap: 0.4rem; /* Further reduced */
+  }
+  
+  .movie-card img {
+    height: 240px; /* Adjusted for mobile while still showing more poster */
+  }
+  
+  .movie-info {
+    padding: 0.8rem; /* Reduced padding for mobile */
+  }
+  
+  .movie-info h3 {
+    font-size: 1rem; /* Adjusted title size for mobile */
+  }
+  
+  /* Hide "Ver más" text on small screens */
+  .latest-carousel-section h2.clickable::before,
+  .movie-section h2.clickable::before {
+    display: none;
+  }
+}
+
+/* High DPI screens optimization */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .latest-carousel-section h2 .section-icon,
+  .movie-section h2 .section-icon {
+    filter: drop-shadow(0 0 12px rgba(255, 193, 7, 0.6)) 
+            drop-shadow(0 0 24px rgba(255, 193, 7, 0.3)) 
+            contrast(1.1);
+  }
+}
+
+/* Category page styles */
+.page-category .main-content {
+  margin-top: 80px; /* Same as main page */
+  padding: 0; /* Remove padding, let layout handle it */
+}
+
+.page-category .layout {
+  display: grid;
+  grid-template-columns: 240px 1fr 240px;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.page-category .center-content {
+  min-width: 0;
+}
+
+.category-hero {
+  background: linear-gradient(135deg, 
+    rgba(255, 193, 7, 0.1) 0%,
+    rgba(255, 160, 0, 0.05) 50%, 
+    rgba(255, 111, 0, 0.03) 100%
+  );
+  padding: 2rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  border-left: 6px solid var(--primary-accent-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.category-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 193, 7, 0.1));
+  pointer-events: none;
+}
+
+.category-hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.category-title {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.category-title i {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  color: var(--primary-accent-color);
+  filter: drop-shadow(0 0 16px rgba(255, 193, 7, 0.6));
+}
+
+.category-description {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--subtle-text-color);
+  margin-bottom: 1.5rem;
+}
+
+.category-stats {
+  font-size: 1.1rem;
+  color: var(--primary-accent-color);
+  font-weight: 600;
+}
+
+.filter-section {
+  margin-bottom: 2rem;
+}
+
+.filter-container {
+  background: var(--card-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 193, 7, 0.1);
+}
+
+.filter-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-container h3 i {
+  color: var(--primary-accent-color);
+}
+
+.filter-options {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-options select {
+  background: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  min-width: 150px;
+  transition: all 0.3s ease;
+}
+
+.filter-options select:focus {
+  outline: none;
+  border-color: var(--primary-accent-color);
+  box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.2);
+}
+
+.filter-options button {
+  background: var(--border-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-options button:hover {
+  background: var(--primary-accent-color);
+  color: var(--background-color);
+}
+
+.category-movies {
+  margin-bottom: 3rem;
+}
+
+/* Active nav item for category pages */
+.site-nav a.active {
+  color: var(--primary-accent-color);
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+/* Mobile optimizations for category pages */
+@media (max-width: 1024px) {
+  .page-category .layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .page-category .left-sidebar,
+  .page-category .right-sidebar {
+    display: none; /* Hide sidebars on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .page-category .main-content {
+    margin-top: 120px; /* Account for mobile header */
+  }
+  
+  .category-hero {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filter-container {
+    padding: 1rem;
+  }
+  
+  .filter-options {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .filter-options select,
+  .filter-options button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-title {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .filter-container {
+    padding: 1rem;
+  }
+  
+  .page-category .layout {
+    padding: 0.5rem;
+  }
 }
 
 .movie-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Increased from 220px for taller cards */
+  gap: 0.7rem; /* Further reduced from 1rem */
 }
 
 /* --- TARJETA DE PELÍCULA --- */
 .movie-card {
   background-color: var(--card-color);
-  border-radius: 8px;
+  border-radius: 0; /* Removed border-radius for square cards */
   overflow: hidden;
   text-decoration: none;
   color: var(--text-color);
@@ -3315,14 +3864,39 @@ body.nav-open {
   flex-direction: column;
 }
 
+/* Shine effect for movie cards - same as hero buttons */
+.movie-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.movie-card:hover::before {
+  left: 100%;
+}
+
 .movie-card:hover {
   transform: translateY(-8px); /* More pronounced lift */
   box-shadow: 0 15px 30px var(--hover-shadow-color); /* Much stronger hover shadow */
 }
 
+/* Ensure movie info and image are above the shine effect */
+.movie-card img,
+.movie-info {
+  position: relative;
+  z-index: 1;
+}
+
 .movie-card img {
   width: 100%;
-  height: 250px;
+  height: 320px; /* Increased from 250px for better poster visibility */
   object-fit: cover;
 }
 
@@ -3375,40 +3949,37 @@ body.nav-open {
   background-color: rgba(18, 18, 18, 0.9);
   color: var(--primary-accent-color);
   border: 1px solid var(--primary-accent-color);
-  border-radius: 50px;
+  border-radius: 4px; /* Reduced from 50px for square look */
   padding: 6px 12px;
   cursor: pointer;
   font-size: 0.85rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease,
-    color 0.3s ease, border-color 0.3s ease;
-  z-index: 3;
+  z-index: 3; /* Above shine effect */
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  opacity: 0; /* Hidden by default */
+  transform: translateY(-10px); /* Start position for animation */
+  overflow: hidden;
+  position: absolute; /* Ensure proper positioning */
 }
 
+/* Add shine effect to "Mi Lista" button too */
 .add-to-list::before {
-  content: "+"; /* Icono de añadir */
-  font-size: 0.9em;
-  line-height: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 193, 7, 0.3), transparent);
+  transition: left 0.4s ease;
+  z-index: -1;
 }
 
-.add-to-list.added-to-list {
-  background-color: var(--primary-accent-color);
-  color: var(--background-color);
-  border-color: var(--primary-accent-color);
+.add-to-list:hover::before {
+  left: 100%;
 }
 
-.add-to-list.added-to-list::before {
-  content: "✓"; /* Icono de check */
-  color: var(--background-color);
-}
-
+/* Show button when hovering over the entire movie card */
 .movie-card:hover .add-to-list {
   opacity: 1;
   transform: translateY(0);
@@ -3418,7 +3989,8 @@ body.nav-open {
   background-color: var(--primary-accent-color);
   color: var(--background-color);
   border-color: var(--primary-accent-color);
-  box-shadow: 0 0 10px var(--hover-shadow-color);
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+  transform: translateY(-2px);
 }
 
 .add-to-list:hover::before {
@@ -3551,10 +4123,38 @@ footer {
     display: none;
   }
   .hero {
-    height: 50vh;
+    height: 60vh;
+    min-height: 400px;
   }
+  
+  .hero-content {
+    padding: 2rem;
+  }
+  
   .hero-title {
-    font-size: 2rem;
+    font-size: clamp(2rem, 6vw, 2.5rem);
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    gap: 1rem;
+  }
+  
+  .hero-buttons .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .hero::before {
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    right: 5%;
   }
   .movie-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -3563,14 +4163,33 @@ footer {
 }
 
 @media (max-width: 480px) {
+  .hero {
+    height: 50vh;
+    min-height: 350px;
+  }
+  
+  .hero-content {
+    padding: 1.5rem;
+  }
+  
+  .hero::before {
+    display: none; /* Hide decorative element on small screens */
+  }
+  
   .movie-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .hero-buttons {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.8rem;
     align-items: flex-start;
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+    justify-content: center;
   }
 }
 

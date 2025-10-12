@@ -123,6 +123,8 @@ function adjustHeroPosition() {
 // ========================
 // RENDER MOVIES
 // ========================
+// RENDER MOVIES - MODERN LAYOUT WITH LIMITS
+// ========================
 function renderMovies(movies, filtered = false) {
   // Limpiar todas las grillas
   document.querySelectorAll(".movie-grid").forEach((grid) => {
@@ -134,7 +136,7 @@ function renderMovies(movies, filtered = false) {
   const resultsGrid = resultsSection.querySelector(".movie-grid");
 
   if (filtered) {
-    // ✅ Mostrar solo resultados
+    // ✅ Mostrar solo resultados (sin cambios)
     sections.forEach((s) => (s.style.display = "none"));
     resultsSection.style.display = "block";
 
@@ -155,86 +157,247 @@ function renderMovies(movies, filtered = false) {
     return;
   }
 
-  // ✅ Render normal (estado inicial)
+  // ✅ Render moderno con límites (grid normal, no scroll)
   sections.forEach((s) => (s.style.display = "block"));
   resultsSection.style.display = "none";
 
+  // Make headings clickable for navigation
+  makeHeadingsClickable();
+
+  // Group movies by category with limits
+  const moviesByCategory = {
+    recientes: [],
+    'mas-vistas': [],
+    terror: [],
+    suspenso: [],
+    accion: [],
+    comedia: [],
+    fantasia: [],
+    'ciencia-ficcion': [],
+    aventura: [],
+    animacion: [],
+    musical: [],
+    biografia: [],
+    drama: [],
+    documentales: [],
+    'hackers-y-ciberseguridad': []
+  };
+
+  // Categorize movies
   movies.forEach((movie) => {
-    const card = createCard(movie);
     const year = parseInt(movie.year, 10) || 0;
     const g = Array.isArray(movie.genre) ? movie.genre : [];
 
     // === Recientes ===
-    if (year >= 2020) appendTo("#recientes .movie-grid", card.cloneNode(true));
-
-    // === Más vistas (placeholder) ===
-    // if (movie.popularity && movie.popularity >= 80)
-    //   appendTo("#mas-vistas .movie-grid", card.cloneNode(true));
+    if (year >= 2020) moviesByCategory.recientes.push(movie);
 
     // === Categorías ===
     if (g.includes("Terror"))
-      appendTo("#terror .movie-grid", card.cloneNode(true));
+      moviesByCategory.terror.push(movie);
     if (g.includes("Suspenso"))
-      appendTo("#suspenso .movie-grid", card.cloneNode(true));
+      moviesByCategory.suspenso.push(movie);
     if (g.includes("Acción"))
-      appendTo("#accion .movie-grid", card.cloneNode(true));
+      moviesByCategory.accion.push(movie);
     if (g.includes("Comedia"))
-      appendTo("#comedia .movie-grid", card.cloneNode(true));
+      moviesByCategory.comedia.push(movie);
     if (g.includes("Fantasía"))
-      appendTo("#fantasia .movie-grid", card.cloneNode(true));
+      moviesByCategory.fantasia.push(movie);
     if (g.includes("Ciencia Ficción"))
-      appendTo("#ciencia-ficcion .movie-grid", card.cloneNode(true));
+      moviesByCategory['ciencia-ficcion'].push(movie);
     if (g.includes("Animación"))
-      appendTo("#animacion .movie-grid", card.cloneNode(true));
+      moviesByCategory.animacion.push(movie);
     if (g.includes("Documental"))
-      appendTo("#documentales .movie-grid", card.cloneNode(true));
-    if (g.includes("TV Series"))
-      appendTo("#tv-series .movie-grid", card.cloneNode(true));
+      moviesByCategory.documentales.push(movie);
     if (g.includes("Aventura"))
-      appendTo("#aventura .movie-grid", card.cloneNode(true));
+      moviesByCategory.aventura.push(movie);
     if (g.includes("Musical"))
-      appendTo("#musical .movie-grid", card.cloneNode(true));
+      moviesByCategory.musical.push(movie);
     if (g.includes("Drama"))
-      appendTo("#drama .movie-grid", card.cloneNode(true));
+      moviesByCategory.drama.push(movie);
     if (g.includes("Biografia") || g.includes("Biografía"))
-      appendTo("#biografia .movie-grid", card.cloneNode(true));
-    if (g.includes("Hackers y Ciberseguridad")) {
-      appendTo("#hackers-y-ciberseguridad .movie-grid", card.cloneNode(true));
+      moviesByCategory.biografia.push(movie);
+    if (g.includes("Hackers y Ciberseguridad"))
+      moviesByCategory['hackers-y-ciberseguridad'].push(movie);
+  });
+
+  // Render limited items for each category (MAX 10 items in grid)
+  Object.keys(moviesByCategory).forEach(categoryId => {
+    const categoryMovies = moviesByCategory[categoryId];
+    const container = document.querySelector(`#${categoryId} .movie-grid`);
+    
+    if (container && categoryMovies.length > 0) {
+      // Limit to 10 items max (2 rows of 5)
+      const limitedMovies = categoryMovies.slice(0, 10);
+      
+      limitedMovies.forEach(movie => {
+        const card = createCard(movie);
+        container.appendChild(card);
+      });
+
+      // Show the section
+      const section = document.getElementById(categoryId);
+      if (section) {
+        section.style.display = 'block';
+      }
+    } else {
+      // Hide empty sections
+      const section = document.getElementById(categoryId);
+      if (section) {
+        section.style.display = 'none';
+      }
     }
   });
+}
+
+// Make headings clickable for navigation to dedicated pages
+function makeHeadingsClickable() {
+  const categories = [
+    'recientes', 'mas-vistas', 'terror', 'suspenso', 'accion', 
+    'comedia', 'fantasia', 'ciencia-ficcion', 'aventura', 
+    'animacion', 'musical', 'biografia', 'drama', 'documentales', 
+    'hackers-y-ciberseguridad', 'tv-series'
+  ];
+
+  categories.forEach(categoryId => {
+    const section = document.getElementById(categoryId);
+    if (!section) return;
+
+    const heading = section.querySelector('h2');
+
+    if (heading) {
+      // Make heading clickable
+      if (!heading.classList.contains('clickable')) {
+        heading.classList.add('clickable');
+        
+        // Add click handler for category page navigation
+        heading.onclick = () => {
+          navigateToCategoryPage(categoryId);
+        };
+        
+        // Add cursor pointer for better UX
+        heading.style.cursor = 'pointer';
+      }
+    }
+  });
+}
+
+// Navigate to dedicated category page
+function navigateToCategoryPage(categoryId) {
+  console.log(`Navigating to ${categoryId} page`);
+  
+  // Map category IDs to page names
+  const categoryPages = {
+    'recientes': 'recientes.html',
+    'terror': 'terror.html',
+    'accion': 'accion.html',
+    'comedia': 'comedia.html',
+    'ciencia-ficcion': 'ciencia-ficcion.html',
+    'fantasia': 'fantasia.html',
+    'aventura': 'aventura.html',
+    'drama': 'drama.html',
+    'suspenso': 'suspenso.html',
+    'animacion': 'animacion.html',
+    'documentales': 'documentales.html',
+    'musical': 'musical.html',
+    'biografia': 'biografia.html',
+    'hackers-y-ciberseguridad': 'hackers-y-ciberseguridad.html',
+    'tv-series': 'tv-series.html',
+    'mas-vistas': 'mas-vistas.html'
+  };
+  
+  const categoryPage = categoryPages[categoryId];
+  
+  if (categoryPage) {
+    // Navigate to the dedicated category page
+    window.location.href = categoryPage;
+  } else {
+    // Fallback: use search functionality for now
+    console.log(`No dedicated page for ${categoryId}, using search fallback`);
+    showFullCategory(categoryId);
+  }
+}
+
+// Fallback function for categories without dedicated pages (keep for now)
+function showFullCategory(categoryId) {
+  console.log(`Showing full category: ${categoryId}`);
+  
+  // Filter movies by category
+  const categoryMovies = allMovies.filter(movie => {
+    const genres = Array.isArray(movie.genre) ? movie.genre : [];
+    const year = parseInt(movie.year, 10) || 0;
+    
+    switch (categoryId) {
+      case 'recientes':
+        return year >= 2020;
+      case 'terror':
+        return genres.includes("Terror");
+      case 'accion':
+        return genres.includes("Acción");
+      case 'comedia':
+        return genres.includes("Comedia");
+      case 'ciencia-ficcion':
+        return genres.includes("Ciencia Ficción");
+      case 'fantasia':
+        return genres.includes("Fantasía");
+      case 'aventura':
+        return genres.includes("Aventura");
+      case 'drama':
+        return genres.includes("Drama");
+      case 'suspenso':
+        return genres.includes("Suspenso");
+      case 'animacion':
+        return genres.includes("Animación");
+      case 'documentales':
+        return genres.includes("Documental");
+      case 'musical':
+        return genres.includes("Musical");
+      case 'biografia':
+        return genres.includes("Biografia") || genres.includes("Biografía");
+      case 'hackers-y-ciberseguridad':
+        return genres.includes("Hackers y Ciberseguridad");
+      case 'tv-series':
+        return genres.includes("TV Series");
+      default:
+        return false;
+    }
+  });
+
+  // Show as search results
+  renderMovies(categoryMovies, true);
+  
+  // Update search results heading with category name
+  const categoryNames = {
+    'recientes': 'Recientes',
+    'terror': 'Terror',
+    'accion': 'Acción',
+    'comedia': 'Comedia',
+    'ciencia-ficcion': 'Ciencia Ficción',
+    'fantasia': 'Fantasía',
+    'aventura': 'Aventura',
+    'drama': 'Drama',
+    'suspenso': 'Suspenso',
+    'animacion': 'Animación',
+    'documentales': 'Documentales',
+    'musical': 'Musical',
+    'biografia': 'Biografía',
+    'hackers-y-ciberseguridad': 'Hackers y Ciberseguridad',
+    'tv-series': 'Series de TV',
+    'mas-vistas': 'Más Vistas'
+  };
+  
+  const resultsHeading = document.querySelector("#search-results h2");
+  if (resultsHeading) {
+    const categoryName = categoryNames[categoryId] || categoryId;
+    resultsHeading.textContent = categoryName;
+  }
 }
 
 // ========================
 // RENDER LATEST SERIES
 // ========================
-function renderLatestSeries(seriesList) {
-  const latestSeriesGrid = document.querySelector("#latest-series-section .movie-grid");
-  if (!latestSeriesGrid) return;
-
-  latestSeriesGrid.innerHTML = ''; // Clear existing content
-
-  // Render a limited number of series, e.g., the first 6
-  seriesList.slice(0, 6).forEach(series => {
-    const card = createCard(series, 'series');
-    latestSeriesGrid.appendChild(card);
-  });
-}
-
+// INDEX PAGE - MOVIES ONLY
 // ========================
-// RENDER ALL TV SERIES CATEGORY
-// ========================
-function renderTvSeriesCategory(seriesList) {
-  const tvSeriesCategoryGrid = document.querySelector("#tv-series-category .movie-grid");
-  if (!tvSeriesCategoryGrid) return;
-
-  tvSeriesCategoryGrid.innerHTML = ''; // Clear existing content
-
-  // Render all series in this section
-  seriesList.forEach(series => {
-    const card = createCard(series, 'series');
-    tvSeriesCategoryGrid.appendChild(card);
-  });
-}
+console.log('Index page reorganized - movies only, series moved to dedicated page');
 
 // ===============================
 // RENDER SIDEBAR CONTENT (SERIES)
