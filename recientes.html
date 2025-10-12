@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Películas Recientes - MoviesHN</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Películas Recientes - MoviesHN. Mira las mejores películas de terror online gratis en español latino." />
+  <meta name="keywords"
+    content="películas recientes, estrenos 2024, películas 2025, nuevas películas, películas nuevas, ClipsDePeliculasHN" />
+  <meta name="author" content="ClipsDePeliculasHN" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Películas Recientes - MoviesHN" />
+  <meta property="og:description"
+    content="Las películas más recientes online en español latino, calidad HD." />
+  <meta property="og:image" content="https://tusitio.com/assets/preview.jpg" />
+  <meta property="og:url" content="https://tusitio.com/recientes.html" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+</head>
+
+<body class="page-category">
+
+  <canvas id="background-canvas"></canvas>
+
+  <header class="site-header">
+
+    <!-- Fila superior: logo + hamburguesa -->
+    <div class="header-top">
+      <div class="logo">
+        <a href="index.html">MoviesHN</a>
+      </div>
+
+      <!-- Botón hamburguesa (solo visible en móvil) -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+    </div>
+
+    <!-- Buscador -->
+    <form class="search-form">
+      <input type="text" placeholder="Buscar películas..." aria-label="Buscar películas..." />
+      <button type="submit">Buscar</button>
+    </form>
+    <!-- Menú principal -->
+    <nav class="site-nav">
+      <!-- Botón cerrar (solo en móvil / menú abierto) -->
+      <button class="menu-close" aria-label="Cerrar menú">✕</button>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="recientes.html" class="active"><i class="fas fa-fire"></i> Recientes</a></li>
+        <li><a href="index.html#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
+        <li><a href="index.html#accion"><i class="fas fa-fist-raised"></i> Acción</a></li>
+        <li><a href="recientes.html" class="active"><i class="fas fa-fire"></i> Recientes</a></li>
+        <li><a href="index.html#suspenso"><i class="fas fa-user-secret"></i> Suspenso</a></li>
+        <li><a href="all-series.html"><i class="fas fa-tv"></i> Series</a></li>
+        <li><a href="mylist.html"><i class="fas fa-list"></i> Mi Lista</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    
+    <div class="layout">
+      <!-- Sidebar izquierdo -->
+      <aside class="sidebar-left">
+        <div class="sidebar-category">
+          <h3 class="category-toggle" data-target="my-list-section"><i class="fas fa-bookmark"></i> Mi Lista <span
+              class="item-count" id="mylist-count">(0)</span></h3>
+          <ul class="my-list-section category-content">
+            <li><a href="mylist.html">Ver mi lista</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-category">
+          <h3 class="category-toggle" data-target="genre-list"><i class="fas fa-tags"></i> Explorar por Género</h3>
+          <ul class="genre-list category-content">
+            <li><a href="index.html#accion">Acción</a></li>
+            <li><a href="recientes.html" class="active">Recientes</a></li>
+            <li><a href="index.html#suspenso">Suspenso</a></li>
+            <li><a href="index.html#comedia">Comedia</a></li>
+            <li><a href="index.html#fantasia">Fantasía</a></li>
+            <li><a href="index.html#ciencia-ficcion">Ciencia Ficción</a></li>
+            <li><a href="index.html#aventura">Aventura</a></li>
+            <li><a href="index.html#animacion">Animación</a></li>
+            <li><a href="index.html#drama">Drama</a></li>
+            <li><a href="index.html#documentales">Documentales</a></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-category">
+          <h3><i class="fas fa-fire"></i> Recientes</h3>
+          <div id="recent-movies-sidebar" class="featured-series">
+            <!-- Contenido generado por JS -->
+          </div>
+        </div>
+      </aside>
+
+      <!-- Contenido central -->
+      <div class="center-content">
+        <!-- Category Hero Section -->
+        <section class="category-hero">
+          <div class="category-hero-content">
+            <h1 class="category-title">
+              <i class="fas fa-fire"></i>
+              Películas Recientes
+            </h1>
+            <p class="category-description">
+              Descubre las películas más recientes desde el año 2020 hasta la actualidad. 
+              Mantente al día con los últimos estrenos y las películas más nuevas del cine.
+            </p>
+            <div class="category-stats">
+              <span id="movies-count">Cargando...</span> películas disponibles
+            </div>
+          </div>
+        </section>
+
+        <!-- Filter Options -->
+        <section class="filter-section">
+          <div class="filter-container">
+            <h3><i class="fas fa-filter"></i> Filtros</h3>
+            <div class="filter-options">
+              <select id="year-filter">
+                <option value="">Todos los años</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2018">2018</option>
+                <option value="older">Anteriores a 2018</option>
+              </select>
+              
+              <select id="sort-filter">
+                <option value="title">Ordenar por título</option>
+                <option value="year-desc">Más recientes</option>
+                <option value="year-asc">Más antiguos</option>
+              </select>
+              
+              <button id="clear-filters">
+                <i class="fas fa-times"></i> Limpiar filtros
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Movies Grid -->
+        <section class="category-movies">
+          <div id="movies-grid" class="movie-grid">
+            <!-- Movies will be loaded here -->
+          </div>
+          
+          <div id="no-movies" class="no-results" style="display: none;">
+            <i class="fas fa-ghost"></i>
+            <h3>No se encontraron películas</h3>
+            <p>No hay películas de terror que coincidan con los filtros seleccionados.</p>
+            <button onclick="clearFilters()">Ver todas las películas de terror</button>
+          </div>
+        </section>
+      </div>
+
+      <!-- Sidebar derecho -->
+      <aside class="sidebar-right">
+        <h3><i class="fas fa-plus-square"></i> Últimas Series Agregadas</h3>
+        <div id="latest-series-sidebar" class="featured-series">
+          <!-- Contenido generado por JS -->
+        </div>
+
+        <h3 id="recommended-series-title"><i class="fas fa-award"></i> Serie del Día</h3>
+        <div id="recommended-series-container" class="featured-series">
+          <!-- Contenido generado por JS -->
+        </div>
+
+        <h3><i class="fas fa-film"></i> Películas Destacadas</h3>
+        <div class="featured-movies">
+          <div class="featured-item">
+            <img src="https://image.tmdb.org/t/p/w500/fjgSlNGECNgVeMJaOdDAXmGh7ZM.jpg" alt="The Matrix">
+            <p>The Matrix</p>
+          </div>
+          <div class="featured-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hGiNkRgXTkF4C6WplyPrglEKtd0.jpg" alt="The Godfather">
+            <p>The Godfather</p>
+          </div>
+        </div>
+
+        <h3><i class="fas fa-info-circle"></i> Información</h3>
+        <div class="featured-movies">
+          <div class="featured-item">
+            <p>MoviesHN es tu plataforma favorita para ver películas online.</p>
+          </div>
+          <div class="featured-item">
+            <p>Actualizamos nuestro catálogo semanalmente con los últimos estrenos.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+  </main>
+
+  <div id="contact-banner-placeholder"></div>
+
+  <footer>
+    <p>&copy; 2025 MoviesHN. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="./js/menu.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/section-icons.js"></script>
+  
+  <script>
+    // Recientes page specific JavaScript
+    let allMovies = [];
+    let recientesMovies = [];
+    let filteredMovies = [];
+
+    // Initialize page
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        // Load movies and series data
+        const [moviesResponse, seriesResponse] = await Promise.all([
+          fetch('data/movies.json'),
+          fetch('data/series.json')
+        ]);
+        
+        allMovies = await moviesResponse.json();
+        const allSeries = await seriesResponse.json();
+        
+        // Filter recent movies (2020 onwards)
+        recientesMovies = allMovies.filter(movie => {
+          const year = parseInt(movie.year, 10) || 0;
+          return year >= 2020;
+        });
+        
+        filteredMovies = [...recientesMovies].reverse();
+        
+        // Update stats
+        document.getElementById('movies-count').textContent = recientesMovies.length;
+        
+        // Render movies
+        renderMovies();
+        
+        // Initialize filters
+        initializeFilters();
+        
+        // Initialize search functionality
+        initializeSearch();
+        
+        // Initialize My List functionality
+        initMyList();
+        
+        // Populate sidebar with recent movies
+        populateSidebar();
+        
+        // Populate sidebar with series
+        populateSidebarSeries(allSeries);
+        
+        // Initialize sidebar functionality
+        initializeSidebar();
+        
+        // Update My List count
+        updateMyListCount();
+        
+        console.log(`Recientes page loaded with ${recientesMovies.length} movies`);
+        
+      } catch (error) {
+        console.error('Error loading movies:', error);
+        document.getElementById('movies-grid').innerHTML = `
+          <div class="no-results">
+            <p>Error al cargar las películas. Por favor, intenta de nuevo.</p>
+          </div>
+        `;
+      }
+    });
+
+    // Initialize search functionality
+    function initializeSearch() {
+      const searchForm = document.querySelector('.search-form');
+      const searchInput = searchForm.querySelector('input');
+      
+      searchForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        
+        if (searchTerm) {
+          // Filter movies by search term
+          filteredMovies = recientesMovies.filter(movie => 
+            movie.title.toLowerCase().includes(searchTerm) ||
+            (movie.originalTitle && movie.originalTitle.toLowerCase().includes(searchTerm)) ||
+            (movie.description && movie.description.toLowerCase().includes(searchTerm))
+          );
+          renderMovies();
+        } else {
+          // Reset to all terror movies
+          filteredMovies = [...recientesMovies].reverse();
+          renderMovies();
+        }
+      });
+      
+      // Real-time search as user types
+      searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.trim().toLowerCase();
+        
+        if (searchTerm.length >= 2) {
+          filteredMovies = recientesMovies.filter(movie => 
+            movie.title.toLowerCase().includes(searchTerm) ||
+            (movie.originalTitle && movie.originalTitle.toLowerCase().includes(searchTerm))
+          );
+          renderMovies();
+        } else if (searchTerm.length === 0) {
+          filteredMovies = [...recientesMovies].reverse();
+          renderMovies();
+        }
+      });
+    }
+
+    // Initialize My List functionality
+    // Variable para evitar múltiples inicializaciones
+    let myListInitialized = false;
+
+    function initMyList() {
+      if (myListInitialized) return;
+      myListInitialized = true;
+      document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('add-to-list')) {
+          const movieId = e.target.getAttribute('data-id');
+          const stored = JSON.parse(localStorage.getItem('myList')) || [];
+          
+          if (stored.includes(movieId)) {
+            // Remove from list
+            const index = stored.indexOf(movieId);
+            stored.splice(index, 1);
+            e.target.textContent = 'Mi lista';
+            e.target.classList.remove('added-to-list');
+          } else {
+            // Add to list
+            stored.unshift(movieId);
+            e.target.textContent = 'En mi lista';
+            e.target.classList.add('added-to-list');
+          }
+          
+          localStorage.setItem('myList', JSON.stringify(stored));
+          
+          // Update the count in sidebar
+          updateMyListCount();
+        }
+      });
+    }
+
+    // Populate sidebar with recent movies
+    function populateSidebar() {
+      const sidebarContainer = document.getElementById('recent-movies-sidebar');
+      if (!sidebarContainer) return;
+
+      // Get recent movies (from 2020 onwards)
+      const recentMovies = allMovies.filter(movie => {
+        const year = parseInt(movie.year, 10) || 0;
+        return year >= 2020;
+      }).slice(0, 5); // Only show 5 recent movies
+
+      sidebarContainer.innerHTML = '';
+
+      recentMovies.forEach(movie => {
+        const item = document.createElement('div');
+        item.className = 'featured-item';
+        
+        const hasEmbed = movie.embed && movie.embed.trim() !== "";
+        const linkHref = hasEmbed ? `movie.html?id=${movie.id}` : "#";
+        
+        item.innerHTML = `
+          <a href="${linkHref}" ${!hasEmbed ? 'class="unavailable"' : ''}>
+            <img src="${movie.cover}" alt="${movie.title}" loading="lazy">
+            <p>${movie.title}</p>
+            <span class="year">${movie.year}</span>
+          </a>
+        `;
+        
+        sidebarContainer.appendChild(item);
+      });
+    }
+
+    // Render movies
+    function renderMovies() {
+      const grid = document.getElementById('movies-grid');
+      const noMovies = document.getElementById('no-movies');
+      
+      if (filteredMovies.length === 0) {
+        grid.style.display = 'none';
+        noMovies.style.display = 'block';
+        return;
+      }
+      
+      grid.style.display = 'grid';
+      noMovies.style.display = 'none';
+      grid.innerHTML = '';
+      
+      filteredMovies.forEach(movie => {
+        const card = createMovieCard(movie);
+        grid.appendChild(card);
+      });
+    }
+
+    // Create movie card
+    function createMovieCard(movie) {
+      const card = document.createElement("div");
+      card.className = "movie-card";
+
+      const hasEmbed = movie.embed && movie.embed.trim() !== "";
+      const stored = JSON.parse(localStorage.getItem("myList")) || [];
+      const alreadyInList = stored.includes(movie.id);
+
+      const linkHref = hasEmbed ? `movie.html?id=${movie.id}` : "";
+
+      card.innerHTML = `
+        <a ${linkHref ? `href="${linkHref}"` : ""} class="movie ${!linkHref ? "unavailable" : ""}">
+          <img src="${movie.cover}" alt="${movie.title}" loading="lazy">
+          <div class="movie-info">
+            <h3>${movie.title}</h3>
+            <p>${movie.year}</p>
+          </div>      
+        </a>
+        <button class="add-to-list ${alreadyInList ? 'added-to-list' : ''}" data-id="${movie.id}">
+          ${alreadyInList ? "En mi lista" : "Mi lista"}
+        </button>
+      `;
+
+      return card;
+    }
+
+    // Initialize filters
+    function initializeFilters() {
+      const yearFilter = document.getElementById('year-filter');
+      const sortFilter = document.getElementById('sort-filter');
+      const clearButton = document.getElementById('clear-filters');
+
+      yearFilter.addEventListener('change', applyFilters);
+      sortFilter.addEventListener('change', applyFilters);
+      clearButton.addEventListener('click', clearFilters);
+    }
+
+    // Apply filters
+    function applyFilters() {
+      const yearFilter = document.getElementById('year-filter').value;
+      const sortFilter = document.getElementById('sort-filter').value;
+
+      filteredMovies = [...recientesMovies].reverse();
+
+      // Apply year filter
+      if (yearFilter) {
+        if (yearFilter === 'older') {
+          filteredMovies = filteredMovies.filter(movie => 
+            parseInt(movie.year) < 2018
+          );
+        } else {
+          filteredMovies = filteredMovies.filter(movie => 
+            movie.year.toString() === yearFilter
+          );
+        }
+      }
+
+      // Apply sorting
+      if (sortFilter === 'year-desc') {
+        filteredMovies.sort((a, b) => parseInt(b.year) - parseInt(a.year));
+      } else if (sortFilter === 'year-asc') {
+        filteredMovies.sort((a, b) => parseInt(a.year) - parseInt(b.year));
+      } else if (sortFilter === 'title') {
+        filteredMovies.sort((a, b) => a.title.localeCompare(b.title));
+      }
+
+      renderMovies();
+    }
+
+    // Clear filters
+    function clearFilters() {
+      document.getElementById('year-filter').value = '';
+      document.getElementById('sort-filter').value = 'title';
+      filteredMovies = [...recientesMovies].reverse();
+      renderMovies();
+    }
+
+    // Initialize sidebar functionality
+    function initializeSidebar() {
+      // Toggle sidebar categories
+      document.querySelectorAll('.category-toggle').forEach(toggle => {
+        toggle.addEventListener('click', function() {
+          const targetClass = this.getAttribute('data-target');
+          const targetElement = document.querySelector(`.${targetClass}`);
+          
+          if (targetElement) {
+            targetElement.style.display = targetElement.style.display === 'none' ? 'block' : 'none';
+          }
+        });
+      });
+    }
+
+    // Update My List count
+    function updateMyListCount() {
+      const myListCountSpan = document.getElementById('mylist-count');
+      const stored = JSON.parse(localStorage.getItem('myList')) || [];
+      const count = stored.length;
+
+      if (myListCountSpan) {
+        myListCountSpan.textContent = `(${count})`;
+      }
+    }
+
+    // Populate sidebar with series
+    function populateSidebarSeries(seriesList) {
+      // 1. Render "Últimas Series Agregadas"
+      const latestSeriesContainer = document.getElementById('latest-series-sidebar');
+      if (latestSeriesContainer && seriesList.length > 0) {
+        latestSeriesContainer.innerHTML = '';
+        const latestSeries = seriesList.slice(-3).reverse(); // Tomar las últimas 3
+
+        latestSeries.forEach(series => {
+          const item = document.createElement('div');
+          item.className = 'featured-item';
+          item.innerHTML = `
+            <a href="series.html?id=${series.id}">
+              <img src="${series.cover}" alt="${series.title}" loading="lazy">
+              <p>${series.title}</p>
+            </a>
+          `;
+          latestSeriesContainer.appendChild(item);
+        });
+      }
+
+      // 2. Render "Serie del Día" (random)
+      const recommendedSeriesContainer = document.getElementById('recommended-series-container');
+      if (recommendedSeriesContainer && seriesList.length > 0) {
+        recommendedSeriesContainer.innerHTML = '';
+        const randomSeries = seriesList[Math.floor(Math.random() * seriesList.length)];
+        
+        const item = document.createElement('div');
+        item.className = 'featured-item';
+        item.innerHTML = `
+          <a href="series.html?id=${randomSeries.id}">
+            <img src="${randomSeries.cover}" alt="${randomSeries.title}" loading="lazy">
+            <p>${randomSeries.title}</p>
+          </a>
+        `;
+        recommendedSeriesContainer.appendChild(item);
+      }
+    }
+  </script>
+
+  <script src="./js/menu.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/section-icons.js"></script>
+  <script src="./js/components.js"></script>
+</body>
+
+</html>
