@@ -4,37 +4,33 @@ const STATE = {
   activeFilters: {
     genre: '',
     year: '',
-    status: '',
     search: ''
   },
   viewMode: 'grid',
   sortOption: 'featured',
   currentPage: 1,
-  itemsPerPage: 20
+  itemsPerPage: 20,
+  quickFilter: 'all' // Nuevo filtro rápido
 };
 
 const DOM = {};
 
-const BACKDROP_CONFIG = {
-  interval: 9000,
-  maxSlides: 8,
-};
-
-let showcaseIntervalId = null;
-
 document.addEventListener('DOMContentLoaded', async () => {
   cacheDomReferences();
 
-  if (!DOM.seriesGrid) {
+  if (!DOM.seriesGallery) {
+    console.error('Series gallery element not found');
     return;
   }
 
   try {
     showLoadingState();
     STATE.seriesData = await fetchSeriesData();
+    console.log('Series data loaded:', STATE.seriesData.length, 'series');
     updateStats(STATE.seriesData);
     setupFilterListeners();
-    startShowcaseBackdropCycle(STATE.seriesData);
+    setupSidebarListeners(); // Nueva función para sidebars
+    populateSidebarContent(); // Nueva función para llenar contenido
     applyFilters();
     hideLoadingState();
   } catch (error) {
@@ -44,11 +40,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function cacheDomReferences() {
-  DOM.seriesGrid = document.getElementById('series-grid');
+  DOM.seriesGallery = document.getElementById('series-gallery');
   DOM.seriesSearch = document.getElementById('series-search');
   DOM.genreFilter = document.getElementById('genre-filter');
   DOM.yearFilter = document.getElementById('year-filter');
-  DOM.statusFilter = document.getElementById('status-filter');
   DOM.sortFilter = document.getElementById('sort-filter');
   DOM.viewButtons = document.querySelectorAll('.view-btn');
   DOM.resultsCount = document.getElementById('results-count');
@@ -56,9 +51,14 @@ function cacheDomReferences() {
   DOM.loadingState = document.getElementById('loading-state');
   DOM.activeFilters = document.getElementById('active-filters');
   DOM.filterTags = document.getElementById('filter-tags');
-  DOM.shuffleBtn = document.getElementById('shuffle-btn');
-  DOM.seriesCount = document.getElementById('series-count');
-  DOM.genreCount = document.getElementById('genre-count');
+  DOM.clearSearch = document.getElementById('clear-search');
+  
+  // Nuevos elementos del sidebar
+  DOM.totalSeriesCount = document.getElementById('total-series-count');
+  DOM.favoritesCount = document.getElementById('favorites-count');
+  DOM.filterButtons = document.querySelectorAll('.filter-btn');
+  DOM.genreTags = document.querySelectorAll('.genre-tag');
+  DOM.featuredSeries = document.getElementById('featured-series');
 }
 
 async function fetchSeriesData() {
@@ -84,10 +84,10 @@ function setupFilterListeners() {
   }
 
   // Filtros de selección
-  [DOM.genreFilter, DOM.yearFilter, DOM.statusFilter, DOM.sortFilter].forEach(filter => {
+  [DOM.genreFilter, DOM.yearFilter, DOM.sortFilter].forEach(filter => {
     if (filter) {
       filter.addEventListener('change', (event) => {
-        const filterType = filter.id.replace('-filter', '').replace('sort-filter', 'sort');
+        const filterType = filter.id.replace('-filter', '');
         if (filterType === 'sort') {
           STATE.sortOption = event.target.value;
         } else {
@@ -126,32 +126,57 @@ function setupFilterListeners() {
       clearAllFilters();
     }
   });
+
+  // Botón clear search
+  if (DOM.clearSearch) {
+    DOM.clearSearch.addEventListener('click', () => {
+      if (DOM.seriesSearch) {
+        DOM.seriesSearch.value = '';
+        STATE.activeFilters.search = '';
+        DOM.clearSearch.style.display = 'none';
+        applyFilters();
+      }
+    });
+  }
+
+  // Mostrar/ocultar clear search button en input
+  if (DOM.seriesSearch && DOM.clearSearch) {
+    DOM.seriesSearch.addEventListener('input', (event) => {
+      DOM.clearSearch.style.display = event.target.value ? 'block' : 'none';
+    });
+  }
 }
 
 function updateStats(seriesCollection) {
-  if (DOM.seriesCount) {
-    DOM.seriesCount.textContent = seriesCollection.length;
+  if (DOM.resultsCount) {
+    DOM.resultsCount.textContent = seriesCollection.length;
   }
-
-  if (!DOM.genreCount) {
-    return;
-  }
-
-  const uniqueGenres = new Set();
-  seriesCollection.forEach((series) => {
-    (series.genre || []).forEach((genre) => {
-      if (genre) {
-        uniqueGenres.add(genre.trim());
-      }
-    });
-  });
-
-  DOM.genreCount.textContent = uniqueGenres.size;
 }
 
 function applyFilters() {
   // Filtrar datos
   STATE.filteredSeries = STATE.seriesData.filter(series => {
+    // Filtro rápido
+    if (STATE.quickFilter !== 'all') {
+      switch (STATE.quickFilter) {
+        case 'popular':
+          // Filtrar series populares (con rating alto)
+          if (!series.rating || series.rating < 7) return false;
+          break;
+        case 'recent':
+          // Filtrar series recientes (últimos 3 años)
+          const currentYear = new Date().getFullYear();
+          const seriesYear = extractStartYear(series.year);
+          if (currentYear - seriesYear > 3) return false;
+          break;
+        case 'favorites':
+          // Filtrar solo favoritas (simulado)
+          const favorites = JSON.parse(localStorage.getItem('mySeriesList') || '[]');
+          if (!favorites.includes(series.id)) return false;
+          break;
+      }
+    }
+    
     // Filtro de búsqueda
     if (STATE.activeFilters.search) {
       const searchTerm = STATE.activeFilters.search.toLowerCase();
@@ -176,17 +201,11 @@ function applyFilters() {
     if (STATE.activeFilters.year) {
       const seriesYear = extractStartYear(series.year);
       if (STATE.activeFilters.year === 'older') {
-        if (seriesYear >= 2018) return false;
+        if (seriesYear >= 2021) return false;
       } else {
         const filterYear = parseInt(STATE.activeFilters.year);
         if (seriesYear !== filterYear) return false;
       }
-    }
-
-    // Filtro de estado
-    if (STATE.activeFilters.status) {
-      const status = series.status?.toLowerCase() || 'completed';
-      if (status !== STATE.activeFilters.status) return false;
     }
 
     return true;
@@ -195,9 +214,13 @@ function applyFilters() {
   // Ordenar resultados
   sortSeries();
   
+  // Verificar si hay filtros activos
+  const hasActiveFilters = Object.values(STATE.activeFilters).some(filter => filter !== '') || STATE.quickFilter !== 'all';
+  
   // Actualizar UI
   updateActiveFilters();
   updateResultsCount();
+  updateSidebarStats(); // Actualizar estadísticas del sidebar
   renderSeries();
 }
 
@@ -224,7 +247,7 @@ function sortSeries() {
 }
 
 function renderSeries() {
-  if (!DOM.seriesGrid) return;
+  if (!DOM.seriesGallery) return;
 
   if (STATE.filteredSeries.length === 0) {
     showEmptyState();
@@ -239,38 +262,42 @@ function renderSeries() {
   const paginatedSeries = STATE.filteredSeries.slice(startIndex, endIndex);
 
   // Aplicar clase de vista
-  DOM.seriesGrid.className = STATE.viewMode === 'list' ? 'series-list' : 'series-grid';
+  DOM.seriesGallery.className = `series-gallery ${STATE.viewMode === 'list' ? 'list-view' : ''}`;
 
   // Renderizar items
-  DOM.seriesGrid.innerHTML = paginatedSeries.map(series => 
+  DOM.seriesGallery.innerHTML = paginatedSeries.map(series => 
     createSeriesCard(series)
   ).join('');
 }
 
 function createSeriesCard(series) {
-  const isUnavailable = !series.episodes || series.episodes.length === 0;
+  const hasEpisodes = series.seasons && series.seasons.some(season => 
+    season.episodes && season.episodes.length > 0
+  );
+  
+  const totalEpisodes = series.seasons ? 
+    series.seasons.reduce((total, season) => total + (season.episodes ? season.episodes.length : 0), 0) : 0;
   
   return `
-    <article class="series-card ${STATE.viewMode === 'list' ? 'series-card--list' : ''}">
-      <a href="series.html?id=${series.id}" class="series-card__link ${isUnavailable ? 'unavailable' : ''}">
-        <div class="series-card__image">
+    <article class="series-card">
+      <a href="series.html?id=${series.id}" class="series-card__link ${!hasEpisodes ? 'unavailable' : ''}">
+        <div class="series-card__poster">
           <img src="${series.cover}" alt="${series.title}" loading="lazy" />
-          ${series.quality ? `<span class="quality-badge">${series.quality}</span>` : ''}
-        </div>
-        <div class="series-card__content">
-          <h3 class="series-card__title">${series.title}</h3>
-          <div class="series-card__meta">
-            <span class="year">${series.year}</span>
-            ${series.genre ? `<span class="genres">${series.genre.slice(0, 2).join(', ')}</span>` : ''}
+          <div class="play-icon-overlay">
+            <i class="fas fa-play"></i>
           </div>
-          <p class="series-card__description">${(series.description || '').substring(0, 120)}${series.description?.length > 120 ? '...' : ''}</p>
-          ${series.episodes ? `<span class="episodes-count">${series.episodes.length} episodios</span>` : ''}
+          ${series.quality ? `<span class="series-card__badge">${series.quality}</span>` : ''}
+        </div>
+        <div class="series-card__body">
+          <h3 class="series-card__title">${series.title}</h3>
+          <p class="series-card__description">${(series.description || '').substring(0, 100)}${series.description?.length > 100 ? '...' : ''}</p>
+          <div class="series-card__meta">
+            <span><i class="fas fa-calendar"></i> ${series.year}</span>
+            ${totalEpisodes > 0 ? `<span><i class="fas fa-play-circle"></i> ${totalEpisodes} eps</span>` : ''}
+          </div>
+          ${series.genre ? `<div class="series-card__genres">${series.genre.slice(0, 3).map(g => `<span>${g}</span>`).join('')}</div>` : ''}
         </div>
       </a>
-      <button class="add-to-list" onclick="toggleMyList('${series.id}')" aria-label="Agregar a mi lista">
-        <i class="fas fa-plus"></i>
-        Mi Lista
-      </button>
     </article>
   `;
 }
@@ -315,14 +342,7 @@ function getFilterLabel(type, value) {
     case 'genre':
       return `Género: ${value}`;
     case 'year':
-      return value === 'older' ? 'Año: Anteriores a 2018' : `Año: ${value}`;
-    case 'status':
-      const statusLabels = {
-        ongoing: 'En emisión',
-        completed: 'Completadas',
-        cancelled: 'Canceladas'
-      };
-      return `Estado: ${statusLabels[value] || value}`;
+      return value === 'older' ? 'Año: Anteriores a 2021' : `Año: ${value}`;
     default:
       return value;
   }
@@ -346,10 +366,23 @@ function clearAllFilters() {
     STATE.activeFilters[key] = '';
   });
   
+  // Restablecer filtro rápido
+  STATE.quickFilter = 'all';
+  
+  // Actualizar botones de filtro rápido
+  DOM.filterButtons.forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === 'all');
+  });
+  
   // Limpiar inputs
-  [DOM.seriesSearch, DOM.genreFilter, DOM.yearFilter, DOM.statusFilter].forEach(element => {
+  [DOM.seriesSearch, DOM.genreFilter, DOM.yearFilter].forEach(element => {
     if (element) element.value = '';
   });
+  
+  // Ocultar botón clear search
+  if (DOM.clearSearch) {
+    DOM.clearSearch.style.display = 'none';
+  }
   
   STATE.currentPage = 1;
   applyFilters();
@@ -358,9 +391,7 @@ function clearAllFilters() {
 function updateResultsCount() {
   if (DOM.resultsCount) {
     const count = STATE.filteredSeries.length;
-    DOM.resultsCount.textContent = count === 1 
-      ? '1 serie encontrada' 
-      : `${count} series encontradas`;
+    DOM.resultsCount.textContent = count;
   }
 }
 
@@ -381,38 +412,46 @@ function shuffleSeries() {
 }
 
 function showLoadingState() {
+  console.log('Showing loading state');
   if (DOM.loadingState) {
-    DOM.loadingState.hidden = false;
+    DOM.loadingState.style.display = 'flex';
   }
   if (DOM.emptyState) {
-    DOM.emptyState.hidden = true;
+    DOM.emptyState.style.display = 'none';
+  }
+  if (DOM.seriesGallery) {
+    DOM.seriesGallery.innerHTML = '';
   }
 }
 
 function hideLoadingState() {
+  console.log('Hiding loading state');
   if (DOM.loadingState) {
-    DOM.loadingState.hidden = true;
+    DOM.loadingState.style.display = 'none';
   }
 }
 
 function showEmptyState() {
+  console.log('Showing empty state');
   if (DOM.emptyState) {
-    DOM.emptyState.hidden = false;
+    DOM.emptyState.style.display = 'flex';
   }
-  if (DOM.seriesGrid) {
-    DOM.seriesGrid.innerHTML = '';
+  if (DOM.seriesGallery) {
+    DOM.seriesGallery.innerHTML = '';
   }
 }
 
 function hideEmptyState() {
+  console.log('Hiding empty state');
   if (DOM.emptyState) {
-    DOM.emptyState.hidden = true;
+    DOM.emptyState.style.display = 'none';
   }
 }
 
 function showErrorState() {
-  if (DOM.seriesGrid) {
-    DOM.seriesGrid.innerHTML = `
+  hideLoadingState(); // Ocultar loading primero
+  if (DOM.seriesGallery) {
+    DOM.seriesGallery.innerHTML = `
       <div class="error-state">
         <i class="fas fa-exclamation-triangle"></i>
         <h3>Error al cargar las series</h3>
@@ -446,44 +485,99 @@ window.toggleMyList = function(seriesId) {
 // Función global para limpiar filtros
 window.clearAllFilters = clearAllFilters;
 
-// Función para el backdrop del showcase
-function startShowcaseBackdropCycle(seriesCollection) {
-  const showcaseElement = document.getElementById('series-showcase');
-  const backdropElement = document.querySelector('.series-showcase__backdrop');
+// ===== NUEVAS FUNCIONES PARA SIDEBARS =====
+
+function setupSidebarListeners() {
+  // Filtros rápidos
+  if (DOM.filterButtons) {
+    DOM.filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        setQuickFilter(filter);
+      });
+    });
+  }
+
+  // Tags de géneros
+  if (DOM.genreTags) {
+    DOM.genreTags.forEach(tag => {
+      tag.addEventListener('click', () => {
+        const genre = tag.dataset.genre;
+        setGenreFilter(genre);
+      });
+    });
+  }
+}
+
+function setQuickFilter(filter) {
+  STATE.quickFilter = filter;
   
-  if (!showcaseElement || !backdropElement) {
-    return;
-  }
-
-  const seriesWithBackdrops = seriesCollection
-    .filter(series => series.backdrop)
-    .slice(0, BACKDROP_CONFIG.maxSlides);
-
-  if (seriesWithBackdrops.length === 0) {
-    return;
-  }
-
-  let currentSlideIndex = 0;
-
-  // Crear slides
-  seriesWithBackdrops.forEach((series, index) => {
-    const slide = document.createElement('div');
-    slide.className = `series-showcase__slide ${index === 0 ? 'is-active' : ''}`;
-    slide.style.backgroundImage = `url(${series.backdrop})`;
-    backdropElement.appendChild(slide);
+  // Actualizar botones activos
+  DOM.filterButtons.forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === filter);
   });
+  
+  // Aplicar filtro y renderizar
+  STATE.currentPage = 1;
+  applyFilters();
+}
 
-  // Cycle through slides
-  if (seriesWithBackdrops.length > 1) {
-    showcaseIntervalId = setInterval(() => {
-      const slides = backdropElement.querySelectorAll('.series-showcase__slide');
-      if (slides.length === 0) return;
-
-      slides[currentSlideIndex].classList.remove('is-active');
-      currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-      slides[currentSlideIndex].classList.add('is-active');
-    }, BACKDROP_CONFIG.interval);
+function setGenreFilter(genre) {
+  STATE.activeFilters.genre = STATE.activeFilters.genre === genre ? '' : genre;
+  
+  // Actualizar selector de género si existe
+  if (DOM.genreFilter) {
+    DOM.genreFilter.value = STATE.activeFilters.genre;
   }
+  
+  STATE.currentPage = 1;
+  applyFilters();
+}
+
+function populateSidebarContent() {
+  updateSidebarStats();
+  populateFeaturedSeries();
+}
+
+function updateSidebarStats() {
+  if (DOM.totalSeriesCount) {
+    DOM.totalSeriesCount.textContent = STATE.seriesData.length;
+  }
+  
+  // Simular conteo de favoritos (en una app real vendría del localStorage o API)
+  if (DOM.favoritesCount) {
+    const favorites = JSON.parse(localStorage.getItem('mySeriesList') || '[]');
+    DOM.favoritesCount.textContent = favorites.length;
+  }
+}
+
+function populateFeaturedSeries() {
+  if (!DOM.featuredSeries || !STATE.seriesData.length) return;
+  
+  // Seleccionar las mejores series (por rating o más recientes)
+  const featured = STATE.seriesData
+    .sort((a, b) => {
+      const ratingA = a.rating || 0;
+      const ratingB = b.rating || 0;
+      return ratingB - ratingA; // Mayor rating primero
+    })
+    .slice(0, 4); // Top 4 series
+  
+  DOM.featuredSeries.innerHTML = featured.map(series => `
+    <div class="featured-item" onclick="window.location.href='series.html?id=${series.id}'">
+      <div class="featured-poster">
+        <img src="${series.cover}" alt="${series.title}" loading="lazy">
+      </div>
+      <div class="featured-info">
+        <div class="featured-title">${series.title}</div>
+        <div class="featured-rating">
+          <i class="fas fa-star"></i>
+          <span>${series.rating || 'N/A'}</span>
+        </div>
+        <div class="featured-genre">${series.genre ? series.genre[0] : 'Serie'}</div>
+      </div>
+    </div>
+  `).join('');
 }
 
 

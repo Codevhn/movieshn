@@ -778,7 +778,7 @@
     "originalTitle": "Stranger Things",
     "year": "2016 - Presente",
     "cover": "assets/covers/stranger-things.webp",
-    "backdrop": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/x93QzAgtHeRGgfK51Jh6URClBG8.jpg",
     "description": "En un pequeño pueblo de Indiana en los años 80, un niño desaparece misteriosamente. Sus amigos, su madre y el jefe de policía emprenden la búsqueda, descubriendo una serie de secretos sobrenaturales, experimentos gubernamentales y una niña con habilidades telequinéticas.",
     "director": "Hermanos Duffer (Showrunners)",
     "cast": [
@@ -807,11 +807,15 @@
             "title": "La desaparición de Will Byers",
             "description": "Cuando un niño desaparece, su madre y amigos enfrentan fuerzas sobrenaturales y secretos oscuros del gobierno.",
             "duration": "47m",
-            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e1",
+            "embed": "https://waaw.ac/f/ICkeTR5li4Pq",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e1-netu"
+                "name": "Opción 1 - Inglés",
+                "url": "https://waaw.ac/f/ICkeTR5li4Pq"
+              },
+              {
+                "name": "Opción 2 - latíno",
+                "url": "https://waaw.ac/f/aW4UMTWzP9jJ"
               }
             ],
             "downloadLinks": []
@@ -824,8 +828,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e2",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e2-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -838,8 +842,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e3",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e3-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -852,8 +856,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e4",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e4-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -866,8 +870,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e5",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e5-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -880,8 +884,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e6",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e6-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -894,8 +898,8 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e7",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e7-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
             "downloadLinks": []
@@ -908,10 +912,368 @@
             "embed": "https://waaw.ac/f/ejemplo-strangerthings-s1e8",
             "watchLinks": [
               {
-                "name": "Netu",
-                "url": "https://waaw.ac/f/ejemplo-strangerthings-s1e8-netu"
+                "name": "Opción 1 - Inglés",
+                "url": ""
               }
             ],
+            "downloadLinks": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "title": "Stranger Things: Temporada 2",
+        "cover": "assets/covers/stranger-things-s2.webp",
+        "description": "Un año después de los eventos de Hawkins, Will Byers sigue sufriendo visiones del Mundo del Revés. Mientras nuevos personajes llegan al pueblo, una amenaza aún más grande comienza a emerger.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "MADMAX",
+            "description": "El grupo de amigos conoce a una nueva estudiante llamada Max, mientras Will sigue teniendo visiones perturbadoras del Mundo del Revés.",
+            "duration": "48m",
+            "embed": "",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Trucos o tratos, bicho raro",
+            "description": "En Halloween, Will experimenta un episodio aterrador mientras los demás disfrutan la noche. Dustin encuentra algo extraño en su basura.",
+            "duration": "56m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e2",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "El renacuajo",
+            "description": "Dustin mantiene en secreto a una criatura misteriosa que encontró, mientras Will comienza a comportarse de manera extraña.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e3",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "Will el sabio",
+            "description": "Will empieza a compartir detalles sobre sus visiones, y Joyce busca respuestas mientras la criatura del otro mundo crece en fuerza.",
+            "duration": "53m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e4",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "Dig Dug",
+            "description": "Hopper se adentra en los túneles bajo Hawkins y descubre una conexión directa con el Mundo del Revés. Eleven busca conocer más sobre su pasado.",
+            "duration": "58m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e5",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "El espía",
+            "description": "Will se convierte en la clave para entender al monstruo de las sombras, pero su conexión con la criatura pone en riesgo a todos.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e6",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "La hermana perdida",
+            "description": "Eleven viaja a Chicago en busca de una joven con habilidades similares y descubre una parte de su pasado que desconocía.",
+            "duration": "45m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e7",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "El azotamentes",
+            "description": "Mientras Will lucha contra la influencia del azotamentes, los demás se preparan para enfrentarse a una invasión desde el Mundo del Revés.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e8",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "El portal",
+            "description": "El grupo se une para cerrar el portal del Mundo del Revés y salvar a Hawkins, mientras Eleven enfrenta su destino.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s2e9",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 3,
+        "title": "Stranger Things: Temporada 3",
+        "cover": "assets/covers/stranger-things-s3.webp",
+        "description": "El verano de 1985 trae nuevas relaciones, misterios y un peligro oculto bajo el nuevo centro comercial de Hawkins. Los amigos deberán unirse una vez más para enfrentar una amenaza que no ha terminado.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "Suzie, ¿me copias?",
+            "description": "El verano llega a Hawkins, pero las señales de una nueva amenaza comienzan a aparecer mientras Dustin regresa del campamento de verano.",
+            "duration": "51m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e1",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "" }],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Ratas",
+            "description": "Nancy y Jonathan investigan una misteriosa plaga de ratas, mientras Billy comienza a comportarse de manera perturbadora.",
+            "duration": "50m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e2",
+            "watchLinks": [
+              {
+                "name": "Netu",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s3e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "El caso del salvavidas desaparecido",
+            "description": "Mientras investigan la desaparición de un socorrista, los amigos comienzan a sospechar que algo siniestro se oculta tras el nuevo centro comercial.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e3",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "El sauna",
+            "description": "El grupo pone a prueba una teoría aterradora sobre el enemigo, mientras las tensiones crecen entre los amigos y las parejas.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e4",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "La fuente",
+            "description": "Nancy y Jonathan descubren la magnitud del peligro mientras Hopper y Joyce investigan un laboratorio secreto debajo del centro comercial.",
+            "duration": "55m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e5",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "E Pluribus Unum",
+            "description": "Once intenta conectarse con Billy para entender el plan del azotamentes, mientras los rusos intensifican sus operaciones en Hawkins.",
+            "duration": "57m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e6",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "La picadura",
+            "description": "Con los rusos tras ellos, los chicos deben escapar mientras el azotamentes se acerca más que nunca a destruir Hawkins.",
+            "duration": "52m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e7",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "La batalla de Starcourt",
+            "description": "El grupo enfrenta una última y épica batalla en el centro comercial Starcourt para detener al azotamentes y salvar Hawkins.",
+            "duration": "1h 17m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s3e8",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 4,
+        "title": "Stranger Things: Temporada 4",
+        "cover": "assets/covers/stranger-things-s4.webp",
+        "description": "Seis meses después de la batalla de Starcourt, el grupo intenta rehacer su vida. Pero una nueva amenaza sobrenatural surge desde el Mundo del Revés, con un enemigo más poderoso y aterrador que nunca: Vecna.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "El Club Fuego Infernal",
+            "description": "Mientras en Hawkins surge un nuevo horror, Eleven lucha por adaptarse a su vida en California.",
+            "duration": "1h 16m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e1",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s4e1-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "La maldición de Vecna",
+            "description": "Los amigos investigan una serie de muertes extrañas mientras Eleven recibe una oportunidad para recuperar sus poderes.",
+            "duration": "1h 15m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e2",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s4e2-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "El monstruo y la superhéroe",
+            "description": "La policía interroga a Eleven tras un incidente violento, mientras en Hawkins una nueva víctima cae ante Vecna.",
+            "duration": "1h 3m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e3",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s4e3-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "Querido Billy",
+            "description": "Max se convierte en el nuevo objetivo de Vecna. El grupo intenta encontrar una forma de salvarla antes de que sea demasiado tarde.",
+            "duration": "1h 18m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e4",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Inglés",
+                "url": "https://waaw.ac/f/ejemplo-strangerthings-s4e4-netu"
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "El proyecto Nina",
+            "description": "Eleven inicia un proceso experimental para recuperar sus recuerdos y habilidades. Joyce y Murray se dirigen a Rusia.",
+            "duration": "1h 15m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e5",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "" }],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "El espía en Hawkins",
+            "description": "El grupo en Hawkins descubre la identidad de Vecna mientras Hopper intenta sobrevivir en una prisión soviética.",
+            "duration": "1h 13m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e6",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "" }],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "El padre",
+            "description": "Los secretos del pasado de Eleven salen a la luz y se revela la conexión entre Vecna y el laboratorio de Hawkins.",
+            "duration": "1h 40m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e7",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "" }],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "Papá",
+            "description": "Mientras Vecna se prepara para ejecutar su plan, Eleven se enfrenta a su creador y toma una decisión crucial.",
+            "duration": "1h 25m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e8",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "" }],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "El portal",
+            "description": "Los destinos de Hawkins, Rusia y Nevada convergen en una batalla final para detener a Vecna y cerrar el portal de una vez por todas.",
+            "duration": "2h 22m",
+            "embed": "https://waaw.ac/f/ejemplo-strangerthings-s4e9",
+            "watchLinks": [{ "name": "Opción 1 - Inglés", "url": "h" }],
             "downloadLinks": []
           }
         ]
