@@ -6,24 +6,24 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terror - MoviesHN</title>
+  <title>Suspenso - MoviesHN</title>
 
   <!-- SEO -->
   <meta name="description"
-    content="Películas de Terror - MoviesHN. Mira las mejores películas de terror online gratis en español latino." />
+    content="Películas de Suspenso - MoviesHN. Mira las mejores películas de suspenso online gratis en español latino." />
   <meta name="keywords"
-    content="películas terror, horror online, terror español latino, miedo, ClipsDePeliculasHN" />
+    content="películas suspenso, thriller online, suspenso español latino, misterio, ClipsDePeliculasHN" />
   <meta name="author" content="ClipsDePeliculasHN" />
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Terror - MoviesHN" />
+  <meta property="og:title" content="Suspenso - MoviesHN" />
   <meta property="og:description"
-    content="Las mejores películas de terror online en español latino, calidad HD." />
+    content="Las mejores películas de suspenso online en español latino, calidad HD." />
   <meta property="og:image" content="https://tusitio.com/assets/preview.jpg" />
-  <meta property="og:url" content="https://tusitio.com/terror.html" />
+  <meta property="og:url" content="https://tusitio.com/suspenso.html" />
   <meta property="og:type" content="website" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,9 +65,9 @@
         <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
         <li><a href="index.html#recientes"><i class="fas fa-fire"></i> Recientes</a></li>
         <li><a href="index.html#mas-vistas"><i class="fas fa-eye"></i> Más vistas</a></li>
-        <li><a href="index.html#accion"><i class="fas fa-fist-raised"></i> Acción</a></li>
-        <li><a href="terror.html" class="active"><i class="fas fa-ghost"></i> Terror</a></li>
-        <li><a href="index.html#suspenso"><i class="fas fa-user-secret"></i> Suspenso</a></li>
+        <li><a href="accion.html"><i class="fas fa-fist-raised"></i> Acción</a></li>
+        <li><a href="terror.html"><i class="fas fa-ghost"></i> Terror</a></li>
+        <li><a href="suspenso.html" class="active"><i class="fas fa-user-secret"></i> Suspenso</a></li>
         <li><a href="all-series.html"><i class="fas fa-tv"></i> Series</a></li>
         <li><a href="mylist.html"><i class="fas fa-list"></i> Mi Lista</a></li>
       </ul>
@@ -90,16 +90,16 @@
         <div class="sidebar-category">
           <h3 class="category-toggle" data-target="genre-list"><i class="fas fa-tags"></i> Explorar por Género</h3>
           <ul class="genre-list category-content">
-            <li><a href="index.html#accion">Acción</a></li>
-            <li><a href="terror.html" class="active">Terror</a></li>
-            <li><a href="index.html#suspenso">Suspenso</a></li>
-            <li><a href="index.html#comedia">Comedia</a></li>
-            <li><a href="index.html#fantasia">Fantasía</a></li>
-            <li><a href="index.html#ciencia-ficcion">Ciencia Ficción</a></li>
-            <li><a href="index.html#aventura">Aventura</a></li>
-            <li><a href="index.html#animacion">Animación</a></li>
-            <li><a href="index.html#drama">Drama</a></li>
-            <li><a href="index.html#documentales">Documentales</a></li>
+            <li><a href="accion.html">Acción</a></li>
+            <li><a href="terror.html">Terror</a></li>
+            <li><a href="suspenso.html" class="active">Suspenso</a></li>
+            <li><a href="comedia.html">Comedia</a></li>
+            <li><a href="fantasia.html">Fantasía</a></li>
+            <li><a href="ciencia-ficcion.html">Ciencia Ficción</a></li>
+            <li><a href="aventura.html">Aventura</a></li>
+            <li><a href="animacion.html">Animación</a></li>
+            <li><a href="drama.html">Drama</a></li>
+            <li><a href="documentales.html">Documentales</a></li>
           </ul>
         </div>
 
@@ -117,12 +117,12 @@
         <section class="category-hero">
           <div class="category-hero-content">
             <h1 class="category-title">
-              <i class="fas fa-ghost"></i>
-              Terror
+              <i class="fas fa-user-secret"></i>
+              Suspenso
             </h1>
             <p class="category-description">
-              Sumérgete en el mundo del miedo con nuestra colección de películas de terror. 
-              Desde clásicos del horror hasta los últimos estrenos que te mantendrán al borde del asiento.
+              Mantente al borde del asiento con nuestra colección de películas de suspenso. 
+              Misterio, intriga y giros inesperados que te mantendrán adivinando hasta el final.
             </p>
             <div class="category-stats">
               <span id="movies-count">Cargando...</span> películas disponibles
@@ -167,10 +167,10 @@
           </div>
           
           <div id="no-movies" class="no-results" style="display: none;">
-            <i class="fas fa-ghost"></i>
+            <i class="fas fa-user-secret"></i>
             <h3>No se encontraron películas</h3>
-            <p>No hay películas de terror que coincidan con los filtros seleccionados.</p>
-            <button onclick="clearFilters()">Ver todas las películas de terror</button>
+            <p>No hay películas de suspenso que coincidan con los filtros seleccionados.</p>
+            <button onclick="clearFilters()">Ver todas las películas de suspenso</button>
           </div>
         </section>
       </div>
@@ -224,9 +224,9 @@
   <script src="./js/section-icons.js"></script>
   
   <script>
-    // Terror page specific JavaScript
+    // Suspenso page specific JavaScript
     let allMovies = [];
-    let terrorMovies = [];
+    let categoryMovies = [];
     let filteredMovies = [];
 
     // Initialize page
@@ -241,16 +241,16 @@
         allMovies = await moviesResponse.json();
         const allSeries = await seriesResponse.json();
         
-        // Filter terror movies
-        terrorMovies = allMovies.filter(movie => {
+        // Filter suspenso movies
+        categoryMovies = allMovies.filter(movie => {
           const genres = Array.isArray(movie.genre) ? movie.genre : [];
-          return genres.includes("Terror");
+          return genres.includes("Suspenso");
         });
         
-        filteredMovies = [...terrorMovies];
+        filteredMovies = [...categoryMovies];
         
         // Update stats
-        document.getElementById('movies-count').textContent = terrorMovies.length;
+        document.getElementById('movies-count').textContent = categoryMovies.length;
         
         // Render movies
         renderMovies();
@@ -276,7 +276,7 @@
         // Update My List count
         updateMyListCount();
         
-        console.log(`Terror page loaded with ${terrorMovies.length} movies`);
+        console.log(`Suspenso page loaded with ${categoryMovies.length} movies`);
         
       } catch (error) {
         console.error('Error loading movies:', error);
@@ -299,15 +299,15 @@
         
         if (searchTerm) {
           // Filter movies by search term
-          filteredMovies = terrorMovies.filter(movie => 
+          filteredMovies = categoryMovies.filter(movie => 
             movie.title.toLowerCase().includes(searchTerm) ||
             (movie.originalTitle && movie.originalTitle.toLowerCase().includes(searchTerm)) ||
             (movie.description && movie.description.toLowerCase().includes(searchTerm))
           );
           renderMovies();
         } else {
-          // Reset to all terror movies
-          filteredMovies = [...terrorMovies];
+          // Reset to all category movies
+          filteredMovies = [...categoryMovies];
           renderMovies();
         }
       });
@@ -317,13 +317,13 @@
         const searchTerm = e.target.value.trim().toLowerCase();
         
         if (searchTerm.length >= 2) {
-          filteredMovies = terrorMovies.filter(movie => 
+          filteredMovies = categoryMovies.filter(movie => 
             movie.title.toLowerCase().includes(searchTerm) ||
             (movie.originalTitle && movie.originalTitle.toLowerCase().includes(searchTerm))
           );
           renderMovies();
         } else if (searchTerm.length === 0) {
-          filteredMovies = [...terrorMovies];
+          filteredMovies = [...categoryMovies];
           renderMovies();
         }
       });
@@ -453,7 +453,7 @@
       const yearFilter = document.getElementById('year-filter').value;
       const sortFilter = document.getElementById('sort-filter').value;
 
-      filteredMovies = [...terrorMovies];
+      filteredMovies = [...categoryMovies];
 
       // Apply year filter
       if (yearFilter) {
@@ -484,7 +484,7 @@
     function clearFilters() {
       document.getElementById('year-filter').value = '';
       document.getElementById('sort-filter').value = 'title';
-      filteredMovies = [...terrorMovies];
+      filteredMovies = [...categoryMovies];
       renderMovies();
     }
 
