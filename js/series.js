@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (series.seasons && series.seasons.length > 0 && series.seasons[0].episodes.length > 0) {
         const firstSeason = series.seasons[0];
         const firstEpisode = firstSeason.episodes[0];
-        loadEpisode(firstEpisode.embed, firstSeason.seasonNumber, firstEpisode.episodeNumber, firstEpisode.title);
+        loadEpisode(firstEpisode.embed, firstSeason.seasonNumber, firstEpisode.episodeNumber, firstEpisode.title, firstEpisode);
         renderEpisodes(firstSeason); // Renderizar los episodios de la primera temporada
     } else {
         // Si no hay episodios, ocultar la sección del reproductor
@@ -120,7 +120,7 @@ function renderSeriesDetails(series) {
     const coverSrc = resolveAssetPath(series.cover);
     const backdropSrc = resolveAssetPath(series.backdrop, coverSrc);
 
-    heroContainer.style.backgroundImage = `linear-gradient(rgba(10, 10, 10, 0.82), rgba(12, 12, 12, 0.82)), url("${backdropSrc}")`;
+    heroContainer.style.backgroundImage = `linear-gradient(rgba(10, 10, 10, 0.50), rgba(12, 12, 12, 0.50)), url("${backdropSrc}")`; /* Más claro - reducida opacidad de 0.82 a 0.50 */
     heroContainer.style.backgroundSize = 'cover';
     heroContainer.style.backgroundPosition = 'center';
 
@@ -219,7 +219,7 @@ function renderSeasonTabs(series) {
             // Opcional: cargar el primer episodio de la temporada seleccionada si no se está reproduciendo nada
             if (selectedSeason.episodes && selectedSeason.episodes.length > 0) {
                 const firstEpisode = selectedSeason.episodes[0];
-                loadEpisode(firstEpisode.embed, selectedSeason.seasonNumber, firstEpisode.episodeNumber, firstEpisode.title);
+                loadEpisode(firstEpisode.embed, selectedSeason.seasonNumber, firstEpisode.episodeNumber, firstEpisode.title, firstEpisode);
             }
         }
     });
@@ -263,7 +263,7 @@ function renderEpisodes(season) {
         episodeItem.addEventListener('click', (event) => {
             event.preventDefault();
             if (episode.embed) {
-                loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title);
+                loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title, episode);
             }
         });
 
@@ -291,14 +291,18 @@ function cleanEpisodeTitle(title) {
 let currentSeries = null;
 let currentSeasonIndex = 0;
 let currentEpisodeIndex = 0;
+let currentEpisode = null; // Guardar el episodio actual para acceder a sus watchLinks
 
-function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle) {
+function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle, episodeData) {
     const playerFrame = document.getElementById('main-episode-player');
     const currentSeasonEpisodeSpan = document.getElementById('current-season-episode');
     const currentEpisodeTitleSpan = document.getElementById('current-episode-title');
     const episodePlayerSection = document.getElementById('episode-player-section');
 
     const cleanedTitle = cleanEpisodeTitle(episodeTitle); // Limpiar el título
+
+    // Guardar el episodio actual
+    currentEpisode = episodeData;
 
     if (playerFrame) {
         playerFrame.src = embedUrl;
@@ -315,6 +319,9 @@ function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle) {
     currentSeasonIndex = currentSeries.seasons.findIndex(s => s.seasonNumber === seasonNumber);
     currentEpisodeIndex = currentSeries.seasons[currentSeasonIndex].episodes.findIndex(e => e.episodeNumber === episodeNumber);
 
+    // Renderizar los servidores disponibles para este episodio
+    renderServerTabs(episodeData);
+
     // Resaltar el episodio actual en la lista
     document.querySelectorAll('.episode-card').forEach(card => card.classList.remove('active-episode'));
     const activeEpisodeElement = document.querySelector(`.episode-item[data-season-number="${seasonNumber}"][data-episode-number="${episodeNumber}"]`);
@@ -329,6 +336,52 @@ function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle) {
 
     // Actualizar estado de los botones de navegación
     updateNavigationButtons();
+}
+
+// Función para renderizar las tabs de servidores
+function renderServerTabs(episode) {
+    const serverTabsContainer = document.getElementById('episode-server-tabs');
+    if (!serverTabsContainer) return;
+
+    // Obtener los watchLinks del episodio
+    let watchLinks = Array.isArray(episode.watchLinks) && episode.watchLinks.length > 0
+        ? episode.watchLinks.filter(link => link && link.url && link.url.trim())
+        : [];
+
+    // Si no hay watchLinks, usar el embed como servidor principal
+    if (watchLinks.length === 0 && episode.embed && episode.embed.trim()) {
+        watchLinks = [{ name: "Servidor Principal", url: episode.embed }];
+    }
+
+    // Limpiar contenedor
+    serverTabsContainer.innerHTML = '';
+
+    if (watchLinks.length === 0) {
+        serverTabsContainer.innerHTML = '<p class="empty-note">No hay servidores disponibles.</p>';
+        return;
+    }
+
+    // Crear botones de servidor
+    watchLinks.forEach((link, index) => {
+        const button = document.createElement('button');
+        button.className = `server-tab ${index === 0 ? 'active' : ''}`;
+        button.dataset.url = link.url;
+        button.innerHTML = `<i class="fas fa-server"></i><span>${link.name || `Servidor ${index + 1}`}</span>`;
+        
+        button.addEventListener('click', () => {
+            // Remover active de todos los botones
+            serverTabsContainer.querySelectorAll('.server-tab').forEach(btn => btn.classList.remove('active'));
+            // Agregar active al botón clickeado
+            button.classList.add('active');
+            // Cambiar el src del iframe
+            const playerFrame = document.getElementById('main-episode-player');
+            if (playerFrame) {
+                playerFrame.src = link.url;
+            }
+        });
+
+        serverTabsContainer.appendChild(button);
+    });
 }
 
 // Función para navegar entre episodios
@@ -367,7 +420,7 @@ function navigateEpisodes(direction) {
         const season = currentSeries.seasons[currentSeasonIndex];
         const episode = season.episodes[currentEpisodeIndex];
 
-        loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title);
+        loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title, episode);
         
         // Actualizar la pestaña de temporada activa
         document.querySelectorAll('.season-tab').forEach(btn => btn.classList.remove('active'));
