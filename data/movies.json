@@ -1570,8 +1570,12 @@
     "embed": "https://waaw.ac/f/XvTHsaiWrCs5",
     "watchLinks": [
       {
-        "name": "Netu",
+        "name": "Opción 1 - Latino",
         "url": "https://waaw.ac/f/XvTHsaiWrCs5"
+      },
+      {
+        "name": "Opción 2 latino",
+        "url": "https://voe.sx/e/7l20qe7kmr4n"
       }
     ],
     "downloadLinks": [
@@ -1672,21 +1676,17 @@
       "Claudia Wells",
       "Thomas F. Wilson"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Comedia",
-      "Aventura"
-    ],
+    "genre": ["Ciencia Ficción", "Comedia", "Aventura"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 56m",
     "ageRating": "PG",
     "trailer": "",
-    "embed": "https://waaw.ac/f/V6WHZALkrg5e",
+    "embed": "https://waaw.ac/f/Hgcpis4axgdj",
     "watchLinks": [
       {
-        "name": "Netu",
-        "url": "https://waaw.ac/f/V6WHZALkrg5e"
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/Hgcpis4axgdj"
       }
     ],
     "downloadLinks": [
@@ -1712,21 +1712,17 @@
       "Elisabeth Shue",
       "Jeffrey Weissman"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Comedia",
-      "Aventura"
-    ],
+    "genre": ["Ciencia Ficción", "Comedia", "Aventura"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 48m",
     "ageRating": "PG",
     "trailer": "",
-    "embed": "https://waaw.ac/f/4GoeLlwrER0v",
+    "embed": "https://waaw.ac/f/DkkriS0Zn8cD",
     "watchLinks": [
       {
-        "name": "Netu",
-        "url": "https://waaw.ac/f/4GoeLlwrER0v"
+        "name": "Opción 1 Español Latino",
+        "url": "https://waaw.ac/f/DkkriS0Zn8cD"
       }
     ],
     "downloadLinks": [
@@ -1752,22 +1748,17 @@
       "Lea Thompson",
       "Elisabeth Shue"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Comedia",
-      "Aventura",
-      "Western"
-    ],
+    "genre": ["Ciencia Ficción", "Comedia", "Aventura", "Western"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 58m",
     "ageRating": "PG",
     "trailer": "",
-    "embed": "https://waaw.ac/f/4GoeLlwrER0v",
+    "embed": "https://waaw.ac/f/13DmSO2KqO3R",
     "watchLinks": [
       {
-        "name": "Netu",
-        "url": "https://waaw.ac/f/4GoeLlwrER0v"
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/13DmSO2KqO3R"
       }
     ],
     "downloadLinks": [
@@ -3927,6 +3918,10 @@
       },
       {
         "name": "Opción 2 - Inglés",
+        "url": "https://voe.sx/e/usmjnq3dz7a0"
+      },
+      {
+        "name": "Opción 3 - Inglés",
         "url": "https://waaw.ac/f/nADIfX2nH3Yc"
       }
     ],
