@@ -1307,5 +1307,155 @@
         ]
       }
     ]
+  },
+  {
+    "SERIE": "Gen V (Temporada 1)",
+    "id": "gen-v",
+    "title": "Gen V",
+    "originalTitle": "Gen V",
+    "year": "2023",
+    "cover": "https://image.tmdb.org/t/p/original/jk1jN4qYf7VdJt0fBGR2YwHqWcD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gbxKj8YEDX1rFYy5bGXkE0YznYp.jpg",
+    "description": "Ambientada en el universo de *The Boys*, esta serie sigue a un grupo de jóvenes superhéroes en la Universidad Godolkin, donde los estudiantes compiten por demostrar quién es el mejor mientras descubren oscuros secretos detrás de Vought International.",
+    "director": "Michele Fazekas, Tara Butters",
+    "cast": [
+      "Jaz Sinclair",
+      "Chance Perdomo",
+      "Lizze Broadway",
+      "Shelley Conn",
+      "Maddie Phillips",
+      "London Thor",
+      "Derek Luh",
+      "Asa Germann",
+      "Patrick Schwarzenegger",
+      "Sean Patrick Thomas",
+      "Clancy Brown"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Drama"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "ageRating": "18+",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "title": "Gen V: Temporada 1",
+        "cover": "https://image.tmdb.org/t/p/original/w9SnbRSqCkCmZtNhoJtSXxm8gFj.jpg",
+        "description": "Los estudiantes más prometedores de la Universidad Godolkin compiten por convertirse en los nuevos íconos de Vought, pero pronto descubren un experimento secreto que cambiará su visión del heroísmo para siempre.",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "God U",
+            "description": "Marie Moreau, una joven con habilidades de manipular sangre, llega a la Universidad Godolkin buscando ser la primera superhéroe afroamericana destacada. Sin embargo, un sangriento incidente revela que algo anda muy mal en el campus.",
+            "duration": "59 m",
+            "embed": "https://waaw.ac/f/zKc3m8xR2Ytd",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "Primer día",
+            "description": "Marie intenta adaptarse a su nueva vida universitaria mientras Vought intenta controlar las consecuencias del incidente. Emma comienza a sospechar de los experimentos que se realizan en el campus.",
+            "duration": "57 m",
+            "embed": "https://waaw.ac/f/zNplX3dK9Yca",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "#THINKBRINK",
+            "description": "La muerte de un profesor provoca caos en la universidad. Marie y Andre intentan descubrir quién está detrás mientras las redes sociales encienden el debate sobre los límites del heroísmo.",
+            "duration": "55 m",
+            "embed": "https://waaw.ac/f/lJv3TGbK8Pno",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "El Club de los Hombres",
+            "description": "Marie y Jordan se infiltran en una fraternidad secreta de Godolkin donde descubren conexiones directas con Vought y experimentos humanos.",
+            "duration": "58 m",
+            "embed": "https://waaw.ac/f/b2YcT3Kn8X5p",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "Bienvenido al bosque",
+            "description": "Emma es secuestrada y Marie descubre un laboratorio oculto bajo el campus, donde se experimenta con jóvenes supers.",
+            "duration": "56 m",
+            "embed": "https://waaw.ac/f/xbP9uYwK7N6r",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "Jumanji",
+            "description": "Un experimento mental sale mal, atrapando a varios estudiantes dentro de sus peores pesadillas. Marie debe enfrentarse a su trauma más profundo.",
+            "duration": "57 m",
+            "embed": "https://waaw.ac/f/smN7tQxP3Vyd",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "Sic Transit Gloria Mundi",
+            "description": "El descubrimiento del laboratorio se hace público, generando caos entre los estudiantes. Vought intenta silenciar a los testigos.",
+            "duration": "58 m",
+            "embed": "https://waaw.ac/f/nBk3Q3sL4R9w",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "Guantelete",
+            "description": "Los supers se dividen entre quienes quieren revelar la verdad y quienes desean mantener sus privilegios. Marie toma una decisión que cambiará su destino.",
+            "duration": "55 m",
+            "embed": "https://waaw.ac/f/jbQ4dNkZ6P8m",
+            "watchLinks": [
+              {
+                "name": "Opción 1 - Latino",
+                "url": ""
+              }
+            ],
+            "downloadLinks": []
+          }
+        ]
+      }
+    ]
   }
 ]
