@@ -41,11 +41,7 @@
       "Robin Wright",
       "Jared Leto"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Thriller",
-      "Drama"
-    ],
+    "genre": ["Ciencia Ficción", "Thriller", "Drama"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "2h 44m",
@@ -95,11 +91,7 @@
       "Alexander Beyer",
       "Murathan Muslu"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Thriller",
-      "Misterio"
-    ],
+    "genre": ["Ciencia Ficción", "Thriller", "Misterio"],
     "language": "Alemán, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 39m",
@@ -151,11 +143,7 @@
       "Andrew Robinson",
       "Brian Thompson"
     ],
-    "genre": [
-      "Acción",
-      "Thriller",
-      "Crimen"
-    ],
+    "genre": ["Acción", "Thriller", "Crimen"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 29m",
@@ -204,11 +192,7 @@
       "Bolo Yeung",
       "Cory Everson"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Artes Marciales"
-    ],
+    "genre": ["Acción", "Crimen", "Artes Marciales"],
     "language": "Inglés, Cantonés",
     "quality": "Full HD 1080p",
     "duration": "1h 50m",
@@ -256,12 +240,7 @@
       "Marie Jung",
       "Martin Verset"
     ],
-    "genre": [
-      "Drama",
-      "Ciencia Ficción",
-      "Fantástico",
-      "Catástrofe Climática"
-    ],
+    "genre": ["Drama", "Ciencia Ficción", "Fantástico", "Catástrofe Climática"],
     "language": "Francés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 39m",
@@ -310,11 +289,7 @@
       "Ne‑Yo",
       "Michael Peña"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Guerra"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Guerra"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 56m",
@@ -364,11 +339,7 @@
       "Jenna Davis",
       "Brian Jordan Alvarez"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción",
-      "Terror / Comedia"
-    ],
+    "genre": ["Ciencia Ficción", "Acción", "Terror / Comedia"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "2h 0m",
@@ -418,11 +389,7 @@
       "Johnny Strong",
       "Ted Levine"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Carreras"
-    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 46m",
@@ -462,11 +429,7 @@
       "Thom Barry",
       "Amaury Nolasco"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Carreras"
-    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 48m",
@@ -504,11 +467,7 @@
       "Jason Tobin",
       "Zachery Ty Bryan"
     ],
-    "genre": [
-      "Acción",
-      "Carreras",
-      "Crimen"
-    ],
+    "genre": ["Acción", "Carreras", "Crimen"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 44m",
@@ -546,11 +505,7 @@
       "Gal Gadot",
       "Sung Kang"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Carreras"
-    ],
+    "genre": ["Acción", "Crimen", "Carreras"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 47m",
@@ -593,11 +548,7 @@
       "Don Omar",
       "Joaquim de Almeida"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 10m",
@@ -638,11 +589,7 @@
       "Gina Carano",
       "John Ortiz"
     ],
-    "genre": [
-      "Acción",
-      "Aventura",
-      "Crimen"
-    ],
+    "genre": ["Acción", "Aventura", "Crimen"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 10m",
@@ -693,11 +640,7 @@
       "Tony Jaa",
       "Ronda Rousey"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 17m",
@@ -738,11 +681,7 @@
       "Nathalie Emmanuel",
       "Elsa Pataky"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 16m",
@@ -779,11 +718,7 @@
       "Eiza González",
       "Helen Mirren"
     ],
-    "genre": [
-      "Acción",
-      "Aventura",
-      "Crimen"
-    ],
+    "genre": ["Acción", "Aventura", "Crimen"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 17m",
@@ -829,11 +764,7 @@
       "Charlize Theron",
       "Michael Rooker"
     ],
-    "genre": [
-      "Acción",
-      "Aventura",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Aventura", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 23m",
@@ -881,11 +812,7 @@
       "Jason Momoa",
       "Charlize Theron"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 21m",
@@ -922,12 +849,7 @@
       "Shauna Earp",
       "Tyler Grey"
     ],
-    "genre": [
-      "Acción",
-      "Thriller",
-      "Monstruos",
-      "Ciencia Ficción"
-    ],
+    "genre": ["Acción", "Thriller", "Monstruos", "Ciencia Ficción"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 31m",
@@ -962,10 +884,7 @@
       "Michael Biehn",
       "Paul Winfield"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Ciencia Ficción", "Acción"],
     "language": "Inglés, Español latino",
     "quality": "",
     "duration": "1h 47m",
@@ -1022,10 +941,7 @@
       "Joe Morton",
       "Earl Boen"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Ciencia Ficción", "Acción"],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 17m",
@@ -1078,10 +994,7 @@
       "David Andrews",
       "Mark Famiglietti"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Ciencia Ficción", "Acción"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 49m",
@@ -1134,11 +1047,7 @@
       "Anton Yelchin",
       "Helena Bonham Carter"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción",
-      "Distopía"
-    ],
+    "genre": ["Ciencia Ficción", "Acción", "Distopía"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 55m",
@@ -1192,10 +1101,7 @@
       "Lee Byung-hun",
       "Matt Smith"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Ciencia Ficción", "Acción"],
     "language": "Español Latino, Inglés",
     "quality": "3D, 4K UHD, Full HD 1080p",
     "duration": "2h 6m",
@@ -1255,10 +1161,7 @@
       "Natalia Reyes",
       "Gabriel Luna"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Ciencia Ficción", "Acción"],
     "language": "Español Latino, Inglés",
     "quality": " 4K UHD, Full HD 1080p, BluRay 1080p",
     "duration": "2h 8m",
@@ -1306,11 +1209,7 @@
       "Salli Richardson",
       "Willow Smith"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Drama",
-      "Terror"
-    ],
+    "genre": ["Ciencia Ficción", "Drama", "Terror"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 41m",
@@ -1354,11 +1253,7 @@
       "Dichen Lachman",
       "Isabella Sermon"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Acción",
-      "Aventura"
-    ],
+    "genre": ["Ciencia Ficción", "Acción", "Aventura"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 26m",
@@ -1415,11 +1310,7 @@
       "Orlando Norman",
       "Josh Lucas"
     ],
-    "genre": [
-      "Romance",
-      "Drama",
-      "Aventura"
-    ],
+    "genre": ["Romance", "Drama", "Aventura"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 36m",
@@ -1454,11 +1345,7 @@
       "Robert Duvall",
       "Jeffrey DeMunn"
     ],
-    "genre": [
-      "Drama",
-      "Romance",
-      "Fantasía"
-    ],
+    "genre": ["Drama", "Romance", "Fantasía"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
@@ -1497,9 +1384,7 @@
       "Jake Lacy",
       "Jason Mantzoukas"
     ],
-    "genre": [
-      "Comedia Romántica"
-    ],
+    "genre": ["Comedia Romántica"],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 50m",
@@ -1539,12 +1424,7 @@
       "Margot Robbie",
       "Vanessa Kirby"
     ],
-    "genre": [
-      "Romance",
-      "Comedia",
-      "Ciencia Ficción",
-      "Drama"
-    ],
+    "genre": ["Romance", "Comedia", "Ciencia Ficción", "Drama"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
@@ -1573,15 +1453,8 @@
     "backdrop": "https://image.tmdb.org/t/p/original/9CBrr4YHHMW4JnIOFTiZCnSx7Hy.jpg",
     "description": "En 1952, en Italia, el joven agente Furio Momenté es enviado a la región del Véneto para investigar el misterioso caso de un adolescente de catorce años que mató a un niño, afirmando haber matado al diablo.",
     "director": "Pupi Avati",
-    "cast": [
-      "Massimo Bonetti",
-      "Lino Capolicchio",
-      "Chiara Caselli"
-    ],
-    "genre": [
-      "Terror",
-      "Suspense"
-    ],
+    "cast": ["Massimo Bonetti", "Lino Capolicchio", "Chiara Caselli"],
+    "genre": ["Terror", "Suspense"],
     "language": "Italiano",
     "quality": "Full HD 1080p",
     "duration": "1h 26m",
@@ -1620,10 +1493,7 @@
       "Elliot Cowan",
       "Kíla Lord Cassidy"
     ],
-    "genre": [
-      "Terror",
-      "Sobrenatural"
-    ],
+    "genre": ["Terror", "Sobrenatural"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 15m",
@@ -1691,12 +1561,7 @@
       "Daniel Fathers",
       "Ellen Wong"
     ],
-    "genre": [
-      "Terror",
-      "Misterio",
-      "Ciencia Ficción",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Misterio", "Ciencia Ficción", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
@@ -1734,11 +1599,7 @@
       "Rade Šerbedžija",
       "Stephen Graham"
     ],
-    "genre": [
-      "Crimen",
-      "Comedia",
-      "Thriller"
-    ],
+    "genre": ["Crimen", "Comedia", "Thriller"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 42m",
@@ -1775,10 +1636,7 @@
       "William Fichtner",
       "Michael Irvin"
     ],
-    "genre": [
-      "Comedia",
-      "Deporte"
-    ],
+    "genre": ["Comedia", "Deporte"],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 53m",
@@ -1935,11 +1793,7 @@
       "Meredith Hagner",
       "Matt L. Jones"
     ],
-    "genre": [
-      "Terror",
-      "Superhéroes",
-      "Ciencia Ficción"
-    ],
+    "genre": ["Terror", "Superhéroes", "Ciencia Ficción"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 30m",
@@ -1967,17 +1821,8 @@
     "cover": "assets/covers/avalancha-desastre-en-la-montana-2019.webp",
     "description": "Un trío de montañistas chinos se convierte en los primeros escaladores en alcanzar la cima del Monte Everest sin oxígeno suplementario. Pero tras salvaguardar la vida de uno de ellos en una avalancha, su logro no es reconocido. China entonces reúne a más de 400 expertos para hacer otro intento por la ruta norte, la más peligrosa, enfrentándose a condiciones extremas y decisiones de vida o muerte.",
     "director": "Daniel Lee",
-    "cast": [
-      "Jing Wu",
-      "Ziyi Zhang",
-      "Yi Zhang",
-      "Boran Jing"
-    ],
-    "genre": [
-      "Acción",
-      "Aventura",
-      "Drama"
-    ],
+    "cast": ["Jing Wu", "Ziyi Zhang", "Yi Zhang", "Boran Jing"],
+    "genre": ["Acción", "Aventura", "Drama"],
     "language": "Chino, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 55m",
@@ -2021,11 +1866,7 @@
       "Silviu Geamănu",
       "Rosmary Yaneva"
     ],
-    "genre": [
-      "Acción",
-      "Suspenso",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Suspenso", "Thriller"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 15m",
@@ -2062,11 +1903,7 @@
       "Dayo Okeniyi",
       "Brett Dier"
     ],
-    "genre": [
-      "Horror",
-      "Suspenso",
-      "Thriller"
-    ],
+    "genre": ["Horror", "Suspenso", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 54m",
@@ -2102,11 +1939,7 @@
       "Meeya Davis",
       "Jack DiFalco"
     ],
-    "genre": [
-      "Terror",
-      "Sobrenatural",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Sobrenatural", "Suspenso"],
     "language": "Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 17m",
@@ -2145,11 +1978,7 @@
       "Selenis Leyva",
       "Carson Minnear"
     ],
-    "genre": [
-      "Ciencia Ficción",
-      "Aventura",
-      "Drama"
-    ],
+    "genre": ["Ciencia Ficción", "Aventura", "Drama"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 45m",
@@ -2187,11 +2016,7 @@
       "Kathryn Morris",
       "David Costabile"
     ],
-    "genre": [
-      "Drama",
-      "Musical",
-      "Biografia"
-    ],
+    "genre": ["Drama", "Musical", "Biografia"],
     "language": "Inglés",
     "quality": "",
     "duration": "1h 47m",
@@ -2232,11 +2057,7 @@
       "Ben Foster",
       "Rebecca Romijn"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Thriller"
-    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
     "language": "Inglés",
     "quality": "",
     "duration": "2h 3m",
@@ -2271,10 +2092,7 @@
       "Edie Inksetter",
       "Paul Essiembre"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -2313,11 +2131,7 @@
       "Jason Drucker",
       "Pamela Adlon"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 54m",
@@ -2356,12 +2170,7 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 23m",
@@ -2400,12 +2209,7 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 30m",
@@ -2444,12 +2248,7 @@
       "Tyrese Gibson",
       "John Turturro"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 34m",
@@ -2488,12 +2287,7 @@
       "Nicola Peltz",
       "Jack Reynor"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 45m",
@@ -2532,12 +2326,7 @@
       "Isabela Moner",
       "Josh Duhamel"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 34m",
@@ -2576,12 +2365,7 @@
       "Peter Cullen",
       "Ron Perlman"
     ],
-    "genre": [
-      "Acción",
-      "Ciencia Ficción",
-      "Aventura",
-      "Animación"
-    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura", "Animación"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 02m",
@@ -2621,11 +2405,7 @@
       "Jon Hamm",
       "Laurence Fishburne"
     ],
-    "genre": [
-      "Animación",
-      "Ciencia Ficción",
-      "Acción"
-    ],
+    "genre": ["Animación", "Ciencia Ficción", "Acción"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 47m",
@@ -2664,11 +2444,7 @@
       "Jeremy Sisto",
       "Kevin Zegers"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
@@ -2708,11 +2484,7 @@
       "Texas Battle",
       "Daniella Alonso"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 36m",
@@ -2752,11 +2524,7 @@
       "Christian Contreras",
       "Louise Cliffe"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -2796,11 +2564,7 @@
       "Jennifer Pudavick",
       "Dan Skene"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -2839,11 +2603,7 @@
       "Roxanne McKee",
       "Oliver Hoare"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 31m",
@@ -2882,11 +2642,7 @@
       "Sadie Katz",
       "Luke Cousins"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 31m",
@@ -2925,10 +2681,7 @@
       "Emma Dumont",
       "Dylan McTee"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 49m",
@@ -2969,10 +2722,7 @@
         "Seann William Scott",
         "Tony Todd"
       ],
-      "genre": [
-        "Terror",
-        "Suspenso"
-      ],
+      "genre": ["Terror", "Suspenso"],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 38m",
@@ -3011,10 +2761,7 @@
         "David Paetkau",
         "Tony Todd"
       ],
-      "genre": [
-        "Terror",
-        "Suspenso"
-      ],
+      "genre": ["Terror", "Suspenso"],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 30m",
@@ -3053,10 +2800,7 @@
         "Alexz Johnson",
         "Tony Todd (voz)"
       ],
-      "genre": [
-        "Terror",
-        "Suspenso"
-      ],
+      "genre": ["Terror", "Suspenso"],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 33m",
@@ -3095,10 +2839,7 @@
         "Haley Webb",
         "Mykelti Williamson"
       ],
-      "genre": [
-        "Terror",
-        "Suspenso"
-      ],
+      "genre": ["Terror", "Suspenso"],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 22m",
@@ -3137,10 +2878,7 @@
         "Ellen Wroe",
         "Tony Todd"
       ],
-      "genre": [
-        "Terror",
-        "Suspenso"
-      ],
+      "genre": ["Terror", "Suspenso"],
       "language": "Español Latino, Inglés",
       "quality": "Full HD 1080p",
       "duration": "1h 32m",
@@ -3183,10 +2921,7 @@
       "Brec Bassinger",
       "Tony Todd"
     ],
-    "genre": [
-      "Terror",
-      "Sobrenatural"
-    ],
+    "genre": ["Terror", "Sobrenatural"],
     "language": "Inglés, Español (doblaje probable)",
     "quality": "Full HD 1080p",
     "duration": "1h 50m (110 min)  ",
@@ -3226,10 +2961,7 @@
       "Leigh Whannell",
       "Ty Simpkins"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 42m",
@@ -3268,10 +3000,7 @@
       "Ty Simpkins",
       "Barbara Hershey"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 46m",
@@ -3311,10 +3040,7 @@
       "Leigh Whannell",
       "Angus Sampson"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 37m",
@@ -3353,10 +3079,7 @@
       "Caitlin Gerard",
       "Bruce Davison"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 43m",
@@ -3395,10 +3118,7 @@
       "Lin Shaye",
       "Hiam Abbass"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 47m",
@@ -3437,11 +3157,7 @@
       "Ken Leung",
       "Monica Potter"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 43m",
@@ -3481,11 +3197,7 @@
       "Erik Knudsen",
       "Franky G"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -3524,11 +3236,7 @@
       "Bahar Soomekh",
       "Costas Mandylor"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 48m",
@@ -3567,11 +3275,7 @@
       "Betsy Russell",
       "Lyriq Bent"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 36m",
@@ -3610,11 +3314,7 @@
       "Betsy Russell",
       "Julie Benz"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -3653,11 +3353,7 @@
       "Betsy Russell",
       "Peter Outerbridge"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -3696,11 +3392,7 @@
       "Betsy Russell",
       "Chad Donella"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -3739,11 +3431,7 @@
       "Hannah Emily Anderson",
       "Tobin Bell"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -3782,11 +3470,7 @@
       "Marisol Nichols",
       "Zoie Palmer"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -3825,11 +3509,7 @@
       "Steven Brand",
       "Michael Beach"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Gore"
-    ],
+    "genre": ["Terror", "Suspenso", "Gore"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 58m",
@@ -3869,11 +3549,7 @@
       "Christopher Meloni",
       "Kiernan Shipka"
     ],
-    "genre": [
-      "Terror",
-      "Ciencia Ficción",
-      "Drama"
-    ],
+    "genre": ["Terror", "Ciencia Ficción", "Drama"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 24m",
@@ -3913,10 +3589,7 @@
       "Seann William Scott",
       "Tony Todd"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 38m",
@@ -3956,10 +3629,7 @@
       "Jonathan Cherry",
       "Tony Todd"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 30m",
@@ -3999,10 +3669,7 @@
       "Sam Easton",
       "Tony Todd"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 33m",
@@ -4042,10 +3709,7 @@
       "Mykelti Williamson",
       "Krista Allen"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 22m",
@@ -4085,10 +3749,7 @@
       "Jacqueline MacInnes Wood",
       "Tony Todd"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 32m",
@@ -4128,12 +3789,7 @@
       "Hannah Herzsprung",
       "Trine Dyrholm"
     ],
-    "genre": [
-      "Thriller",
-      "Crimen",
-      "Drama",
-      "Hackers y Ciberseguridad"
-    ],
+    "genre": ["Thriller", "Crimen", "Drama", "Hackers y Ciberseguridad"],
     "language": "Español Latino, Alemán, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 45m",
@@ -4174,11 +3830,7 @@
       "Hugo Lavoie",
       "Lucas Lavoie"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso",
-      "Sobrenatural"
-    ],
+    "genre": ["Terror", "Suspenso", "Sobrenatural"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 41m (101 min)",
@@ -4218,10 +3870,7 @@
       "Thomas Hedengran",
       "Elisabeth Carlsson"
     ],
-    "genre": [
-      "Terror",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Suspenso"],
     "language": "Inglés, Español Latino",
     "quality": "Full HD 1080p",
     "duration": "1h 27m (87 min)",
@@ -4264,11 +3913,7 @@
       "Grace Zabriskie",
       "Mitch Pileggi"
     ],
-    "genre": [
-      "Terror",
-      "Sobrenatural",
-      "Suspenso"
-    ],
+    "genre": ["Terror", "Sobrenatural", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 28m (88 min)",
@@ -4311,11 +3956,7 @@
       "John Leguizamo",
       "Bridget Moynahan"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Suspenso"
-    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "1h 41m (101 min)",
@@ -4358,11 +3999,7 @@
       "John Leguizamo",
       "Lance Reddick"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Suspenso"
-    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 2m (122 min)",
@@ -4404,11 +4041,7 @@
       "Asia Kate Dillon",
       "Lance Reddick"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Suspenso"
-    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 11m (131 min)",
@@ -4451,11 +4084,7 @@
       "Hiroyuki Sanada",
       "Shamier Anderson"
     ],
-    "genre": [
-      "Acción",
-      "Crimen",
-      "Suspenso"
-    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
     "language": "Español Latino, Inglés",
     "quality": "Full HD 1080p",
     "duration": "2h 49m (169 min)",
