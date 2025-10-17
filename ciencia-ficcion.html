@@ -251,7 +251,10 @@
         // Filter category movies
         categoryMovies = allMovies.filter(movie => {
           const genres = Array.isArray(movie.genre) ? movie.genre : [];
-          return genres.includes(CATEGORY_CONFIG.genre);
+          const targetGenre = (CATEGORY_CONFIG.genre || '').toLowerCase();
+          return genres.some(genre =>
+            typeof genre === 'string' && genre.toLowerCase() === targetGenre
+          );
         });
         
         filteredMovies = [...categoryMovies].reverse();
