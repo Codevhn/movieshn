@@ -148,16 +148,16 @@
     "quality": "Full HD 1080p",
     "duration": "1h 29m",
     "ageRating": "18+",
-    "trailer": "https://www.youtube.com/watch?v=pgqeBMNyJhQ",
-    "embed": "https://hqq.ac/e/ejemplo-embed-cobra",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/jkUAYNFB1HAV",
     "watchLinks": [
       {
-        "name": "Netu",
+        "name": "Opción 1 - Latino",
         "url": "https://waaw.ac/f/jkUAYNFB1HAV"
       },
       {
-        "name": "Voe",
-        "url": "https://voe.sx/e/ejemplo-cobra-voe"
+        "name": "Opción 2 - latino",
+        "url": ""
       }
     ],
     "downloadLinks": [
@@ -2014,11 +2014,11 @@
     "duration": "1h 47m",
     "ageRating": "18+",
     "trailer": "https://www.youtube.com/watch?v=-NOp5ROn1HE",
-    "embed": "",
+    "embed": "https://waaw.ac/f/S0hj4tkuQuWG",
     "watchLinks": [
       {
         "name": "Opcion 1",
-        "url": ""
+        "url": "https://waaw.ac/f/S0hj4tkuQuWG"
       },
       {
         "name": "Opcion 2",
@@ -4728,6 +4728,313 @@
       {
         "name": "Opción 1 - Latino",
         "url": "https://streamtape.com/e/3qJ6XvAwQgh6lr/El.Hombre.Sin.Sombra.2020.1080P-Dual-Lat.mp4"
+      },
+      {
+        "name": "Opción 2 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "a-working-man-2025",
+    "title": "Rescate Implacable",
+    "originalTitle": "A Working Man",
+    "year": 2025,
+    "cover": "assets/covers/a-working-man-2025.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/s4UihKnLx5ACClZzKea8XYZ0HnN.jpg",
+    "description": "Después de años trabajando en los márgenes de la ley, un mecánico retirado con un pasado violento debe regresar al mundo que juró dejar atrás cuando un poderoso cartel amenaza la vida de su familia. Jason Statham encarna a un hombre común que hará lo imposible para proteger lo suyo, aunque eso signifique desatar su lado más letal.",
+    "director": "David Ayer",
+    "cast": [
+      "Jason Statham",
+      "Jeremy Irons",
+      "Emmy Raver-Lampman",
+      "Michael Peña",
+      "Cliff Curtis",
+      "Josh Helman"
+    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 47m (107 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://streamtape.com/e/mkl8K9JRVgSb9ry/Rescate_implacable_2025",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "the-last-stand-2013",
+    "title": "El Último Desafío",
+    "originalTitle": "The Last Stand",
+    "year": 2013,
+    "cover": "assets/covers/el-ultimo-desafio-2013.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/2r4pToszlBuNF9i6VOdzN9UKEKr.jpg",
+    "description": "El sheriff Ray Owens disfruta de una vida tranquila en la frontera de un pequeño pueblo, hasta que un peligroso narcotraficante escapa del FBI y se dirige hacia México atravesando su jurisdicción. Owens deberá reunir a su improvisado equipo para detenerlo antes de que cruce la frontera y se pierda para siempre.",
+    "director": "Kim Jee-woon",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Forest Whitaker",
+      "Johnny Knoxville",
+      "Rodrigo Santoro",
+      "Jaimie Alexander",
+      "Luis Guzmán",
+      "Eduardo Noriega",
+      "Peter Stormare",
+      "Zach Gilford",
+      "Genesis Rodriguez"
+    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 47m (107 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://voe.sx/e/2bjhdgcp3smr",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/2bjhdgcp3smr"
+      },
+      {
+        "name": "Opción 2 - latino",
+        "url": "https://waaw.ac/f/BfnaIyq7rWHl"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "the-running-man-1987",
+    "title": "Carrera Mortal: El Sobreviviente",
+    "originalTitle": "The Running Man",
+    "year": 1987,
+    "cover": "assets/covers/the-running-man-1987.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/g2C9oWVtmpJP9bDFTtfsv3pIzy5.jpg",
+    "description": "En un futuro distópico, la sociedad se entretiene con un programa televisivo donde prisioneros son obligados a luchar por sus vidas contra asesinos profesionales. Ben Richards, un expolicía acusado injustamente, se convierte en el concursante más buscado cuando decide enfrentarse al sistema y exponer la verdad tras el espectáculo mortal.",
+    "director": "Paul Michael Glaser",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Maria Conchita Alonso",
+      "Richard Dawson",
+      "Yaphet Kotto",
+      "Jim Brown",
+      "Jesse Ventura",
+      "Mick Fleetwood",
+      "Dweezil Zappa",
+      "Erland Van Lidth",
+      "Marvin J. McIntyre"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 41m (101 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://voe.sx/e/z30dmj5a3iz5",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/z30dmj5a3iz5"
+      },
+      {
+        "name": "Opción 2 - Latino",
+        "url": "https://waaw.ac/f/9mckEYZ1T2eX"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "wrath-of-man-2021",
+    "title": "Justicia Implacable",
+    "originalTitle": "Wrath of Man",
+    "year": 2021,
+    "cover": "assets/covers/wrath-of-man-2021.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/fPo9i1Ozf7i2KkkvPVA9NUIb9sV.jpg",
+    "description": "Un misterioso hombre conocido solo como 'H' comienza a trabajar para una empresa de transporte de valores en Los Ángeles. Cuando demuestra habilidades letales durante un intento de robo, sus compañeros empiezan a sospechar que no es quien dice ser. Pronto se revela su verdadero propósito: vengar la muerte de su hijo.",
+    "director": "Guy Ritchie",
+    "cast": [
+      "Jason Statham",
+      "Holt McCallany",
+      "Josh Hartnett",
+      "Scott Eastwood",
+      "Jeffrey Donovan",
+      "Eddie Marsan",
+      "Laz Alonso",
+      "Niamh Algar"
+    ],
+    "genre": ["Acción", "Crimen", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 59m (119 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://voe.sx/e/ipzvl52q34hr",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/ipzvl52q34hr"
+      },
+      {
+        "name": "Opción 2 - latino",
+        "url": "https://waaw.ac/f/EqToduYRCYxC"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "the-meg-2018",
+    "title": "Megalodón",
+    "originalTitle": "The Meg",
+    "year": 2018,
+    "cover": "assets/covers/the-meg-2018.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/2uSCHUsmzb6KkQPFSxBQ7bgfJLE.jpg",
+    "description": "Un submarino de aguas profundas queda atrapado en el fondo del océano después de ser atacado por una criatura prehistórica gigante que se creía extinta: el megalodón. El experto en rescates Jonas Taylor es llamado para salvar a la tripulación y detener al monstruo antes de que emerja a la superficie.",
+    "director": "Jon Turteltaub",
+    "cast": [
+      "Jason Statham",
+      "Li Bingbing",
+      "Rainn Wilson",
+      "Ruby Rose",
+      "Cliff Curtis",
+      "Winston Chao",
+      "Shuya Sophia Cai",
+      "Page Kennedy"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 53m (113 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://voe.sx/e/y9imhdl9pwko",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/y9imhdl9pwko"
+      },
+      {
+        "name": "Opción 2 - latino",
+        "url": "https://waaw.ac/f/Um1ge1dHscgR"
+      },
+      {
+        "name": "Opción 3 - latino",
+        "url": "https://streamtape.com/e/JqbqWYQWY7hjpAD/The_meg_2018"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "meg-2-the-trench-2023",
+    "title": "Megalodón 2: El Gran Abismo",
+    "originalTitle": "Meg 2: The Trench",
+    "year": 2023,
+    "cover": "assets/covers/meg-2-the-trench-2023.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/4m1Au3YkjqsxF8iwQy0fPYSxE0h.jpg",
+    "description": "Jonas Taylor regresa para liderar un equipo de exploración en las profundidades del océano, donde descubren una nueva amenaza: varios megalodones y otras criaturas prehistóricas que emergen del abismo. Lo que comienza como una misión científica se convierte en una lucha por la supervivencia contra monstruos marinos imparables.",
+    "director": "Ben Wheatley",
+    "cast": [
+      "Jason Statham",
+      "Wu Jing",
+      "Sophia Cai",
+      "Cliff Curtis",
+      "Sienna Guillory",
+      "Page Kennedy",
+      "Sergio Peris-Mencheta",
+      "Skyler Samuels"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 56m (116 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://voe.sx/e/muifod5ut105",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/muifod5ut105"
+      },
+      {
+        "name": "Opción 2 - latino",
+        "url": "https://waaw.ac/f/WrIVLoR186mf"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "kickboxer-vengeance-2016",
+    "title": "Kickboxer: Venganza",
+    "originalTitle": "Kickboxer: Vengeance",
+    "year": 2016,
+    "cover": "assets/covers/kickboxer-vengeance-2016.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/mZT5eXy9Tapf85LV62hkfaVp2Of.jpg",
+    "description": "Kurt Sloane viaja a Tailandia para vengar la muerte de su hermano, asesinado brutalmente en un combate ilegal por el despiadado Tong Po. Bajo la guía de un maestro legendario, Kurt se somete a un entrenamiento extremo para enfrentarse al asesino y recuperar el honor de su familia en el ring.",
+    "director": "John Stockwell",
+    "cast": [
+      "Alain Moussi",
+      "Jean-Claude Van Damme",
+      "Dave Bautista",
+      "Darren Shahlavi",
+      "Gina Carano",
+      "Sara Malakul Lane",
+      "Georges St-Pierre",
+      "Matthew Ziff"
+    ],
+    "genre": ["Acción", "Artes Marciales", "Drama"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m (90 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/g4yesyuIM3Qu",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/g4yesyuIM3Qu"
       },
       {
         "name": "Opción 2 - Subtitulada",
