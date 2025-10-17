@@ -1235,6 +1235,7 @@
     "originalTitle": "Jurassic World: Dominion",
     "year": 2022,
     "cover": "assets/covers/jurassic-world-dominion-2022.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/9eAn20y26wtB3aet7w9lHjuSgZ3.jpg",
     "description": "Cuatro años después de la destrucción de Isla Nublar, los dinosaurios ahora caminan libremente junto con los humanos alrededor del mundo. El fin de la línea se acerca cuando generaciones antiguas y nuevas se reúnen para enfrentar los retos que surgen de esta nueva era.",
     "director": "Colin Trevorrow",
     "cast": [
@@ -2037,6 +2038,7 @@
     "originalTitle": "The Punisher",
     "year": 2004,
     "cover": "assets/covers/the-punisher-2004.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/bqEmxL8e6jlH3ZNECuaEZHiOvsX.jpg",
     "description": "Tras el asesinato de su familia, el agente del FBI Frank Castle adopta la identidad del Castigador y se propone erradicar el crimen por su propia cuenta, sin importar el precio que deba pagar.",
     "director": "Jonathan Hensleigh",
     "cast": [
@@ -2054,16 +2056,24 @@
     "duration": "2h 3m",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
+    "embed": "https://waaw.ac/f/JPo8k2prPTfm",
     "watchLinks": [
       {
-        "name": "",
-        "url": ""
+        "name": "Opción 1- Latino",
+        "url": "https://waaw.ac/f/JPo8k2prPTfm"
+      },
+      {
+        "name": " Opción 2- inglés sub ",
+        "url": "https://waaw.ac/f/UkVLxRy1hd1F"
+      },
+      {
+        "name": " Opción 3- castellano ",
+        "url": "https://waaw.ac/f/ssAn2B7SH7tW"
       }
     ],
     "downloadLinks": [
       {
-        "name": "",
+        "name": "  ",
         "url": ""
       }
     ]
@@ -3980,7 +3990,7 @@
     "title": "John Wick 2: Un Nuevo Día para Matar",
     "originalTitle": "John Wick: Chapter 2",
     "year": 2017,
-    "cover": "assets/covers/john-wick-2-un-nuevo-dia-para-matar-2017.jpg",
+    "cover": "assets/covers/john-wick-2-un-nuevo-dia-para-matar-2017.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/fRLftkwv8jm3DLxXOf2NbngHjPB.jpg",
     "description": "John Wick se ve obligado a regresar al mundo del crimen cuando un antiguo asociado reclama una deuda de sangre. Su misión lo lleva a Roma, donde enfrentará a algunos de los asesinos más letales del mundo en una batalla sin tregua.",
     "director": "Chad Stahelski",
@@ -4023,7 +4033,7 @@
     "title": "John Wick 3: Parabellum",
     "originalTitle": "John Wick: Chapter 3 – Parabellum",
     "year": 2019,
-    "cover": "assets/covers/john-wick-3-parabellum-2019.jpg",
+    "cover": "assets/covers/john-wick-3-parabellum-2019.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/vXJZEQ0MqVpJLMfVLG8RhcjFAw.jpg",
     "description": "Con una recompensa millonaria por su cabeza, John Wick se convierte en el objetivo de los asesinos más peligrosos del mundo. Sin aliados y sin refugio, deberá luchar para sobrevivir mientras intenta escapar de la organización a la que una vez perteneció.",
     "director": "Chad Stahelski",
@@ -4065,7 +4075,7 @@
     "title": "John Wick 4",
     "originalTitle": "John Wick: Chapter 4",
     "year": 2023,
-    "cover": "assets/covers/john-wick-4-2023.jpg",
+    "cover": "assets/covers/john-wick-4-2023.webp",
     "backdrop": "https://image.tmdb.org/t/p/original/i3OTGmLNOZIo4SRQLVfLjeWegB6.jpg",
     "description": "John Wick descubre un camino para derrotar a la Alta Mesa, pero antes de lograr su libertad deberá enfrentarse a un nuevo enemigo con poderosas alianzas en todo el mundo y fuerzas que convierten a viejos amigos en enemigos mortales.",
     "director": "Chad Stahelski",
@@ -4099,6 +4109,634 @@
     "downloadLinks": [
       {
         "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jurassic-park-1993",
+    "title": "Jurassic Park",
+    "originalTitle": "Jurassic Park",
+    "year": 1993,
+    "cover": "assets/covers/jurassic-park-1993.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/jzt9HuhIAdH9qp0K2MA1m5V8sgq.jpg",
+    "description": "Un grupo de científicos y visitantes es invitado a un parque temático revolucionario que alberga dinosaurios clonados a partir de ADN prehistórico. Sin embargo, cuando el sistema de seguridad falla, los dinosaurios escapan, poniendo en peligro a todos los presentes en la isla.",
+    "director": "Steven Spielberg",
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum",
+      "Richard Attenborough",
+      "Bob Peck",
+      "Martin Ferrero",
+      "BD Wong",
+      "Samuel L. Jackson",
+      "Wayne Knight",
+      "Joseph Mazzello",
+      "Ariana Richards"
+    ],
+    "genre": ["Ciencia Ficción", "Aventura", "Acción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 7m (127 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://voe.sx/e/gbksbqfnsjlp",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/gbksbqfnsjlp"
+      },
+      {
+        "name": "Opción 2 - Latino",
+        "url": "https://voe.sx/e/gbksbqfnsjlp"
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "viaje-al-centro-de-la-tierra-2008",
+    "title": "Viaje al centro de la Tierra",
+    "originalTitle": "Journey to the Center of the Earth",
+    "year": 2008,
+    "cover": "assets/covers/viaje-al-centro-de-la-tierra-2008.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/Adlc8JMVEXOelFO6hYpIYcGBx2T.jpg",
+    "description": "Durante una expedición en Islandia, el científico Trevor Anderson, su sobrino Sean y su guía Hannah descubren un misterioso mundo subterráneo lleno de criaturas asombrosas y peligros inesperados. Basada libremente en la novela clásica de Julio Verne, la aventura los llevará al corazón de la Tierra.",
+    "director": "Eric Brevig",
+    "cast": [
+      "Brendan Fraser",
+      "Josh Hutcherson",
+      "Anita Briem",
+      "Seth Meyers",
+      "Jean Michel Paré",
+      "Jane Wheeler",
+      "Frank Fontaine",
+      "Garth Gilker",
+      "Giancarlo Caltabiano",
+      "Kaniehtiio Horn"
+    ],
+    "genre": ["Aventura", "Ciencia Ficción", "Fantasía"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 33m (93 min)",
+    "ageRating": "PG",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/l6FoE2MwizGN",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/l6FoE2MwizGN"
+      },
+      {
+        "name": "Opción 2 - Latino",
+        "url": "https://streamtape.com/e/myoGPmOgomtbALz/Viaje.Al.Centro.De.La.Tierra.2008.mp4"
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "el-mundo-perdido-jurassic-park-1997",
+    "title": "El Mundo Perdido: Jurassic Park",
+    "originalTitle": "The Lost World: Jurassic Park",
+    "year": 1997,
+    "cover": "assets/covers/el-mundo-perdido-jurassic-park-1997.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/A4rYaPdzgocCjQ0n9LUSYUxyvpS.jpg",
+    "description": "Cuatro años después del desastre en el Parque Jurásico original, un nuevo grupo de personas es enviado a una segunda isla donde los dinosaurios viven en libertad. Sin embargo, la expedición se complica cuando intereses corporativos intentan capturar a las criaturas para llevarlas a la ciudad, desatando el caos una vez más.",
+    "director": "Steven Spielberg",
+    "cast": [
+      "Jeff Goldblum",
+      "Julianne Moore",
+      "Pete Postlethwaite",
+      "Arliss Howard",
+      "Richard Attenborough",
+      "Vanessa Lee Chester",
+      "Vince Vaughn",
+      "Peter Stormare",
+      "Harvey Jason",
+      "Richard Schiff"
+    ],
+    "genre": ["Ciencia Ficción", "Aventura", "Acción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 9m (129 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://streamtape.com/e/2V1XKrJ7zRCZlGw/The.Lost.World.Jurassic-1997.mp4",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://streamtape.com/e/2V1XKrJ7zRCZlGw/The.Lost.World.Jurassic-1997.mp4"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jurassic-park-iii-2001",
+    "title": "Jurassic Park III",
+    "originalTitle": "Jurassic Park III",
+    "year": 2001,
+    "cover": "assets/covers/jurassic-park-iii-2001.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/rl2mFCm04GqHOz3RjSzrXqWB3M9.jpg",
+    "description": "El Dr. Alan Grant, aún traumatizado por su experiencia en Jurassic Park, acepta una oferta para sobrevolar la Isla Sorna, la segunda isla donde los dinosaurios fueron creados. Sin embargo, pronto descubre que la expedición tiene un propósito oculto y que los peligros son mayores de lo que imaginaba.",
+    "director": "Joe Johnston",
+    "cast": [
+      "Sam Neill",
+      "William H. Macy",
+      "Téa Leoni",
+      "Alessandro Nivola",
+      "Trevor Morgan",
+      "Michael Jeter",
+      "Laura Dern",
+      "John Diehl",
+      "Bruce A. Young",
+      "Taylor Nichols"
+    ],
+    "genre": ["Ciencia Ficción", "Aventura", "Acción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 32m (92 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://streamtape.com/e/2qAyAa6AKVUZrad/Jurassic.Park.III.2001.mp4",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://streamtape.com/e/2qAyAa6AKVUZrad/Jurassic.Park.III.2001.mp4"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "asesino-ninja-2009",
+    "title": "Asesino Ninja",
+    "originalTitle": "Ninja Assassin",
+    "year": 2009,
+    "cover": "assets/covers/asesino-ninja-2009.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/44Yi72Ut3NchXewQzx814ViE2dy.jpg",
+    "description": "Raizo, uno de los asesinos más letales del mundo, fue criado desde niño por el clan Ozunu, una sociedad secreta que entrena a huérfanos para convertirlos en máquinas de matar. Tras ser traicionado por el clan, Raizo decide vengarse y enfrentarse a ellos en una batalla sangrienta por su libertad.",
+    "director": "James McTeigue",
+    "cast": [
+      "Rain",
+      "Naomie Harris",
+      "Ben Miles",
+      "Rick Yune",
+      "Shō Kosugi",
+      "Anna Sawai",
+      "Joon Lee",
+      "Randall Duk Kim",
+      "Yuki Iwamoto",
+      "Stephen Marcus"
+    ],
+    "genre": ["Acción", "Crimen", "Thriller"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 39m (99 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/fnsd1MIa7pyG",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/fnsd1MIa7pyG"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "bad-boys-ii-2003",
+    "title": "Bad Boys II",
+    "originalTitle": "Bad Boys II",
+    "year": 2003,
+    "cover": "assets/covers/bad-boys-ii-2003.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/jNGj5kw65X2tpx7ffRsuxunPjrC.jpg",
+    "description": "Los detectives Mike Lowrey y Marcus Burnett regresan para detener a un poderoso narcotraficante que está inundando las calles de Miami con éxtasis. Mientras persiguen al criminal, su amistad se pone a prueba por secretos personales, persecuciones explosivas y tiroteos espectaculares.",
+    "director": "Michael Bay",
+    "cast": [
+      "Will Smith",
+      "Martin Lawrence",
+      "Jordi Mollà",
+      "Gabrielle Union",
+      "Peter Stormare",
+      "Theresa Randle",
+      "Joe Pantoliano",
+      "Michael Shannon",
+      "Jon Seda",
+      "Jason Manuel Olazabal"
+    ],
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 27m (147 min)",
+    "ageRating": "R",
+    "trailer": "h",
+    "embed": "https://waaw.ac/f/wD96JFMn0lhG",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/wD96JFMn0lhG"
+      },
+      {
+        "name": "Opción 2 - Inglés sub",
+        "url": "https://waaw.ac/f/aUAAIGqJvzDY"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.to/f/JarD5pwx6I92"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": "https://tpi.li/badboys2"
+      }
+    ]
+  },
+  {
+    "id": "bad-boys-for-life-2020",
+    "title": "Bad Boys para Siempre",
+    "originalTitle": "Bad Boys for Life",
+    "year": 2020,
+    "cover": "assets/covers/bad-boys-for-life-2020.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/iUspPEAjhUUrLYKntTnKupt3eqV.jpg",
+    "description": "Los detectives Mike Lowrey y Marcus Burnett regresan para una última misión cuando un asesino a sueldo amenaza la vida de Mike. Mientras lidian con el paso del tiempo, ambos deberán enfrentarse a su pasado y aceptar que la vida ya no es como antes. La acción y el humor vuelven con más intensidad que nunca.",
+    "director": "Adil El Arbi, Bilall Fallah",
+    "cast": [
+      "Will Smith",
+      "Martin Lawrence",
+      "Paola Nuñez",
+      "Vanessa Hudgens",
+      "Alexander Ludwig",
+      "Charles Melton",
+      "Kate del Castillo",
+      "Jacob Scipio",
+      "Joe Pantoliano",
+      "Theresa Randle"
+    ],
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 4m (124 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/Pn7HnzK3Gs9E",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/Pn7HnzK3Gs9E"
+      },
+      {
+        "name": "Opción 2 - Inglés sub",
+        "url": "https://waaw.ac/f/wX2yunOA412N"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/vHuZystcCdtF"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "bad-boys-ride-or-die-2024",
+    "title": "Bad Boys: Hasta la Muerte",
+    "originalTitle": "Bad Boys: Ride or Die",
+    "year": 2024,
+    "cover": "assets/covers/bad-boys-ride-or-die-2024.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/3q01ACG0MWm0DekhvkPFCXyPZSu.jpg",
+    "description": "Los detectives Mike Lowrey y Marcus Burnett vuelven a la acción cuando su antiguo capitán es acusado injustamente de corrupción. Determinados a limpiar su nombre, los dos se convierten en fugitivos mientras enfrentan una conspiración dentro del propio departamento. La lealtad, la acción y el humor marcan el regreso de los Bad Boys.",
+    "director": "Adil El Arbi, Bilall Fallah",
+    "cast": [
+      "Will Smith",
+      "Martin Lawrence",
+      "Vanessa Hudgens",
+      "Alexander Ludwig",
+      "Paola Núñez",
+      "Eric Dane",
+      "Ioan Gruffudd",
+      "Rhea Seehorn",
+      "Tasha Smith",
+      "John Salley"
+    ],
+    "genre": ["Acción", "Comedia", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 55m (115 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://voe.sx/e/2ckohpknusdr",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://voe.sx/e/2ckohpknusdr"
+      },
+      {
+        "name": "Opción 2 - Latino",
+        "url": "https://waaw.ac/f/lUWilKnujqoE"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": ""
+      },
+      {
+        "name": "Opción 4 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "death-race-2008",
+    "title": "Carrera de la Muerte",
+    "originalTitle": "Death Race",
+    "year": 2008,
+    "cover": "assets/covers/death-race-2008.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/5mbFEJStH59cNFcF7VkRgsSxMqK.jpg",
+    "description": "En un futuro cercano, las cárceles privadas organizan un brutal deporte televisado donde los prisioneros compiten en carreras mortales con autos armados hasta los dientes. Jensen Ames, un ex piloto condenado injustamente, debe sobrevivir para ganar su libertad en la despiadada 'Carrera de la Muerte'.",
+    "director": "Paul W.S. Anderson",
+    "cast": [
+      "Jason Statham",
+      "Tyrese Gibson",
+      "Joan Allen",
+      "Ian McShane",
+      "Natalie Martinez",
+      "Jason Clarke",
+      "Frederick Koehler",
+      "Jacob Vargas",
+      "Justin Mader",
+      "Robert LaSardo"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 45m (105 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/tkzzWZmI8TnI",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/tkzzWZmI8TnI"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/IoOrxo5U6WY5"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/j8xnj1dedj3D"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "death-race-2-2010",
+    "title": "Carrera de la Muerte 2",
+    "originalTitle": "Death Race 2",
+    "year": 2010,
+    "cover": "assets/covers/death-race-2-2010.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/1VRTZSm7Sg0d62wDymSJCS2Eo2e.jpg",
+    "description": "En esta precuela del éxito 'Carrera de la Muerte', seguimos a Carl Lucas, un ladrón de bancos condenado que es enviado a la prisión de máxima seguridad Terminal Island. Allí, una productora televisiva crea un espectáculo de gladiadores motorizados que se convertirá en el brutal deporte conocido como 'Death Race'.",
+    "director": "Roel Reiné",
+    "cast": [
+      "Luke Goss",
+      "Lauren Cohan",
+      "Sean Bean",
+      "Ving Rhames",
+      "Danny Trejo",
+      "Robin Shou",
+      "Tanit Phoenix",
+      "Deobia Oparei"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 36m (96 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/tkzzWZmI8TnI",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/tkzzWZmI8TnI"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/IoOrxo5U6WY5"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/j8xnj1dedj3D"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "death-race-inferno-2013",
+    "title": "Carrera de la Muerte 3: Infierno",
+    "originalTitle": "Death Race: Inferno",
+    "year": 2013,
+    "cover": "assets/covers/death-race-inferno-2013.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/3J1FwvI0JiploGrwsIQ4MTKaW1s.jpg",
+    "description": "Carl Lucas, conocido como Frankenstein, sigue participando en las sangrientas carreras, pero esta vez es enviado al desierto africano, donde los competidores deberán luchar no solo contra sus rivales, sino también contra las condiciones extremas del terreno. La libertad está a una carrera de distancia… o a una muerte segura.",
+    "director": "Roel Reiné",
+    "cast": [
+      "Luke Goss",
+      "Tanit Phoenix",
+      "Danny Trejo",
+      "Ving Rhames",
+      "Dougray Scott",
+      "Fred Koehler",
+      "Robin Shou"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 45m (105 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/MLO0ChZlThEU",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/MLO0ChZlThEU"
+      },
+      {
+        "name": "Opción 2 - Subtitulada",
+        "url": "https://waaw.ac/f/kvA8eXvWx7a6"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/SO4BlFb9Hq5D"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "death-race-beyond-anarchy-2018",
+    "title": "Carrera de la Muerte 4: Más Allá de la Anarquía",
+    "originalTitle": "Death Race: Beyond Anarchy",
+    "year": 2018,
+    "cover": "assets/covers/death-race-beyond-anarchy-2018.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/fS7da7VlfUcXQsZIB0KL9P5gWmh.jpg",
+    "description": "En una prisión fuera de control dominada por criminales y sin presencia policial, Frankenstein reina supremo en las carreras. Un nuevo piloto encubierto entra a la competencia con una sola misión: eliminarlo desde adentro, aunque para lograrlo deberá sobrevivir al infierno de metal y fuego conocido como la Carrera de la Muerte.",
+    "director": "Don Michael Paul",
+    "cast": [
+      "Zach McGowan",
+      "Danny Glover",
+      "Danny Trejo",
+      "Christine Marzano",
+      "Fred Koehler",
+      "Velislav Pavlov",
+      "Terence Maynard"
+    ],
+    "genre": ["Acción", "Ciencia Ficción", "Crimen"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 51m (111 min)",
+    "ageRating": "R",
+    "trailer": "https://www.youtube.com/watch?v=7ajN6qgPz9I",
+    "embed": "https://waaw.ac/f/50TOKc3CtCkO",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/50TOKc3CtCkO"
+      },
+      {
+        "name": "Opción 2 - castellano",
+        "url": "https://waaw.ac/f/gnUOUtR2KA2g"
+      },
+      {
+        "name": "Opción 3 - Inglés",
+        "url": "https://waaw.ac/f/62bUkK4sycNK"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "hollow-man-2000",
+    "title": "El hombre sin sombra",
+    "originalTitle": "Hollow Man",
+    "year": 2000,
+    "cover": "assets/covers/hollow-man-2000.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/g6UIASElC5M6jwtV4TZlz1sok3h.jpg",
+    "description": "Sebastian Caine, un brillante pero arrogante científico, desarrolla un suero capaz de volver invisible a cualquier ser vivo. Al probarlo en sí mismo, logra volverse invisible… pero también pierde su humanidad. Mientras su mente se descompone, sus colegas deberán detenerlo antes de que su locura se vuelva irreversible.",
+    "director": "Paul Verhoeven",
+    "cast": [
+      "Kevin Bacon",
+      "Elisabeth Shue",
+      "Josh Brolin",
+      "Kim Dickens",
+      "Greg Grunberg",
+      "Joey Slotnick",
+      "William Devane",
+      "Mary Randle"
+    ],
+    "genre": ["Ciencia Ficción", "Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 52m (112 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://streamtape.com/e/3qJ6XvAwQgh6lr/El.Hombre.Sin.Sombra.2020.1080P-Dual-Lat.mp4",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://streamtape.com/e/3qJ6XvAwQgh6lr/El.Hombre.Sin.Sombra.2020.1080P-Dual-Lat.mp4"
+      },
+      {
+        "name": "Opción 2 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
         "url": ""
       }
     ]
