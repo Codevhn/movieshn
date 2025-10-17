@@ -1,11 +1,13 @@
 /**
- * --------------------------------------------
- * Image Optimization Script using Sharp
- * --------------------------------------------
- * Converts JPG, JPEG, PNG → WebP
- * Recursively scans folders inside ./assets/
- * Skips already optimized files
- * --------------------------------------------
+ * --------------------------------------------------------
+ * Image Optimization Script using Sharp (Enhanced Version)
+ * --------------------------------------------------------
+ * ✅ Convierte JPG, JPEG, PNG → WebP
+ * ✅ Reoptimiza archivos .webp existentes
+ * ✅ Limita el ancho máximo (sin agrandar imágenes pequeñas)
+ * ✅ Ajusta calidad WebP (por defecto 75)
+ * ✅ Muestra advertencia si una imagen > 500 KB
+ * --------------------------------------------------------
  */
 
 import fs from "fs";
@@ -13,8 +15,9 @@ import path from "path";
 import sharp from "sharp";
 
 const rootDir = "./assets";
-const quality = 75; //se puede ajustar hasta 100
-const widthLimit = 1200; //ancho maximo en px
+const quality = 75; // Ajuste de calidad (0–100)
+const widthLimit = 1200; // Máximo ancho permitido
+const sizeWarning = 500 * 1024; // 500 KB
 
 function getAllImages(dir) {
   let resultado = [];
@@ -25,7 +28,7 @@ function getAllImages(dir) {
 
     if (stat && stat.isDirectory()) {
       resultado = resultado.concat(getAllImages(filePath));
-    } else if (/\.(jpg|jpeg|png)$/i.test(file)) {
+    } else if (/\.(jpg|jpeg|png|webp)$/i.test(file)) {
       resultado.push(filePath);
     }
   });
@@ -33,11 +36,12 @@ function getAllImages(dir) {
 }
 
 async function optimizeImage(filePath) {
-  const outputFile = filePath.replace(/\.(jpg|jpeg|png)$/i, ".webp");
+  const ext = path.extname(filePath).toLowerCase();
+  let outputFile = filePath;
 
-  if (fs.existsSync(outputFile)) {
-    console.log(`⚪ Skip: ${outputFile} ya existe`);
-    return;
+  // Si no es WebP, crear un nuevo archivo convertido
+  if (ext !== ".webp") {
+    outputFile = filePath.replace(/\.(jpg|jpeg|png)$/i, ".webp");
   }
 
   try {
@@ -46,21 +50,37 @@ async function optimizeImage(filePath) {
       .webp({ quality })
       .toFile(outputFile);
 
-    console.log(`✅ Optimizado: ${path.relative(".", outputFile)}`);
+    const newSize = fs.statSync(outputFile).size;
+
+    if (newSize > sizeWarning) {
+      console.warn(
+        `⚠️  ${path.relative(".", outputFile)} — ${(newSize / 1024).toFixed(
+          1
+        )} KB (supera 500 KB)`
+      );
+    } else {
+      console.log(`✅ Optimizado: ${path.relative(".", outputFile)}`);
+    }
+
+    // Si era JPG/PNG, elimina el original
+    if (ext !== ".webp") {
+      fs.unlinkSync(filePath);
+    }
   } catch (err) {
-    console.error(`❌  Error al procesar ${filePath}:`, err.message);
+    console.error(`❌ Error al procesar ${filePath}:`, err.message);
   }
 }
 
 async function main() {
-  console.log("Iniciando optimizacion de imagenes...");
+  console.log("🚀 Iniciando optimización de imágenes...");
   const images = getAllImages(rootDir);
-  console.log(`${images.length} imagenes encontradas\n`);
+  console.log(`${images.length} archivos detectados.\n`);
 
   for (const file of images) {
     await optimizeImage(file);
   }
 
-  console.log("✨\nProceso completado.");
+  console.log("\n✨ Proceso completado.");
 }
+
 main();
