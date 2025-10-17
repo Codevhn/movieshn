@@ -34,7 +34,7 @@ const createCard = (item, type = 'movie') => {
 
   card.innerHTML = `
       <a ${linkHref ? `href="${linkHref}"` : ""} class="movie ${!linkHref ? "unavailable" : ""}">
-        <img src="${item.cover}" alt="${item.title}">
+        <img src="${item.cover}" alt="${item.title}" loading="lazy">
         <div class="movie-info">
           <h3>${item.title}</h3>
           <p>${item.year}</p>
@@ -67,6 +67,7 @@ function renderHero(movie) {
 
     setTimeout(() => {
         heroBg.src = movie.backdrop || movie.cover;
+        heroBg.loading = 'lazy'; // Lazy loading for hero image
         heroTitle.textContent = movie.title;
         heroDescription.textContent = movie.description.substring(0, 120) + '...';
 
@@ -414,7 +415,7 @@ function renderSidebarSeries(seriesList) {
       const item = document.createElement('div');
       item.className = 'featured-item';
       item.innerHTML = `
-        <img src="${series.cover}" alt="${series.title}">
+        <img src="${series.cover}" alt="${series.title}" loading="lazy">
         <p>${series.title}</p>
       `;
       item.addEventListener('click', () => {
@@ -433,7 +434,7 @@ function renderSidebarSeries(seriesList) {
     const item = document.createElement('div');
     item.className = 'featured-item';
     item.innerHTML = `
-        <img src="${randomSeries.cover}" alt="${randomSeries.title}">
+        <img src="${randomSeries.cover}" alt="${randomSeries.title}" loading="lazy">
         <p>${randomSeries.title}</p>
     `;
     item.addEventListener('click', () => {

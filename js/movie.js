@@ -122,15 +122,41 @@ document.addEventListener("DOMContentLoaded", () => {
         ? movie.premiumDownloadLinks.filter((link) => link && link.url && link.url.trim())
         : [];
 
+      // Mejorar lógica de recomendaciones
       const recommendations = genres.length
         ? data
-            .filter(
-              (item) =>
-                item.id !== movie.id &&
-                Array.isArray(item.genre) &&
-                item.genre.some((g) => genres.includes(g))
-            )
-            .slice(0, 6)
+            .filter((item) => item.id !== movie.id && Array.isArray(item.genre))
+            .map((item) => {
+              // Calcular score de similitud
+              let score = 0;
+              
+              // 1. Películas de la misma saga/franquicia (máxima prioridad)
+              const currentTitle = movie.title.toLowerCase().replace(/\d+/g, '').trim();
+              const itemTitle = item.title.toLowerCase().replace(/\d+/g, '').trim();
+              if (currentTitle === itemTitle || 
+                  currentTitle.includes(itemTitle) || 
+                  itemTitle.includes(currentTitle)) {
+                score += 100; // Muy alta prioridad para secuelas/precuelas
+              }
+              
+              // 2. Géneros compartidos
+              const sharedGenres = item.genre.filter((g) => genres.includes(g)).length;
+              score += sharedGenres * 10;
+              
+              // 3. Mismo año o años cercanos
+              const yearDiff = Math.abs((parseInt(item.year) || 0) - (parseInt(movie.year) || 0));
+              if (yearDiff <= 3) score += 5 - yearDiff;
+              
+              // 4. Mismo director
+              if (item.director && movie.director && item.director === movie.director) {
+                score += 8;
+              }
+              
+              return { ...item, score };
+            })
+            .filter((item) => item.score > 0) // Solo películas con algo en común
+            .sort((a, b) => b.score - a.score) // Ordenar por relevancia
+            .slice(0, 6) // Tomar las 6 más relevantes
         : [];
 
       const recommendationsMarkup = recommendations.length
@@ -261,53 +287,23 @@ document.addEventListener("DOMContentLoaded", () => {
           <section class="movie-experience section-shell">
             <div class="experience-grid">
               <div class="experience-main">
-                <article class="experience-card experience-card--downloads animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.12s;">
-                  <header>
-                    <h2><i class="fas fa-download"></i> Centro de descargas</h2>
-                    <span class="panel-subtitle">A tu ritmo o sin publicidad</span>
-                  </header>
-                  <div class="download-tier-grid">
-                    <div class="download-tier download-tier--free">
-                      <div class="download-tier__badge">
-                        <span>Gratis</span>
-                        <i class="fas fa-link"></i>
-                      </div>
-                      <p class="download-tier__note">Enlaces con acortadores o publicidad ligera. Perfecto si no te importa esperar unos segundos.</p>
-                      <div id="download-free-links" class="download-tier__links download-links-grid"></div>
-                    </div>
-
-                    <div class="${vipTierClass}" id="vip-download-tier">
-                      <div class="download-tier__badge">
-                        <span>VIP</span>
-                        <i class="fas fa-crown"></i>
-                      </div>
-                      <p class="download-tier__note">Descargas directas sin anuncios para quienes prefieren pagar por velocidad y comodidad.</p>
-                      <div class="download-tier__action">
-                        <button id="get-vip-access-btn" class="btn btn-primary btn-vip"><i class="fas fa-unlock"></i> Obtener acceso VIP</button>
-                        <span class="vip-info-text">Acceso ilimitado para miembros.</span>
-                      </div>
-                      <div id="download-vip-links" class="download-tier__links download-links-grid"></div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-
-              <aside class="experience-aside">
-                <article class="experience-card experience-card--synopsis animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.16s;">
+                <article class="experience-card experience-card--synopsis animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.12s;">
                   <header>
                     <h2><i class="fas fa-align-left"></i> Sinopsis</h2>
                   </header>
                   <p class="movie-storyline">${synopsis}</p>
                 </article>
 
-                <article class="experience-card experience-card--cast animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.2s;">
+                <article class="experience-card experience-card--cast animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.16s;">
                   <header>
                     <h2><i class="fas fa-users"></i> Reparto</h2>
                   </header>
                   <ul class="cast-list">${castMarkup}</ul>
                 </article>
+              </div>
 
-                <article class="experience-card experience-card--facts animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.24s;">
+              <aside class="experience-aside">
+                <article class="experience-card experience-card--facts animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.2s;">
                   <header>
                     <h2><i class="fas fa-info-circle"></i> Ficha técnica</h2>
                   </header>
@@ -322,7 +318,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </section>
 
-          <section class="movie-recommendations section-shell animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.28s;">
+          <section class="movie-recommendations section-shell animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.24s;">
             <div class="experience-card">
               <div class="card-header">
                 <h2><i class="fas fa-th-large"></i> Más como esta</h2>
@@ -330,6 +326,38 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
               <div class="recommend-grid">
                 ${recommendationsMarkup}
+              </div>
+            </div>
+          </section>
+
+          <section class="movie-downloads section-shell animate-on-load" data-animation="fade-in-up" style="transition-delay: 0.28s;">
+            <div class="experience-card experience-card--downloads">
+              <header>
+                <h2><i class="fas fa-download"></i> Centro de descargas</h2>
+                <span class="panel-subtitle">A tu ritmo o sin publicidad</span>
+              </header>
+              <div class="download-tier-grid">
+                <div class="download-tier download-tier--free">
+                  <div class="download-tier__badge">
+                    <span>Gratis</span>
+                    <i class="fas fa-link"></i>
+                  </div>
+                  <p class="download-tier__note">Enlaces con acortadores o publicidad ligera. Perfecto si no te importa esperar unos segundos.</p>
+                  <div id="download-free-links" class="download-tier__links download-links-grid"></div>
+                </div>
+
+                <div class="${vipTierClass}" id="vip-download-tier">
+                  <div class="download-tier__badge">
+                    <span>VIP</span>
+                    <i class="fas fa-crown"></i>
+                  </div>
+                  <p class="download-tier__note">Descargas directas sin anuncios para quienes prefieren pagar por velocidad y comodidad.</p>
+                  <div class="download-tier__action">
+                    <button id="get-vip-access-btn" class="btn btn-primary btn-vip"><i class="fas fa-unlock"></i> Obtener acceso VIP</button>
+                    <span class="vip-info-text">Acceso ilimitado para miembros.</span>
+                  </div>
+                  <div id="download-vip-links" class="download-tier__links download-links-grid"></div>
+                </div>
               </div>
             </div>
           </section>

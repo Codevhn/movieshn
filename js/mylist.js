@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
             <a ${hasEmbed ? `href="movie.html?id=${movie.id}"` : ''} class="movie ${!hasEmbed ? 'unavailable' : ''}">
-                <img src="${movie.cover}" alt="${movie.title}">
+                <img src="${movie.cover}" alt="${movie.title}" loading="lazy">
                 <div class="movie-info">
                     <h3>${movie.title}</h3>
                     <p>${movie.year}</p>
