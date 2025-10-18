@@ -13,7 +13,7 @@ El proyecto se encuentra en fase de desarrollo continuo con actualizaciones sema
 ## 📊 Estadísticas del Contenido
 
 ### Películas
-- **Total de películas**: 93
+- **Total de películas**: 89
 - **Portadas disponibles**: 97 imágenes en formato WebP
 - **Géneros cubiertos**: Acción, Terror, Suspenso, Comedia, Ciencia Ficción, Drama, Fantasía, Aventura, Animación, Documentales, y más
 
