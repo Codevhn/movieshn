@@ -5047,5 +5047,47 @@
         "url": ""
       }
     ]
+  },
+  {
+    "id": "the-loch-ness-horror-2023",
+    "title": "Horror en el Lago Ness",
+    "originalTitle": "The Loch Ness Horror",
+    "year": 2023,
+    "cover": "assets/covers/the-loch-ness-horror-2023.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/en2fIrlDM27xqMrbEJ7mzin0Zso.jpg",
+    "description": "Un grupo de científicos y documentalistas viaja a Escocia para filmar una investigación sobre los extraños sucesos ocurridos en el Lago Ness. Sin embargo, pronto descubren que la legendaria criatura no es un mito. Algo enorme y letal emerge de las profundidades, convirtiendo su expedición en una pesadilla de supervivencia.",
+    "director": "Tyler-James",
+    "cast": [
+      "Becca Hirani",
+      "Tara MacGowran",
+      "May Kelly",
+      "Howard J. Davey",
+      "Beatrice Fletcher",
+      "Giedre Jackyte",
+      "Matthew Baunsgard",
+      "Mike Kelson",
+      "Rob Kirtley",
+      "Lila Lasso",
+      "Dan Gittens"
+    ],
+    "genre": ["Terror", "Ciencia Ficción", "Aventura"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 23m (83 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/tfEfE4ZFLEGC",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/tfEfE4ZFLEGC"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Descargar 1080p (Latino)",
+        "url": ""
+      }
+    ]
   }
 ]
