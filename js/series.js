@@ -192,17 +192,26 @@ function renderSeasonTabs(series) {
 
     if (!series.seasons || series.seasons.length <= 1) { // No mostrar si hay 0 o 1 temporada
         seasonSelectorContainer.style.display = 'none';
+        seasonSelectElement = null;
         return;
     }
     seasonSelectorContainer.style.display = 'flex';
+    seasonDropdownState.wrapper = null;
+    seasonDropdownState.trigger = null;
+    seasonDropdownState.items = [];
 
     const label = document.createElement('label');
     label.setAttribute('for', 'season-select');
-    label.textContent = 'Temporada:';
+    label.textContent = 'Temporada';
+
+    const selectorWrapper = document.createElement('div');
+    selectorWrapper.classList.add('season-select-wrapper');
 
     const select = document.createElement('select');
     select.id = 'season-select';
-    select.classList.add('season-select');
+    select.classList.add('season-select', 'season-select-native');
+    select.setAttribute('aria-hidden', 'true');
+    select.tabIndex = -1;
 
     series.seasons.forEach(season => {
         const option = document.createElement('option');
@@ -212,20 +221,83 @@ function renderSeasonTabs(series) {
     });
 
     select.addEventListener('change', () => {
-        const selectedSeasonNumber = parseInt(select.value);
-        const selectedSeason = series.seasons.find(s => s.seasonNumber === selectedSeasonNumber);
-        if (selectedSeason) {
-            renderEpisodes(selectedSeason);
-            // Opcional: cargar el primer episodio de la temporada seleccionada si no se está reproduciendo nada
-            if (selectedSeason.episodes && selectedSeason.episodes.length > 0) {
-                const firstEpisode = selectedSeason.episodes[0];
-                loadEpisode(firstEpisode.embed, selectedSeason.seasonNumber, firstEpisode.episodeNumber, firstEpisode.title, firstEpisode);
-            }
-        }
+        const selectedSeasonNumber = parseInt(select.value, 10);
+        handleSeasonSelection(selectedSeasonNumber);
     });
 
     seasonSelectorContainer.appendChild(label);
-    seasonSelectorContainer.appendChild(select);
+    seasonSelectorContainer.appendChild(selectorWrapper);
+    selectorWrapper.appendChild(select);
+
+    const dropdown = document.createElement('div');
+    dropdown.classList.add('season-dropdown');
+
+    const trigger = document.createElement('button');
+    trigger.type = 'button';
+    trigger.classList.add('season-dropdown__trigger');
+    trigger.setAttribute('aria-haspopup', 'listbox');
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.innerHTML = `
+        <span class="season-dropdown__label">Temporada</span>
+        <span class="season-dropdown__value">Selecciona</span>
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+    `;
+    trigger.addEventListener('click', (event) => {
+        event.stopPropagation();
+        toggleSeasonDropdown();
+    });
+    trigger.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            toggleSeasonDropdown();
+        }
+    });
+
+    const list = document.createElement('ul');
+    list.classList.add('season-dropdown__list');
+    list.setAttribute('role', 'listbox');
+
+    const dropdownItems = [];
+
+    series.seasons.forEach(season => {
+        const listItem = document.createElement('li');
+        listItem.classList.add('season-dropdown__option');
+
+        const optionButton = document.createElement('button');
+        optionButton.type = 'button';
+        optionButton.classList.add('season-dropdown__item');
+        optionButton.dataset.seasonNumber = String(season.seasonNumber);
+        const labelText = `Temporada ${season.seasonNumber}`;
+        optionButton.textContent = labelText;
+        optionButton.addEventListener('click', (event) => {
+            event.stopPropagation();
+            handleSeasonSelection(season.seasonNumber);
+            closeSeasonDropdown();
+        });
+
+        listItem.appendChild(optionButton);
+        list.appendChild(listItem);
+
+        dropdownItems.push({
+            seasonNumber: season.seasonNumber,
+            label: labelText,
+            button: optionButton
+        });
+    });
+
+    dropdown.appendChild(trigger);
+    dropdown.appendChild(list);
+    selectorWrapper.appendChild(dropdown);
+
+    seasonSelectElement = select;
+    seasonDropdownState.wrapper = dropdown;
+    seasonDropdownState.trigger = trigger;
+    seasonDropdownState.items = dropdownItems;
+
+    const initialSeasonNumber = series.seasons[0]?.seasonNumber;
+    if (typeof initialSeasonNumber !== 'undefined') {
+        updateSeasonUI(initialSeasonNumber);
+    }
 }
 
 function renderEpisodes(season) {
@@ -292,6 +364,82 @@ let currentSeries = null;
 let currentSeasonIndex = 0;
 let currentEpisodeIndex = 0;
 let currentEpisode = null; // Guardar el episodio actual para acceder a sus watchLinks
+let seasonSelectElement = null;
+const seasonDropdownState = {
+    wrapper: null,
+    trigger: null,
+    items: []
+};
+
+function closeSeasonDropdown() {
+    if (seasonDropdownState.wrapper) {
+        seasonDropdownState.wrapper.classList.remove('open');
+    }
+    if (seasonDropdownState.trigger) {
+        seasonDropdownState.trigger.setAttribute('aria-expanded', 'false');
+    }
+}
+
+function toggleSeasonDropdown() {
+    if (!seasonDropdownState.wrapper) return;
+    const willOpen = !seasonDropdownState.wrapper.classList.contains('open');
+    seasonDropdownState.wrapper.classList.toggle('open', willOpen);
+    if (seasonDropdownState.trigger) {
+        seasonDropdownState.trigger.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+    }
+}
+
+function updateSeasonUI(seasonNumber) {
+    const seasonValue = String(seasonNumber);
+
+    if (seasonSelectElement) {
+        seasonSelectElement.value = seasonValue;
+    }
+
+    if (seasonDropdownState.trigger) {
+        const valueSpan = seasonDropdownState.trigger.querySelector('.season-dropdown__value');
+        const selectedItem = seasonDropdownState.items.find(item => String(item.seasonNumber) === seasonValue);
+
+        if (selectedItem && valueSpan) {
+            valueSpan.textContent = selectedItem.label;
+        }
+
+        seasonDropdownState.items.forEach(item => {
+            const isActive = String(item.seasonNumber) === seasonValue;
+            item.button.classList.toggle('active', isActive);
+            item.button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+    }
+}
+
+function handleSeasonSelection(seasonNumber) {
+    if (!currentSeries || !Array.isArray(currentSeries.seasons)) return;
+
+    updateSeasonUI(seasonNumber);
+
+    const selectedSeason = currentSeries.seasons.find(season => season.seasonNumber === seasonNumber);
+    if (!selectedSeason) return;
+
+    renderEpisodes(selectedSeason);
+
+    if (selectedSeason.episodes && selectedSeason.episodes.length > 0) {
+        const firstEpisode = selectedSeason.episodes[0];
+        loadEpisode(
+            firstEpisode.embed,
+            selectedSeason.seasonNumber,
+            firstEpisode.episodeNumber,
+            firstEpisode.title,
+            firstEpisode
+        );
+    } else {
+        const playerFrame = document.getElementById('main-episode-player');
+        if (playerFrame) {
+            playerFrame.src = '';
+        }
+    }
+
+    closeSeasonDropdown();
+}
 
 function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle, episodeData) {
     const playerFrame = document.getElementById('main-episode-player');
@@ -318,6 +466,8 @@ function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle, episod
     // Actualizar índices globales
     currentSeasonIndex = currentSeries.seasons.findIndex(s => s.seasonNumber === seasonNumber);
     currentEpisodeIndex = currentSeries.seasons[currentSeasonIndex].episodes.findIndex(e => e.episodeNumber === episodeNumber);
+
+    updateSeasonUI(seasonNumber);
 
     // Renderizar los servidores disponibles para este episodio
     renderServerTabs(episodeData);
@@ -422,12 +572,6 @@ function navigateEpisodes(direction) {
 
         loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title, episode);
         
-        // Actualizar la pestaña de temporada activa
-        document.querySelectorAll('.season-tab').forEach(btn => btn.classList.remove('active'));
-        const activeSeasonTab = document.querySelector(`.season-tab[data-season-number="${season.seasonNumber}"]`);
-        if (activeSeasonTab) {
-            activeSeasonTab.classList.add('active');
-        }
     }
 }
 
@@ -459,3 +603,19 @@ function updateNavigationButtons() {
         nextBtn.disabled = false;
     }
 }
+
+document.addEventListener('click', (event) => {
+    if (!seasonDropdownState.wrapper || !seasonDropdownState.wrapper.classList.contains('open')) {
+        return;
+    }
+
+    if (!seasonDropdownState.wrapper.contains(event.target)) {
+        closeSeasonDropdown();
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        closeSeasonDropdown();
+    }
+});

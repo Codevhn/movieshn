@@ -34,6 +34,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
 </head>
 
 <body>
@@ -145,16 +146,24 @@
           <iframe id="main-episode-player" src="" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="episode-navigation">
-          <button id="prev-episode-btn" class="btn btn-secondary">Capítulo Anterior</button>
+          <button id="prev-episode-btn" class="btn player-nav-btn prev" type="button">
+            <i class="fas fa-angle-left" aria-hidden="true"></i>
+            <span>Capítulo anterior</span>
+          </button>
           <div class="current-episode-info">
-            <span id="current-season-episode">T1 E1</span> - <span id="current-episode-title">Título del Episodio</span>
+            <span id="current-season-episode" class="episode-code">T1 E1</span>
+            <span class="episode-divider" aria-hidden="true"></span>
+            <span id="current-episode-title" class="episode-title">Título del Episodio</span>
           </div>
-          <button id="next-episode-btn" class="btn btn-primary">Siguiente Capítulo</button>
+          <button id="next-episode-btn" class="btn player-nav-btn next" type="button">
+            <span>Siguiente capítulo</span>
+            <i class="fas fa-angle-right" aria-hidden="true"></i>
+          </button>
         </div>
       </section>
 
       <section class="series-seasons-section movie-section">
-        <h2>Temporadas</h2>
+        <h2><i class="section-icon fas fa-layer-group" aria-hidden="true"></i><span>Temporadas</span></h2>
         <div class="season-selector-container">
           <!-- Season dropdown will be loaded here by JavaScript -->
         </div>
