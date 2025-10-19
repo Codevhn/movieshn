@@ -5089,5 +5089,103 @@
         "url": ""
       }
     ]
+  },
+  {
+    "id": "vicious-2025",
+    "title": "Regalo Maldito",
+    "originalTitle": "Vicious",
+    "year": 2025,
+    "cover": "assets/covers/regalo-maldito-2025.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/da1mXvCrQrFcw6BxovCavBFbIvz.jpg",
+    "description": "Polly, una joven solitaria, recibe en su casa una misteriosa caja acompañada de una nota con tres reglas: debe introducir en ella algo que odia, algo que necesita y algo que ama. Si no lo hace, la caja se llevará todo lo que conoce. Al intentar desentrañar su origen, desata una serie de sucesos sobrenaturales que pondrán a prueba su mente y su vida.",
+    "director": "Bryan Bertino",
+    "cast": [
+      "Dakota Fanning",
+      "Olwen Fouéré",
+      "Ruth Bradley",
+      "David Wilmot",
+      "Paul Ready"
+    ],
+    "genre": ["Terror", "Suspenso", "Psicológico"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 38m (98 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/Q0qWeVwEyvM4",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/Q0qWeVwEyvM4"
+      },
+      {
+        "name": "Opción 2 - Subtitulada",
+        "url": "https://waaw.ac/f/6mbx6kcAfrP8"
+      },
+      {
+        "name": "Opción 3 - latino",
+        "url": "https://streamtape.com/e/PWxlZ96mzbs01AP/Regalo.Maldito.2025.1080P-Dual-Lat.mkv"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      },
+      {
+        "name": "Descarga directa (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "the-amazing-spider-man-2-2014",
+    "title": "El Sorprendente Hombre Araña 2",
+    "originalTitle": "The Amazing Spider-Man 2",
+    "year": 2014,
+    "cover": "assets/covers/the-amazing-spider-man-2014.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
+    "description": "Peter Parker lleva una doble vida como el Hombre Araña, protegiendo la ciudad mientras intenta mantener su relación con Gwen Stacy. Pero cuando aparece un nuevo enemigo, Electro, y su viejo amigo Harry Osborn regresa con oscuros secretos de Oscorp, Peter descubrirá que su mayor batalla está por comenzar.",
+    "director": "Marc Webb",
+    "cast": [
+      "Andrew Garfield",
+      "Emma Stone",
+      "Jamie Foxx",
+      "Dane DeHaan",
+      "Sally Field",
+      "Paul Giamatti",
+      "Chris Cooper"
+    ],
+    "genre": ["Acción", "Aventura", "Superhéroes"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 22m (142 min)",
+    "ageRating": "PG-13",
+    "trailer": "",
+    "embed": "https://streamtape.com/e/ZaogQ2e2MQiROz/The.amazing.spider-man.2012.1080P-Dual-Lat.mp4",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://streamtape.com/e/ZaogQ2e2MQiROz/The.amazing.spider-man.2012.1080P-Dual-Lat.mp4"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      },
+      {
+        "name": "Opción 3 - Subtitulada",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      },
+      {
+        "name": "Descarga directa (Latino)",
+        "url": ""
+      }
+    ]
   }
 ]
