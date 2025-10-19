@@ -1,115 +1,123 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const grid = document.getElementById('my-list-grid');
+    const movieGrid = document.getElementById('my-list-grid');
+    const seriesGrid = document.getElementById('my-series-grid');
     const emptyMessageContainer = document.getElementById('empty-list-message');
-    const myListSection = document.getElementById('my-list-section');
+    const moviesSection = document.getElementById('my-list-section');
+    const seriesSection = document.getElementById('my-series-section');
 
-    if (!grid || !emptyMessageContainer || !myListSection) return;
+    if (!movieGrid || !seriesGrid || !emptyMessageContainer || !moviesSection || !seriesSection) {
+        console.error('Error: No se encontraron todos los elementos necesarios en el DOM.');
+        return;
+    }
 
-    const showEmptyMessage = () => {
-        myListSection.style.display = 'none';
-        emptyMessageContainer.style.display = 'flex';
+    const fetchData = async () => {
+        try {
+            const [moviesRes, seriesRes] = await Promise.all([
+                fetch('./data/movies.json'),
+                fetch('./data/series.json')
+            ]);
+            const movies = await moviesRes.json();
+            const series = await seriesRes.json();
+            return { movies, series };
+        } catch (error) {
+            console.error("Error cargando datos:", error);
+            emptyMessageContainer.innerHTML = '<p class="empty-list-text">Error al cargar los datos. Inténtalo de nuevo más tarde.</p>';
+            emptyMessageContainer.style.display = 'flex';
+            return null;
+        }
     };
 
-    const showMyList = () => {
-        myListSection.style.display = 'block';
-        emptyMessageContainer.style.display = 'none';
-    };
-
-    const createCard = (movie) => {
+    const createCard = (item, type) => {
         const card = document.createElement('div');
         card.className = 'movie-card';
-        const hasEmbed = movie.embed && movie.embed.trim() !== '';
-        const stored = JSON.parse(localStorage.getItem('myList')) || [];
-        const alreadyInList = stored.includes(movie.id);
+        const link = type === 'movie' ? `movie.html?id=${item.id}` : `series.html?id=${item.id}`;
+        const storageKey = type === 'movie' ? 'myList' : 'mySeriesList';
 
         card.innerHTML = `
-            <a ${hasEmbed ? `href="movie.html?id=${movie.id}"` : ''} class="movie ${!hasEmbed ? 'unavailable' : ''}">
-                <img src="${movie.cover}" alt="${movie.title}" loading="lazy">
+            <a href="${link}" class="movie">
+                <img src="${item.cover}" alt="${item.title}" loading="lazy">
                 <div class="movie-info">
-                    <h3>${movie.title}</h3>
-                    <p>${movie.year}</p>
+                    <h3>${item.title}</h3>
+                    <p>${item.year}</p>
                 </div>      
             </a>
-            <button class="add-to-list" data-id="${movie.id}">
-                ${alreadyInList ? '✅ En mi lista' : '+ Mi lista'}
+            <button class="remove-from-list" data-id="${item.id}" data-type="${type}" aria-label="Quitar de mi lista">
+                <i class="fas fa-trash-alt"></i>
             </button>
         `;
         return card;
     };
 
-    const renderMyList = (allMovies) => {
-        const storedIds = JSON.parse(localStorage.getItem('myList')) || [];
-        
+    const renderList = (grid, section, allItems, storedIds, type) => {
         if (storedIds.length === 0) {
-            showEmptyMessage();
+            section.style.display = 'none';
             return;
         }
 
-        // Mantener el orden de storedIds (más recientes primero)
-        const myListMovies = storedIds
-            .map(id => allMovies.find(movie => movie.id === id))
-            .filter(movie => movie !== undefined);
+        const listItems = storedIds
+            .map(id => allItems.find(item => item.id === id))
+            .filter(item => item !== undefined);
 
-        if (myListMovies.length === 0) {
-            showEmptyMessage(); // No movies found from stored IDs
+        if (listItems.length === 0) {
+            section.style.display = 'none';
             return;
         }
 
-        grid.innerHTML = ''; // Limpiar antes de renderizar
-        myListMovies.forEach(movie => {
-            const card = createCard(movie);
+        grid.innerHTML = '';
+        listItems.forEach(item => {
+            const card = createCard(item, type);
             grid.appendChild(card);
         });
-        showMyList();
+        section.style.display = 'block';
     };
 
-    // Lógica para manejar los clics en "Mi lista" en esta página
-    let myListButtonsInitialized = false;
-    const initMyListButtons = () => {
-        if (myListButtonsInitialized) {
-            console.log('initMyListButtons ya inicializado, saltando...');
-            return;
+    const checkEmptyState = () => {
+        const movieIds = JSON.parse(localStorage.getItem('myList')) || [];
+        const seriesIds = JSON.parse(localStorage.getItem('mySeriesList')) || [];
+
+        if (movieIds.length === 0 && seriesIds.length === 0) {
+            moviesSection.style.display = 'none';
+            seriesSection.style.display = 'none';
+            emptyMessageContainer.style.display = 'flex';
+        } else {
+            emptyMessageContainer.style.display = 'none';
         }
-        myListButtonsInitialized = true;
-        
+    };
+
+    const initRemoveButtons = (allData) => {
         document.addEventListener('click', (e) => {
-            if (!e.target.matches('.add-to-list')) return;
+            const button = e.target.closest('.remove-from-list');
+            if (!button) return;
 
-            const btn = e.target;
-            const movieId = btn.dataset.id;
-            if (!movieId) return;
+            const id = button.dataset.id;
+            const type = button.dataset.type;
+            const storageKey = type === 'movie' ? 'myList' : 'mySeriesList';
 
-            let stored = JSON.parse(localStorage.getItem('myList')) || [];
-            const alreadyInList = stored.includes(movieId);
+            let storedIds = JSON.parse(localStorage.getItem(storageKey)) || [];
+            storedIds = storedIds.filter(storedId => storedId !== id);
+            localStorage.setItem(storageKey, JSON.stringify(storedIds));
 
-            if (alreadyInList) {
-                stored = stored.filter((m) => m !== movieId);
-                // Opcional: quitar la tarjeta de la vista inmediatamente
-                btn.closest('.movie-card').remove();
+            // Re-render the specific list that was changed
+            if (type === 'movie') {
+                renderList(movieGrid, moviesSection, allData.movies, storedIds, 'movie');
             } else {
-                // Agregar al principio de la lista
-                stored.unshift(movieId);
+                renderList(seriesGrid, seriesSection, allData.series, storedIds, 'series');
             }
-            localStorage.setItem('myList', JSON.stringify(stored));
-            
-            if (stored.length === 0) {
-                showEmptyMessage();
-            } else if (grid.children.length === 0) { // If all cards were removed from view
-                showEmptyMessage();
-            }
+
+            checkEmptyState();
         });
     };
 
-    // Cargar todas las películas y luego renderizar la lista
-    fetch('./data/movies.json')
-        .then(res => res.json())
-        .then(allMovies => {
-            renderMyList(allMovies);
-            initMyListButtons(); // Activar los botones de la lista
-        })
-        .catch(err => {
-            console.error("Error cargando películas:", err);
-            grid.innerHTML = '<p class="no-results">Error al cargar los datos de las películas.</p>';
-            showEmptyMessage(); // Show empty message on error too
-        });
+    fetchData().then(allData => {
+        if (!allData) return;
+
+        const movieIds = JSON.parse(localStorage.getItem('myList')) || [];
+        const seriesIds = JSON.parse(localStorage.getItem('mySeriesList')) || [];
+
+        renderList(movieGrid, moviesSection, allData.movies, movieIds, 'movie');
+        renderList(seriesGrid, seriesSection, allData.series, seriesIds, 'series');
+
+        checkEmptyState();
+        initRemoveButtons(allData);
+    });
 });

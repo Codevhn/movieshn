@@ -164,9 +164,28 @@ function renderSeriesDetails(series) {
 
     const addToListBtn = hero.querySelector('.add-to-mylist-btn');
     if (addToListBtn) {
+        const seriesId = addToListBtn.dataset.seriesId;
+
+        const updateMyListButton = () => {
+            const stored = JSON.parse(localStorage.getItem('mySeriesList')) || [];
+            const inList = stored.includes(seriesId);
+            addToListBtn.classList.toggle('btn-mylist--active', inList);
+            addToListBtn.innerHTML = `<i class="fas fa-bookmark"></i> ${inList ? 'En mi lista' : 'Añadir a Mi Lista'}`;
+        };
+
         addToListBtn.addEventListener('click', () => {
-            alert(`Funcionalidad "Añadir a Mi Lista" para ${series.title} aún no implementada.`);
+            const stored = JSON.parse(localStorage.getItem('mySeriesList')) || [];
+            const index = stored.indexOf(seriesId);
+            if (index > -1) {
+                stored.splice(index, 1); // Quitar de la lista
+            } else {
+                stored.unshift(seriesId); // Añadir al principio de la lista
+            }
+            localStorage.setItem('mySeriesList', JSON.stringify(stored));
+            updateMyListButton();
         });
+
+        updateMyListButton(); // Estado inicial del botón al cargar la página
     }
 
     const playerScrollTriggers = hero.querySelectorAll('[data-scroll-to-player]');
