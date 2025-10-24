@@ -4565,7 +4565,7 @@
     "originalTitle": "Death Race 2",
     "year": 2010,
     "cover": "assets/covers/death-race-2-2010.webp",
-    "backdrop": "https://image.tmdb.org/t/p/original/1VRTZSm7Sg0d62wDymSJCS2Eo2e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3hnTZNtn17IGQlgZSvOC8v0hW2b.jpg",
     "description": "En esta precuela del éxito 'Carrera de la Muerte', seguimos a Carl Lucas, un ladrón de bancos condenado que es enviado a la prisión de máxima seguridad Terminal Island. Allí, una productora televisiva crea un espectáculo de gladiadores motorizados que se convertirá en el brutal deporte conocido como 'Death Race'.",
     "director": "Roel Reiné",
     "cast": [
@@ -5184,6 +5184,355 @@
       },
       {
         "name": "Descarga directa (Latino)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "universal-soldier-1992",
+    "title": "Soldado Universal",
+    "originalTitle": "Universal Soldier",
+    "year": 1992,
+    "cover": "assets/covers/universal-soldier-1992.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/kWcEAE4sUDNVefYaBI1bzD9VDX0.jpg",
+    "description": "Durante la Guerra de Vietnam, dos soldados mueren en combate y son reanimados años después como parte de un proyecto secreto del gobierno llamado 'Soldado Universal'. Sin embargo, los recuerdos de su pasado regresan, desatando un conflicto entre ellos y contra el propio sistema que los controla.",
+    "director": "Roland Emmerich",
+    "cast": [
+      "Jean-Claude Van Damme",
+      "Dolph Lundgren",
+      "Ally Walker",
+      "Ed O'Ross",
+      "Jerry Orbach",
+      "Leon Rippy",
+      "Tico Wells"
+    ],
+    "genre": ["Acción", "Ciencia ficción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 42m (102 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "universal-soldier-the-return-1999",
+    "title": "Soldado Universal 2: El Regreso",
+    "originalTitle": "Universal Soldier: The Return",
+    "year": 1999,
+    "cover": "assets/covers/universal-soldier-the-return-1999.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/5qbratSc9h2UlTYFLEp8JH0s6F5.jpg",
+    "description": "Luc Deveraux, el antiguo soldado universal, trabaja ahora para el gobierno ayudando a crear una nueva generación de guerreros mejorados. Pero cuando la inteligencia artificial del programa se rebela, Luc debe enfrentarse de nuevo a su pasado para detener una amenaza letal.",
+    "director": "Mic Rodgers",
+    "cast": [
+      "Jean-Claude Van Damme",
+      "Michael Jai White",
+      "Heidi Schanz",
+      "Xander Berkeley",
+      "Kiana Tom",
+      "Bill Goldberg",
+      "Brent Anderson"
+    ],
+    "genre": ["Acción", "Ciencia ficción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 23m (83 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "universal-soldier-regeneration-2009",
+    "title": "Soldado Universal 3: Regeneración",
+    "originalTitle": "Universal Soldier: Regeneration",
+    "year": 2009,
+    "cover": "assets/covers/universal-soldier-regeneration-2009.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/ffRq48IlOKcAMeM7rGpJRPzRsSh.jpg",
+    "description": "Terroristas secuestran a los hijos del primer ministro ruso y los mantienen como rehenes en Chernóbil, amenazando con liberar un virus mortal. El gobierno activa nuevamente el programa de soldados universales y llama a Luc Deveraux para detener la amenaza, enfrentándolo con un nuevo modelo aún más letal.",
+    "director": "John Hyams",
+    "cast": [
+      "Jean-Claude Van Damme",
+      "Dolph Lundgren",
+      "Andrei Arlovski",
+      "Mike Pyle",
+      "Corey Johnson",
+      "Kerry Shale",
+      "Aki Avni"
+    ],
+    "genre": ["Acción", "Ciencia ficción", "Thriller"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 37m (97 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": ""
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "universal-soldier-day-of-reckoning-2012",
+    "title": "Soldado Universal 4: El día del juicio final",
+    "originalTitle": "Universal Soldier: Day of Reckoning",
+    "year": 2012,
+    "cover": "assets/covers/universal-soldier-day-of-reckoning-2012.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/5wxjd6D6jX8XlhQRw3rUiwl4HwK.jpg",
+    "description": "John despierta de un coma para descubrir que su esposa e hija han sido brutalmente asesinadas. Torturado por los recuerdos y los impulsos de venganza, se lanza a una cacería implacable contra Luc Deveraux, el hombre que cree responsable. Sin embargo, pronto descubre una conspiración mucho más profunda en la que los soldados universales han evolucionado fuera del control del gobierno.",
+    "director": "John Hyams",
+    "cast": [
+      "Scott Adkins",
+      "Jean-Claude Van Damme",
+      "Dolph Lundgren",
+      "Andrei Arlovski",
+      "Mariah Bonner",
+      "David Jensen",
+      "Rus Blackwell",
+      "Roy Catlin"
+    ],
+    "genre": ["Acción", "Ciencia ficción", "Thriller"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 54m (114 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/2rHVLTPV7fXu",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/2rHVLTPV7fXu"
+      },
+      {
+        "name": "Opción 2 - castellano",
+        "url": "https://waaw.ac/f/gV4gL9rXtIkq"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jeepers-creepers-2001",
+    "title": "Jeepers Creepers",
+    "originalTitle": "Jeepers Creepers",
+    "year": 2001,
+    "cover": "assets/covers/jeepers-creepers-1-2001.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/m0yTFeh8vrsMP0fQDdYGSh4xthX.jpg",
+    "description": "Trish y su hermano Darry viajan por una carretera solitaria en sus vacaciones universitarias. Todo cambia cuando presencian a un misterioso hombre arrojando cuerpos envueltos en sábanas por un tubo de drenaje. Su curiosidad los lleva a descubrir el horror: una criatura ancestral que despierta cada 23 años para alimentarse de los humanos.",
+    "director": "Victor Salva",
+    "cast": [
+      "Gina Philips",
+      "Justin Long",
+      "Jonathan Breck",
+      "Patricia Belcher",
+      "Eileen Brennan",
+      "Brandon Smith",
+      "Peggy Sheffield"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 30m (90 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/TRK3gCPBNic3",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/TRK3gCPBNic3"
+      },
+      {
+        "name": "Opción 2 - castellano",
+        "url": ""
+      },
+      {
+        "name": "Opción 3 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jeepers-creepers-2-2003",
+    "title": "Jeepers Creepers 2",
+    "originalTitle": "Jeepers Creepers II",
+    "year": 2003,
+    "cover": "assets/covers/jeepers-creepers-2-2003.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/pPZUYQx5PuH4xkXkFizirTd0ey1.jpg",
+    "description": "Un grupo de estudiantes de secundaria queda varado en un autobús en medio de la nada después de un campeonato deportivo. Pronto descubren que están siendo perseguidos por el Creeper, una criatura demoníaca que caza durante 23 días cada 23 años para alimentarse de los humanos.",
+    "director": "Victor Salva",
+    "cast": [
+      "Ray Wise",
+      "Jonathan Breck",
+      "Nicki Aycox",
+      "Garikayi Mutambirwa",
+      "Eric Nenninger",
+      "Billy Aaron Brown",
+      "Marieh Delfino"
+    ],
+    "genre": ["Terror", "Suspenso", "Acción"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 44m (104 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/TZFAmNodIUS9",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/TZFAmNodIUS9"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/qiHriK6JkwNv"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jeepers-creepers-3-2017",
+    "title": "Jeepers Creepers 3",
+    "originalTitle": "Jeepers Creepers III",
+    "year": 2017,
+    "cover": "assets/covers/jeepers-creepers-3-2017.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/l49X7KxytkRCdXrpAu92QqxVrN5.jpg",
+    "description": "Ambientada entre los eventos de la primera y segunda película, un grupo de cazadores liderados por el sargento Tubbs intenta destruir al Creeper antes de que su ciclo de 23 días de caza termine. Sin embargo, descubren que su fuerza y astucia superan cualquier expectativa humana.",
+    "director": "Victor Salva",
+    "cast": [
+      "Stan Shaw",
+      "Gabrielle Haugh",
+      "Brandon Smith",
+      "Meg Foster",
+      "Jonathan Breck",
+      "Ryan Moore",
+      "Joyce Giraud"
+    ],
+    "genre": ["Terror", "Acción", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 40m (100 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/tUparfweFand",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/tUparfweFand"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/lSGiSZNiuOdG"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/1xqkHS6nYkVM"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": "jeepers-creepers-reborn-2022",
+    "title": "Jeepers Creepers: Reborn",
+    "originalTitle": "Jeepers Creepers: Reborn",
+    "year": 2022,
+    "cover": "assets/covers/jeepers-creepers-reborn-2022.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/jpipejVjqn7ifln05xeq9zpvprf.jpg",
+    "description": "La joven Laine asiste con su novio a un festival de terror en Luisiana, donde comienza a experimentar visiones inquietantes relacionadas con el mito del Creeper. Pronto descubrirá que la leyenda es real y que el demonio ha regresado una vez más para alimentarse.",
+    "director": "Timo Vuorensola",
+    "cast": [
+      "Sydney Craven",
+      "Imran Adams",
+      "Jarreau Benjamin",
+      "Peter Brooke",
+      "Ocean Navarro",
+      "Gary Graham",
+      "Dee Wallace"
+    ],
+    "genre": ["Terror", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 28m (88 min)",
+    "ageRating": "R",
+    "trailer": "",
+    "embed": "https://waaw.ac/f/wvIJVhE22ykS",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/wvIJVhE22ykS"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/DbYFPqk8eI1W"
+      },
+      {
+        "name": "Opción 3 - castellano",
+        "url": "https://waaw.ac/f/U0Gta2PNZd1l"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
         "url": ""
       }
     ]
