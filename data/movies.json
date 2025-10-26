@@ -5212,11 +5212,11 @@
     "duration": "1h 42m (102 min)",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
+    "embed": "https://filemoon.to/e/kc4x893k83rp/163469--87293687-047d-4e3d-b94a-8ad1e45353b1--BK--botx--2045136-filemoon.mp4",
     "watchLinks": [
       {
         "name": "Opción 1 - Latino",
-        "url": ""
+        "url": "https://filemoon.to/e/kc4x893k83rp/163469--87293687-047d-4e3d-b94a-8ad1e45353b1--BK--botx--2045136-filemoon.mp4"
       },
       {
         "name": "Opción 2 - Inglés",
@@ -5254,15 +5254,15 @@
     "duration": "1h 23m (83 min)",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
+    "embed": "https://waaw.ac/f/G9mi3OpAqLHO",
     "watchLinks": [
       {
         "name": "Opción 1 - Latino",
-        "url": ""
+        "url": "https://waaw.ac/f/G9mi3OpAqLHO"
       },
       {
-        "name": "Opción 2 - Inglés",
-        "url": ""
+        "name": "Opción 2 - castellano",
+        "url": "https://waaw.ac/f/jsw0fZhNrYtP"
       }
     ],
     "downloadLinks": [
@@ -5296,15 +5296,15 @@
     "duration": "1h 37m (97 min)",
     "ageRating": "R",
     "trailer": "",
-    "embed": "",
+    "embed": "https://waaw.ac/f/HbptAaxy09N3",
     "watchLinks": [
       {
         "name": "Opción 1 - Latino",
-        "url": ""
+        "url": "https://waaw.ac/f/HbptAaxy09N3"
       },
       {
-        "name": "Opción 2 - Inglés",
-        "url": ""
+        "name": "Opción 2 - castellano",
+        "url": "https://waaw.ac/f/s5iF0eCaI9SB"
       }
     ],
     "downloadLinks": [
@@ -5542,8 +5542,8 @@
     "title": "Olimpo Bajo Fuego",
     "originalTitle": "Olympus Has Fallen",
     "year": 2013,
-    "cover": "https://image.tmdb.org/t/p/original/aYxS27k9FvxYLzQarDaaTP9Z25H.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/original/hzZzR9yKyIgJYxsuQWqgqv1bZ6y.jpg",
+    "cover": "assets/covers/olympus-has-fallen-2013.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/mjYU7EwVeOtM39ArdWHZk78VhYm.jpg",
     "description": "Cuando un grupo de terroristas fuertemente armados toma la Casa Blanca, el exagente del Servicio Secreto Mike Banning se convierte en la última esperanza para rescatar al presidente de los Estados Unidos y evitar una catástrofe nacional. En una carrera contrarreloj, deberá usar toda su experiencia para salvar a su país.",
     "director": "Antoine Fuqua",
     "cast": [
