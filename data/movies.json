@@ -5536,5 +5536,48 @@
         "url": ""
       }
     ]
+  },
+  {
+    "id": "olympus-has-fallen-2013",
+    "title": "Olimpo Bajo Fuego",
+    "originalTitle": "Olympus Has Fallen",
+    "year": 2013,
+    "cover": "https://image.tmdb.org/t/p/original/aYxS27k9FvxYLzQarDaaTP9Z25H.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hzZzR9yKyIgJYxsuQWqgqv1bZ6y.jpg",
+    "description": "Cuando un grupo de terroristas fuertemente armados toma la Casa Blanca, el exagente del Servicio Secreto Mike Banning se convierte en la última esperanza para rescatar al presidente de los Estados Unidos y evitar una catástrofe nacional. En una carrera contrarreloj, deberá usar toda su experiencia para salvar a su país.",
+    "director": "Antoine Fuqua",
+    "cast": [
+      "Gerard Butler",
+      "Aaron Eckhart",
+      "Morgan Freeman",
+      "Angela Bassett",
+      "Melissa Leo",
+      "Rick Yune",
+      "Dylan McDermott",
+      "Radha Mitchell"
+    ],
+    "genre": ["Acción", "Thriller"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "1h 59m (119 min)",
+    "ageRating": "R",
+    "trailer": "https://www.youtube.com/watch?v=vwx1f0kyNwI",
+    "embed": "https://waaw.ac/f/rK21jaxawneg",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/rK21jaxawneg"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": ""
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": ""
+      }
+    ]
   }
 ]
