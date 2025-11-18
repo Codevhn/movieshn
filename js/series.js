@@ -319,6 +319,14 @@ function renderSeasonTabs(series) {
     }
 }
 
+const escapeHTML = (value = '') =>
+    String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+
 function renderEpisodes(season) {
     const episodesContainer = document.getElementById('season-episodes-container');
     episodesContainer.innerHTML = ''; // Limpiar episodios existentes
@@ -333,18 +341,29 @@ function renderEpisodes(season) {
         episodeItem.classList.add('episode-item'); // Contenedor para el querySelector
         episodeItem.dataset.seasonNumber = season.seasonNumber;
         episodeItem.dataset.episodeNumber = episode.episodeNumber;
+        episodeItem.setAttribute('role', 'button');
+        episodeItem.tabIndex = 0;
 
-        const cleanedTitle = cleanEpisodeTitle(episode.title);
+        const cleanedTitle = escapeHTML(cleanEpisodeTitle(episode.title));
+        const descriptionPreview = episode.description ? episode.description.trim() : '';
+        const shortDescriptionRaw = descriptionPreview.length > 80 ? `${descriptionPreview.slice(0, 77)}…` : descriptionPreview;
+        const shortDescription = escapeHTML(shortDescriptionRaw);
+        const thumbSrc = escapeHTML(episode.thumbnail || season.cover || 'assets/covers/placeholder.webp');
+        const durationLabel = episode.duration ? escapeHTML(episode.duration) : '';
 
         // La tarjeta visual que el usuario ve y con la que interactúa
         const cardHTML = `
-            <div class="episode-card" tabindex="0">
-                <img src="${episode.thumbnail || season.cover || 'assets/covers/placeholder.webp'}" alt="${cleanedTitle}">
-                <div class="play-icon-overlay"></div>
-            </div>
-            <div class="episode-title-below">
-                <h3>T${season.seasonNumber} E${episode.episodeNumber}</h3>
-                <p>${cleanedTitle}</p>
+            <div class="episode-card">
+                <div class="episode-card__thumb">
+                    <img src="${thumbSrc}" alt="${cleanedTitle}">
+                    <div class="episode-card__overlay"><i class="fas fa-play"></i></div>
+                    <span class="episode-card__chip">T${season.seasonNumber} · E${episode.episodeNumber}</span>
+                    ${durationLabel ? `<span class="episode-card__duration">${durationLabel}</span>` : ''}
+                </div>
+                <div class="episode-card__info">
+                    <h3>${cleanedTitle}</h3>
+                    ${shortDescription ? `<p>${shortDescription}</p>` : ''}
+                </div>
             </div>
         `;
         
@@ -354,6 +373,15 @@ function renderEpisodes(season) {
         episodeItem.addEventListener('click', (event) => {
             event.preventDefault();
             if (episode.embed) {
+                shouldScrollToPlayer = true;
+                loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title, episode);
+            }
+        });
+
+        episodeItem.addEventListener('keydown', (event) => {
+            if ((event.key === 'Enter' || event.key === ' ') && episode.embed) {
+                event.preventDefault();
+                shouldScrollToPlayer = true;
                 loadEpisode(episode.embed, season.seasonNumber, episode.episodeNumber, episode.title, episode);
             }
         });
@@ -384,6 +412,7 @@ let currentSeasonIndex = 0;
 let currentEpisodeIndex = 0;
 let currentEpisode = null; // Guardar el episodio actual para acceder a sus watchLinks
 let seasonSelectElement = null;
+let shouldScrollToPlayer = false;
 const seasonDropdownState = {
     wrapper: null,
     trigger: null,
@@ -505,6 +534,25 @@ function loadEpisode(embedUrl, seasonNumber, episodeNumber, episodeTitle, episod
 
     // Actualizar estado de los botones de navegación
     updateNavigationButtons();
+
+    if (shouldScrollToPlayer) {
+        scrollToPlayer();
+        shouldScrollToPlayer = false;
+    }
+}
+
+function scrollToPlayer() {
+    const playerSection = document.getElementById('episode-player-section');
+    if (!playerSection) return;
+
+    const headerElement = document.querySelector('.site-header');
+    const headerOffset = headerElement ? headerElement.offsetHeight + 16 : 0;
+    const targetPosition = playerSection.getBoundingClientRect().top + window.scrollY - headerOffset;
+
+    window.scrollTo({
+        top: Math.max(targetPosition, 0),
+        behavior: 'smooth'
+    });
 }
 
 // Función para renderizar las tabs de servidores

@@ -5579,5 +5579,52 @@
         "url": ""
       }
     ]
+  },
+  {
+    "id": "the-town-2010",
+    "title": "Atracción Peligrosa",
+    "originalTitle": "The Town",
+    "year": 2010,
+    "cover": "assets/covers/the-town-2010.webp",
+    "backdrop": "https://image.tmdb.org/t/p/original/owAe5rRStnX7ibVAPmza3NCXjCy.jpg",
+    "description": "Doug MacRay, un criminal experto en robos de bancos, comienza a cuestionar su vida cuando se enamora de Claire, la gerente de un banco que fue tomada como rehén en su último asalto. Mientras el FBI cierra el cerco, Doug debe decidir entre su lealtad a su banda o su oportunidad de redención.",
+    "director": "Ben Affleck",
+    "cast": [
+      "Ben Affleck",
+      "Rebecca Hall",
+      "Jeremy Renner",
+      "Jon Hamm",
+      "Blake Lively",
+      "Pete Postlethwaite",
+      "Chris Cooper",
+      "Titus Welliver"
+    ],
+    "genre": ["Crimen", "Drama", "Suspenso"],
+    "language": "Español Latino, Inglés",
+    "quality": "Full HD 1080p",
+    "duration": "2h 5m (125 min)",
+    "ageRating": "R",
+    "trailer": "https://www.youtube.com/watch?v=WcXt9aUMbBk",
+    "embed": "https://waaw.ac/f/gSET4ldZEm9R",
+    "watchLinks": [
+      {
+        "name": "Opción 1 - Latino",
+        "url": "https://waaw.ac/f/gSET4ldZEm9R"
+      },
+      {
+        "name": "Opción 2 - castellano",
+        "url": "https://waaw.ac/f/E1AVk1CihEYk"
+      },
+      {
+        "name": "Opción 2 - Inglés",
+        "url": "https://waaw.ac/f/o86nVgg8Miqc"
+      }
+    ],
+    "downloadLinks": [
+      {
+        "name": "Torrent 1080p (Inglés)",
+        "url": "https://tpi.li/cQrM"
+      }
+    ]
   }
 ]
