@@ -5626,5 +5626,85 @@
         "url": "https://tpi.li/cQrM"
       }
     ]
-  }
+  },
+  {
+  "id": "el-justiciero-2014",
+  "title": "El Justiciero",
+  "originalTitle": "The Equalizer",
+  "year": 2014,
+  "cover": "assets/covers/el-justiciero-2014.webp",
+  "backdrop": "",
+  "description": "Robert McCall es un ex agente de operaciones especiales que ha fingido su muerte para vivir una vida tranquila. Sin embargo, cuando conoce a una joven explotada por la mafia rusa, decide volver a la acción y aplicar su propio concepto de justicia implacable.",
+  "director": "Antoine Fuqua",
+  "cast": [
+    "Denzel Washington",
+    "Marton Csokas",
+    "Chloë Grace Moretz",
+    "David Harbour",
+    "Haley Bennett"
+  ],
+  "genre": ["Acción", "Crimen", "Suspenso"],
+  "language": "Español Latino, Inglés",
+  "quality": "Full HD 1080p",
+  "duration": "2h 12m (132 min)",
+  "ageRating": "R",
+  "trailer": "",
+  "embed": "https://waaw.ac/f/h4O58aHryaOx",
+  "watchLinks": [ { "name": "Opción 1 - Latino", "url": "https://waaw.ac/f/h4O58aHryaOx" }, { "name": "Opción 2 - Inglés", "url": "" } ],
+  "downloadLinks": [  ]
+},
+{
+  "id": "el-justiciero-2-2018",
+  "title": "El Justiciero 2",
+  "originalTitle": "The Equalizer 2",
+  "year": 2018,
+  "cover": "assets/covers/el-justiciero-2-2018.webp",
+  "backdrop": "https://image.tmdb.org/t/p/original/z7noaCJ4KtmhwHw7QcNtnMMo4Qy.jpg",
+  "description": "Robert McCall continúa ofreciendo justicia a quienes no pueden defenderse. Cuando una amiga cercana es asesinada, McCall inicia una cacería personal que lo enfrenta a antiguos aliados convertidos en enemigos.",
+  "director": "Antoine Fuqua",
+  "cast": [
+    "Denzel Washington",
+    "Pedro Pascal",
+    "Ashton Sanders",
+    "Melissa Leo",
+    "Bill Pullman"
+  ],
+  "genre": ["Acción", "Crimen", "Suspenso"],
+  "language": "Español Latino, Inglés",
+  "quality": "Full HD 1080p",
+  "duration": "2h 1m (121 min)",
+  "ageRating": "R",
+  "trailer": "",
+  "embed": "https://waaw.ac/f/aVvkEKApcyIG",
+  "watchLinks": [ { "name": "Opción 1 - Latino", "url": "https://waaw.ac/f/aVvkEKApcyIG" }, { "name": "Opción 2 - Inglés", "url": "" } ],
+  "downloadLinks": []
+},
+{
+  "id": "el-justiciero-3-2023",
+  "title": "El Justiciero 3",
+  "originalTitle": "The Equalizer 3",
+  "year": 2023,
+  "cover": "assets/covers/el-justiciero-3-2023.webp",
+  "backdrop": "https://image.tmdb.org/t/p/original/lNxR7SmtFxFUfA7n9qtzuaIYvoM.jpg",
+  "description": "Robert McCall cree haber encontrado la paz en el sur de Italia, pero descubre que sus nuevos amigos están bajo el control de la mafia. Obligado a actuar una vez más, McCall se convierte en el protector letal de todo un pueblo.",
+  "director": "Antoine Fuqua",
+  "cast": [
+    "Denzel Washington",
+    "Dakota Fanning",
+    "Eugenio Mastrandrea",
+    "David Denman"
+  ],
+  "genre": ["Acción", "Crimen", "Suspenso"],
+  "language": "Español Latino, Inglés",
+  "quality": "Full HD 1080p",
+  "duration": "1h 49m (109 min)",
+  "ageRating": "R",
+  "trailer": "",
+  "embed": "https://waaw.ac/f/PwDffpSd0ueM",
+  "watchLinks": [ { "name": "Opción 1 - Latino", "url": "https://waaw.ac/f/PwDffpSd0ueM" }, { "name": "Opción 2 - Inglés", "url": "" } ],
+  "downloadLinks": []
+}
+
+
+
 ]
